@@ -1,0 +1,17 @@
+/* TEAM */
+Owner: Thomas Baaij
+Created by: Joost Baaij @ Space Babies
+
+/* BUILD TOOLS */
+GitHub
+Hugo
+Netlify
+
+/* THANKS */
+Hugo-scroll template created by Jan Raasch
+
+
+██████████████████████████████████████████████
+███▄─▄█─▄▄─█─▄─▄─█─▄▄─█─▄▄▄─█─▄▄─█▄─▄▄▀█▄─▄▄─█
+█─▄█─██─██─███─███─██─█─███▀█─██─██─▄─▄██─▄▄▄█
+▀▄▄▄▀▀▀▄▄▄▄▀▀▄▄▄▀▀▄▄▄▄▀▄▄▄▄▄▀▄▄▄▄▀▄▄▀▄▄▀▄▄▄▀▀▀

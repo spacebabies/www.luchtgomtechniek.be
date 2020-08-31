@@ -9,7 +9,7 @@ defaultContentLanguage = "nl"
 theme = "hugo-scroll"
 
 # The "title" of your website
-title = "Straalatelier - Professioneel zandstralen van meubel, auto, machineonderdelen"
+title = "Straalatelier - Professioneel stralen van meubels, onderdelen en meer. Met zand, glasparels, bicarbonaat en meer."
 
 [params]
     # A "copyright"-line to be added at the bottom of the page.
@@ -17,7 +17,7 @@ title = "Straalatelier - Professioneel zandstralen van meubel, auto, machineonde
     # copyright = "© Straalatelier"
 
     # The "description" of your website. This is used in the meta data of your generated html.
-    description = "Professioneel zandstralen van meubel, auto, machineonderdelen"
+    description = "Professioneel stralen van meubels, onderdelen en meer. Met zand, glasparels, bicarbonaat en meer."
 
     # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
     favicon = "images/favicon.png"
@@ -31,7 +31,7 @@ title = "Straalatelier - Professioneel zandstralen van meubel, auto, machineonde
     # Another "title" :-). This one is used as the site_name on the Hugo's internal
     # opengraph structured data template.
     # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
-    title = "Straalatelier - Professioneel zandstralen van meubel, auto, machineonderdelen"
+    title = "Straalatelier - Professioneel stralen van meubels, onderdelen en meer. Met zand, glasparels, bicarbonaat en meer."
 
     # This theme will, by default, inject a design-by-line at the bottom of the page.
     # You can turn it off, but we would really appreciate if you don’t :-)
