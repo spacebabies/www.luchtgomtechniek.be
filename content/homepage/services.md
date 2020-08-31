@@ -1,36 +1,45 @@
 ---
-title: 'Services'
+title: 'Onze diensten'
 weight: 2
 header_menu: true
 ---
-That is the important part, right? You want to know what I can do for you. This is why I put this right up there into the header menu of the website.
+
+### Stralen met zand
+
+Zelf zandstralen in onze unit, kast of ruimte
+
+Wij hebben verschillende kasten en cabines tot uw beschikking. In een kast waar twee handschoenen toegang geven en u zelf buiten de ruimte staat, kunnen verschillende kleinere delen gestraald worden. Denk aan kleine ophanging, carburateurs, klein speelgoed enz.
+
+Stralen is niet moeilijk, zwaar of gevaarlijk. Het is wel arbeidsintensief en stoffig, maar daar hebben we bij Zelfzandstralen genoeg middelen voor. Denk aan stofmaskers, handschoenen, overalls, zuurstofmaskers etc. 
+
+![Voorbeeld](images/apparatuur.jpg)
 
 ---
 
-## Nutrition Coaching
+### Stralen met glasparels
 
-This is not an easy task. You will likely have to pay money for this. You know what - let us look at a nice picture first.
+Wij kunnen stralen met een straalcabine, maar ook hebben wij een aparte ruimte voor de grotere onderdelen.
 
-![Nice picture to make you pay me ;-)](images/selective-focus-photography-of-pasta-with-tomato-and-basil-1279330.jpg)
+De straalcabine wordt meestal gebruikt om een nabehandeling te geven met glasparelstralen, zodat het straalmiddel altijd schoon blijft, en u onderdelen er glad, maar vooral schoon eruit komen. 
 
-Wow. That was nice, right? Well, call me and let us talk.
-
----
-
-## Chef Consulting
-
-Did you see the picture above? I can show you how to go from
-
-![Let us get started on a clean slate](images/board-bunch-cooking-food-349609.jpg)
-
-to
-
-![Let us get started on a clean slate](images/woman-pouring-juice-on-glass-3184192.jpg)
-
-in estimated seconds.
+![Voorbeeld](images/couveuse.jpg)
 
 ---
 
-Want to learn more about my services?
+### Voor houten meubelen
 
-Check out [this page](services) I created. It carries a lot more details...
+Het stralen van houtenmeubels gebeurd op hele lage druk, en met heel fijn zand, om de houtenmeubels een zo glad mogelijk effect te geven.
+
+De houtenmeubels worden altijd na geschuurd.
+
+Wij adviseren de houtenmeubels altijd een na behandeling te geven (b.v met een olie of wax), om de bescherming van het hout te optimaliseren.
+
+![Voorbeeld](images/kist-voor-na.jpg)
+
+---
+
+### Voor auto- en motoronderdelen
+
+De rechter kant van de velg is fijn gestraald, de linker kant van de velg heeft een nabehandeling gehad met glasparel voor een super glad en glimmend effect 
+
+![Voorbeeld](images/velg.jpg)

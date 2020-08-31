@@ -14,7 +14,7 @@ title = "Straalatelier - Professioneel zandstralen van meubel, auto, machineonde
 [params]
     # A "copyright"-line to be added at the bottom of the page.
     # Hint: Markdown is supported in here as well. So you may e.g. add a link to your legal imprint-page.
-    copyright = "© Straalatelier"
+    # copyright = "© Straalatelier"
 
     # The "description" of your website. This is used in the meta data of your generated html.
     description = "Professioneel zandstralen van meubel, auto, machineonderdelen"
