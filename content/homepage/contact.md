@@ -11,6 +11,6 @@ Het atelier is op afspraak te bezoeken:
 Vijfkruisenstraat 11a  
 B-3770 RIEMST
 
-E-mail: [info@straalatelier.be](mailto:info@straalatelier.be)
+E-mail: [info@straalatelier.com](mailto:info@straalatelier.com)
 
 Telefoon België: [+32 478 766843](tel:+32478766843)
