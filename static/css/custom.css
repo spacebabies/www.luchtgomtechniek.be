@@ -1,3 +1,12 @@
 .post-holder.odd {
     background: #a2272a;
 }
+
+#prijsopgave input {
+    display: block;
+    width: 100%;
+}
+
+#prijsopgave form p {
+    margin: 1em 0 2em 0;
+}
