@@ -10,3 +10,13 @@
 #prijsopgave form p {
     margin: 1em 0 2em 0;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+}
+
+.grid > img {
+    margin: 0;
+}
