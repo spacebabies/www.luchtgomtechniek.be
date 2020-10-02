@@ -3,7 +3,7 @@ title: 'Over mij'
 weight: 3
 header_menu: true
 ---
-![Thomas Baaij](images/thomas.jpg)
+{{< figure jpg="/images/thomas.jpg" webp="/images/thomas.webp" caption="Dit ben ik, Thomas Baaij" >}}
 
 #### Professionele ervaring
 

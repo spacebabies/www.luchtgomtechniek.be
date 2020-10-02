@@ -25,9 +25,33 @@ img[src="/images/IG_Glyph_Fill.png"] {
     gap: 1em;
 }
 
-.grid > img {
+.grid>img {
     margin: 0;
 }
 
-.grid figcaption { margin: 0 auto; font-size: 80%; font-weight: normal; text-align: center;}
-.grid figcaption a { text-decoration: none; font-weight: bold;}
+.post-holder figure {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.post-holder figcaption {
+    font-style: italic;
+    font-size: 90%;
+    color: #777;
+}
+
+.post-holder.odd figcaption {
+    color: #aaa;
+}
+
+.grid figcaption {
+    margin: 0 auto;
+    font-size: 80%;
+    font-weight: normal;
+    text-align: center;
+}
+
+.grid figcaption a {
+    text-decoration: none;
+    font-weight: bold;
+}

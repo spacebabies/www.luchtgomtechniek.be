@@ -12,7 +12,7 @@ Ik hebben verschillende cabines waarmee we allerhande objecten kunnen zandstrale
 
 Stralen kan gevaarlijk zijn door de hoge snelheid van het schuurmiddel. Ik beschik over alle denkbare beschermingsmiddelen, zoals stofmaskers, overalls, zuurstofmasker, enzovoort.
 
-![Voorbeeld](images/apparatuur.jpg)
+{{< figure jpg="/images/apparatuur.jpg" webp="/images/apparatuur.webp" caption="Apparatuur" >}}
 
 ---
 
@@ -22,7 +22,7 @@ Ik kan stralen met een straalcabine, maar ook hebben ik een aparte ruimte voor d
 
 De straalcabine wordt meestal gebruikt om een nabehandeling te geven met glasparelstralen, zodat het straalmiddel altijd schoon blijft, en u onderdelen er glad, maar vooral schoon eruit komen. 
 
-![Voorbeeld](images/couveuse.jpg)
+{{< figure jpg="/images/couveuse.jpg" webp="/images/couveuse.webp" caption="Onze couveuse" >}}
 
 ---
 
@@ -34,7 +34,7 @@ De houten meubels worden altijd na geschuurd.
 
 Ik adviseer de houten meubels altijd een na behandeling te geven (b.v met een olie of wax), om de bescherming van het hout te optimaliseren.
 
-![Voorbeeld](images/kist-voor-na.jpg)
+{{< figure jpg="/images/kist-voor-na.jpg" webp="/images/kist-voor-na.webp" caption="Voor/Na" >}}
 
 ---
 
@@ -42,4 +42,5 @@ Ik adviseer de houten meubels altijd een na behandeling te geven (b.v met een ol
 
 De rechter kant van de velg is fijn gestraald, de linker kant van de velg heeft een nabehandeling gehad met glasparel voor een super glad en glimmend effect 
 
-![Voorbeeld](images/velg.jpg)
+{{< figure jpg="/images/velg.jpg" webp="/images/velg.webp" caption="Velg" >}}
+
