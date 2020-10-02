@@ -5,6 +5,6 @@ header_menu: true
 ---
 ![Thomas Baaij](images/thomas.jpg)
 
-##### Professionele ervaring
+#### Professionele ervaring
 
 Ik heb vele jaren ervaring.

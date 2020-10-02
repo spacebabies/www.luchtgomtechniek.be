@@ -12,7 +12,7 @@ defaultContentLanguage = "nl"
 theme = "hugo-scroll"
 
 # The "title" of your website
-title = "Straat Atelier Valmeer - Professioneel stralen van meubels, onderdelen en meer. Met zand, glasparels, bicarbonaat en meer."
+title = "Straal Atelier Valmeer - Professionele straalservice"
 
 [params]
     # A "copyright"-line to be added at the bottom of the page.
@@ -41,4 +41,4 @@ title = "Straat Atelier Valmeer - Professioneel stralen van meubels, onderdelen 
     # hidedesignbyline = true
 
     [params.meta]
-        keywords = "zandstralen, glasparel, bicarbonaat, spuiten, roest verwijderen, polijsten, voedingsindustrie, offshore"
+        keywords = "zandstralen, sodastralen, luchtgommen, parelstralen, glasparel, bicarbonaat, spuiten, roest verwijderen, polijsten, aerogommage"
