@@ -1,15 +1,14 @@
+<meta charset="utf-8">
 <title>{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}</title>
 
-{{ with .Site.Params.favicon }}<link rel="shortcut icon" href="{{ . | relURL }}" type="image/png"/>{{ end }}
 {{ with .Site.Params.description }}<meta name="description" content="{{ . }}" />{{ end }}
 {{ with .Site.Params.meta.keywords }}<meta name="keywords" content="{{ . }}" />{{ end }}
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 <link rel="stylesheet" href="/css/screen.css" type="text/css">
-<link href="/css/font/open-sans-condensed.css" rel='stylesheet' type='text/css'>
-<link href="/css/font/open-sans.css" rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/font/open-sans-condensed.css" type='text/css'>
+<link rel="stylesheet" href="/css/font/open-sans.css" type='text/css'>
+<link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css" type="text/css">
 
 {{ template "_internal/opengraph.html" . }}
 {{ template "_internal/twitter_cards.html" . }}
