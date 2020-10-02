@@ -1,7 +1,7 @@
-baseURL = "https://straalatelier.netlify.app"
+baseURL = "https://www.straalatelier.com"
 
 # This is a "one page"-website, so we do not need these kinds of pages...
-disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
+disableKinds = ["section", "taxonomy", "term"]
 disableHugoGeneratorInject = true
 enableGitInfo = true
 enableRobotsTXT = true
@@ -12,7 +12,7 @@ defaultContentLanguage = "nl"
 theme = "hugo-scroll"
 
 # The "title" of your website
-title = "Straal Atelier Valmeer - Professionele straalservice"
+title = "Straal Atelier Valmeer"
 
 [params]
     # A "copyright"-line to be added at the bottom of the page.
@@ -21,9 +21,6 @@ title = "Straal Atelier Valmeer - Professionele straalservice"
 
     # The "description" of your website. This is used in the meta data of your generated html.
     description = "Professioneel stralen van meubels, onderdelen en meer. Met zand, glasparels, bicarbonaat en meer."
-
-    # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
-    favicon = "images/favicon.png"
 
     # These "images" are used for the structured data templates. This will show up, when
     # services like Twitter or Slack want to generate a preview of a link to your site.
