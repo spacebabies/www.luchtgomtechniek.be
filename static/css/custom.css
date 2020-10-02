@@ -1,3 +1,10 @@
+img[src="/images/IG_Glyph_Fill.png"] {
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin-bottom: 2em;
+}
+
 .post-holder.odd {
     background: #a2272a;
 }
@@ -12,6 +19,7 @@
 }
 
 .grid {
+    clear: both;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1em;
@@ -20,3 +28,6 @@
 .grid > img {
     margin: 0;
 }
+
+.grid figcaption { margin: 0 auto; font-size: 80%; font-weight: normal; text-align: center;}
+.grid figcaption a { text-decoration: none; font-weight: bold;}
