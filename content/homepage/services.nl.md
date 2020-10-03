@@ -4,6 +4,10 @@ weight: 2
 header_menu: true
 ---
 
+_Kent u iemand met interesse in onze diensten? U kunt ze eenvoudig op de hoogte brengen met onderstaande buttons._
+
+{{< share >}}
+
 ### Stralen met zand
 
 Ik zandstraal alles
