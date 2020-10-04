@@ -4,27 +4,27 @@ weight: 4
 header_menu: true
 ---
 
-Ik ben steeds bereikbaar voor al uw vragen. Op verzoek kan ik het
-werk komen ophalen en brengen, in Nederland en België.
+Je suis toujours disponible pour toutes vos questions. Je peux le faire sur demande
+ramasser et livrer du travail aux Pays-Bas et en Belgique.
 
-### Adres
+### Adresse
 
-Het atelier is enkel op afspraak te bezoeken:
+Le studio ne peut être visité que sur rendez-vous:
 
 Straal Atelier Val-Meer  
 Vijfkruisenstraat 11a  
 B-3770 RIEMST  
 BELGIË
 
-E-mail: [info@straalatelier.com](mailto:info@straalatelier.com)
+Email: [info@straalatelier.com](mailto:info@straalatelier.com)
 
-Telefoon België: [+32 478 766843](tel:+32478766843)
+Téléphone Belgique: [+32 478 766843](tel:+32478766843)
 
 ### Instagram
 
-![Volg Straal Atelier Valmeer op Instagram](/images/IG_Glyph_Fill.png "Volg @straal_atelier op Instagram")
+![Suivez Straal Atelier Valmeer sur Instagram](/images/IG_Glyph_Fill.png "Suivez @straal_atelier sur Instagram")
 
-Volg me op Instagram om foto's te zien van mijn werk.
+Suivez-moi sur Instagram pour voir des photos de mon travail.
 
 [**@straal_atelier**](https://www.instagram.com/straal_atelier/)
 

@@ -1,50 +1,50 @@
 ---
-title: 'Onze diensten'
+title: Prestations de service
 weight: 2
 header_menu: true
 ---
 
-_Kent u iemand met interesse in onze diensten? Breng hen op de hoogte door middel van onderstaande buttons._
+_Connaissez-vous quelqu'un intéressé par nos services? Informez-les au moyen des boutons ci-dessous._
 
 {{< share >}}
 
-### Stralen met zand
+### Dynamitage avec du sable
 
-Ik zandstraal alles
+Je sable tout
 
-Ik hebben verschillende cabines waarmee we allerhande objecten kunnen zandstralen. Denk aan kleine ophanging, carburateurs, klein speelgoed enz. Gelijk een couveuse gebruik ik twee handschoenen om veilig en schoon te kunnen werken, zonder direct contact met de schuurmiddelen.
+J'ai plusieurs cabines avec lesquelles nous pouvons sabler toutes sortes d'objets. Pensez aux petites suspensions, aux carburateurs, aux petits jouets, etc. Comme un incubateur, j'utilise deux gants pour pouvoir travailler en toute sécurité et proprement, sans contact direct avec les abrasifs.
 
-Stralen kan gevaarlijk zijn door de hoge snelheid van het schuurmiddel. Ik beschik over alle denkbare beschermingsmiddelen, zoals stofmaskers, overalls, zuurstofmasker, enzovoort.
+Le sablage peut être dangereux en raison de la vitesse élevée de l'abrasif. J'ai tous les équipements de protection imaginables, tels que masques anti-poussière, combinaisons, masque à oxygène, etc.
 
 {{< figure jpg="/images/apparatuur.jpg" webp="/images/apparatuur.webp" caption="Apparatuur" >}}
 
 ---
 
-### Stralen met glasparels
+### Sablage avec des perles de verre
 
-Ik kan stralen met een straalcabine, maar ook hebben ik een aparte ruimte voor de grotere onderdelen.
+Je peux exploser avec une armoire de sablage, mais j'ai aussi une pièce séparée pour les plus grandes pièces.
 
-De straalcabine wordt meestal gebruikt om een nabehandeling te geven met glasparelstralen, zodat het straalmiddel altijd schoon blijft, en u onderdelen er glad, maar vooral schoon eruit komen. 
+La cabine de sablage est généralement utilisée pour effectuer un post-traitement avec sablage à billes de verre, de sorte que l'abrasif reste toujours propre et que vos pièces en ressortent lisses, mais surtout propres.
 
 {{< figure jpg="/images/couveuse.jpg" webp="/images/couveuse.webp" caption="Onze couveuse" >}}
 
 ---
 
-### Voor houten meubelen
+### Pour les meubles en bois
 
-Het stralen van houten meubels gebeurd op hele lage druk, en met heel fijn zand, om de houtenmeubels een zo glad mogelijk effect te geven.
+Le sablage des meubles en bois se fait à très basse pression, et avec du sable très fin, pour donner aux meubles en bois un effet le plus lisse possible.
 
-De houten meubels worden altijd na geschuurd.
+Les meubles en bois sont toujours poncés.
 
-Ik adviseer de houten meubels altijd een na behandeling te geven (b.v met een olie of wax), om de bescherming van het hout te optimaliseren.
+Je conseille toujours de donner aux meubles en bois un post-traitement (par exemple avec une huile ou une cire), pour optimiser la protection du bois.
 
 {{< figure jpg="/images/kist-voor-na.jpg" webp="/images/kist-voor-na.webp" caption="Voor/Na" >}}
 
 ---
 
-### Voor auto- en motoronderdelen
+### Pour les pièces de voiture et de moto
 
-De rechter kant van de velg is fijn gestraald, de linker kant van de velg heeft een nabehandeling gehad met glasparel voor een super glad en glimmend effect 
+Le côté droit de la jante a été finement sablé, le côté gauche de la jante a été traité avec des billes de verre pour un effet super lisse et brillant.
 
 {{< figure jpg="/images/velg.jpg" webp="/images/velg.webp" caption="Velg" >}}
 

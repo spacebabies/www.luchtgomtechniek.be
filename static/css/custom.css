@@ -4,6 +4,15 @@
     right: 2%;
     z-index: 99999;
 }
+.change-language a { text-decoration: none;}
+.change-language a:hover {
+    border-bottom: 2px solid #9fd067;
+}
+html[lang="nl"] .change-language li[lang="nl"]::after {
+    content: ' ⬅';
+    color: #9fd067;
+}
+html[lang="nl"] .change-language li[lang="nl"] a { font-weight: bold; }
 
 img[src="/images/IG_Glyph_Fill.png"] {
     width: 100px;

@@ -1,11 +1,10 @@
 ---
-title: Prijsopgave
+title: Citation
 weight: 3
 header_menu: true
 ---
-Vul onderstaand formulier in en u ontvangt van mij binnen vijf werkdagen een
-vrijblijvende prijsopgave. Stuur indien mogelijk altijd een foto
-van het te reinigen werk mee.
-
+Remplissez le formulaire ci-dessous et vous recevrez un email de ma part dans les cinq jours ouvrables
+devis sans engagement. Si possible, envoyez toujours une photo
+des travaux à nettoyer.
 {{< forms/quote >}}
 

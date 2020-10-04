@@ -1,10 +1,10 @@
 ---
-title: 'Over mij'
+title: 'À propos de moi'
 weight: 3
 header_menu: true
 ---
 {{< figure jpg="/images/thomas.jpg" webp="/images/thomas.webp" caption="Dit ben ik, Thomas Baaij" >}}
 
-#### Professionele ervaring
+#### Expérience professionnelle
 
-Ik heb vele jaren ervaring.
+J'ai de nombreuses années d'expérience.

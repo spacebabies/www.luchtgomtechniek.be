@@ -1,10 +1,10 @@
 ---
-title: 'Welkom'
+title: 'Bienvenue'
 weight: 1
 ---
 
-Ik straal met een speciaal soort zand, zodat het eind resultaat zo glad mogelijk is, maar wel een goede ondergrond geeft om het te behandelen met primer of lak.
+Je souffle avec un type de sable spécial, pour que le résultat final soit aussi lisse que possible, mais donne une bonne surface à traiter avec un apprêt ou une laque.
 
-Na het stralen kunt u er ook voor kiezen om het na te behandelen met glasparelstralen, voor een nog meer glimmend effect, vaak doe ik dat op licht metalen velgen van auto's en brommers.
+Après le sablage, vous pouvez également choisir de le traiter avec un sablage à billes de verre, pour un effet encore plus brillant, je le fais souvent sur les jantes en métal léger des voitures et des cyclomoteurs.
 
-Na het stralen kan ik ook uw spullen/onderdelen in de 2 componenten primer zetten, om roestvorming geen kans te geven. 
+Après le sablage, je peux également mettre vos affaires / pièces dans l'apprêt à 2 composants, pour éviter la formation de rouille.
