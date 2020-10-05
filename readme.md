@@ -30,6 +30,12 @@ To create a page separate from the homepage, run
 hugo new my-new-page.md
 ```
 
+## CSS breakpoints
+
+1. mobile < 500px
+2. 500px < tablet < 1130px
+3. 1130px > desktop
+
 # Deploy
 
 Hosted on Netlify.

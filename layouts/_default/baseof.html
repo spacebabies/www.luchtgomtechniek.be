@@ -9,7 +9,13 @@
 
     <script type="text/javascript" src="/js/vendor/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="/js/icons.js"></script>
-    <script type="text/javascript" src="/js/index.js"></script>
+
+    {{ $jsVw := resources.Get "viewerjs/viewer.min.js" }}
+    {{ $jsAp := resources.Get "js/app.js" }}
+    {{ $jsSc := resources.Get "hugo-scroll/index.js" }}
+    {{ $jsBundle := slice $jsVw $jsSc $jsAp | resources.Concat "js/bundle.js" | fingerprint }}
+    <script type="text/javascript" src="{{ $jsBundle.Permalink }}" integrity="{{ $jsBundle.Data.Integrity }}"></script>
+
     {{- partial "custom_body.html" . -}}
 </body>
 

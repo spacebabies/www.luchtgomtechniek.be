@@ -1,5 +1,6 @@
 baseURL = "https://www.straalatelier.com"
 theme = "hugo-scroll"
+relativeURLs = true
 
 # This is a "one page"-website, so we do not need these kinds of pages...
 disableKinds = ["section", "taxonomy", "term"]
@@ -45,8 +46,8 @@ defaultContentLanguageInSubdir = true
       title = "Straal Atelier Valmeer - Professioneel stralen van meubels, onderdelen en meer. Met zand, glasparels, bicarbonaat en meer."
       description = "Professioneel stralen van meubels, onderdelen en meer. Met zand, glasparels, bicarbonaat en meer."
 
-      [languages.fr.params.meta]
-        keywords = "zandstralen, sodastralen, luchtgommen, parelstralen, glasparel, bicarbonaat, spuiten, roest verwijderen, polijsten, aerogommage"
+    [languages.fr.params.meta]
+      keywords = "zandstralen, sodastralen, luchtgommen, parelstralen, glasparel, bicarbonaat, spuiten, roest verwijderen, polijsten, aerogommage"
 
 [params]
     # These "images" are used for the structured data templates. This will show up, when
@@ -58,3 +59,32 @@ defaultContentLanguageInSubdir = true
     # This theme will, by default, inject a design-by-line at the bottom of the page.
     # You can turn it off, but we would really appreciate if you don’t :-)
     # hidedesignbyline = true
+
+[markup]
+  [markup.highlight]
+    noClasses = true
+
+[module]
+  [[module.mounts]]
+    source = "node_modules/viewerjs/dist"
+    target = "assets/viewerjs"
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+
+# Privacy settings: full compliance with GDPR.
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = true
+  [privacy.instagram]
+    disable = false
+    simple = true
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = true
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true

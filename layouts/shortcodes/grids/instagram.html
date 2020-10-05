@@ -1,8 +1,9 @@
-<section class="grid">
+<section class="grid instagrid">
         {{ range $.Site.Data.grids.instagram }}
-    <figure>
-            <a rel="nofollow" href="{{ .URL }} " target="_instagram"><img loading="lazy" src="{{ .image }}" alt="{{ .alt }} "></a>
-            <figcaption>{{ .caption | safeHTML }}</figcaption>
-    </figure>
+        <figure>
+                <a rel="nofollow" href="{{ .URL }} " target="_instagram"><img loading="lazy" src="{{ .image }}"
+                                alt="{{ .alt }} "></a>
+                <figcaption>{{ .caption | safeHTML }}</figcaption>
+        </figure>
         {{ end }}
 </section>

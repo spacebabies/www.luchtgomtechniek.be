@@ -1,0 +1,13 @@
+{
+  "name": "www.straalatelier.com",
+  "version": "1.0.0",
+  "description": "Voor het luchtgommen van houten meubels. Reinigen van industriële stukken. gritstralen van (giet-)ijzeren objecten, autoonderdelen en meer.",
+  "main": "index.js",
+  "repository": "git@github.com:spacebabies/www.straalatelier.com",
+  "author": "Joost Baaij <joost@spacebabies.nl>",
+  "license": "None",
+  "private": true,
+  "dependencies": {
+    "viewerjs": "^1.7.1"
+  }
+}

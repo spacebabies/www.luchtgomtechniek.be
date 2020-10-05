@@ -1,7 +1,7 @@
 ---
-title: 'Contact'
-weight: 4
-header_menu: true
+title: Contact
+weight: 3
+menu: header
 ---
 
 Je suis toujours disponible pour toutes vos questions. Je peux le faire sur demande

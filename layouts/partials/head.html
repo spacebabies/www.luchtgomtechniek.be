@@ -10,6 +10,13 @@
 <link rel="stylesheet" href="/css/font/open-sans.css" type='text/css'>
 <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css" type="text/css">
 
+{{ $cssVw := resources.Get "viewerjs/viewer.min.css" }}
+{{ $cssFr := resources.Get "css/friendly.css" }}
+{{ $cssCu := resources.Get "css/custom.css" }}
+<link rel="stylesheet" href="{{ $cssVw.RelPermalink }}" type="text/css">
+<link rel="stylesheet" href="{{ $cssFr.RelPermalink }}" type="text/css">
+<link rel="stylesheet" href="{{ $cssCu.RelPermalink }}" type="text/css">
+
 {{ template "_internal/opengraph.html" . }}
 {{ template "_internal/twitter_cards.html" . }}
 {{ template "_internal/schema.html" . }}

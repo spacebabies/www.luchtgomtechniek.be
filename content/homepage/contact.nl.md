@@ -1,7 +1,7 @@
 ---
-title: 'Contact'
-weight: 4
-header_menu: true
+title: Contact
+weight: 3
+menu: header
 ---
 
 Ik ben steeds bereikbaar voor al uw vragen. Op verzoek kan ik het
