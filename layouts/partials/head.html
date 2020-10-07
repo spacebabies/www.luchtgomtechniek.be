@@ -16,8 +16,8 @@
 <link rel="stylesheet" href="{{ $cssFr.RelPermalink }}" type="text/css">
 {{ $cssCu := resources.Get "css/custom.css" | fingerprint }}
 <link rel="stylesheet" href="{{ $cssCu.RelPermalink }}" type="text/css">
-{{ $tplFa := resources.Get "font-awesome/scss/font-awesome.scss" }}
-{{ $cssFa := $tplFa | resources.ExecuteAsTemplate "css/font-awesome-exec.scss" . | resources.ToCSS (dict "outputStyle" "compressed") | fingerprint }}
+{{ $cssFa := resources.Get "font-awesome/scss/font-awesome.scss" | fingerprint }}
+{{ $cssFa := $cssFa | resources.ExecuteAsTemplate "css/font-awesome-exec.scss" . | resources.ToCSS (dict "outputStyle" "compressed") }}
 <link rel="stylesheet" href="{{ $cssFa.RelPermalink }}" type="text/css">
 {{ $cssSc := resources.Get "hugo-scroll/screen.css" }}
 <link rel="stylesheet" href="{{ $cssSc.RelPermalink }}" type="text/css">

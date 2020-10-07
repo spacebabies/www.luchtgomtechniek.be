@@ -5,7 +5,7 @@
         <div class="vertical">
             <div id="site-head-content" class="inner">
 
-                {{ with .Params.header_headline }}<h1 class="blog-title">{{ . }}</h1>{{ end }}
+                {{ with .Title }}<h1 class="blog-title">{{ . }}</h1>{{ end }}
                 {{ with .Params.header_subheadline }}<h2 class="blog-description">{{ . }}</h2>{{ end }}
 
                 {{ range .Site.Menus.header }}
@@ -17,7 +17,7 @@
     </header>
 
     <main class="content" role="main">
-        {{ range .Sections }}
+        {{ range .Resources.ByType "page" }}
             <div class='post-holder'>
                 <article id='{{ anchorize .Title }}' class='post'>
                     <header class="post-header">

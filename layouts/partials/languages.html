@@ -1,19 +1,12 @@
 {{ if .Site.IsMultiLingual }}
-<nav aria-label="Main Navigation" class="change-language">
-    <ul>
-        <li>{{ with $.Site.Language }}
-            <img src="/g_translate.svg">
-            {{ .LanguageName }} ({{ .Lang | upper }})
-            <span class="fa fa-caret-down"></span>
+<nav aria-label="Change language" class="change-language">
+    <label for="sitelanguage">
+        <select name="sitelanguage">
+            {{ range .Site.Languages }}
+            <option {{ if eq $.Site.Language . }}selected {{ end }}value="{{ .Lang }}">{{ .LanguageName }}</option>
             {{ end }}
-            <ul aria-labelledby="dropdown-title" class="dropdown__menu">
-                {{ range $.Translations }}
-                <li><a title="{{ .Language.LanguageName }}" href="{{ .Permalink }}"
-                        aria-label="{{ i18n "ariaTranslation" }}{{ .Language.LanguageName }}">{{ .Language.LanguageName }}
-                        ({{ .Lang | upper}})</a></li>
-                {{ end }}
-            </ul>
-    </ul>
-    </li>
+        </select>
+        <img src="/icon128px-gradient.png" alt="{{ $.Site.Language.LanguageName }}">
+    </label>
 </nav>
 {{ end }}
