@@ -3,16 +3,14 @@ window.addEventListener('DOMContentLoaded', function () {
 
     if (galleries) {
         for (var i = 0; i < galleries.length; i++) {
-            var list = galleries[i].querySelector('ul');
-
-            if (list) {
-                var gallery = new Viewer(list, {
-                    button: false,
-                    navbar: false,
-                    toolbar: false,
-                    url: "data-original"
-                });
-            }
+            var gallery = new Viewer(galleries[i], {
+                button: false,
+                fullscreen: false,
+                navbar: false,
+                toolbar: false,
+                url: "data-original",
+                inline: false
+            });
         }
     }
 

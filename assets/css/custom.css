@@ -42,17 +42,16 @@ img[src="/images/IG_Glyph_Fill.png"] {
 }
 
 .grid {
-    clear: both;
     display: grid;
-    gap: 1em;
 }
 
 .grid.instagrid {
+    gap: 1em;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
 .grid.gallerygrid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat( auto-fit, minmax(140px, 4fr) );
 }
 
 .grid>img {
@@ -309,7 +308,7 @@ nav.change-language {
     right: 2em;
 
     background-color: #aaa;
-    box-shadow: 0 6px 10px 0 #666;
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.3);
 
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;

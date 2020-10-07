@@ -1,15 +1,12 @@
 <section class="gallery-viewerjs">
-    <ul id="{{ .Get "id" }}">
-        {{ range .Page.Resources.Match (.Get "pattern") }}
-        {{ $thumb := .Fill "200x200" }}
-        <li>
-            <img
-                src="{{ $thumb.RelPermalink }}"
-                alt="{{ .Title }}"
-                title="{{ .Name }}"
-                data-original="{{ .RelPermalink }}">
-        </li>
-        {{ end }}
-    </ul>
-    <div class="clear"></div>
+    <div class="grid gallerygrid">
+    {{ range .Page.Resources.Match (.Get "pattern") }}
+    {{ $thumb := .Fill "200x200" }}
+    <img
+        src="{{ $thumb.RelPermalink }}"
+        alt="{{ .Title }}"
+        title="{{ .Name }}"
+        data-original="{{ .RelPermalink }}">
+    {{ end }}
+    </div>
 </section>
