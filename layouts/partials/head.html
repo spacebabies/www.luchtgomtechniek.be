@@ -5,17 +5,22 @@
 {{ with .Site.Params.meta.keywords }}<meta name="keywords" content="{{ . }}" />{{ end }}
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<link rel="stylesheet" href="/css/screen.css" type="text/css">
 <link rel="stylesheet" href="/css/font/open-sans-condensed.css" type='text/css'>
 <link rel="stylesheet" href="/css/font/open-sans.css" type='text/css'>
-<link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css" type="text/css">
 
+{{ $cssNo := resources.Get "hugo-scroll/normalize.css" }}
+<link rel="stylesheet" href="{{ $cssNo.RelPermalink }}" type="text/css">
 {{ $cssVw := resources.Get "viewerjs/viewer.min.css" }}
-{{ $cssFr := resources.Get "css/friendly.css" }}
-{{ $cssCu := resources.Get "css/custom.css" }}
 <link rel="stylesheet" href="{{ $cssVw.RelPermalink }}" type="text/css">
+{{ $cssFr := resources.Get "css/friendly.css" }}
 <link rel="stylesheet" href="{{ $cssFr.RelPermalink }}" type="text/css">
+{{ $cssCu := resources.Get "css/custom.css" | fingerprint }}
 <link rel="stylesheet" href="{{ $cssCu.RelPermalink }}" type="text/css">
+{{ $tplFa := resources.Get "font-awesome/scss/font-awesome.scss" }}
+{{ $cssFa := $tplFa | resources.ExecuteAsTemplate "css/font-awesome-exec.scss" . | resources.ToCSS (dict "outputStyle" "compressed") | fingerprint }}
+<link rel="stylesheet" href="{{ $cssFa.RelPermalink }}" type="text/css">
+{{ $cssSc := resources.Get "hugo-scroll/screen.css" }}
+<link rel="stylesheet" href="{{ $cssSc.RelPermalink }}" type="text/css">
 
 {{ template "_internal/opengraph.html" . }}
 {{ template "_internal/twitter_cards.html" . }}

@@ -7,14 +7,16 @@
     {{- block "main" . }}{{- end }}
     {{- partial "footer.html" . -}}
 
-    <script type="text/javascript" src="/js/vendor/jquery-3.5.1.min.js"></script>
-    <script type="text/javascript" src="/js/icons.js"></script>
-
-    {{ $jsVw := resources.Get "viewerjs/viewer.min.js" }}
-    {{ $jsAp := resources.Get "js/app.js" }}
-    {{ $jsSc := resources.Get "hugo-scroll/index.js" }}
-    {{ $jsBundle := slice $jsVw $jsSc $jsAp | resources.Concat "js/bundle.js" | fingerprint }}
-    <script type="text/javascript" src="{{ $jsBundle.Permalink }}" integrity="{{ $jsBundle.Data.Integrity }}"></script>
+    {{ $jsJq := resources.Get "hugo-scroll/jquery-3.5.1.min.js" | fingerprint }}
+    <script type="text/javascript" src="{{ $jsJq.Permalink }}" integrity="{{ $jsJq.Data.Integrity }}"></script>
+    {{ $jsVw := resources.Get "viewerjs/viewer.min.js" | fingerprint }}
+    <script type="text/javascript" src="{{ $jsVw.Permalink }}" integrity="{{ $jsVw.Data.Integrity }}"></script>
+    {{ $jsAp := resources.Get "js/app.js" | fingerprint }}
+    <script type="text/javascript" src="{{ $jsAp.Permalink }}" integrity="{{ $jsAp.Data.Integrity }}"></script>
+    {{ $jsIc := resources.Get "hugo-scroll/icons.js" | fingerprint }}
+    <script type="text/javascript" src="{{ $jsIc.Permalink }}" integrity="{{ $jsIc.Data.Integrity }}"></script>
+    {{ $jsSc := resources.Get "hugo-scroll/index.js" | fingerprint }}
+    <script type="text/javascript" src="{{ $jsSc.Permalink }}" integrity="{{ $jsSc.Data.Integrity }}"></script>
 
     {{- partial "custom_body.html" . -}}
 </body>

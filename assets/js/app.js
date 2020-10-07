@@ -12,8 +12,13 @@ window.addEventListener('DOMContentLoaded', function () {
                     toolbar: false,
                     url: "data-original"
                 });
-                gallery.show();
             }
         }
     }
+
+    // Create cookie to get the Browser Language
+      if (!document.cookie.split('; ').find(row => row.startsWith('nf_lang'))) {
+          const userLang = navigator.language || navigator.userLanguage;
+          document.cookie = `nf_lang = ${userLang}`;
+      }
 });

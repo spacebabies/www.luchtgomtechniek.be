@@ -1,9 +1,8 @@
 <section class="grid instagrid">
-        {{ range $.Site.Data.grids.instagram }}
+        {{ range .Page.Resources.Match "instagram/*" }}
         <figure>
-                <a rel="nofollow" href="{{ .URL }} " target="_instagram"><img loading="lazy" src="{{ .image }}"
-                                alt="{{ .alt }} "></a>
-                <figcaption>{{ .caption | safeHTML }}</figcaption>
+                <img loading="lazy" src="{{ .RelPermalink }}" alt="{{ .Title }} "></img>
+                <figcaption>{{ .Title }}</figcaption>
         </figure>
         {{ end }}
 </section>

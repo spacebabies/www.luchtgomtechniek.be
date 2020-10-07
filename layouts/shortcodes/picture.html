@@ -1,0 +1,13 @@
+<picture>
+    {{ range .Params }}
+        {{ with resources.Get . }}
+        <source type="{{ .MediaType }}" srcset="{{ .RelPermalink }}">
+        {{ end }}
+    {{ end }}
+
+    {{ range .Params }}
+       {{ with resources.Get . }}
+       <img src="{{ .RelPermalink }}" alt="{{ .Title }}">
+       {{ end }}
+    {{ end }}
+</picture>
