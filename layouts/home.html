@@ -1,5 +1,5 @@
 {{ define "main" }}
-    <header id="site-head" {{ with .Params.header_image }}style="background-image: url({{ . }})"{{ end }}>
+    <header id="site-head"{{ with .Resources.GetMatch "slide.jpg" }} style="background-image: url({{ .RelPermalink }})"{{ end }}>
         {{ partial "languages.html" . }}
     
         <div class="vertical">
@@ -8,9 +8,12 @@
                 {{ with .Title }}<h1 class="blog-title">{{ . }}</h1>{{ end }}
                 {{ with .Params.header_subheadline }}<h2 class="blog-description">{{ . }}</h2>{{ end }}
 
-                {{ range .Site.Menus.header }}
-                    <a class='btn site-menu' data-title-anchor='{{ anchorize .Title }}'>{{ .Title }}</a>
-                {{ end }}
+                <nav role="aria-navigation">
+                    {{ range .Site.Menus.header }}
+                        <a class='btn site-menu' data-title-anchor='{{ anchorize .Title }}'>{{ .Title }}</a>
+                    {{ end }}
+                </nav>
+                
                 <i id='header-arrow' class="fa fa-angle-down"></i>
             </div>
         </div>

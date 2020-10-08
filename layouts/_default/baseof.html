@@ -7,6 +7,8 @@
     {{- block "main" . }}{{- end }}
     {{- partial "footer.html" . -}}
 
+    {{ $slick := resources.Get "slick/slick.min.js" }}
+    {{ $js := slice $slick | resources.Concat "js/bundle.js" }}
     {{ $jsJq := resources.Get "hugo-scroll/jquery-3.5.1.min.js" | fingerprint }}
     <script type="text/javascript" src="{{ $jsJq.Permalink }}" integrity="{{ $jsJq.Data.Integrity }}"></script>
     {{ $jsVw := resources.Get "viewerjs/viewer.min.js" | fingerprint }}

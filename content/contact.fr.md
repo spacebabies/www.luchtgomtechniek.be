@@ -24,7 +24,7 @@ Téléphone Belgique: [+32 478 766843](tel:+32478766843)
 
 ### Instagram
 
-![Suivez Straal Atelier Valmeer sur Instagram](/images/IG_Glyph_Fill.png "Suivez @straal_atelier sur Instagram")
+![Suivez Straal Atelier Valmeer sur Instagram](IG_Glyph_Fill.png "Suivez @straal_atelier sur Instagram")
 
 Suivez-moi sur Instagram pour voir des photos de mon travail.
 

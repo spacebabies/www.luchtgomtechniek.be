@@ -68,6 +68,9 @@ defaultContentLanguageInSubdir = true
     source = "node_modules/viewerjs/dist"
     target = "assets/viewerjs"
   [[module.mounts]]
+    source = "node_modules/slick-carousel/slick"
+    target = "assets/slick"
+  [[module.mounts]]
     source = "assets"
     target = "assets"
 

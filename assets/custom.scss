@@ -21,7 +21,7 @@
     width: 100%;
 }
 
-img[src="/images/IG_Glyph_Fill.png"] {
+img[src="IG_Glyph_Fill.png"] {
     width: 100px;
     height: 100px;
     float: right;
@@ -29,7 +29,7 @@ img[src="/images/IG_Glyph_Fill.png"] {
 }
 
 .post-holder.odd {
-    background: #a2272a;
+    background: $col60;
 }
 
 #prijsopgave input.fw {

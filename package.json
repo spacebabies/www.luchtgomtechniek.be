@@ -8,6 +8,7 @@
   "license": "None",
   "private": true,
   "dependencies": {
+    "slick-carousel": "^1.8.1",
     "viewerjs": "^1.7.1"
   }
 }

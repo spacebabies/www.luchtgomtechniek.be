@@ -9,4 +9,4 @@ Wij als klein Straalatelier zetten uw wensen voorop, omdat elk object anders is 
 
 Of u een setje scharnieren of een geheel dakgebinte gestraald wilt hebben, we komen er graag samen uit.
 
-Na het stralen kunnen wij ook de eventuele nabehandeling verzorgen, uiteraard altijd in overleg met u. 
+Na het stralen kunnen wij ook de eventuele nabehandeling verzorgen, uiteraard altijd in overleg met u.
