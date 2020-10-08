@@ -43,6 +43,7 @@ img[src="/images/IG_Glyph_Fill.png"] {
 
 .grid {
     display: grid;
+    margin-bottom: 3em;
 }
 
 .grid.instagrid {

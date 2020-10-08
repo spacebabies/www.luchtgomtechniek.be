@@ -6,7 +6,7 @@ weight: 4
 menu: header
 ---
 
-Ik ben steeds bereikbaar voor al uw vragen. Op verzoek kan ik het
+We zijn steeds bereikbaar voor al uw vragen. Op verzoek kunnen wij het
 werk komen ophalen en brengen, in Nederland en België.
 
 ### Adres
@@ -26,7 +26,7 @@ Telefoon België: [+32 478 766843](tel:+32478766843)
 
 ![Volg Straal Atelier Valmeer op Instagram](/images/IG_Glyph_Fill.png "Volg @straal_atelier op Instagram")
 
-Volg me op Instagram om foto's te zien van mijn werk.
+Volg ons op Instagram om foto's te zien van ons werk.
 
 [**@straal_atelier**](https://www.instagram.com/straal_atelier/)
 

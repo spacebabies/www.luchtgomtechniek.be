@@ -18,8 +18,9 @@ Het voordeel van verschillende cabines is dat er nooit straalmiddelen door elkaa
 
 Waarschijnlijk de meest bekende en gangbare vorm, ook wel bekend als **zandstralen**. Hierbij kunnen we Corund gebruiken voor de hardste poedercoat, verflagen, brons of roest. Fijner glasgrit en garnet voor de gevoeligere objecten zoals glas(matteren), spiegels, natuursteen, mechanica, auto onderdelen, hang- en sluitwerk enzovoorts.
 
+{{< grids/gallery id="kabien" pattern="grit*.jpg" >}}
 
-> FOTO:grit 1,2(fijngritstralen met als eindbewerking verzinken en geel passiveren)3,4,5,6
+> fijngritstralen met als eindbewerking verzinken en geel passiveren
 
 #### Glasparelstralen
 
@@ -27,7 +28,7 @@ Dit geeft het materiaal een parelmoerachtige glans. Deze methode is bij uitstek 
 
 Tevens hebben wij nauw contact met een gespecialiseerd poedercoater om poedercoat of natlak aan te kunnen brengen in elke gewenste kleur.
 
-FOTO: PARELSTRALEN 1,2
+{{< grids/gallery id="kabien" pattern="Parelstralen*.jpg" >}}
 
 #### Voor Houten Meubelen
 
@@ -35,7 +36,7 @@ Het Luchtgommen van hout gebeurd op hele lage druk, en met heel fijn mineraal, o
 
 Wij adviseren de houten meubels altijd een na behandeling te geven (b.v met een beits, vernis, olie, wax of verf), om de bescherming van het hout te optimaliseren. Wij kunnen deze taak ook perfect voor u uit handen nemen.
 
-FOTO:hout1,2,3
+{{< grids/gallery id="kabien" pattern="Hout*.jpg" >}}
 
 #### SODA Stralen
 
@@ -43,4 +44,4 @@ Voor de meest delicate oppervlakken is nat SODA stralen de geknipte oplossing, d
 
 Na het SODAstralen spoelen we altijd grondig na met schoon water.
 
-FOTO: soda 1,2
+{{< grids/gallery id="kabien" pattern="soda*.jpg" >}}

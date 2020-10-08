@@ -1,5 +1,4 @@
 baseURL = "https://www.straalatelier.com"
-theme = "hugo-scroll"
 relativeURLs = true
 
 # This is a "one page"-website, so we do not need these kinds of pages...

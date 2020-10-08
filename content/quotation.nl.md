@@ -9,5 +9,6 @@ Vul onderstaand formulier in en u ontvangt binnen vijf werkdagen een
 vrijblijvende prijsopgave. Stuur indien mogelijk altijd een foto
 van het te reinigen werk mee.
 
-{{< forms/quote >}}
+Het is altijd mogelijk om een proefstuk te laten stralen zoals de achterkant van een lade.
 
+{{< forms/quote >}}
