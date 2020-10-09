@@ -14,46 +14,40 @@ resources:
 
 Nous avons plusieurs cabines avec lesquelles nous pouvons faire sauter toutes sortes d'objets. Pensez aux petites suspensions, aux carburateurs, aux jantes, aux jouets, mais aussi aux blocs moteurs entiers, aux portes d'armoires entières.
 
-L'avantage des différentes cabines est que les supports de sablage ne se mélangent jamais, les erreurs de sablage dues à la contamination sont donc exclues.
+L'avantage des différentes cabines est que les médias de sablage ne se mélangent jamais, les erreurs de sablage dues à la contamination sont donc exclues.
 
-{{< grids/gallery
-    id="gallery-kabien"
-    pattern="kabien*.jpg"
-    >}}
+{{< grids/gallery pattern="kabien*.jpg" >}}
 
 > Surfaces avec finition en poudre enduite de vernis. Une préparation pure est un must absolu.
 
-### Gritstralen
+#### Sablage
 
-Waarschijnlijk de meest bekende en gangbare vorm, ook wel bekend als **zandstralen**. Hierbij kunnen we Corund gebruiken voor de hardste poedercoat, verflagen, brons of roest. Fijner glasgrit en garnet voor de gevoeligere objecten zoals glas(matteren), spiegels, natuursteen, mechanica, auto onderdelen, hang- en sluitwerk enzovoorts.
+Probablement la forme la plus connue et la plus courante, également connue sous le nom de sablage. Nous pouvons utiliser Corund pour le revêtement en poudre, les couches de peinture, le bronze ou la rouille les plus durs. Verre plus fin et grenat pour les objets les plus sensibles tels que le verre (glaçage), les miroirs, la pierre naturelle, la mécanique, les pièces automobiles, les charnières et les serrures, etc.
 
-{{< grids/gallery
-    id="gallery-grit"
-    pattern="services/grit*.jpg"
-    >}}
+{{< grids/gallery pattern="grit*.jpg" >}}
 
-> FOTO:grit 1,2(fijngritstralen met als eindbewerking verzinken en geel passiveren)3,4,5,6
+> grenaillage fin avec galvanisation et passivation jaune comme traitement final
 
-### Glasparelstralen
+#### Rayons de perles de verre
 
-Dit geeft het materiaal een parelmoerachtige glans. Deze methode is bij uitstek geschikt voor uitwendige delen als carburateurs, cilinderkoppen, carterdelen, remnaven of Inox-lassen. Buiten de reiniging verdicht het oppervlak ook (Shot Peening) waardoor vuiligheid minder kans van hechting heeft. Met name voor roestvrijstaal en aluminium is dit de eindbewerking.
+Cela donne au matériau un éclat nacré. Cette méthode convient parfaitement aux pièces externes telles que les carburateurs, les culasses, les pièces de carter, les moyeux de frein ou les soudures Inox. En plus du nettoyage, la surface se compacte également (grenaillage) afin que la saleté ait moins de chances d'adhérence. Il s'agit du traitement final en particulier pour l'acier inoxydable et l'aluminium.
 
-Tevens hebben wij nauw contact met een gespecialiseerd poedercoater om poedercoat of natlak aan te kunnen brengen in elke gewenste kleur.
+Nous avons également un contact étroit avec un enduit en poudre spécialisé pour pouvoir appliquer un revêtement en poudre ou une peinture humide dans n'importe quelle couleur souhaitée.
 
-FOTO: PARELSTRALEN 1,2
+{{< grids/gallery pattern="Parelstralen*.jpg" >}}
 
-### Voor Houten Meubelen
+#### Pour les meubles en bois
 
-Het Luchtgommen van hout gebeurd op hele lage druk, en met heel fijn mineraal, om de houten meubels een zo glad mogelijk resultaat te bekomen zonder de nerven teveel uit te stralen. De houten meubels worden altijd licht na geschuurd. kleine beschadigingen of onregelmatigheden kunnen wij  vaak ook repareren.
+Le gommage à l'air du bois se fait à très basse pression, et avec du minéral très fin, afin d'obtenir le résultat le plus lisse possible du meuble en bois sans trop rayonner le veinage. Les meubles en bois sont toujours légèrement poncés. Nous pouvons souvent également réparer des dommages mineurs ou des irrégularités.
 
-Wij adviseren de houten meubels altijd een na behandeling te geven (b.v met een beits, vernis, olie, wax of verf), om de bescherming van het hout te optimaliseren. Wij kunnen deze taak ook perfect voor u uit handen nemen.
+Nous vous recommandons de toujours appliquer un post-traitement aux meubles en bois (par exemple avec une teinture, un vernis, une huile, une cire ou une peinture), pour optimiser la protection du bois. Nous pouvons également vous décharger parfaitement de cette tâche.
 
-FOTO:hout1,2,3
+{{< grids/gallery pattern="Hout*.jpg" >}}
 
-### SODA Stralen
+#### Rayons SODA
 
-Voor de meest delicate oppervlakken is nat SODA stralen de geknipte oplossing, denk aan carburateurs, transmissies, verfspuiten, matrijzen, INOX en andere non ferro metalen. Maar ook Graffiti verwijdering. Het voordeel van nat stralen is dat er geen hitte ontstaat, ideaal dus voor dun plaatwerk.
+Le sablage humide de SODA est la solution parfaite pour les surfaces les plus délicates, telles que les carburateurs, les transmissions, les pulvérisateurs de peinture, les moules, l'INOX et d'autres métaux non ferreux. Mais aussi la suppression des graffitis. L'avantage du sablage humide est qu'aucune chaleur n'est générée, ce qui est idéal pour les tôles fines.
 
-Na het SODAstralen spoelen we altijd grondig na met schoon water.
+Après le sablage SODA, nous rincons toujours abondamment à l'eau claire.
 
-FOTO: soda 1,2
+{{< grids/gallery pattern="soda*.jpg" >}}

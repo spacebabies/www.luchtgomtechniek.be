@@ -103,7 +103,12 @@ var $sitehead = $("#site-head");
             });
         }
 
-        $("blockquote p").prepend('<span class="quo fa fa-quote-left"></span>');
-        $("blockquote p").append('<span class="quo fa fa-quote-right"></span>');
+        $("blockquote p").prepend('<span data-feather="message-square" class="quo"></span>');
+        // $("blockquote p").append('<span class="quo fa fa-quote-right"></span>');
+
+        feather.replace({
+            width: '1em',
+            height: '1em'
+        });
     });
 })(jQuery);
