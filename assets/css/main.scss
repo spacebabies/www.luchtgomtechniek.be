@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+$col10: #f1e7d6;
+$col20: #e2cead;
+$col30: #bca27d;
+$col40: #928f8a;
+$col50: #7a756f;
+$col60: #605d54;
+$col70: #3f3f3d;
+$col80: #1f2326;
+
+@import "normalize";
+@import "font-faces";
+@import "screen.scss";
+
+@import "friendly";
+@import "flickity.min.css";
+
+@import "custom.scss";

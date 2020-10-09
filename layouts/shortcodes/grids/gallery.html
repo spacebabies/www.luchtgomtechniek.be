@@ -1,12 +1,7 @@
-<section class="gallery-viewerjs">
-    <div class="grid gallerygrid">
+<article class="carousel-viewport">
+<div class="carousel">
     {{ range .Page.Resources.Match (.Get "pattern") }}
-    {{ $thumb := .Fill "200x200" }}
-    <img
-        src="{{ $thumb.RelPermalink }}"
-        alt="{{ .Title }}"
-        title="{{ .Name }}"
-        data-original="{{ .RelPermalink }}">
+    <img src="{{ .RelPermalink }}" alt="{{ .Title }}" title="{{ .Name }}" data-original="{{ .RelPermalink }}">
     {{ end }}
-    </div>
-</section>
+</div>
+</article>

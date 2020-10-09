@@ -8,7 +8,8 @@
   "license": "None",
   "private": true,
   "dependencies": {
-    "slick-carousel": "^1.8.1",
-    "viewerjs": "^1.7.1"
+    "feather-icons": "^4.28.0",
+    "flickity": "^2.2.1",
+    "jquery": "^3.5.1"
   }
 }

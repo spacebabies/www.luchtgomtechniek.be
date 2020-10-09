@@ -10,7 +10,7 @@ We hebben verschillende cabines waarmee we allerhande objecten kunnen stralen. D
 
 Het voordeel van verschillende cabines is dat er nooit straalmiddelen door elkaar geraken, zodat straalfouten door vervuiling uitgesloten zijn.
 
-{{< grids/gallery id="kabien" pattern="kabien*.jpg" >}}
+{{< grids/gallery pattern="kabien*.jpg" >}}
 
 > Oppervlakken met eindafwerking poedercoat met vernis. Zuivere voorbereiding is een absolute must.
 
@@ -18,7 +18,7 @@ Het voordeel van verschillende cabines is dat er nooit straalmiddelen door elkaa
 
 Waarschijnlijk de meest bekende en gangbare vorm, ook wel bekend als **zandstralen**. Hierbij kunnen we Corund gebruiken voor de hardste poedercoat, verflagen, brons of roest. Fijner glasgrit en garnet voor de gevoeligere objecten zoals glas(matteren), spiegels, natuursteen, mechanica, auto onderdelen, hang- en sluitwerk enzovoorts.
 
-{{< grids/gallery id="kabien" pattern="grit*.jpg" >}}
+{{< grids/gallery pattern="grit*.jpg" >}}
 
 > fijngritstralen met als eindbewerking verzinken en geel passiveren
 
@@ -28,7 +28,7 @@ Dit geeft het materiaal een parelmoerachtige glans. Deze methode is bij uitstek 
 
 Tevens hebben wij nauw contact met een gespecialiseerd poedercoater om poedercoat of natlak aan te kunnen brengen in elke gewenste kleur.
 
-{{< grids/gallery id="kabien" pattern="Parelstralen*.jpg" >}}
+{{< grids/gallery pattern="Parelstralen*.jpg" >}}
 
 #### Voor Houten Meubelen
 
@@ -36,7 +36,7 @@ Het Luchtgommen van hout gebeurd op hele lage druk, en met heel fijn mineraal, o
 
 Wij adviseren de houten meubels altijd een na behandeling te geven (b.v met een beits, vernis, olie, wax of verf), om de bescherming van het hout te optimaliseren. Wij kunnen deze taak ook perfect voor u uit handen nemen.
 
-{{< grids/gallery id="kabien" pattern="Hout*.jpg" >}}
+{{< grids/gallery pattern="Hout*.jpg" >}}
 
 #### SODA Stralen
 
@@ -44,4 +44,4 @@ Voor de meest delicate oppervlakken is nat SODA stralen de geknipte oplossing, d
 
 Na het SODAstralen spoelen we altijd grondig na met schoon water.
 
-{{< grids/gallery id="kabien" pattern="soda*.jpg" >}}
+{{< grids/gallery pattern="soda*.jpg" >}}

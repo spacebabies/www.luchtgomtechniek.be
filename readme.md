@@ -12,6 +12,7 @@ It's always easiest to keep the Hugo version the same everywhere.
 # Run
 
 ```
+yarn install # packages via npm
 hugo server -D # development webwerver
 hugo --gc --minify # build the public folder
 ```

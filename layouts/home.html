@@ -1,5 +1,13 @@
 {{ define "main" }}
-    <header id="site-head"{{ with .Resources.GetMatch "slide.jpg" }} style="background-image: url({{ .RelPermalink }})"{{ end }}>
+    <header id="site-head">
+        <div>
+            {{ range $index, $resource := .Resources.Match "slide*" }}
+            <div class="image">
+                <img data-lazy="{{ $resource.RelPermalink }} " alt="">
+            </div>
+            {{ end }}
+        </div>
+
         {{ partial "languages.html" . }}
     
         <div class="vertical">
@@ -13,8 +21,10 @@
                         <a class='btn site-menu' data-title-anchor='{{ anchorize .Title }}'>{{ .Title }}</a>
                     {{ end }}
                 </nav>
-                
-                <i id='header-arrow' class="fa fa-angle-down"></i>
+
+                <div class="scrolly">
+                    <span data-feather="chevron-down"></span>
+                </div>
             </div>
         </div>
     </header>

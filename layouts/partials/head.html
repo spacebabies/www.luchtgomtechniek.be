@@ -5,8 +5,8 @@
 {{ with .Site.Params.meta.keywords }}<meta name="keywords" content="{{ . }}" />{{ end }}
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-{{ $css := resources.Get "main.scss" | resources.ToCSS (dict "outputStyle" "compressed") | fingerprint }}
-<link rel="stylesheet" href="{{ $css.RelPermalink }}" type="text/css">
+{{ $style := resources.Get "css/main.scss" | toCSS }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" type="text/css">
 
 {{ template "_internal/opengraph.html" . }}
 {{ template "_internal/twitter_cards.html" . }}
@@ -16,3 +16,4 @@
      Simply place a custom_head.html into
      your local /layouts/partials-directory -->
 {{- partial "custom_head.html" . -}}
+

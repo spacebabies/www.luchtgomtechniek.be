@@ -3,24 +3,11 @@
 {{- partial "head.html" . -}}
 
 <body>
-    {{- partial "header.html" . -}}
-    {{- block "main" . }}{{- end }}
-    {{- partial "footer.html" . -}}
-
-    {{ $slick := resources.Get "slick/slick.min.js" }}
-    {{ $js := slice $slick | resources.Concat "js/bundle.js" }}
-    {{ $jsJq := resources.Get "hugo-scroll/jquery-3.5.1.min.js" | fingerprint }}
-    <script type="text/javascript" src="{{ $jsJq.Permalink }}" integrity="{{ $jsJq.Data.Integrity }}"></script>
-    {{ $jsVw := resources.Get "viewerjs/viewer.min.js" | fingerprint }}
-    <script type="text/javascript" src="{{ $jsVw.Permalink }}" integrity="{{ $jsVw.Data.Integrity }}"></script>
-    {{ $jsAp := resources.Get "js/app.js" | fingerprint }}
-    <script type="text/javascript" src="{{ $jsAp.Permalink }}" integrity="{{ $jsAp.Data.Integrity }}"></script>
-    {{ $jsIc := resources.Get "hugo-scroll/icons.js" | fingerprint }}
-    <script type="text/javascript" src="{{ $jsIc.Permalink }}" integrity="{{ $jsIc.Data.Integrity }}"></script>
-    {{ $jsSc := resources.Get "hugo-scroll/index.js" | fingerprint }}
-    <script type="text/javascript" src="{{ $jsSc.Permalink }}" integrity="{{ $jsSc.Data.Integrity }}"></script>
-
-    {{- partial "custom_body.html" . -}}
+    {{ partial "header.html" . }}
+    {{ block "main" . }}{{ end }}
+    {{ partial "footer.html" . }}
+    {{ partial "scripts.html" . }}
+    {{ partial "custom_body.html" . }}
 </body>
 
 </html>
