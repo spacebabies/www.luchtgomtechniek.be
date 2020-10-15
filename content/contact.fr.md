@@ -18,7 +18,7 @@ Vijfkruisenstraat 11a
 B-3770 RIEMST  
 BELGIË
 
-Email: [info@straalatelier.com](mailto:info@straalatelier.com)
+Email: [thomasbaaij@gmail.com](mailto:thomasbaaij@gmail.com)
 
 Téléphone Belgique: [+32 478 766843](tel:+32478766843)
 
