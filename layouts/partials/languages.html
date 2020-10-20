@@ -1,7 +1,7 @@
 {{ if .Site.IsMultiLingual }}
 <nav aria-label="Change language" class="change-language">
-    <label for="sitelanguage">
-        <select name="sitelanguage">
+    <label>
+        <select id="changeLanguage" name="sitelanguage">
             {{ range .Site.Languages }}
             <option {{ if eq $.Site.Language . }}selected {{ end }}value="{{ .Lang }}">{{ .LanguageName }}</option>
             {{ end }}

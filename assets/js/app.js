@@ -1,6 +1,3 @@
-global.$ = require("jquery");
-global.jQuery = global.$;
-
 window.addEventListener('DOMContentLoaded', function () {
     feather.replace({width: '1em', height: '1em'});
 
@@ -17,4 +14,12 @@ window.addEventListener('DOMContentLoaded', function () {
         const userLang = navigator.language || navigator.userLanguage;
         document.cookie = `nf_lang = ${userLang}`;
     }
+
+    const changeLanguage = document.querySelector('#changeLanguage');
+    changeLanguage.addEventListener('change', function(event) {
+        const pathName = window.location.pathname;
+        const userLang = event.target.value;
+        document.cookie = `nf_lang = ${userLang}`;
+        window.location.assign(pathName.replace(/^\/\w{2}/, `/${userLang}`));
+    })
 });
