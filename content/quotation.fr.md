@@ -1,12 +1,14 @@
 ---
 title: Citation
-weight: 3
 date: 2020-10-01
 publishdate: 2020-10-01
+weight: 3
 menu: header
 ---
-Remplissez le formulaire ci-dessous et vous recevrez un email de ma part dans les cinq jours ouvrables
-devis sans engagement. Si possible, envoyez toujours une photo
+Remplissez le formulaire ci-dessous et vous recevrez un e-mail dans les cinq jours ouvrables
+devis sans engagement. Envoyez toujours une photo si possible
 des travaux à nettoyer.
-{{< forms/quote >}}
 
+Il est toujours possible de faire sabler une éprouvette comme le fond d'un tiroir.
+
+{{< forms/quote >}}

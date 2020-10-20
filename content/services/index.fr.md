@@ -1,15 +1,9 @@
 ---
 title: Nos services
+weight: 2
 date: 2020-10-06
 publishDate: 2020-10-06
-weight: 1
 menu: header
-resources:
-  - name: kabien1.jpg
-    src: kabien1.jpg
-    title: Le cabine
-  - name: kabien2.jpg
-    title: oppervlakken met eindafwerking poedercoat met vernis, zuivere voorbereiding absolute must
 ---
 
 Nous avons plusieurs cabines avec lesquelles nous pouvons faire sauter toutes sortes d'objets. Pensez aux petites suspensions, aux carburateurs, aux jantes, aux jouets, mais aussi aux blocs moteurs entiers, aux portes d'armoires entières.

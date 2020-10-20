@@ -1,12 +1,11 @@
 ---
-title: 'Bienvenue'
+title: Bienvenue
 date: 2020-10-01
 publishdate: 2020-10-01
 weight: 1
 ---
+En tant que petit atelier gommage, nous accordons la priorité à vos souhaits, car chaque objet est différent et nécessite sa propre approche, nous sommes heureux de discuter du résultat que vous souhaitez.
 
-Je souffle avec un type de sable spécial, pour que le résultat final soit aussi lisse que possible, mais donne une bonne surface à traiter avec un apprêt ou une laque.
+Que vous souhaitiez un ensemble de charnières ou une ferme de toit entière sablée, nous sommes heureux de le travailler ensemble.
 
-Après le sablage, vous pouvez également choisir de le traiter avec un sablage à billes de verre, pour un effet encore plus brillant, je le fais souvent sur les jantes en métal léger des voitures et des cyclomoteurs.
-
-Après le sablage, je peux également mettre vos affaires / pièces dans l'apprêt à 2 composants, pour éviter la formation de rouille.
+Après le dynamitage, nous pouvons également prendre en charge tout post-traitement, bien sûr toujours en concertation avec vous.
