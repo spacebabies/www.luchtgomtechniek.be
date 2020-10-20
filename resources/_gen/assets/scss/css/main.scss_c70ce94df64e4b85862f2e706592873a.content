@@ -1204,6 +1204,7 @@ a.fn-item.active {
     height: 100%;
     margin-bottom: 0rem; }
   .blog-title {
+    margin-top: 2em;
     font-size: 4rem;
     letter-spacing: -1px; }
   .blog-description {
