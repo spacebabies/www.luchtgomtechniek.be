@@ -14,13 +14,11 @@
 {{ template "_internal/schema.html" . -}}
 
 {{ if .IsTranslated -}}
-     {{ range .Translations -}}
+<link rel="alternate" href="{{ .Permalink }}" hreflang="{{ $.Site.Language }}">
+{{ range .Translations -}}
      <link rel="alternate" href="{{ .Permalink }}" hreflang="{{ .Lang }}">
      {{ end -}}
 {{ end -}}
 
-<!-- A partial to be overwritten by the user.
-     Simply place a custom_head.html into
-     your local /layouts/partials-directory -->
+<!-- A partial to be overwritten by placing a custom_head.html into /layouts/partials -->
 {{- partial "custom_head.html" . -}}
-
