@@ -5,18 +5,19 @@
 {{ with .Site.Params.description }}<meta name="description" content="{{ . }}" />{{ end }}
 {{ with .Site.Params.meta.keywords }}<meta name="keywords" content="{{ . }}" />{{ end }}
 
-{{ $style := resources.Get "css/main.scss" | toCSS | fingerprint }}
-<link rel="stylesheet" href="{{ $style.RelPermalink }}" type="text/css">
+{{ $options := (dict "outputStyle" "compressed" "enableSourceMap" true) }}
+{{ $style := resources.Get "css/main.scss" | toCSS $options | fingerprint }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" as="style">
 
-{{ template "_internal/opengraph.html" . }}
-{{ template "_internal/twitter_cards.html" . }}
-{{ template "_internal/schema.html" . }}
+{{ template "_internal/opengraph.html" . -}}
+{{ template "_internal/twitter_cards.html" . -}}
+{{ template "_internal/schema.html" . -}}
 
-{{ if .IsTranslated }}
-    {{ range .Translations }}
-    <link rel="alternate" href="{{ .Permalink }}" hreflang="{{ .Lang }}">
-     {{ end }}
-{{ end }}
+{{ if .IsTranslated -}}
+     {{ range .Translations -}}
+     <link rel="alternate" href="{{ .Permalink }}" hreflang="{{ .Lang }}">
+     {{ end -}}
+{{ end -}}
 
 <!-- A partial to be overwritten by the user.
      Simply place a custom_head.html into
