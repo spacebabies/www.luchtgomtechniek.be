@@ -12,3 +12,16 @@ command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy]
 command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+
+[[redirects]]
+from = "/"
+to = "/fr/"
+status = 302
+force = true
+conditions = {Language = "fr"}
+
+[[redirects]]
+from = "/"
+to = "/nl/"
+status = 302
+force = true
