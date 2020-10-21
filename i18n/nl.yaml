@@ -1,2 +1,12 @@
+button_send:
+  other: Verzenden
+label_email:
+  other: E-mailadres
+label_name:
+  other: Uw naam
+label_telephone:
+  other: Telefoonnummer
+label_werk:
+  other: Foto van het werk (optioneel).
 aria-lang-label:
   other: Passer au français

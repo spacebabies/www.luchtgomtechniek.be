@@ -7,7 +7,7 @@ menu: header
 ---
 
 We zijn steeds bereikbaar voor al uw vragen. Op verzoek kunnen wij het
-werk komen ophalen en brengen, in Nederland en België.
+werk komen ophalen en brengen, in België en Nederland.
 
 ### Adres
 

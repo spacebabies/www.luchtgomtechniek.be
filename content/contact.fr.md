@@ -7,7 +7,7 @@ menu: header
 ---
 
 Je suis toujours disponible pour toutes vos questions. Je peux le faire sur demande
-ramasser et livrer du travail aux Pays-Bas et en Belgique.
+ramasser et livrer du travail aux Belgique et en Pays-Bas.
 
 ### Adresse
 

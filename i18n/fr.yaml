@@ -1,2 +1,12 @@
+button_send:
+  other: Expédier
+label_email:
+  other: Adresse électronique
+label_name:
+  other: Votre nom
+label_telephone:
+  other: Numéro de téléphone
+label_werk:
+  other: Photo de l'oeuvre (facultative).
 aria-lang-label:
   other: Schakel naar Nederlands

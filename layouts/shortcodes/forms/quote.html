@@ -1,27 +1,28 @@
 <form netlify name="prijsopgave">
     <p><label>
-            Uw naam
-            <input class="fw" type="text" name="naam" required maxlength="200">
-        </label></p>
+        {{ i18n "label_name" }}
+        <input class="fw" type="text" name="naam" required maxlength="200">
+    </label></p>
 
     <p><label>
-            E-mailadres
-            <input class="fw" type="email" name="email" required maxlength="200">
-        </label></p>
+        {{ i18n "label_email" }}
+        <input class="fw" type="email" name="email" required maxlength="200">
+    </label></p>
 
     <p><label>
-            Telefoonnummer
-            <input class="fw" type="tel" name="telephone" required maxlength="20">
-        </label></p>
+        {{ i18n "label_telephone" }}
+        <input class="fw" type="tel" name="telephone" required maxlength="20">
+    </label></p>
 
     <p>
-        Foto van het werk (optioneel).
+        {{ i18n "label_telephone" }}
+        
         <label>
             <input type="file" name="werk">
         </label>
     </p>
 
     <p>
-        <input type="submit" value="Verzenden">
+        <input type="submit" value='{{ i18n "button_send" }}'>
     </p>
 </form>
