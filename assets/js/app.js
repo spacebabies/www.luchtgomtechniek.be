@@ -29,10 +29,10 @@ var changeLanguage = function (element) {
     if (!element) return;
 
     element.addEventListener('change', function (event) {
-        const pathName = window.location.pathname;
+        const location = window.location.pathname + window.location.hash;
         const userLang = event.target.value;
         document.cookie = `nf_lang = ${userLang}`;
-        window.location.assign(pathName.replace(/^\/\w{2}/, `/${userLang}`));
+        window.location.assign(location.replace(/^\/\w{2}/, `/${userLang}`));
     })
 }
 

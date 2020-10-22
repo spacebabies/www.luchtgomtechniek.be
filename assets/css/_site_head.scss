@@ -1,0 +1,15 @@
+#site-head {
+    .scrolly {
+        padding: 3rem 0;
+        font-size: 140px;
+        margin: 0 auto;
+        text-align: center;
+        cursor: pointer;
+        opacity: 0.6;
+        transition: opacity ease 0.3s;
+
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+}

@@ -16,18 +16,20 @@
 
                 <nav role="aria-navigation">
                     {{ range .Site.Menus.header }}
-                        <a class='btn site-menu' data-title-anchor='{{ anchorize .Title }}'>{{ .Title }}</a>
+                        <a class='btn site-menu' href="#{{ anchorize .Title }}" data-title-anchor='{{ anchorize .Title }}'>{{ .Title }}</a>
                     {{ end }}
                 </nav>
 
                 <div class="scrolly">
-                    <span data-feather="chevron-down"></span>
+                    <a href="#more">
+                        <span data-feather="chevron-down"></span>
+                    </a>
                 </div>
             </div>
         </div>
     </header>
 
-    <main class="content" role="main">
+    <main class="content" role="main" id="more">
         {{ range .RegularPages }}
             <div class='post-holder'>
                 <article id='{{ anchorize .Title }}' class='post'>
