@@ -2,7 +2,7 @@
 title: Prijsopgave
 date: 2020-10-06
 publishDate: 2020-10-06
-weight: 3
+weight: 30
 menu: header
 ---
 Vul onderstaand formulier in en u ontvangt binnen vijf werkdagen een
