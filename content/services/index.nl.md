@@ -16,7 +16,7 @@ Het voordeel van verschillende cabines is dat er nooit straalmiddelen door elkaa
 
 #### Gritstralen
 
-Waarschijnlijk de meest bekende en gangbare vorm, ook wel bekend als **zandstralen**. Hierbij kunnen we Corund gebruiken voor de hardste poedercoat, verflagen, brons of roest. Fijner glasgrit en garnet voor de gevoeligere objecten zoals glas(matteren), spiegels, natuursteen, mechanica, auto onderdelen, hang- en sluitwerk enzovoorts.
+Waarschijnlijk de meest bekende en gangbare vorm, ook wel bekend als **zandstralen**. Hierbij kunnen we Corund gebruiken voor de hardste poedercoat, verflagen, brons of roest. Fijner glasgrit en garnet voor de gevoeligere objecten zoals glas(matteren), spiegels, natuursteen, mechanica, auto-onderdelen, hang- en sluitwerk enzovoorts.
 
 {{< grids/gallery pattern="grit*.jpg" >}}
 
