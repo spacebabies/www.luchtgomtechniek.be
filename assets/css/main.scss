@@ -1,14 +1,21 @@
 @charset "UTF-8";
 
-$col10: #f1e7d6;
-$col20: #e2cead;
-$col30: #bca27d;
-$col40: #928f8a;
-$col50: #7a756f;
-$col60: #605d54;
-$col70: #3f3f3d;
-$col80: #1f2326;
+{{ $hero := resources.Get "images/hero.jpg" | fingerprint }}
+{{ $oswaldLight := resources.Get "fonts/Oswald-Light.woff2" | fingerprint }}
+{{ $oswaldRegular := resources.Get "fonts/Oswald-Regular.woff2" | fingerprint }}
+{{ $oswaldBold := resources.Get "fonts/Oswald-Bold.woff2" | fingerprint }}
 
+:root {
+  --oswaldLight: url({{ $oswaldLight.RelPermalink }});
+  --oswaldRegular: url({{ $oswaldRegular.RelPermalink }});
+  --oswaldBold: url({{ $oswaldBold.RelPermalink }});
+}
+
+#site-head {
+  --hero: url("{{ $hero.RelPermalink }}");
+}
+  
+@import "variables";
 @import "normalize";
 @import "font-faces";
 @import "screen.scss";

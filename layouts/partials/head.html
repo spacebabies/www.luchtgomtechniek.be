@@ -2,12 +2,15 @@
 <title>{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+{{ with getenv "NETLIFY_IMAGES_CDN_DOMAIN" }}<link rel="preconnect" href="https://{{ . }}">{{ end -}}
+
 {{ with .Site.Params.description }}<meta name="description" content="{{ . }}" />{{ end }}
 {{ with .Site.Params.meta.keywords }}<meta name="keywords" content="{{ . }}" />{{ end }}
 
 {{ $options := (dict "outputStyle" "compressed" "enableSourceMap" true) }}
-{{ $style := resources.Get "css/main.scss" | toCSS $options | fingerprint }}
-<link rel="stylesheet" href="{{ $style.RelPermalink }}" as="style">
+{{ $style := resources.Get "css/main.scss" | resources.ExecuteAsTemplate "main.scss" . | toCSS $options | fingerprint }}
+<link rel="stylesheet" rel="preload" href="{{ $style.RelPermalink }}" as="style">
 
 {{ template "_internal/opengraph.html" . -}}
 {{ template "_internal/twitter_cards.html" . -}}

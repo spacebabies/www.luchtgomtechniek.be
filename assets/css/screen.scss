@@ -343,10 +343,6 @@ ul li {
   vertical-align: middle;
 }
 
-/* ==========================================================================
-      4. General - The main styles for the the theme
-      ========================================================================== */
-
 /* Big cover image on the home page */
 #site-head {
   position: relative;
@@ -356,7 +352,7 @@ ul li {
   margin-bottom: 0;
   text-align: center;
   color: #fff;
-  background-image: url("/photos/Hout3.jpg");
+  background-image: var(--hero);
   // background-color: linear-gradient($col40, $col70);
   background-size: cover;
 }
