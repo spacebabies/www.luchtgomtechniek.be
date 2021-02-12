@@ -5,14 +5,17 @@
 {{ $oswaldRegular := resources.Get "fonts/Oswald-Regular.woff2" | fingerprint }}
 {{ $oswaldBold := resources.Get "fonts/Oswald-Bold.woff2" | fingerprint }}
 
-:root {
-  --oswaldLight: url({{ $oswaldLight.RelPermalink }});
-  --oswaldRegular: url({{ $oswaldRegular.RelPermalink }});
-  --oswaldBold: url({{ $oswaldBold.RelPermalink }});
-}
-
+/* Big cover image on the home page */
 #site-head {
-  --hero: url("{{ $hero.RelPermalink }}");
+  position: relative;
+  display: table;
+  height: 100vh;
+  width: 100%;
+  margin-bottom: 0;
+  text-align: center;
+  color: #fff;
+  background-image: url({{ $hero.RelPermalink }});
+  background-size: cover;
 }
   
 @import "variables";
@@ -20,7 +23,29 @@
 @import "font-faces";
 @import "screen.scss";
 
-@import "site_head";
+@font-face {
+  font-family: 'Oswald';
+  src: url({{ $oswaldLight.RelPermalink }}) format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url({{ $oswaldBold.RelPermalink }}) format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url({{ $oswaldRegular.RelPermalink }}) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 @import "friendly";
 @import "flickity.min.css";

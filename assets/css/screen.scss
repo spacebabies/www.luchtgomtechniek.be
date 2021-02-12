@@ -343,20 +343,6 @@ ul li {
   vertical-align: middle;
 }
 
-/* Big cover image on the home page */
-#site-head {
-  position: relative;
-  display: table;
-  height: 100vh;
-  width: 100%;
-  margin-bottom: 0;
-  text-align: center;
-  color: #fff;
-  background-image: var(--hero);
-  // background-color: linear-gradient($col40, $col70);
-  background-size: cover;
-}
-
 /* Yo-logo. Yolo-go. Upload one in ghost/settings/ */
 #blog-logo img {
   display: block;
