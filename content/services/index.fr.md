@@ -37,11 +37,3 @@ Le gommage à l'air du bois se fait à très basse pression, et avec du minéral
 Nous vous recommandons de toujours appliquer un post-traitement aux meubles en bois (par exemple avec une teinture, un vernis, une huile, une cire ou une peinture), pour optimiser la protection du bois. Nous pouvons également vous décharger parfaitement de cette tâche.
 
 {{< grids/gallery pattern="Hout*.jpg" >}}
-
-#### Rayons SODA
-
-Le sablage humide de SODA est la solution parfaite pour les surfaces les plus délicates, telles que les carburateurs, les transmissions, les pulvérisateurs de peinture, les moules, l'INOX et d'autres métaux non ferreux. Mais aussi la suppression des graffitis. L'avantage du sablage humide est qu'aucune chaleur n'est générée, ce qui est idéal pour les tôles fines.
-
-Après le sablage SODA, nous rincons toujours abondamment à l'eau claire.
-
-{{< grids/gallery pattern="soda*.jpg" >}}

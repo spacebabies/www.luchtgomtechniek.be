@@ -37,11 +37,3 @@ Het Luchtgommen van hout gebeurd op hele lage druk, en met heel fijn mineraal, o
 Wij adviseren de houten meubels altijd een na behandeling te geven (b.v met een beits, vernis, olie, wax of verf), om de bescherming van het hout te optimaliseren. Wij kunnen deze taak ook perfect voor u uit handen nemen.
 
 {{< grids/gallery pattern="Hout*.jpg" >}}
-
-#### SODA Stralen
-
-Voor de meest delicate oppervlakken is nat SODA stralen de geknipte oplossing, denk aan carburateurs, transmissies, verfspuiten, matrijzen, INOX en andere non ferro metalen. Maar ook Graffiti verwijdering. Het voordeel van nat stralen is dat er geen hitte ontstaat, ideaal dus voor dun plaatwerk.
-
-Na het SODAstralen spoelen we altijd grondig na met schoon water.
-
-{{< grids/gallery pattern="soda*.jpg" >}}

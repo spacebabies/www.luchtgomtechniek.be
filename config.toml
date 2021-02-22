@@ -32,7 +32,7 @@ defaultContentLanguageInSubdir = true
       title = "Straal Atelier Val-Meer - Voor het luchtgommen van houten meubels, reinigen van industriële stukken, gritstralen van (giet-)ijzeren objecten, auto-onderdelen en meer."
 
       [languages.nl.params.meta]
-        keywords = "zandstralen, sodastralen, luchtgommen, parelstralen, reinigen, glasparel, bicarbonaat, spuiten, roest verwijderen, polijsten, aerogommage"
+        keywords = "zandstralen, luchtgommen, parelstralen, reinigen, glasparel, bicarbonaat, spuiten, roest verwijderen, polijsten, aerogommage"
 
   [languages.fr]
     weight = 2
