@@ -1,4 +1,4 @@
-baseURL = "https://www.straalatelier.com"
+baseURL = "https://www.straalatelier.com/"
 relativeURLs = false
 
 # This is a "one page"-website, so we do not need these kinds of pages...
