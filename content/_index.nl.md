@@ -2,5 +2,5 @@
 title: Straal Atelier Val-Meer
 header_image: "/images/tafeltje.jpg"
 header_headline: "Straal Atelier Val-Meer"
-header_subheadline: Voor het luchtgommen van houten meubels, reinigen van industriële stukken, gritstralen van (giet-)ijzeren objecten, auto-onderdelen en meer.
+header_subheadline: Voor het Luchtgommen van alle soorten en types hout, het Fijnstralen van Carrosserie en Glasparelstralen van Inox en Aluminium.
 ---

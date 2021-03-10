@@ -2,5 +2,5 @@
 title: Straal Atelier Val-Meer
 header_image: "/images/tafeltje.jpg"
 header_headline: "Straal Atelier Val-Meer"
-header_subheadline: Pour le gommage à l'air de meubles en bois, le nettoyage de pièces industrielles, le grenaillage d'objets en fonte, de pièces automobiles et plus encore.
+header_subheadline: Pour les gommes à air de tous types et types de bois, de faisceaux fins de carrosserie et de faisceaux de panneau de verre d'acier inoxydable et d'aluminium.
 ---
