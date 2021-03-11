@@ -6,34 +6,40 @@ publishDate: 2020-10-06
 menu: header
 ---
 
-We hebben verschillende cabines waarmee we allerhande objecten kunnen stralen. Denk aan kleine ophanging, carburateurs, velgen, speelgoed maar ook hele motorblokken, deuren tot gehele kasten.
+We hebben verschillende cabines waarmee we allerhande objecten kunnen stralen,
+het voordeel daarvan is dat er nooit straalmiddelen door elkaar geraken, zodat straalfouten door vervuiling uitgesloten zijn.
 
-Het voordeel van verschillende cabines is dat er nooit straalmiddelen door elkaar geraken, zodat straalfouten door vervuiling uitgesloten zijn.
+Daarnaast kunnen wij ook ter plaatse komen voor het stralen van gebintes, trappen, keukens of parket.
 
 {{< grids/gallery pattern="kabien*.jpg" >}}
 
 > Oppervlakken met eindafwerking poedercoat met vernis. Zuivere voorbereiding is een absolute must.
 
-#### Gritstralen
+#### Luchtgommen
 
-Waarschijnlijk de meest bekende en gangbare vorm, ook wel bekend als **zandstralen**. Hierbij kunnen we Corund gebruiken voor de hardste poedercoat, verflagen, brons of roest. Fijner glasgrit en garnet voor de gevoeligere objecten zoals glas(matteren), spiegels, natuursteen, mechanica, auto-onderdelen, hang- en sluitwerk enzovoorts.
+Het Luchtgommen van hout gebeurd op hele lage druk, en met heel fijn mineraal, om de houten meubels een zo glad mogelijk resultaat te bekomen zonder de nerven teveel uit te stralen. De houten meubels worden altijd licht na geschuurd.
+
+Kleine beschadigingen of onregelmatigheden kunnen wij vaak ook repareren. Wij adviseren de houten meubels altijd een na behandeling te geven (b.v met een beits, vernis, olie, wax of verf), om de bescherming van het hout te optimaliseren. Wij kunnen deze taak ook perfect voor u uit handen nemen.
 
 {{< grids/gallery pattern="grit*.jpg" >}}
 
 > fijngritstralen met als eindbewerking verzinken en geel passiveren
 
-#### Glasparelstralen
+#### Fijn Zandstralen
 
-Dit geeft het materiaal een parelmoerachtige glans. Deze methode is bij uitstek geschikt voor uitwendige delen als carburateurs, cilinderkoppen, carterdelen, remnaven of Inox-lassen. Buiten de reiniging verdicht het oppervlak ook (Shot Peening) waardoor vuiligheid minder kans van hechting heeft. Met name voor roestvrijstaal en aluminium is dit de eindbewerking.
+Wij zijn gespecialiseerd in het fijn Zandstralen van metalen en giet (ijzeren) objecten, zonder vervorming van de ondergrond,
+dit met Luchtgomtechniek.
 
-Tevens hebben wij nauw contact met een gespecialiseerd poedercoater om poedercoat of natlak aan te kunnen brengen in elke gewenste kleur.
+Uiterst dun plaatwerk, fragiele componenten, auto/motor onderdelen, spruitstukken, natuursteen, spiegels, glaswerk, gietwerk, aluminium, koper etc... is allemaal geen enkel probleem.
 
 {{< grids/gallery pattern="Parelstralen*.jpg" >}}
 
-#### Voor Houten Meubelen
+#### Glasparelstralen
 
-Het Luchtgommen van hout gebeurd op hele lage druk, en met heel fijn mineraal, om de houten meubels een zo glad mogelijk resultaat te bekomen zonder de nerven teveel uit te stralen. De houten meubels worden altijd licht na geschuurd. kleine beschadigingen of onregelmatigheden kunnen wij  vaak ook repareren.
+Dit geeft het materiaal een parelmoerachtige glans. Deze methode is bij uitstek geschikt voor uitwendige delen als carburateurs, 
+cilinderkoppen, carterdelen, remnaven of Inox-lassen.
 
-Wij adviseren de houten meubels altijd een na behandeling te geven (b.v met een beits, vernis, olie, wax of verf), om de bescherming van het hout te optimaliseren. Wij kunnen deze taak ook perfect voor u uit handen nemen.
+Buiten de reiniging verdicht het oppervlak ook (Shot Peening) waardoor 
+vuiligheid minder kans van hechting heeft. Met name voor Inox en Aluminium is dit de eindbewerking.
 
 {{< grids/gallery pattern="Hout*.jpg" >}}
