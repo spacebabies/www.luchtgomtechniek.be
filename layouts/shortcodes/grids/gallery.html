@@ -1,7 +1,8 @@
 <article class="carousel-viewport">
 <div class="carousel">
     {{ range .Page.Resources.Match (.Get "pattern") }}
-    <img src="{{ .RelPermalink }}" alt="{{ .Title }}" title="{{ .Name }}" data-original="{{ .RelPermalink }}">
+    {{ $img := .Resize "1000x" }}
+    <img loading="lazy" src="{{ $img.RelPermalink }}" alt="{{ .Title }}" title="{{ .Name }}" data-original="{{ .RelPermalink }}">
     {{ end }}
 </div>
 </article>

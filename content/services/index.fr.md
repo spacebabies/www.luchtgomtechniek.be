@@ -10,19 +10,16 @@ Nous avons différentes cabines avec lesquelles nous pouvons rayonner toutes sor
 L'avantage de ceci est que les buses ne se réunissent jamais, de sorte que les erreurs de jet sont exclues par la contamination.
 
 De plus, nous pouvons également venir sur place pour les rayons d'essai, escaliers, cuisines ou parquet.
-{{< grids/gallery pattern="kabien*.jpg" >}}
 
-
-> Surfaces avec finition en poudre enduite de vernis. Une préparation pure est un must absolu.
+{{< grids/gallery pattern="intro/*.jpg" >}}
 
 #### Gommes à air
 
 Les gommes d'air du bois sont arrivées à très basse pression et avec des minéraux très fins, pour obtenir le mobilier en bois comme résultat glissant sans trop rayonner.Le mobilier en bois est toujours poncé.
 
 Nous pouvons souvent réparer de petits dommages ou des irrégularités.Nous conseillons toujours aux meubles en bois d'en donner un après traitement (par exemple avec une tache, un vernis, une huile, une cire ou une peinture) pour optimiser la protection du bois.Nous pouvons également prendre cette tâche parfaite pour vous.
-{{< grids/gallery pattern="grit*.jpg" >}}
 
-> grenaillage fin avec galvanisation et passivation jaune comme traitement final
+{{< grids/gallery pattern="ablage/*.jpg" >}}
 
 #### Sablage fin
 
@@ -31,7 +28,7 @@ Ceci avec la technologie Air Gom.
 
 Tôle extrêmement mince, composants fragiles, pièces de voiture / moteur, collecteurs, pierre naturelle, miroirs, verrerie, coulée, aluminium, cuivre, etc ... Est tout à fait aucun problème.
 
-{{< grids/gallery pattern="Parelstralen*.jpg" >}}
+{{< grids/gallery pattern="sand/*.jpg" >}}
 
 #### Des billes de verre
 
@@ -41,4 +38,4 @@ Têtes de cylindre, pièces carter, remnaves ou soudage en acier inoxydable.
 La surface compense également en dehors du nettoyage (coup de feu)
 Sale a moins de chances d'adhérence.C'est le traitement principal en particulier pour l'acier inoxydable et l'aluminium.
 
-{{< grids/gallery pattern="Hout*.jpg" >}}
+{{< grids/gallery pattern="glass/*.jpg" >}}

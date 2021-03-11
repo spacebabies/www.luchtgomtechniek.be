@@ -30,30 +30,10 @@ body {
 .clear {
   clear: both;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  text-rendering: optimizeLegibility;
-  line-height: 1;
-  margin-top: 0;
-  margin-bottom: 10px;
-  font-family: "Open Sans", sans-serif;
-}
-h3,
-h4,
-h5,
-h6 {
-  text-rendering: optimizeLegibility;
-  line-height: 120%;
-  margin-top: 0;
-  font-family: "Open Sans", sans-serif;
-  margin-bottom: 0%;
-}
 
 h1 {
+  font-family: "Open Sans", sans-serif;
+  text-rendering: optimizeLegibility;
   font-size: 5rem;
   line-height: 1.2em;
   letter-spacing: -2px;
@@ -61,6 +41,8 @@ h1 {
 }
 
 h2 {
+  font-family: "Open Sans", sans-serif;
+  text-rendering: optimizeLegibility;
   font-size: 4rem;
   line-height: 1.2em;
   letter-spacing: -1px;
@@ -68,18 +50,26 @@ h2 {
 }
 
 h3 {
+  font-family: "Open Sans", sans-serif;
+  text-rendering: optimizeLegibility;
   font-size: 3.5rem;
 }
 
 h4 {
+  font-family: "Open Sans", sans-serif;
+  text-rendering: optimizeLegibility;
   font-size: 3rem;
 }
 
 h5 {
+  font-family: "Open Sans", sans-serif;
+  text-rendering: optimizeLegibility;
   font-size: 2.5rem;
 }
 
 h6 {
+  font-family: "Open Sans", sans-serif;
+  text-rendering: optimizeLegibility;
   font-size: 2rem;
 }
 
