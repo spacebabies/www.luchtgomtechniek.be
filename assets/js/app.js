@@ -29,21 +29,26 @@ var changeLanguage = function (element) {
     if (!element) return;
 
     element.addEventListener('change', function (event) {
-        const location = window.location.pathname + window.location.hash;
-        const userLang = event.target.value;
+        var location = window.location.pathname + window.location.hash;
+        var userLang = event.target.value;
         document.cookie = `nf_lang = ${userLang}`;
         window.location.assign(location.replace(/^\/\w{2}/, `/${userLang}`));
     })
 }
 
-window.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function (event) {
     feather.replace({width: '1em', height: '1em'});
 
-    // element argument can be a selector string
-    //   for an individual element
-    new Flickity('.carousel', {
-        imagesLoaded: true,
-        percentPosition: false
+    var swipers = document.querySelectorAll(".swiper-container");
+    swipers.forEach(function(swipe) {
+        new Swiper(swipe, {
+            slidesPerView: 2,
+            spaceBetween: 0,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true
+            }
+        })
     });
 
     // Create cookie to get the Browser Language.

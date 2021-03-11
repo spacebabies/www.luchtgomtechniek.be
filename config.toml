@@ -74,6 +74,9 @@ defaultContentLanguageInSubdir = true
     source = "node_modules/feather-icons/dist"
     target = "assets/feather-icons"
   [[module.mounts]]
+    source = "node_modules/swiper"
+    target = "assets/swiper"
+  [[module.mounts]]
     source = "assets"
     target = "assets"
 

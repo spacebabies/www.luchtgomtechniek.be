@@ -1,7 +1,6 @@
 {{ $jquery := resources.Get "jquery/jquery.min.js" }}
 {{ $feather := resources.Get "feather-icons/feather.min.js" }}
 {{ $index := resources.Get "hugo-scroll/index.js" }}
-{{ $flickity := resources.Get "flickity/flickity.pkgd.js" }}
 {{ $app := resources.Get "js/app.js" }}
-{{ $js := slice $jquery $feather $index $flickity $app | resources.Concat "js/bundle.js" | fingerprint }}
+{{ $js := slice $jquery $feather $index $app | resources.Concat "js/bundle.js" | fingerprint }}
 <script type="text/javascript" src="{{ $js.RelPermalink }}"></script>

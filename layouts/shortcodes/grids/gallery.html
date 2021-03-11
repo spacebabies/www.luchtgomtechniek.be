@@ -1,8 +1,8 @@
-<article class="carousel-viewport">
-<div class="carousel">
+<!-- Flickity HTML init -->
+<div class="carousel"
+    data-flickity='{ "cellAlign": "left", "imagesLoaded": true, "percentPosition": false }'>
     {{ range .Page.Resources.Match (.Get "pattern") }}
     {{ $img := .Resize "1000x" }}
-    <img loading="lazy" src="{{ $img.RelPermalink }}" alt="{{ .Title }}" title="{{ .Name }}" data-original="{{ .RelPermalink }}">
+    <img src="{{ $img.RelPermalink }}" alt="{{ .Title }}">
     {{ end }}
 </div>
-</article>
