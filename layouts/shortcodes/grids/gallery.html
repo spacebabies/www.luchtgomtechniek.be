@@ -2,7 +2,6 @@
 <div class="carousel"
     data-flickity='{ "cellAlign": "left", "imagesLoaded": true, "percentPosition": false }'>
     {{ range .Page.Resources.Match (.Get "pattern") }}
-    {{ $img := .Resize "1000x" }}
-    <img src="{{ $img.RelPermalink }}" alt="{{ .Title }}">
+    <img src="{{ .RelPermalink }}" alt="{{ .Title }}">
     {{ end }}
 </div>
