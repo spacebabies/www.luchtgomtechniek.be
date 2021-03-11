@@ -1,3 +1,7 @@
+# Straalatelier
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e1d5e1a9-e4c5-415f-8c53-7beaa6b60cf9/deploy-status)](https://app.netlify.com/sites/straalatelier/deploys)
+
 # Install
 
 ```
