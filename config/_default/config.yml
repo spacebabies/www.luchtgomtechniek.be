@@ -10,3 +10,4 @@ enableGitInfo: true
 enableRobotsTXT: true
 defaultContentLanguage: nl
 defaultContentLanguageInSubdir: true
+timeout: 60000
