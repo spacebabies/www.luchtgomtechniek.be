@@ -1,0 +1,17 @@
+nl:
+  weight: 1
+  languageName: Nederlands
+  # Another "title" :-). This one is used as the site_name on the Hugo's internal
+  # opengraph structured data template.
+  # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
+  title: Straal Atelier Val-Meer - Voor het luchtgommen van houten meubels, reinigen van industriële stukken, gritstralen van (giet-)ijzeren objecten, auto-onderdelen en meer.
+  description: Voor het luchtgommen van houten meubels, reinigen van industriële stukken, gritstralen van (giet-)ijzeren objecten, auto-onderdelen en meer.
+  meta:
+    keywords: zandstralen, luchtgommen, parelstralen, reinigen, glasparel, bicarbonaat, spuiten, roest verwijderen, polijsten, aerogommage
+fr:
+  weight: 2
+  languageName: Français
+  title: Straal Atelier Val-Meer - Pour le gommage à l'air de meubles en bois, le nettoyage de pièces industrielles, le grenaillage d'objets en fonte (fonte), de pièces automobiles et plus encore
+  description: Pour le gommage à l'air de meubles en bois, le nettoyage de pièces industrielles, le grenaillage d'objets en fonte (fonte), de pièces automobiles et plus encore
+  meta:
+    keywords: sablage, sablage à la soude, gommage à l'air, grenaillage, perle de verre, bicarbonate de soude, pulvérisation, élimination de la rouille, polissage, aérogommage

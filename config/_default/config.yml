@@ -1,0 +1,12 @@
+baseURL: 'https://www.straalatelier.com/'
+title: Straal Atelier Val-Meer
+relativeURLs: false
+disableKinds:
+  - section
+  - taxonomy
+  - term
+disableHugoGeneratorInject: true
+enableGitInfo: true
+enableRobotsTXT: true
+defaultContentLanguage: nl
+defaultContentLanguageInSubdir: true

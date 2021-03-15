@@ -1,0 +1,11 @@
+mounts:
+  - source: node_modules/jquery/dist
+    target: assets/jquery
+  - source: node_modules/flickity/dist
+    target: assets/flickity
+  - source: node_modules/feather-icons/dist
+    target: assets/feather-icons
+  - source: node_modules/swiper
+    target: assets/swiper
+  - source: assets
+    target: assets
