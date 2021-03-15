@@ -2,12 +2,17 @@
 <div class="carousel"
     data-flickity='{ "cellAlign": "left", "imagesLoaded": true, "percentPosition": false }'>
     {{ range .Page.Resources.Match (.Get "pattern") }}
-    {{ $sm := .Resize "500x" }}
-    {{ $md := .Resize "1130x" }}
-    {{ $lg := .Resize "1500x" }}
+    {{ $sm := .Resize "200x" }}
+    {{ $md := .Resize "337x" }}
+    {{ $lg := .Resize "356x" }}
     <img
+        sizes="(max-width: 356px) 100vw, 356px"
         src="{{ $sm.RelPermalink }}"
-        srcset="{{ $sm.RelPermalink }} 500w, {{ $md.RelPermalink }} 1130w, {{ $lg.RelPermalink }} 1500w"
+        srcset="
+            {{ $sm.RelPermalink }} 200w, 
+            {{ $md.RelPermalink }} 337w, 
+            {{ $lg.RelPermalink }} 356w"
         alt="{{ .Title }}">
     {{ end }}
 </div>
+
