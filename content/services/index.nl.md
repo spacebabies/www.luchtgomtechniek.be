@@ -32,10 +32,8 @@ Uiterst dun plaatwerk, fragiele componenten, auto/motor onderdelen, spruitstukke
 
 ### Glasparelstralen
 
-Dit geeft het materiaal een parelmoerachtige glans. Deze methode is bij uitstek geschikt voor uitwendige delen als carburateurs, 
-cilinderkoppen, carterdelen, remnaven of Inox-lassen.
+Dit geeft het materiaal een parelmoerachtige glans. Deze methode is bij uitstek geschikt voor uitwendige delen als carburateurs, cilinderkoppen, carterdelen, remnaven of Inox-lassen.
 
-Buiten de reiniging verdicht het oppervlak ook (Shot Peening) waardoor 
-vuiligheid minder kans van hechting heeft. Met name voor Inox en Aluminium is dit de eindbewerking.
+Buiten de reiniging verdicht het oppervlak ook (Shot Peening) waardoor vuiligheid minder kans van hechting heeft. Met name voor Inox en Aluminium is dit de eindbewerking.
 
 {{< grids/gallery pattern="glass/*.jpg" >}}
