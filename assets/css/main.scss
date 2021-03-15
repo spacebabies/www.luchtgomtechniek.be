@@ -1,9 +1,6 @@
 @charset "UTF-8";
 
 {{ $hero := resources.Get "images/hero.jpg" | fingerprint }}
-{{ $oswaldLight := resources.Get "fonts/Oswald-Light.woff2" | fingerprint }}
-{{ $oswaldRegular := resources.Get "fonts/Oswald-Regular.woff2" | fingerprint }}
-{{ $oswaldBold := resources.Get "fonts/Oswald-Bold.woff2" | fingerprint }}
 
 /* Big cover image on the home page */
 #site-head {
@@ -22,30 +19,6 @@
 @import "normalize";
 @import "font-faces";
 @import "screen.scss";
-
-@font-face {
-  font-family: 'Oswald';
-  src: url({{ $oswaldLight.RelPermalink }}) format('woff2');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Oswald';
-  src: url({{ $oswaldBold.RelPermalink }}) format('woff2');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Oswald';
-  src: url({{ $oswaldRegular.RelPermalink }}) format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
 
 @import "friendly";
 @import "custom.scss";

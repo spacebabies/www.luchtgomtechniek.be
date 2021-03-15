@@ -2,7 +2,7 @@
         {{ range .Page.Resources.Match "instagram/*" }}
         <figure>
                 <img loading="lazy" src="{{ .RelPermalink }}" alt="{{ .Title }} "></img>
-                <figcaption>{{ .Title }}</figcaption>
+                <figcaption></figcaption>
         </figure>
         {{ end }}
 </section>
