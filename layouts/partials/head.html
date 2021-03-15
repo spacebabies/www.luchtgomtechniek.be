@@ -6,7 +6,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 {{ with getenv "NETLIFY_IMAGES_CDN_DOMAIN" }}<link rel="preconnect" href="https://{{ . }}">{{ end -}}
 
-{{ with .Site.Params.description }}<meta name="description" content="{{ . }}" />{{ end }}
+{{ with .Param "description" }}<meta name="description" content="{{ . }}" />{{ end }}
 {{ with .Site.Params.meta.keywords }}<meta name="keywords" content="{{ . }}" />{{ end }}
 
 {{ $options := (dict "outputStyle" "compressed" "enableSourceMap" true) }}

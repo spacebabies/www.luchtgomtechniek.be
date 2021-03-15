@@ -4,6 +4,7 @@ date: 2020-10-06
 publishDate: 2020-10-06
 weight: 30
 menu: header
+translationKey: quotation
 ---
 Vul onderstaand formulier in en u ontvangt binnen vijf werkdagen een
 vrijblijvende prijsopgave. Stuur indien mogelijk altijd een foto
