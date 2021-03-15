@@ -6,7 +6,7 @@
             <option {{ if eq $.Site.Language . }}selected {{ end }}value="{{ .Lang }}">{{ .LanguageName }}</option>
             {{ end }}
         </select>
-        <img src="/icon128px-gradient.png" alt="{{ $.Site.Language.LanguageName }}">
+        <img width="26" height="26" src="/icon128px-gradient.png" alt="{{ $.Site.Language.LanguageName }}">
     </label>
 </nav>
 {{ end }}

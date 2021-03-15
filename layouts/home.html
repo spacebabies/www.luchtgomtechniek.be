@@ -14,7 +14,7 @@
                 {{ with .Title }}<h1 class="blog-title">{{ . }}</h1>{{ end }}
                 {{ with .Params.header_subheadline }}<h2 class="blog-description">{{ . }}</h2>{{ end }}
 
-                <nav role="aria-navigation">
+                <nav role="menu">
                     {{ range .Site.Menus.header }}
                         <a class='btn site-menu' href="#{{ anchorize .Title }}" data-title-anchor='{{ anchorize .Title }}'>{{ .Title }}</a>
                     {{ end }}

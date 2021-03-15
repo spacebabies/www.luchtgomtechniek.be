@@ -14,7 +14,12 @@
   background-image: url({{ $hero.RelPermalink }});
   background-size: cover;
 }
-  
+
+.scrolly {
+  font-size: 400%;
+  padding-top: 1em;
+}
+
 @import "variables";
 @import "normalize";
 @import "font-faces";

@@ -39,18 +39,6 @@ var changeLanguage = function (element) {
 document.addEventListener('DOMContentLoaded', function (event) {
     feather.replace({width: '1em', height: '1em'});
 
-    var swipers = document.querySelectorAll(".swiper-container");
-    swipers.forEach(function(swipe) {
-        new Swiper(swipe, {
-            slidesPerView: 2,
-            spaceBetween: 0,
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true
-            }
-        })
-    });
-
     // Create cookie to get the Browser Language.
     // This should always run for CDN optimisation.
     if (!document.cookie.split('; ').find(row => row.startsWith('nf_lang'))) {
