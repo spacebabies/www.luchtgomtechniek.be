@@ -6,6 +6,10 @@ weight: 90
 menu: header
 ---
 
+E-mail: [info@straalatelier.com](mailto:thomasbaaij@gmail.com)
+
+Telefoon België: [+32 478 766843](tel:+32478766843)
+
 We zijn steeds bereikbaar voor al uw vragen. Op verzoek kunnen wij het
 werk komen ophalen en brengen, in België en Nederland.
 
@@ -18,9 +22,7 @@ Vijfkruisenstraat 11a
 B-3770 RIEMST  
 BELGIË
 
-E-mail: [thomasbaaij@gmail.com](mailto:thomasbaaij@gmail.com)
-
-Telefoon België: [+32 478 766843](tel:+32478766843)
+{{< maps/google >}}
 
 ### Instagram
 
@@ -31,3 +33,4 @@ Volg ons op Instagram om foto's te zien van ons werk.
 [**@straal_atelier**](https://www.instagram.com/straal_atelier/)
 
 {{< grids/instagram >}}
+

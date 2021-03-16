@@ -1,6 +1,2 @@
-{{ $jquery := resources.Get "jquery/jquery.min.js" }}
-{{ $feather := resources.Get "feather-icons/feather.min.js" }}
-{{ $index := resources.Get "hugo-scroll/index.js" }}
-{{ $app := resources.Get "js/app.js" }}
-{{ $js := slice $jquery $feather $index $app | resources.Concat "js/bundle.js" | minify | fingerprint }}
+{{ $js := resources.Get "js/index.js" | js.Build (dict "minify" true ) }}
 <script type="text/javascript" src="{{ $js.RelPermalink }}"></script>

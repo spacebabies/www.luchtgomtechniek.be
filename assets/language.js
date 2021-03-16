@@ -1,4 +1,4 @@
-var getFirstBrowserLanguage = function () {
+export function getFirstBrowserLanguage () {
     const defaultLanguage = 'nl';
 
     var nav = window.navigator,
@@ -25,7 +25,7 @@ var getFirstBrowserLanguage = function () {
     return defaultLanguage;
 }
 
-var changeLanguage = function (element) {
+export function changeLanguage (element) {
     if (!element) return;
 
     element.addEventListener('change', function (event) {
@@ -35,16 +35,3 @@ var changeLanguage = function (element) {
         window.location.assign(location.replace(/^\/\w{2}/, `/${userLang}`));
     })
 }
-
-document.addEventListener('DOMContentLoaded', function (event) {
-    feather.replace({width: '1em', height: '1em'});
-
-    // Create cookie to get the Browser Language.
-    // This should always run for CDN optimisation.
-    if (!document.cookie.split('; ').find(row => row.startsWith('nf_lang'))) {
-        const userLang = getFirstBrowserLanguage();
-        document.cookie = `nf_lang = ${userLang}`;
-    }
-
-    changeLanguage(document.querySelector('#changeLanguage'));
-});
