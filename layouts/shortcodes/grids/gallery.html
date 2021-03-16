@@ -1,14 +1,13 @@
 {{ $layer := resources.Get "images/overlay.png" }}
 
-<!-- Flickity HTML init -->
-<div class="carousel"
-    data-flickity='{ "cellAlign": "left", "imagesLoaded": true, "percentPosition": false }'>
+<div class="carousel">
     {{ range .Page.Resources.Match (.Get "pattern") }}
     {{ $img := .Resize "x400" }}
     {{ $x := sub $img.Width 80 }}
     {{ $img := $img | images.Filter ( images.Overlay $layer $x 300 ) }}
     <img
-        loading="lazy"
+        width="{{ $img.Width }}"
+        height="{{ $img.Height }}"
         src="{{ $img.RelPermalink }}"
         alt="{{ .Title }}">
     {{ end }}

@@ -1,5 +1,6 @@
 import jQuery from 'jquery';
 import feather from 'feather-icons';
+import Flickity from "flickity";
 import { changeLanguage, getFirstBrowserLanguage } from 'language';
 import { srcTo, srcToAnchorWithTitle } from 'scroll';
 
@@ -34,6 +35,14 @@ $(document)
         const $postholder = $(".post-holder");
         const $postafter = $(".post-after");
         const $sitehead = $("#site-head");
+
+        let carousels = document.querySelectorAll('.carousel');
+        carousels.forEach(function(element) {
+            new Flickity(element, {
+                cellAlign: 'left',
+                percentPosition: false
+            })
+        });
 
         $postholder.each(function (e) {
             if (e % 2 != 0) $(this).addClass("odd");

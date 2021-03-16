@@ -9,6 +9,7 @@
   "private": true,
   "dependencies": {
     "feather-icons": "^4.28.0",
+    "flickity": "^2.2.2",
     "jquery": "^3.5.1"
   }
 }
