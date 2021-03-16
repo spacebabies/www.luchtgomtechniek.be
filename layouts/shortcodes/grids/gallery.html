@@ -6,8 +6,6 @@
     {{ $x := sub $img.Width 80 }}
     {{ $img := $img | images.Filter ( images.Overlay $layer $x 300 ) }}
     <img
-        width="{{ $img.Width }}"
-        height="{{ $img.Height }}"
         src="{{ $img.RelPermalink }}"
         alt="{{ .Title }}">
     {{ end }}
