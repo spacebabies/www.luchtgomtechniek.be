@@ -16,7 +16,7 @@
 
                 <nav role="menu">
                     {{ range .Site.Menus.header }}
-                        <a class='btn site-menu' href="#{{ anchorize .Title }}" data-title-anchor='{{ anchorize .Title }}'>{{ .Title }}</a>
+                        <a role="menuitem" class='btn site-menu' href="#{{ anchorize .Title }}" data-title-anchor='{{ anchorize .Title }}'>{{ .Title }}</a>
                     {{ end }}
                 </nav>
 
