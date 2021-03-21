@@ -17,7 +17,7 @@ werk komen ophalen en brengen, in België en Nederland.
 
 Het atelier is enkel op afspraak te bezoeken:
 
-Straal Atelier Val-Meer  
+Straal Atelier Val-Meer _[vCard](straal-atelier-val-meer.vcf)_  
 Vijfkruisenstraat 11a  
 B-3770 RIEMST  
 BELGIË
