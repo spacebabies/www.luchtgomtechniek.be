@@ -10,3 +10,17 @@ label_werk:
   other: Photo de l'oeuvre (facultative).
 aria-lang-label:
   other: Schakel naar Nederlands
+share_facebook_title:
+  other: Dites à vos amis Facebook à propos de nous
+share_whatsapp_title:
+  other: Envoyez vos amis une AppJe à propos de nous
+share_pinterest_title:
+  other: Faire une planche Pinterest avec des objets émiettés
+share_email_title:
+  other: Envoyez vos amis un e-mail avec nos coordonnées
+share_twitter_title:
+  other: Créer un tweet sur nous
+share_linkedin_title:
+  other: Laissez vos amis sur LinkedIn à propos de nous
+share_intro:
+  other: Demandez à vos amis les boutons ci-dessous.Nos coordonnées sont déjà remplies.

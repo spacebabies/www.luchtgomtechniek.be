@@ -1,5 +1,5 @@
 {
-    "name": "Straal Atelier Val-Meer",
+    "name": "Straalatelier",
     "short_name": "Straalatelier",
     "icons": [
         {
@@ -13,6 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#bebcaf",
-    "background_color": "#bebcaf"
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
 }

@@ -33,4 +33,3 @@ Volg ons op Instagram om foto's te zien van ons werk.
 [**@straal_atelier**](https://www.instagram.com/straal_atelier/)
 
 {{< grids/instagram >}}
-
