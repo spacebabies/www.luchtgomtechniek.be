@@ -1,16 +1,15 @@
 <footer class="site-footer">
-  <div class="inner">
-    {{ with .Site.Params.copyright }}
-      <section class="copyright">{{ . | markdownify }}</section>{{ end }}
+	<div class="inner">
+		{{ with .Site.Params.copyright }}
+		<section class="copyright">{{ . | markdownify }}</section>
+		{{ end }}
 
-
-    <section>{{ echoParam .Site.Params "hidebyline" }}</section>
-    {{ if ne .Site.Params.hidedesignbyline true }}
-      <section>
-        <a href="https://github.com/janraasch/hugo-scroll/">Design</a> template
-        built with ♥️ by
-        <a href="https://www.janraasch.com" title="Jan Raasch">Jan Raasch</a>
-      </section>{{ end }}
-
-  </div>
+		<section>{{ echoParam .Site.Params "hidebyline" }}</section>
+		{{ if ne .Site.Params.hidedesignbyline true }}
+		<section>
+			built with 🔥 by
+			<a target="_blank" href="https://www.spacebabies.nl" title="Space Babies">Space Babies</a>
+		</section>
+		{{ end }}
+	</div>
 </footer>

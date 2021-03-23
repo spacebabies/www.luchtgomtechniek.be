@@ -59,7 +59,7 @@ Vijfkruisenstraat 11a
 B-3770 RIEMST  
 BELGIË
 
-_[Toevoegen aan contacten](straal-atelier-val-meer.vcf)_
+_[Toevoegen aan contacten](/straal-atelier-val-meer.vcf)_
 
 {{< maps/google >}}
 
