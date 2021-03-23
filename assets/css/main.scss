@@ -4,27 +4,50 @@
 
 /* Big cover image on the home page */
 #site-head {
-  position: relative;
-  display: table;
-  height: 100vh;
-  width: 100%;
-  margin-bottom: 0;
-  text-align: center;
-  color: #fff;
-  background-image: url({{ $hero.RelPermalink }});
-  background-size: cover;
+	position: relative;
+	display: table;
+	height: 100vh;
+	width: 100%;
+	margin-bottom: 0;
+	text-align: center;
+	color: #fff;
+	background-image: url({{ $hero.RelPermalink }});
+	background-size: cover;
+}
+
+@keyframes vertical {
+	0%,
+	100%,
+	60%,
+	80% {
+		transform: translateY(0);
+	}
+	20% {
+		transform: translateY(-5px);
+	}
+	40% {
+		transform: translateY(20px);
+	}
 }
 
 .scrolly {
-  font-size: 400%;
-  padding-top: 1em;
+	font-size: 400%;
+	padding-top: 1em;
+	opacity: 0.6;
+	animation: vertical 3s ease infinite;
+  transition: opacity 1s ease-out;
+
+  &:hover {
+    opacity: 1;
+  }
 }
 
-@import "variables";
-@import "normalize";
-@import "font-faces";
-@import "instagram";
-@import "screen.scss";
-@import "embed";
-@import "friendly";
-@import "custom.scss";
+@import 'variables';
+@import 'normalize';
+@import 'font-faces';
+@import 'instagram';
+@import 'grid';
+@import 'screen.scss';
+@import 'embed';
+@import 'friendly';
+@import 'custom.scss';

@@ -434,6 +434,9 @@ a.fn-item.active {
 .post-after.even {
   left: 6%;
 }
+.post-after:last-of-type {
+  display: none;
+}
 
 .post-title {
   margin: 0;
