@@ -1,8 +1,20 @@
-<section class="grid instagrid">
-        {{ range .Page.Resources.Match "instagram/*" }}
-        <figure>
-                <img loading="lazy" src="{{ .RelPermalink }}" alt="{{ .Title }} "></img>
-                <figcaption></figcaption>
-        </figure>
-        {{ end }}
+<section class="instagram-ours">
+	{{ range .Page.Resources.Match "instagram/*.jpg" }}
+	<blockquote class="instagram-media">
+		<div class="instagram-wrapper">
+			<a rel="nofollow" href="{{ .Params.permalink }}" target="_blank">
+				<header>
+					<img
+						alt="Profielfoto van straal_atelier"
+						class="instagram-avatar"
+						src="/nl/contact/straal_atelier.jpg"
+					/>
+					<h4>straal_atelier</h4>
+				</header>
+				<img class="instagram-photo" src="{{ .RelPermalink }}" alt="{{ .Title }}">
+				<p>{{ .Params.description }}</p>
+			</a>
+		</div>
+	</blockquote>
+	{{ end }}
 </section>

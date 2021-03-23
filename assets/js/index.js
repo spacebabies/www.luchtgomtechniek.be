@@ -113,9 +113,6 @@ $(document)
                 });
             }
 
-            $("blockquote p").prepend('<span data-feather="message-square" class="quo"></span>');
-            // $("blockquote p").append('<span class="quo fa fa-quote-right"></span>');
-
             feather.replace({
                 width: '1em',
                 height: '1em'
