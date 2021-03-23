@@ -30,3 +30,6 @@ force = true
 
 [[plugins]]
 package = "netlify-plugin-is-website-vulnerable"
+
+[[plugins]]
+package = "netlify-plugin-checklinks"
