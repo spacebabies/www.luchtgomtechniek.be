@@ -5,10 +5,10 @@
 <body>
     {{ partial "header.html" . }}
     {{ block "main" . }}{{ end }}
-    {{ partial "footer.html" . }}
+    {{ partialCached "footer.html" . }}
     {{ partial "custom_body.html" . }}
-    {{ partial "scripts.html" . }}
-    {{ partial "languages.html" . }}
+    {{ partialCached "scripts.html" . }}
+    {{ partialCached "languages.html" . }}
 </body>
 
 </html>

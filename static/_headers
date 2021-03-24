@@ -4,7 +4,6 @@
   Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
   X-Content-Type-Options: nosniff
   X-Frame-Options: SAMEORIGIN
-  Content-Security-Policy-Report-Only: default-src 'self' fonts.gstatic.com www.google.com 'unsafe-inline' fonts.googleapis.com unpkg.com; font-src fonts.gstatic.com; img-src 'self'; script-src-elem 'self'; style-src-attr 'unsafe-inline'; style-src-elem 'self' fonts.googleapis.com unpkg.com; connect-src 'self'; manifest-src 'self'; report-uri https://spacebabies.report-uri.com/r/d/csp/wizard
   Report-To: {"group":"default","max_age":31536000,"endpoints":[{"url":"https://spacebabies.report-uri.com/a/d/g"}],"include_subdomains":true}
 
 /site.webmanifest
