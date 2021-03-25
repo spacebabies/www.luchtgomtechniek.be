@@ -1,6 +1,6 @@
-<section class="grid gallerygrid">
+<aside class="grid gallerygrid">
 	{{ range .Page.Resources.Match "instagram/*.jpg" }}
-	<blockquote class="instagram-media">
+	<blockquote class="instagram-media" cite="{{ .Params.permalink }}">
 		<div class="instagram-wrapper">
 			<a rel="nofollow" href="{{ .Params.permalink }}" target="_blank">
 				<header>
@@ -17,4 +17,4 @@
 		</div>
 	</blockquote>
 	{{ end }}
-</section>
+</aside>

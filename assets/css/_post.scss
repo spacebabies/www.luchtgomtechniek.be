@@ -1,0 +1,259 @@
+/* Every post, on every page, gets this style on its <article> tag */
+.post {
+	position: relative;
+	width: 80%;
+	max-width: 700px;
+	margin: 0rem auto;
+	padding-bottom: 4rem;
+	padding-top: 4rem;
+	height: 70%;
+	word-break: break-word;
+	hyphens: auto;
+}
+
+.post-holder {
+	min-height: 80vh;
+	width: 100%;
+	background: #f2efe8;
+	position: relative;
+	padding-top: 20px;
+
+	&.odd {
+		background: $col60;
+		color: white;
+
+		figcaption {
+			color: #aaa;
+		}
+	}
+	figure {
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+	figcaption {
+		font-style: italic;
+		font-size: 90%;
+		color: #777;
+	}
+}
+
+.post-after {
+	position: absolute;
+	bottom: -40px;
+	right: 6%;
+	z-index: 1;
+	width: 0;
+	height: 0;
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	border-top: 50px solid #f2efe8;
+	border-radius: 25px;
+
+	&.even {
+		left: 6%;
+	}
+
+	&:last-of-type {
+		display: none;
+	}
+	.post-title {
+		margin: 0;
+	}
+}
+
+.post-title {
+	a {
+		text-decoration: none;
+	}
+}
+
+.post-excerpt {
+	p {
+		margin: 1.6rem 0 0 0;
+		font-size: 0.9em;
+		line-height: 1.6em;
+	}
+}
+
+.post-meta {
+	display: inline-block;
+	margin: 0 0 5px 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5rem;
+	color: #9eabb3;
+
+	a {
+		color: #9eabb3;
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+/* Tweak the .post wrapper style */
+.post-template {
+	.post {
+		margin-top: 0;
+		border-bottom: none;
+		padding-bottom: 0;
+
+		&:after {
+			display: none;
+		}
+	}
+
+	.post-header {
+		padding: 40px 0;
+		padding: 60px 0;
+	}
+}
+
+/* Keep large images within the bounds of the post-width */
+.post-content {
+	p img {
+		display: block;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+}
+
+/* The author credit area after the post */
+.post-footer {
+	position: relative;
+	margin: 4rem 0 0 0;
+	padding: 4rem 0 0 0;
+	border-top: #ebf2f6 1px solid;
+
+	h4 {
+		font-size: 1.8rem;
+		margin: 0;
+	}
+
+	p {
+		margin: 1rem 0;
+		font-size: 1.4rem;
+		line-height: 1.6em;
+	}
+
+	.author {
+		margin-right: 180px;
+	}
+
+	.share {
+		position: absolute;
+		top: 4rem;
+		right: 0;
+		width: 140px;
+
+		a {
+			font-size: 1.8rem;
+			display: inline-block;
+			margin: 1.4rem 1.6rem 1.6rem 0;
+			color: #bbc7cc;
+
+			&:hover {
+				color: #50585d;
+			}
+		}
+	}
+}
+
+a.fn-item.active {
+	.post-holder {
+		padding-top: 20px;
+	}
+	.post {
+		width: auto;
+		margin-left: 16px;
+		margin-right: 16px;
+		font-size: 0.9em;
+		line-height: 1.6em;
+	}
+
+	.post-template .post {
+		padding-bottom: 0;
+	}
+	.post-template .post-header {
+		padding: 30px 0;
+	}
+	.post-meta {
+		font-size: 1.3rem;
+	}
+	.post-footer {
+		padding: 4rem 0;
+		text-align: center;
+
+		.author {
+			margin: 0 0 2rem 0;
+			padding: 0 0 1.6rem 0;
+			border-bottom: #ebf2f6 1px dashed;
+		}
+		.share {
+			position: static;
+			width: auto;
+
+			a {
+				margin: 1.4rem 0.8rem 0 0.8rem;
+			}
+		}
+	}
+	.older-posts,
+	.newer-posts {
+		position: static;
+		margin: 10px 0;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.post {
+		width: auto;
+		margin-left: 16px;
+		margin-right: 16px;
+		font-size: 0.8em;
+		line-height: 1.6em;
+	}
+
+	.post-template .post {
+		padding-bottom: 0;
+	}
+
+	.post-template .post-header {
+		padding: 30px 0;
+	}
+
+	.post-meta {
+		font-size: 1.3rem;
+	}
+
+	.post-footer {
+		padding: 4rem 0;
+		text-align: center;
+	}
+
+	.post-footer .author {
+		margin: 0 0 2rem 0;
+		padding: 0 0 1.6rem 0;
+		border-bottom: #ebf2f6 1px dashed;
+	}
+
+	.post-footer .share {
+		position: static;
+		width: auto;
+	}
+
+	.post-footer .share a {
+		margin: 1.4rem 0.8rem 0 0.8rem;
+	}
+
+	.older-posts,
+	.newer-posts {
+		position: static;
+		margin: 10px 0;
+	}
+
+	.post-holder {
+		padding-top: 20px;
+	}
+}
