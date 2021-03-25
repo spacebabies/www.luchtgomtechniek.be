@@ -2,7 +2,7 @@
     <header id="site-head">
         {{ range .Resources.Match "slide*" }}
             {{ $img := .Resize "1200x" | fingerprint }}
-            <link rel="enclosure" type="{{ $img.MediaType }}" href="{{ $img.RelPermalink }}">
+            <link rel="prefetch enclosure" type="{{ $img.MediaType }}" href="{{ $img.RelPermalink }}">
         {{ end }}
 
         <div class="vertical">
@@ -11,10 +11,12 @@
                 {{ with .Title }}<h1 class="blog-title">{{ . }}</h1>{{ end }}
                 {{ with .Site.Params.slogan }}<h2 class="blog-description">{{ . }}</h2>{{ end }}
 
-                <nav role="menu">
+                <nav id="main-menu">
+                    <ul>
                     {{ range .Site.Menus.header }}
-                        <a role="menuitem" class='btn site-menu' href="#{{ anchorize .Title }}" data-title-anchor='{{ anchorize .Title }}'>{{ .Title }}</a>
+                       <li><a class='btn' href="#{{ anchorize .Title }}" data-title-anchor='{{ anchorize .Title }}'>{{ .Title }}</a></li>
                     {{ end }}
+                    </ul>
                 </nav>
 
                 <div class="scrolly">
@@ -33,9 +35,9 @@
                     <header class="post-header">
                         <h2 class="post-title">{{ .Title }}</h2>
                     </header>
-                    <section class="post-content">
+                    <div class="post-content">
                         {{ .Content }}
-                    </section>
+                    </div>
                 </article>
                 <div class='post-after'></div>
             </div>

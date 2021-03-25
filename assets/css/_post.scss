@@ -112,6 +112,19 @@
 
 /* Keep large images within the bounds of the post-width */
 .post-content {
+	p,
+	ul,
+	ol {
+		margin: 1em 0;
+	}
+
+	ol ol,
+	ul ul,
+	ul ol,
+	ol ul {
+		margin: 0.4em 0;
+	}
+
 	p img {
 		display: block;
 		max-width: 100%;

@@ -84,47 +84,48 @@ a:hover {
 }
 
 a.btn {
-  font-size: .8em;
-  line-height: 1;
 	text-decoration: none;
 	background-color: $col30;
 	border-radius: 6px;
 	color: white;
 	display: inline-block;
 	letter-spacing: 1px;
-	margin: 0;
-	overflow: visible;
-	padding: .4em .6em .6em .6em;
+	padding: 1em 0.6em 1em 0.6em;
 	position: relative;
-  margin: 1em;
-  margin-left: 0;
-	cursor: pointer;
 	font-weight: lighter;
 
 	&:hover {
 		background: $col40;
 	}
-
-  &.site-menu {
-    font-size: 1em;
-	padding: .6em .6em .6em .6em;
-    text-transform: uppercase;
-	font-family: 'Oswald', sans-serif;
-  margin: 4em 1em 1em 1em;
-  }
 }
 
-p,
-ul,
-ol {
-	margin: 1em 0;
-}
+nav#main-menu {
+	padding: 15% 0 15% 0;
 
-ol ol,
-ul ul,
-ul ol,
-ol ul {
-	margin: 0.4em 0;
+	ul {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: 2em;
+		justify-content: center;
+		margin: 0;
+		padding: 0;
+	}
+
+	li {
+		margin: 0;
+	}
+
+	li > a {
+		font-size: 1em;
+		padding: 0.6em 1em 0.6em 1em;
+		text-transform: uppercase;
+		font-family: 'Oswald', sans-serif;
+
+		&:hover {
+			background: $col50;
+		}
+	}
 }
 
 hr {
@@ -348,10 +349,11 @@ ul li {
 
 /* The details of your blog. Defined in ghost/settings/ */
 .blog-title {
-	margin: 10px 0 10px 0;
+	margin: 10px 0 1em 0;
 	font-size: 5rem;
 	letter-spacing: -1px;
 	background-color: $col70;
+	opacity: 0.9;
 	line-height: 8rem;
 }
 
@@ -362,7 +364,7 @@ ul li {
 	font-weight: 400;
 	font-family: 'Roboto Slab', serif;
 	letter-spacing: 0;
-	text-shadow: 0 0 10px rgba(31, 35, 38, 0.8);
+	text-shadow: 0 0 6px $col80;
 }
 
 .fixed-nav {
@@ -393,8 +395,6 @@ a.fn-item.active {
 	color: #86c440;
 	opacity: 1;
 }
-
-
 
 .user-meta {
 	position: relative;
@@ -442,7 +442,6 @@ a.fn-item.active {
 /* ==========================================================================
       5. Single Post - When you click on an individual post
       ========================================================================== */
-
 
 /* ==========================================================================
       6. Third Party Elements - Embeds from other services
@@ -735,7 +734,6 @@ a.fn-item.active {
 	h4 {
 		font-size: 2.3rem;
 	}
-
 
 	.page-number {
 		display: block;
