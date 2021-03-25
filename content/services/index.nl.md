@@ -4,6 +4,15 @@ weight: 2
 date: 2020-10-06
 publishDate: 2020-10-06
 menu: header
+resources:
+- src: intro/*.jpg
+  title: Een foto van een van onze zandstraalcabines.
+- src: ablage/*.jpg
+  title: Resultaat na luchtgommen van hout.
+- src: sand/*.jpg
+  title: Resultaat van fijn zandstralen van metalen en giet (ijzeren) objecten.
+- src: glas/*.jpg
+  title: Resultaat van glasparelstralen, wat een parelmoerachtige glans geeft.
 ---
 
 We hebben verschillende cabines waarmee we allerhande objecten kunnen stralen,
@@ -23,8 +32,7 @@ Kleine beschadigingen of onregelmatigheden kunnen wij vaak ook repareren. Wij ad
 
 ### Fijn Zandstralen
 
-Wij zijn gespecialiseerd in het fijn Zandstralen van metalen en giet (ijzeren) objecten, zonder vervorming van de ondergrond,
-dit met Luchtgomtechniek.
+Wij zijn gespecialiseerd in het fijn Zandstralen van metalen en giet (ijzeren) objecten, zonder vervorming van de ondergrond, dit met Luchtgomtechniek.
 
 Uiterst dun plaatwerk, fragiele componenten, auto/motor onderdelen, spruitstukken, natuursteen, spiegels, glaswerk, gietwerk, aluminium, koper etc... is allemaal geen enkel probleem.
 
