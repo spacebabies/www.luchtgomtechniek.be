@@ -23,7 +23,7 @@
 		color: white;
 
 		figcaption {
-			color: #aaa;
+			color: $col40;
 		}
 	}
 	figure {
@@ -33,7 +33,7 @@
 	figcaption {
 		font-style: italic;
 		font-size: 90%;
-		color: #777;
+		color: $col50;
 	}
 }
 
@@ -75,23 +75,6 @@
 	}
 }
 
-.post-meta {
-	display: inline-block;
-	margin: 0 0 5px 0;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 1.5rem;
-	color: #9eabb3;
-
-	a {
-		color: #9eabb3;
-		text-decoration: none;
-
-		&:hover {
-			text-decoration: underline;
-		}
-	}
-}
-
 /* Tweak the .post wrapper style */
 .post-template {
 	.post {
@@ -112,20 +95,20 @@
 
 /* Keep large images within the bounds of the post-width */
 .post-content {
-	p,
-	ul,
-	ol {
+	> p,
+	> ul,
+	> ol {
 		margin: 1em 0;
 	}
 
-	ol ol,
-	ul ul,
-	ul ol,
-	ol ul {
+	> ol ol,
+	> ul ul,
+	> ul ol,
+	> ol ul {
 		margin: 0.4em 0;
 	}
 
-	p img {
+	> p img {
 		display: block;
 		max-width: 100%;
 		margin: 0 auto;
@@ -153,24 +136,6 @@
 	.author {
 		margin-right: 180px;
 	}
-
-	.share {
-		position: absolute;
-		top: 4rem;
-		right: 0;
-		width: 140px;
-
-		a {
-			font-size: 1.8rem;
-			display: inline-block;
-			margin: 1.4rem 1.6rem 1.6rem 0;
-			color: #bbc7cc;
-
-			&:hover {
-				color: #50585d;
-			}
-		}
-	}
 }
 
 a.fn-item.active {
@@ -191,9 +156,6 @@ a.fn-item.active {
 	.post-template .post-header {
 		padding: 30px 0;
 	}
-	.post-meta {
-		font-size: 1.3rem;
-	}
 	.post-footer {
 		padding: 4rem 0;
 		text-align: center;
@@ -202,14 +164,6 @@ a.fn-item.active {
 			margin: 0 0 2rem 0;
 			padding: 0 0 1.6rem 0;
 			border-bottom: #ebf2f6 1px dashed;
-		}
-		.share {
-			position: static;
-			width: auto;
-
-			a {
-				margin: 1.4rem 0.8rem 0 0.8rem;
-			}
 		}
 	}
 	.older-posts,
@@ -236,10 +190,6 @@ a.fn-item.active {
 		padding: 30px 0;
 	}
 
-	.post-meta {
-		font-size: 1.3rem;
-	}
-
 	.post-footer {
 		padding: 4rem 0;
 		text-align: center;
@@ -249,15 +199,6 @@ a.fn-item.active {
 		margin: 0 0 2rem 0;
 		padding: 0 0 1.6rem 0;
 		border-bottom: #ebf2f6 1px dashed;
-	}
-
-	.post-footer .share {
-		position: static;
-		width: auto;
-	}
-
-	.post-footer .share a {
-		margin: 1.4rem 0.8rem 0 0.8rem;
 	}
 
 	.older-posts,

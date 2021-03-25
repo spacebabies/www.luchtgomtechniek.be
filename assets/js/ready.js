@@ -93,7 +93,6 @@ $(document)
 		var $post = $('.post');
 		var $first = $('.post.first');
 		var $last = $('.post.last');
-		var $fnav = $('.fixed-nav');
 		var $postholder = $('.post-holder');
 		var $postafter = $('.post-after');
 		var $sitehead = $('#site-head');
@@ -123,7 +122,6 @@ $(document)
 			var t = $(this).text();
 			var index = $(this).parents('.post-holder').index();
 
-			$fnav.append("<a class='fn-item' item_index='" + index + "'>" + t + '</a>');
 			$('.fn-item').click(function () {
 				var i = $(this).attr('item_index');
 				var s = $(".post[item_index='" + i + "']");
@@ -144,12 +142,6 @@ $(document)
 				var w = $(window).scrollTop();
 				var g = $sitehead.offset().top;
 				var h = $sitehead.offset().top + $sitehead.height() - 100;
-
-				if (w >= g && w <= h) {
-					$('.fixed-nav').fadeOut('fast');
-				} else if ($(window).width() > 500) {
-					$('.fixed-nav').fadeIn('fast');
-				}
 
 				$post.each(function () {
 					var f = $(this).offset().top;
