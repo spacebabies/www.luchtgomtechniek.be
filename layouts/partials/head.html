@@ -7,11 +7,12 @@
 {{ with getenv "NETLIFY_IMAGES_CDN_DOMAIN" }}<link rel="preconnect" href="https://{{ . }}">{{ end -}}
 
 {{ $options := (dict "outputStyle" "compressed" "enableSourceMap" true) }}
-{{ $style := resources.Get "css/main.scss" | resources.ExecuteAsTemplate "main.scss" . | toCSS $options | fingerprint }}
+{{ $style := resources.Get "css/main.scss" | toCSS $options | fingerprint }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
 
 {{ $fl := resources.Get "flickity/flickity.css" }}
-{{ $vendorcss := slice $fl | resources.Concat "vendor.css" | minify | fingerprint }}
+{{ $vg := resources.Get "vegas/vegas.css" }}
+{{ $vendorcss := slice $fl $vg | resources.Concat "vendor.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $vendorcss.RelPermalink }}" integrity="{{ $vendorcss.Data.Integrity }}">
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">

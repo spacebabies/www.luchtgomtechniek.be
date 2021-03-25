@@ -1,0 +1,22 @@
+.h-card {
+  .invisible {
+    display: none;
+  }
+
+  .p-name {
+    display: block;
+    font-weight: bold;
+  }
+
+  .p-street-address {
+    display: block;
+  }
+
+  .p-postal-code {
+    margin-right: .5em;
+  }
+
+  .p-country-name {
+    display: block;
+  }
+}

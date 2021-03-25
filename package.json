@@ -10,6 +10,8 @@
   "dependencies": {
     "feather-icons": "^4.28.0",
     "flickity": "^2.2.2",
-    "jquery": "^3.5.1"
+    "flickity-fade": "^1.0.0",
+    "jquery": "^3.5.1",
+    "vegas": "^2.5.4"
   }
 }

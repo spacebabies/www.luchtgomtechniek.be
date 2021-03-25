@@ -1,8 +1,6 @@
-img[src="IG_Glyph_Fill.png"] {
-    width: 100px;
-    height: 100px;
-    float: right;
-    margin-bottom: 2em;
+h3 > img {
+    width: 1em;
+    height: 1em;
 }
 
 .post-holder.odd {
@@ -244,14 +242,10 @@ article.sharingbuttons {
     margin-bottom: 3em;
 }
 
-
-
 label input {
     display: block;
     width: 95%;
 }
-
-
 
 nav.change-language {
     position: fixed;
@@ -289,6 +283,21 @@ nav.change-language li {
 .carousel img {
     display: block;
     height: 200px;
+}
+
+.skip-link {
+	background: $col80;
+	color: $col30;
+	text-decoration: none;
+	left: 50%;
+	padding: 4px 16px 4px 16px;
+	position: absolute;
+	transform: translateY(-100%);
+	transition: transform 0.3s;
+
+	&:focus {
+		transform: translateY(0%);
+	}
 }
 
 @media screen and ( min-width: 768px ) {

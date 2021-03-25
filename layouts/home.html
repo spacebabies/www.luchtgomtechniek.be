@@ -1,12 +1,9 @@
 {{ define "main" }}
     <header id="site-head">
-        <div>
-            {{ range $index, $resource := .Resources.Match "slide*" }}
-            <div class="image">
-                <img data-lazy="{{ $resource.RelPermalink }} " alt="">
-            </div>
-            {{ end }}
-        </div>
+        {{ range .Resources.Match "slide*" }}
+            {{ $img := .Resize "1200x" | fingerprint }}
+            <link rel="enclosure" type="{{ $img.MediaType }}" href="{{ $img.RelPermalink }}">
+        {{ end }}
 
         <div class="vertical">
             <div id="site-head-content" class="inner">

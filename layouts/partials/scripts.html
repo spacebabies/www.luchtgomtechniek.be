@@ -1,2 +1,7 @@
-{{ $js := resources.Get "js/index.js" | js.Build (dict "minify" true ) }}
-<script type="text/javascript" src="{{ $js.RelPermalink }}"></script>
+{{ $jquery := resources.Get "jquery/jquery.js" }}
+{{ $vegas := resources.Get "vegas/vegas.js" }}
+{{ $feather := resources.Get "feather-icons/feather.js" }}
+{{ $flickity := resources.Get "flickity/flickity.pkgd.js" }}
+{{ $ready := resources.Get "js/ready.js" }}
+{{ $js := slice $jquery $vegas $feather $flickity $ready | resources.Concat "app.js" | minify | fingerprint }}
+<script type="text/javascript" src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>

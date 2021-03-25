@@ -30,14 +30,22 @@ feather-icons@^4.28.0:
     classnames "^2.2.5"
     core-js "^3.1.3"
 
-fizzy-ui-utils@^2.0.7:
+fizzy-ui-utils@^2.0.0, fizzy-ui-utils@^2.0.7:
   version "2.0.7"
   resolved "https://registry.yarnpkg.com/fizzy-ui-utils/-/fizzy-ui-utils-2.0.7.tgz#7df45dcc4eb374a08b65d39bb9a4beedf7330505"
   integrity sha512-CZXDVXQ1If3/r8s0T+v+qVeMshhfcuq0rqIFgJnrtd+Bu8GmDmqMjntjUePypVtjHXKJ6V4sw9zeyox34n9aCg==
   dependencies:
     desandro-matches-selector "^2.0.0"
 
-flickity@^2.2.2:
+flickity-fade@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/flickity-fade/-/flickity-fade-1.0.0.tgz#3f613cd07c7afddef193936832932ff296ade135"
+  integrity sha512-5iXHN+nqjQcph6fqOw+/wAr0FHxIrcVQyKfwyVoI325CYrl9sVsx7cr6cyAih9sDYiUCGzrM6OykG7mSb5LPMg==
+  dependencies:
+    fizzy-ui-utils "^2.0.0"
+    flickity "^2.2.0"
+
+flickity@^2.2.0, flickity@^2.2.2:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/flickity/-/flickity-2.2.2.tgz#29597ac4d9b81938a58610a0eeb9db915508063d"
   integrity sha512-yiPMuP8tw/zN7ARgeSLZNvzK11GkzI2mp/zlYBsyttguSCROAqxj6wiN2sSfPfW3xMG3hcUHxWUXNQMlk/wYcg==
@@ -72,3 +80,8 @@ unipointer@^2.3.0:
   integrity sha512-m85sAoELCZhogI1owtJV3Dva7GxkHk2lI7A0otw3o0OwCuC/Q9gi7ehddigEYIAYbhkqNdri+dU1QQkrcBvirQ==
   dependencies:
     ev-emitter "^1.0.1"
+
+vegas@^2.5.4:
+  version "2.5.4"
+  resolved "https://registry.yarnpkg.com/vegas/-/vegas-2.5.4.tgz#8c6e499bbf0642b1d4b9ed626c9d3c9006ea0ee5"
+  integrity sha512-YwOeugnpDmlPoGUfr5h4CPpFJM5v1Uwbjah1+srewP58JEzHUkBjydEbwAGa9lIaeRnkLhC7Gc7+1vaBgxpURw==

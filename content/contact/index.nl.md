@@ -54,17 +54,12 @@ werk komen ophalen en brengen, in België en Nederland.
 
 Het atelier is enkel op afspraak te bezoeken:
 
-Straal Atelier Val-Meer
-Vijfkruisenstraat 11a  
-B-3770 RIEMST  
-BELGIË
-
-_[Toevoegen aan contacten](/straal-atelier-val-meer.vcf)_
+{{< microformats/h-card >}}
 
 {{< maps/google >}}
 
-### Instagram
+### Instagram ![instagram logo](/IG_Glyph_Fill.png "Volg @straal_atelier op Instagram")
 
-Volg [**@straal_atelier**](https://www.instagram.com/straal_atelier/) op Instagram om foto's te zien van ons werk.
+Volg [**@straal_atelier**](https://www.instagram.com/straal_atelier/) om foto's te zien van ons werk.
 
 {{< grids/instagram >}}

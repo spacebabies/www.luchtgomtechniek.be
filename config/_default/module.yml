@@ -5,5 +5,7 @@ mounts:
     target: assets/feather-icons
   - source: node_modules/flickity/dist
     target: assets/flickity
+  - source: node_modules/vegas/dist
+    target: assets/vegas
   - source: assets
     target: assets

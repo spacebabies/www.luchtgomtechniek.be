@@ -4,12 +4,9 @@
 		<section class="copyright">{{ . | markdownify }}</section>
 		{{ end }}
 
-		<section>{{ echoParam .Site.Params "hidebyline" }}</section>
-		{{ if ne .Site.Params.hidedesignbyline true }}
 		<section>
 			built with 🔥 by
 			<a target="_blank" href="https://www.spacebabies.nl" title="Space Babies">Space Babies</a>
 		</section>
-		{{ end }}
 	</div>
 </footer>
