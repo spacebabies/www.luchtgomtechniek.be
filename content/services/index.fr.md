@@ -4,6 +4,15 @@ weight: 2
 date: 2020-10-06
 publishDate: 2020-10-06
 menu: header
+resources:
+- src: intro/*.jpg
+  title: Une photo de l'une de nos cabines de sablage.
+- src: ablage/*.jpg
+  title: Résultat après des gommes à air de bois.
+- src: sand/*.jpg
+  title: Résultat d'un sable fin de métaux et d'objets (fer).
+- src: glas/*.jpg
+  title: Résultat de perles de verre, qui donne une brillance de nacre.
 ---
 
 Nous avons différentes cabines avec lesquelles nous pouvons rayonner toutes sortes d'objets,
