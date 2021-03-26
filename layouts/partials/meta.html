@@ -3,7 +3,7 @@
 {{ template "_internal/opengraph.html" . -}}
 {{ template "_internal/twitter_cards.html" . -}}
 
-<meta name="msapplication-TileColor" content="#b91d47">
+<meta name="msapplication-config" content="{{ "IEconfig.xml" | relURL }}">
 <meta name="theme-color" content="#bebcaf">
 {{ with .Param "description" }}<meta name="description" content="{{ . }}" />{{ end }}
 {{ with .Site.Params.meta.keywords }}<meta name="keywords" content="{{ . }}" />{{ end }}

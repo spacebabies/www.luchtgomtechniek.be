@@ -21,10 +21,11 @@
 <link rel="manifest" href="/site.webmanifest">
 
 {{ if .IsTranslated -}}
-<link rel="alternate" href="{{ .Permalink }}" hreflang="{{ $.Site.Language }}">
-{{ range .Translations -}}
+  <link rel="alternate" href="{{ .Permalink }}" hreflang="{{ $.Site.Language }}">
+  {{ range .Translations -}}
      <link rel="alternate" href="{{ .Permalink }}" hreflang="{{ .Lang }}">
-     {{ end -}}
-{{ end -}}
+  {{ end -}}
+{{- end -}}
+<link rel="canonical" href="{{ .Permalink }}">
 
 </head>
