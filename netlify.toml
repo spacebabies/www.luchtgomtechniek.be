@@ -2,7 +2,7 @@
 publish = "public"
 
 [context.production]
-command = "yarn install --production && hugo --gc --minify"
+command = "yarn run build"
 
 [context.production.environment]
 HUGO_VERSION = "0.80.0"
@@ -10,10 +10,10 @@ HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 
 [context.deploy-preview]
-command = "yarn install --production && hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+command = "yarn run build --buildFuture -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy]
-command = "yarn install --production && hugo --gc --minify -b $DEPLOY_PRIME_URL"
+command = "yarn run build -b $DEPLOY_PRIME_URL"
 
 [[redirects]]
 from = "/"
@@ -33,3 +33,6 @@ package = "netlify-plugin-is-website-vulnerable"
 
 [[plugins]]
 package = "netlify-plugin-checklinks"
+
+[[plugins]]
+package = "netlify-plugin-submit-sitemap"

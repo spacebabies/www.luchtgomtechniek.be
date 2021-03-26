@@ -7,11 +7,29 @@
   "author": "Joost Baaij <joost@spacebabies.nl>",
   "license": "None",
   "private": true,
+  "engines": {
+    "node": ">=12"
+  },
   "dependencies": {
     "feather-icons": "^4.28.0",
     "flickity": "^2.2.2",
     "flickity-fade": "^1.0.0",
     "jquery": "^3.5.1",
     "vegas": "^2.5.4"
+  },
+  "devDependencies": {
+    "cypress": "^6.8.0",
+    "netlify-plugin-submit-sitemap": "^0.2.3",
+    "start-server-and-test": "^1.12.1"
+  },
+  "prestart": "yarn install",
+  "prebuild": "yarn install --production",
+  "scripts": {
+    "format": "prettier --write '**/**.{ts,js,tsx}' '*.{json,md,yml}'",
+    "start": "hugo server --buildDrafts --buildFuture --noHTTPCache",
+    "build": "hugo --minify --gc",
+    "cy:open": "cypress open",
+    "test": "cypress run",
+    "ci": "start-server-and-test start 1313 test"
   }
 }
