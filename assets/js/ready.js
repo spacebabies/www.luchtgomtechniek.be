@@ -67,7 +67,7 @@ function setHeader(header) {
 function persistLanguage(cookies) {
 	if (!cookies.includes('nf_lang')) {
 		var userLang = getFirstBrowserLanguage();
-		document.cookie = `nf_lang = ${userLang}`;
+		document.cookie = "nf_lang=" + userLang;
 	}
 }
 
