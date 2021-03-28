@@ -1,0 +1,27 @@
+{{- $show1 := resources.Get "images/showcase/IMG_20201108_170139.jpg" -}}
+{{- $show2 := resources.Get "images/showcase/kabien1.jpg" -}}
+{{- $show3 := resources.Get "images/showcase/Parelstralen.jpg" -}}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "image": [
+    "{{ $show1.Permalink }}",
+    "{{ $show2.Permalink }}",
+    "{{ $show3.Permalink }}"
+    ],
+  "@id": "{{ ref . "/" }}",
+  "name": "{{ .Site.Title }}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "{{ .Site.Params.adrStreet }}",
+    "addressLocality": "{{ .Site.Params.adrCity }}",
+    "addressRegion": "{{ .Site.Params.adrLocality }}",
+    "postalCode": "{{ .Site.Params.adrPostcode }}",
+    "addressCountry": "{{ .Site.Params.adrCountry }}"
+  },
+  "url": "{{ ref . "/" }}",
+  "telephone": "{{ .Site.Params.phone }}"
+}
+</script>
