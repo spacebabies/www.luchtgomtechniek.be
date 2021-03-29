@@ -3,7 +3,7 @@
 {{- partial "head.html" . -}}
 
 <body>
-    <div class="skip-link"><a href="#more">Skip naar de inhoud</a></div>
+    <div class="skip-link"><a href="#more">{{ i18n "skip_link" }}</a></div>
     {{ partial "header.html" . }}
     {{ block "main" . }}{{ end }}
     {{ partialCached "footer.html" . }}

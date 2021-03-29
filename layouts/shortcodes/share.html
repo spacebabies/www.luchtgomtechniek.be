@@ -1,5 +1,5 @@
-<aside class="sharingbuttons">
-  <p><small>{{ i18n "share_intro" }} </small></p>
+<aside class="sharingbuttons" aria-label="{{ i18n "share_label" }}">
+  <p><small>{{ i18n "share_intro" }}</small></p>
 
   {{ $home := ref . "/" }}
   {{ $text := print .Site.Title "\r\n" .Site.Params.slogan "\r\n\r\n" $home "\r\n" "e-mail: " .Site.Params.email "\r\n" "telefoon: " .Site.Params.phone }}
