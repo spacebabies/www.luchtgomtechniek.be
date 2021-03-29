@@ -1,6 +1,6 @@
 {
   "name": "www.straalatelier.com",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Voor het luchtgommen van houten meubels, reinigen van industriële stukken, gritstralen van (giet-)ijzeren objecten, auto-onderdelen en meer.",
   "main": "index.js",
   "repository": "git@github.com:spacebabies/www.straalatelier.com",
@@ -20,16 +20,16 @@
   "devDependencies": {
     "cypress": "^6.8.0",
     "netlify-plugin-submit-sitemap": "^0.2.3",
-    "start-server-and-test": "^1.12.1"
+    "prettier": "^2.2.1"
   },
   "prestart": "yarn install",
   "prebuild": "yarn install --production",
   "scripts": {
-    "format": "prettier --write '**/**.{ts,js,tsx}' '*.{json,md,yml}'",
     "start": "hugo server --buildDrafts --buildFuture --noHTTPCache",
     "build": "hugo --minify --gc",
     "cy:open": "cypress open",
     "test": "cypress run --record",
-    "ci": "start-server-and-test start 1313 test"
+    "ci": "yarn run build && yarn run test",
+    "clean": "rm -rf public"
   }
 }
