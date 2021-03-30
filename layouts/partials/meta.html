@@ -5,5 +5,5 @@
 
 <meta name="msapplication-config" content="{{ "IEconfig.xml" | relURL }}">
 <meta name="theme-color" content="#bebcaf">
-{{ with .Param "description" }}<meta name="description" content="{{ . }}" />{{ end }}
-{{ with .Site.Params.meta.keywords }}<meta name="keywords" content="{{ . }}" />{{ end }}
+{{ with .Param "description" }}<meta name="description" content="{{ . }}">{{ end }}
+{{ with .Param "keywords" }}<meta name="keywords" content="{{ . }}">{{ end }}

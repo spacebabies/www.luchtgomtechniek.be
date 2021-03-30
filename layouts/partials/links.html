@@ -1,6 +1,11 @@
 {{ with getenv "NETLIFY_IMAGES_CDN_DOMAIN" }}<link rel="preconnect" href="https://{{ . }}">{{ end -}}
 
-{{ $options := (dict "outputStyle" "compressed" "enableSourceMap" true "targetPath" "css/style.css" "includePaths" (slice "node_modules/@fontsource")) -}}
+{{ $options := (dict
+  "outputStyle" "compressed"
+  "enableSourceMap" true
+  "targetPath" "css/style.css"
+  "includePaths" (slice "node_modules/@fontsource"))
+-}}
 {{ $style := resources.Get "scss/main.scss" | toCSS $options | fingerprint -}}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
 

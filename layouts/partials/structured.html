@@ -1,4 +1,21 @@
 <script type="application/ld+json">
-  {{ $address := dict "@type" "PostalAddress" "streetAddress" .Site.Params.adrStreet "addressLocality" .Site.Params.adrCity "addressRegion" .Site.Params.adrLocality "postalCode" .Site.Params.adrPostcode "addressCountry" .Site.Params.adrCountry }}
-  {{ dict "@context" "https://schema.org" "@type" "LocalBusiness" "@id" (ref . "/") "name" .Site.Title "image" .Site.Params.images "address" $address "url" (ref . "/") "telephone" .Site.Params.phone "priceRange" "$$$" "email" .Site.Params.email | jsonify (dict "indent" "\t") | safeJS }}
+  {{ $address := dict
+    "@type" "PostalAddress"
+    "streetAddress" .Site.Params.adrStreet
+    "addressLocality" .Site.Params.adrCity
+    "addressRegion" .Site.Params.adrLocality
+    "postalCode" .Site.Params.adrPostcode
+    "addressCountry" .Site.Params.adrCountry
+  -}}
+  {{ dict
+    "@context" "https://schema.org"
+    "@type" "LocalBusiness"
+    "@id" (ref . "/")
+    "name" .Site.Title
+    "image" .Site.Params.images
+    "address" $address
+    "url" (ref . "/")
+    "telephone" .Site.Params.phone
+    "priceRange" "$$$"
+    "email" .Site.Params.email | jsonify (dict "indent" "\t") | safeJS }}
 </script>

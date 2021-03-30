@@ -1,5 +1,7 @@
 button_send:
   other: Expédier
+button_vcard:
+  other: Ajouter aux contacts
 label_email:
   other: Adresse électronique
 label_name:

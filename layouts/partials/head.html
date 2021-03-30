@@ -1,6 +1,6 @@
 <head>
 <meta charset="utf-8">
-<title>{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}</title>
+<title>{{ .Param "title" }}</title>
 {{ partialCached "links.html" . }}
 {{ partialCached "meta.html" . }}
 </head>

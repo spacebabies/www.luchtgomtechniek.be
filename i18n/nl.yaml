@@ -1,5 +1,7 @@
 button_send:
   other: Verzenden
+button_vcard:
+  other: Toevoegen aan contacten
 label_email:
   other: E-mailadres
 label_name:
