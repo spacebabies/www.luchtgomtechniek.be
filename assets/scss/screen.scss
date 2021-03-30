@@ -120,7 +120,7 @@ nav#main-menu {
     font-size: 1em;
     padding: 0.6em 1em 0.6em 1em;
     text-transform: uppercase;
-    font-family: "Oswald", sans-serif;
+    font-family: "Oswald", system-ui, sans-serif;
 
     &:hover {
       background: $col50;

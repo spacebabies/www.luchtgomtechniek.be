@@ -11,6 +11,9 @@
     "node": ">=12"
   },
   "dependencies": {
+    "@fontsource/open-sans": "^4.2.2",
+    "@fontsource/oswald": "^4.2.2",
+    "@fontsource/roboto-slab": "^4.2.2",
     "feather-icons": "^4.28.0",
     "flickity": "^2.2.2",
     "flickity-fade": "^1.0.0",

@@ -18,7 +18,7 @@
   position: relative;
   padding-top: 20px;
 
-  &.odd {
+  &:nth-child(even) {
     background: $col60;
     color: white;
 
@@ -49,13 +49,14 @@
   border-top: 50px solid #f2efe8;
   border-radius: 25px;
 
-  &.even {
+  &:nth-child(even) {
     left: 6%;
   }
 
   &:last-of-type {
     display: none;
   }
+
   .post-title {
     margin: 0;
   }
