@@ -117,8 +117,6 @@ $(document)
       var index = $(this).parents(".post-holder").index();
     });
 
-    $(".post.last").next(".post-after").hide();
-
     if ($sitehead.length) {
       $(window).scroll(function () {
         var w = $(window).scrollTop();

@@ -1,12 +1,12 @@
 {{ with getenv "NETLIFY_IMAGES_CDN_DOMAIN" }}<link rel="preconnect" href="https://{{ . }}">{{ end -}}
 
-{{ $options := (dict "outputStyle" "compressed" "enableSourceMap" true "targetPath" "css/style.css" "includePaths" (slice "node_modules/@fontsource")) }}
-{{ $style := resources.Get "scss/main.scss" | toCSS $options | fingerprint }}
+{{ $options := (dict "outputStyle" "compressed" "enableSourceMap" true "targetPath" "css/style.css" "includePaths" (slice "node_modules/@fontsource")) -}}
+{{ $style := resources.Get "scss/main.scss" | toCSS $options | fingerprint -}}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
 
-{{ $fl := resources.Get "flickity/flickity.css" }}
-{{ $vg := resources.Get "vegas/vegas.css" }}
-{{ $vendorcss := slice $fl $vg | resources.Concat "vendor.css" | minify | fingerprint }}
+{{ $fl := resources.Get "flickity/flickity.css" -}}
+{{ $vg := resources.Get "vegas/vegas.css" -}}
+{{ $vendorcss := slice $fl $vg | resources.Concat "vendor.css" | minify | fingerprint -}}
 <link rel="stylesheet" href="{{ $vendorcss.RelPermalink }}" integrity="{{ $vendorcss.Data.Integrity }}">
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
