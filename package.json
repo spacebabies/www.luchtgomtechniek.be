@@ -28,7 +28,7 @@
     "prettier": "^2.2.1"
   },
   "prestart": "yarn install",
-  "prebuild": "yarn install --production",
+  "prebuild": "yarn run clean",
   "scripts": {
     "start": "hugo server --buildDrafts --buildFuture --noHTTPCache",
     "build": "hugo --minify --gc",

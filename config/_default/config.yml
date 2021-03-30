@@ -1,4 +1,4 @@
-baseURL: 'https://www.straalatelier.com/'
+baseURL: "https://www.straalatelier.com/"
 title: Straal Atelier Val-Meer
 relativeURLs: false
 disableKinds:
