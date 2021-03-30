@@ -1,8 +1,14 @@
 html {
   font-size: 62.5%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
 body {
   font-family: "Roboto Slab", serif;
   font-size: 2rem;
@@ -367,20 +373,8 @@ ul li {
   text-shadow: 0 0 6px $col80;
 }
 
-a.fn-item {
-  display: block;
-  cursor: pointer;
-  opacity: 0.7;
-}
 .white {
   color: white;
-}
-a.fn-item:hover {
-  color: #9fd067;
-}
-a.fn-item.active {
-  color: #86c440;
-  opacity: 1;
 }
 
 .user-meta {
@@ -617,10 +611,6 @@ a.fn-item.active {
       ========================================================================== */
 
 @media only screen and (max-width: 1130px) {
-  a.fn-item {
-    display: inline;
-    margin-left: 10px;
-  }
   blockquote {
     margin-left: 0;
   }

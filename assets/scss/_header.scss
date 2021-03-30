@@ -14,27 +14,26 @@
   vertical-align: middle;
 }
 
-
 @keyframes vertical {
-       0%,
-       100%,
-       60%,
-       80% {
-               transform: translateY(0);
-       }
-       20% {
-               transform: translateY(-5px);
-       }
-       40% {
-               transform: translateY(20px);
-       }
+  0%,
+  100%,
+  60%,
+  80% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-5px);
+  }
+  40% {
+    transform: translateY(20px);
+  }
 }
 
 .scrolly {
-       font-size: 400%;
-       padding-top: 1em;
-       opacity: 0.6;
-       animation: vertical 3s ease infinite;
+  font-size: 400%;
+  padding-top: 1em;
+  opacity: 0.6;
+  animation: vertical 3s ease infinite;
   transition: opacity 1s ease-out;
 
   &:hover {

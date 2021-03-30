@@ -99,10 +99,6 @@ $(document)
   .on("click", "a.btn.site-menu", function (e) {
     srcToAnchorWithTitle($(e.target).data("title-anchor"));
   })
-  .on("click", ".scrolly a", function (e) {
-    var $el = $(e.currentTarget.hash);
-    srcTo($el);
-  })
   .ready(function (event) {
     var $post = $(".post");
     var $first = $(".post.first");
@@ -114,27 +110,11 @@ $(document)
     $postafter.each(function (e) {
       var bg = $(this).parent().css("background-color");
       $(this).css("border-top-color", bg);
-
-      if (e % 2 == 0) {
-        $(this).addClass("even");
-      }
     });
 
     $(".post-title").each(function () {
       var t = $(this).text();
       var index = $(this).parents(".post-holder").index();
-
-      $(".fn-item").click(function () {
-        var i = $(this).attr("item_index");
-        var s = $(".post[item_index='" + i + "']");
-
-        $("html, body").animate(
-          {
-            scrollTop: s.offset().top,
-          },
-          400
-        );
-      });
     });
 
     $(".post.last").next(".post-after").hide();
@@ -149,7 +129,6 @@ $(document)
           var f = $(this).offset().top;
           var b = $(this).offset().top + $(this).height();
           var t = $(this).parent(".post-holder").index();
-          var i = $(".fn-item[item_index='" + t + "']");
           var a = $(this)
             .parent(".post-holder")
             .prev(".post-holder")
