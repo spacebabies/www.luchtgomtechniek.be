@@ -22,6 +22,8 @@
   },
   "devDependencies": {
     "cypress": "^6.8.0",
+    "netlify-plugin-checklinks": "^4.1.1",
+    "netlify-plugin-is-website-vulnerable": "^1.0.12",
     "netlify-plugin-submit-sitemap": "^0.2.3",
     "prettier": "^2.2.1"
   },

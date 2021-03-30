@@ -3,9 +3,9 @@
 {{- partial "head.html" . -}}
 
 <body>
-    <div class="skip-link"><a href="#more">{{ i18n "skip_link" }}</a></div>
+    <div class="skip-link"><a href="#mainContent">{{ i18n "skip_link" }}</a></div>
     {{ partial "header.html" . }}
-    {{ block "main" . }}{{ end }}
+    <div id="mainContent">{{ block "main" . }}{{ end }}</div>
     {{ partialCached "footer.html" . }}
     {{ partial "custom_body.html" . }}
     {{ partialCached "scripts.html" . }}

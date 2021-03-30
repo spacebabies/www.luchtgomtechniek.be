@@ -103,6 +103,17 @@ a.btn {
   &:hover {
     background: $col40;
   }
+
+  svg {
+    margin-right: 0.5em;
+    vertical-align: sub;
+  }
+}
+
+a.btn-sm {
+  font-size: 0.8em;
+  padding: 0.1em 0.8em 0.1em 0.8em;
+  font-weight: 500;
 }
 
 nav#main-menu {
