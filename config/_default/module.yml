@@ -7,5 +7,13 @@ mounts:
     target: assets/flickity
   - source: node_modules/vegas/dist
     target: assets/vegas
+  - source: node_modules/@fontsource/open-sans
+    target: static/css
+  - source: node_modules/@fontsource/oswald
+    target: static/css
+  - source: node_modules/@fontsource/roboto-slab
+    target: static/css
   - source: assets
     target: assets
+  - source: static
+    target: static
