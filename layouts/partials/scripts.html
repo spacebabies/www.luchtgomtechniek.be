@@ -4,4 +4,4 @@
 {{ $flickity := resources.Get "flickity/flickity.pkgd.js" }}
 {{ $ready := resources.Get "js/ready.js" }}
 {{ $js := slice $jquery $vegas $feather $flickity $ready | resources.Concat "app.js" | minify | fingerprint }}
-<script type="text/javascript" src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+<script async type="text/javascript" src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>

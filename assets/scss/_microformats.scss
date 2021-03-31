@@ -1,10 +1,11 @@
 .h-card {
+  margin: 1em 0 2em 0;
+
   .invisible {
     display: none;
   }
 
   .p-name {
-    display: block;
     font-weight: bold;
   }
 
@@ -13,7 +14,7 @@
   }
 
   .p-postal-code {
-    margin-right: .5em;
+    margin-right: 0.5em;
   }
 
   .p-country-name {

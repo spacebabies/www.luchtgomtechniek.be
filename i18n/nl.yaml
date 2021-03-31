@@ -1,7 +1,9 @@
 button_send:
   other: Verzenden
-button_vcard:
-  other: Toevoegen aan contacten
+button_vcard_text:
+  other: toevoegen aan contacten
+button_vcard_title:
+  other: Onze vCard downloaden
 label_email:
   other: E-mailadres
 label_name:

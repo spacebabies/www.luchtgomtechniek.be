@@ -1,7 +1,9 @@
 button_send:
   other: Expédier
-button_vcard:
+button_vcard_text:
   other: Ajouter aux contacts
+button_vcard_title:
+  other: Téléchargez notre vCard
 label_email:
   other: Adresse électronique
 label_name:

@@ -14,6 +14,8 @@ body {
   font-size: 2rem;
   line-height: 1.6em;
   color: #3a4145;
+
+  --animation-speed: 150ms;
 }
 
 ::-moz-selection {
@@ -89,16 +91,63 @@ a:hover {
   color: $col10;
 }
 
+$button-bg-color: $col70;
+$button-text-color: $col10;
+$button-text-size: 0.8em;
+$button-spacing: 2.5rem;
+
+.button {
+  display: inline-block;
+  padding: 0.6rem 1.25rem 0.6rem 1.25rem;
+  margin-left: $button-spacing;
+  border: none;
+  border-radius: $button-spacing / 6;
+  outline: none;
+
+  background-color: $button-bg-color;
+
+  color: $button-text-color;
+  font-family: Oswald, system-ui, sans-serif;
+  // text-transform: uppercase;
+  font-size: $button-text-size;
+  font-weight: 400;
+  line-height: 1.1;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 2px;
+
+  cursor: pointer;
+  transition: all var(--animation-speed) ease-out;
+
+  &:focus,
+  &:hover {
+    background-color: $col60;
+    box-shadow: 0 0 0 ($button-spacing / 8) $button-text-color,
+      0 0 0 ($button-spacing / 4) $col60;
+  }
+
+  &:active {
+    background-color: $col80;
+    box-shadow: 0 0 0 ($button-spacing / 8) $col70,
+      0 0 0 ($button-spacing / 4) $col70;
+    transition-duration: 75ms;
+  }
+
+  svg {
+    margin-right: 0.5em;
+    vertical-align: top;
+  }
+}
+
 a.btn {
   text-decoration: none;
-  background-color: $col50;
+  background-color: $col60;
   border-radius: 6px;
   color: white;
   display: inline-block;
   letter-spacing: 1px;
   padding: 1em 0.6em 1em 0.6em;
   position: relative;
-  font-weight: lighter;
 
   &:hover {
     background: $col40;
@@ -133,15 +182,10 @@ nav#main-menu {
     margin: 0;
   }
 
-  li > a {
-    font-size: 1em;
-    padding: 0.6em 1em 0.6em 1em;
+  .button {
+    padding: 2rem 3rem 2rem 3rem;
     text-transform: uppercase;
-    font-family: "Oswald", system-ui, sans-serif;
-
-    &:hover {
-      background: $col50;
-    }
+    font-size: 1em;
   }
 }
 
