@@ -33,7 +33,7 @@
     "start": "hugo server --buildDrafts --buildFuture --noHTTPCache",
     "build": "hugo --gc --minify",
     "cy:open": "cypress open",
-    "test": "cypress run --record",
+    "test": "cypress run",
     "ci": "yarn run build && yarn run test",
     "clean": "rm -rf public"
   }

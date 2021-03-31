@@ -36,25 +36,9 @@ function changeLanguage(element) {
   element.addEventListener("change", function (event) {
     var location = window.location.pathname + window.location.hash;
     var userLang = event.target.value;
-    document.cookie = `nf_lang = ${userLang}`;
-    window.location.assign(location.replace(/^\/\w{2}/, `/${userLang}`));
+    document.cookie = "nf_lang=" + userLang;
+    window.location.assign(location.replace(/^\/\w{2}/, "/" + userLang));
   });
-}
-
-function srcTo(el) {
-  $("html, body").animate(
-    {
-      scrollTop: el.offset().top,
-    },
-    1000
-  );
-}
-
-function srcToAnchorWithTitle(str) {
-  var $el = $("#" + str);
-  if ($el.length) {
-    srcTo($el);
-  }
 }
 
 function setHeader(header) {
@@ -94,26 +78,3 @@ document.addEventListener("DOMContentLoaded", function (event) {
     });
   });
 });
-
-$(document)
-  .on("click", "a.btn.site-menu", function (e) {
-    srcToAnchorWithTitle($(e.target).data("title-anchor"));
-  })
-  .ready(function (event) {
-    var $post = $(".post");
-    var $first = $(".post.first");
-    var $last = $(".post.last");
-    var $postholder = $(".post-holder");
-    var $postafter = $(".post-after");
-    var $sitehead = $("#site-head");
-
-    $postafter.each(function (e) {
-      var bg = $(this).parent().css("background-color");
-      $(this).css("border-top-color", bg);
-    });
-
-    $(".post-title").each(function () {
-      var t = $(this).text();
-      var index = $(this).parents(".post-holder").index();
-    });
-  });
