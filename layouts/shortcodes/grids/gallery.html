@@ -6,7 +6,7 @@
     {{ $x := sub $img.Width 80 }}
     {{ $img := $img | images.Filter ( images.Overlay $layer $x 300 ) }}
     <img
-        src="{{ $img.RelPermalink }}"
+        data-flickity-lazyload="{{ $img.RelPermalink }}"
         alt="{{ .Title }}">
     {{ end }}
 </div>

@@ -221,7 +221,10 @@ h3 > img {
 .sharingbuttons {
   margin-top: 2em;
   margin-bottom: 3em;
-  background-color: $col70;
+  // background-color: $col40;
+  border-top: 1px solid $col60;
+  // border-bottom: 1px solid $col70;
+  padding-top: 2rem;
 }
 
 label input {

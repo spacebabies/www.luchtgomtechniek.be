@@ -1,5 +1,4 @@
 <div class="sharingbuttons" aria-label="{{ i18n "share_label" }}">
-  <p><small>{{ i18n "share_intro" }}</small></p>
 
   {{ $home := ref . "/" }}
   {{ $text := print .Site.Title "\r\n" .Site.Params.slogan "\r\n\r\n" $home "\r\n" "e-mail: " .Site.Params.email "\r\n" "telefoon: " .Site.Params.phone }}
@@ -43,6 +42,7 @@
       </div>
     </div>
   </a>
+
 
   <!-- Sharingbutton WhatsApp -->
   <a title="{{ i18n "share_whatsapp_title" }}" class="resp-sharing-button__link" href="whatsapp://send?{{ replace (querify "text" $text) "+" "%20" | safeURL }}" target="_blank" rel="noopener" aria-label="{{ i18n "share_whatsapp_title" }}">

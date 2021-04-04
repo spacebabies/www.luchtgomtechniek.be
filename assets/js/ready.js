@@ -75,6 +75,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     new Flickity(element, {
       cellAlign: "left",
       percentPosition: false,
+      lazyLoad: 3,
     });
   });
 });
