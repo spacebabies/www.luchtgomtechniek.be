@@ -11,7 +11,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.80.0'
+          hugo-version: "0.82.0"
           extended: true
 
       - name: Run the tests
@@ -19,7 +19,7 @@ jobs:
         with:
           start: yarn run ci
           record: true
-          group: 'UI - Chrome'
+          group: "UI - Chrome"
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
