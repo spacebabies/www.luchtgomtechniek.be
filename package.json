@@ -1,7 +1,7 @@
 {
   "name": "www.straalatelier.com",
-  "version": "2.0.0",
-  "description": "Voor het luchtgommen van houten meubels, reinigen van industriële stukken, gritstralen van (giet-)ijzeren objecten, auto-onderdelen en meer.",
+  "version": "2.1.0",
+  "description": "Voor het Luchtgommen van alle soorten en types hout, het Fijnstralen van Carrosserie en Glasparelstralen van Inox en Aluminium.",
   "main": "index.html",
   "repository": "git@github.com:spacebabies/www.straalatelier.com",
   "author": "Joost Baaij <joost@spacebabies.nl>",
@@ -16,6 +16,7 @@
     "@fontsource/roboto-slab": "^4.2.2",
     "feather-icons": "^4.28.0",
     "flickity": "^2.2.2",
+    "flickity-bg-lazyload": "^1.0.1",
     "flickity-fade": "^1.0.0",
     "flickity-fullscreen": "^1.1.1",
     "flickity-imagesloaded": "^2.0.0",

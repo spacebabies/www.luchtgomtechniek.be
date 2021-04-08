@@ -1,9 +1,6 @@
 {{ define "main" }}
-  <header id="site-head">
-    {{ $heroP := $.Scratch.Get "heroP" -}}
-    <link class="portrait" rel="enclosure" type="{{ $heroP.MediaType }}" href="{{ $heroP.RelPermalink }}">
-    {{ $heroL := $.Scratch.Get "heroL" -}}
-    <link class="landscape" rel="enclosure" type="{{ $heroL.MediaType }}" href="{{ $heroL.RelPermalink }}">
+  {{ $bg1 := resources.Get "images/hero/landscape.jpg" | fingerprint }}
+  <header id="site-head" style="background-image: url({{ $bg1.RelPermalink }})">
 
     <div class="vertical">
       <div id="site-head-content" class="inner">

@@ -28,13 +28,13 @@ command = "yarn run build -b $DEPLOY_PRIME_URL"
 [[headers]]
   for = "/*"
   [headers.values]
-    Cache-Control = "public,max-age=60"
+    Cache-Control = "public, max-age=0, must-revalidate"
     Referrer-Policy = "no-referrer-when-downgrade"
     Strict-Transport-Security = "max-age=63072000; includeSubdomains; preload"
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "SAMEORIGIN"
     X-XSS-Protection = "1; mode=block"
-    Content-Security-Policy-Report-Only = "default-src 'none'; font-src 'self'; img-src 'self'; script-src 'self'; style-src 'self'; report-uri https://spacebabies.report-uri.com/r/d/csp/reportOnly"
+    Content-Security-Policy-Report-Only = "default-src https://www.google.com/maps/embed; child-src https://www.google.com; font-src 'self'; img-src 'self'; script-src 'self'; style-src 'self'; report-uri https://spacebabies.report-uri.com/r/d/csp/reportOnly"
     Report-To = "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://spacebabies.report-uri.com/a/d/g\"}],\"include_subdomains\":true}"
 
 [[headers]]

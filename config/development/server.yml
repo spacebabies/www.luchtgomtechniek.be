@@ -1,7 +1,8 @@
 headers:
-  - for: /nl/
+  - for: /*
     values:
-      Referrer-Policy: strict-origin-when-cross-origin
+      Cache-Control: no-store, max-age=0
+      Referrer-Policy: no-referrer-when-downgrade
       X-Content-Type-Options: nosniff
       X-Frame-Options: SAMEORIGIN
       X-XSS-Protection: 1; mode=block
