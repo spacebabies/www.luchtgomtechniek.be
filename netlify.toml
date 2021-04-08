@@ -34,8 +34,8 @@ command = "yarn run build -b $DEPLOY_PRIME_URL"
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "SAMEORIGIN"
     X-XSS-Protection = "1; mode=block"
-    Content-Security-Policy-Report-Only = "default-src https://www.google.com/maps/embed; child-src https://www.google.com; font-src 'self'; img-src 'self'; script-src 'self'; style-src 'self'; report-uri https://spacebabies.report-uri.com/r/d/csp/reportOnly"
-    Report-To = "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://spacebabies.report-uri.com/a/d/g\"}],\"include_subdomains\":true}"
+    # Content-Security-Policy-Report-Only = "default-src https://www.google.com/maps/embed; child-src https://www.google.com; font-src 'self'; img-src 'self'; script-src 'self'; style-src 'self'; report-uri https://spacebabies.report-uri.com/r/d/csp/reportOnly"
+    # Report-To = "{\"group\":\"default\",\"max_age\":31536000,\"endpoints\":[{\"url\":\"https://spacebabies.report-uri.com/a/d/g\"}],\"include_subdomains\":true}"
 
 [[headers]]
   for = "/site.webmanifest"
@@ -44,7 +44,17 @@ command = "yarn run build -b $DEPLOY_PRIME_URL"
     Cache-Control = "public,max-age=14400"
 
 [[headers]]
-  for = "/assets/*"
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public,max-age=31536000"
+
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public,max-age=31536000"
+
+[[headers]]
+  for = "/*.jpg"
   [headers.values]
     Cache-Control = "public,max-age=31536000"
 
