@@ -1,3 +1,41 @@
+"use strict";
+
+function changeLanguage(element) {
+  if (!element) return;
+
+  element.addEventListener("change", function (event) {
+    var location = window.location.pathname + window.location.hash;
+    var userLang = event.target.value;
+    document.cookie = "nf_lang=" + userLang;
+    window.location.assign(location.replace(/^\/\w{2}/, "/" + userLang));
+  });
+}
+
+function setHeader(header) {
+  if (!header) return;
+
+  if (screen.orientation.type.startsWith("portrait")) {
+    var slide = header.querySelector("link.portrait");
+  } else {
+    var slide = header.querySelector("link.landscape");
+  }
+
+  if (slide) {
+    header.style.backgroundImage = "url(" + slide.href + ")";
+  }
+}
+
+/*
+ * Create cookie to get the Browser Language.
+ * This should always run for CDN optimisation.
+ */
+function persistLanguage(cookies) {
+  if (!cookies.includes("nf_lang")) {
+    var userLang = getFirstBrowserLanguage();
+    document.cookie = "nf_lang=" + userLang;
+  }
+}
+
 function getFirstBrowserLanguage() {
   var defaultLanguage = "nl";
 
@@ -30,37 +68,6 @@ function getFirstBrowserLanguage() {
   return defaultLanguage;
 }
 
-function changeLanguage(element) {
-  if (!element) return;
-
-  element.addEventListener("change", function (event) {
-    var location = window.location.pathname + window.location.hash;
-    var userLang = event.target.value;
-    document.cookie = "nf_lang=" + userLang;
-    window.location.assign(location.replace(/^\/\w{2}/, "/" + userLang));
-  });
-}
-
-function setHeader(header) {
-  if (!header) return;
-  var firstSlide = header.querySelector("link");
-
-  if (firstSlide) {
-    header.style.backgroundImage = "url(" + firstSlide.href + ")";
-  }
-}
-
-/*
- * Create cookie to get the Browser Language.
- * This should always run for CDN optimisation.
- */
-function persistLanguage(cookies) {
-  if (!cookies.includes("nf_lang")) {
-    var userLang = getFirstBrowserLanguage();
-    document.cookie = "nf_lang=" + userLang;
-  }
-}
-
 document.addEventListener("DOMContentLoaded", function (event) {
   feather.replace({ width: "1em", height: "1em" });
 
@@ -68,13 +75,15 @@ document.addEventListener("DOMContentLoaded", function (event) {
   changeLanguage(document.querySelector("#changeLanguage"));
   setHeader(document.querySelector("#site-head"));
 
-  document.body.classList.add("loaded");
-
   let carousels = document.querySelectorAll(".carousel");
   carousels.forEach(function (element) {
     new Flickity(element, {
-      cellAlign: "left",
       percentPosition: false,
+      cellAlign: "left",
+      imagesLoaded: true,
     });
   });
+
+  // this one last
+  document.body.classList.add("data-js-loaded");
 });

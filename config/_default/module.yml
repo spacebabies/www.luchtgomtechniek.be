@@ -1,19 +1,25 @@
 mounts:
   - source: node_modules/jquery/dist
     target: assets/jquery
+  - source: node_modules/jquery-bridget
+    target: assets/jquery-bridget
   - source: node_modules/feather-icons/dist
     target: assets/feather-icons
-  - source: node_modules/flickity/dist
+  - source: node_modules/flickity
     target: assets/flickity
-  - source: node_modules/vegas/dist
-    target: assets/vegas
+  - source: node_modules/flickity-fade
+    target: assets/flickity-fade
+  - source: node_modules/flickity-fullscreen
+    target: assets/flickity-fullscreen
+  - source: node_modules/flickity-imagesloaded
+    target: assets/flickity-imagesloaded
+  - source: assets
+    target: assets
   - source: node_modules/@fontsource/open-sans
-    target: static/css
-  - source: node_modules/@fontsource/oswald
     target: static/css
   - source: node_modules/@fontsource/roboto-slab
     target: static/css
-  - source: assets
-    target: assets
+  - source: node_modules/@fontsource/oswald
+    target: static/css
   - source: static
     target: static

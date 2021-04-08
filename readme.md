@@ -37,9 +37,9 @@ hugo new my-new-page.md
 
 ## CSS breakpoints
 
-1. mobile < 500px
-2. 500px < tablet < 1130px
-3. 1130px > desktop
+1. 450px
+2. 900px
+3. 1200px
 
 # Deploy
 

@@ -1,7 +1,7 @@
-{{ $jquery := resources.Get "jquery/jquery.slim.min.js" }}
-{{ $vegas := resources.Get "vegas/vegas.js" }}
-{{ $feather := resources.Get "feather-icons/feather.js" }}
-{{ $flickity := resources.Get "flickity/flickity.pkgd.js" }}
-{{ $ready := resources.Get "js/ready.js" }}
-{{ $js := slice $jquery $vegas $feather $flickity $ready | resources.Concat "app.js" | minify | fingerprint }}
+{{ $bundle := slice (resources.Get "jquery/jquery.slim.min.js") -}}
+{{ $bundle = $bundle | append (resources.Get "feather-icons/feather.min.js") -}}
+{{ $bundle = $bundle | append (resources.Get "jquery-bridget/jquery-bridget.js" | minify) -}}
+{{ $bundle = $bundle | append (resources.Get "flickity/dist/flickity.pkgd.min.js") -}}
+{{ $bundle = $bundle | append (resources.Get "js/ready.js" | minify) -}}
+{{ $js := $bundle | resources.Concat "js/app.js" | fingerprint -}}
 <script async type="text/javascript" src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>

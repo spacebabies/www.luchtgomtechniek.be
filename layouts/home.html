@@ -1,47 +1,47 @@
 {{ define "main" }}
-    <header id="site-head">
-        {{ range .Resources.Match "slide*" }}
-            {{ $img := .Resize "1200x" | fingerprint }}
-            <link rel="enclosure" type="{{ $img.MediaType }}" href="{{ $img.RelPermalink }}">
-        {{ end }}
+  <header id="site-head">
+    {{ $heroP := $.Scratch.Get "heroP" -}}
+    <link class="portrait" rel="enclosure" type="{{ $heroP.MediaType }}" href="{{ $heroP.RelPermalink }}">
+    {{ $heroL := $.Scratch.Get "heroL" -}}
+    <link class="landscape" rel="enclosure" type="{{ $heroL.MediaType }}" href="{{ $heroL.RelPermalink }}">
 
-        <div class="vertical">
-            <div id="site-head-content" class="inner">
+    <div class="vertical">
+      <div id="site-head-content" class="inner">
 
-                {{ with .Title }}<h1 class="blog-title">{{ . }}</h1>{{ end }}
-                {{ with .Site.Params.slogan }}<h2 class="blog-description">{{ . }}</h2>{{ end }}
+        {{ with .Title }}<h1 class="blog-title">{{ . }}</h1>{{ end }}
+        {{ with .Site.Params.slogan }}<h2 class="blog-description">{{ . }}</h2>{{ end }}
 
-                <nav id="main-menu">
-                  <ul>
-                    {{ range .Site.Menus.header }}<li>
-                      <a title="" class="button" href="#{{ anchorize .Title }}">{{ .Title }}</a>
-                    </li>{{ end }}
-                  </ul>
-                </nav>
+        <nav id="main-menu">
+          <ul>
+            {{ range .Site.Menus.header }}<li>
+              <a title="" class="button" href="#{{ anchorize .Title }}">{{ .Title }}</a>
+            </li>{{ end }}
+          </ul>
+        </nav>
 
-                <div class="scrolly">
-                    <a href="#more" title="{{ i18n "skip_link" }}">
-                        <span data-feather="chevron-down"></span>
-                    </a>
-                </div>
-            </div>
+        <div class="scrolly">
+            <a href="#more" title="{{ i18n "skip_link" }}">
+                <span data-feather="chevron-down"></span>
+            </a>
         </div>
-    </header>
+      </div>
+    </div>
+  </header>
 
-    <main class="content" id="more">
-        {{ range .RegularPages }}
-            <div class='post-holder'>
-                <article id='{{ anchorize .Title }}' class='post'>
-                    <header class="post-header">
-                        <h2 class="post-title">{{ .Title }}</h2>
-                    </header>
-                    <div class="post-content">
-                        {{ .Content }}
-                    </div>
-                </article>
-                <div class='post-after'></div>
-            </div>
-        {{ end }}
-    </main>
+  <main class="content" id="more">
+    {{ range .RegularPages }}
+      <div class='post-holder'>
+        <article id='{{ anchorize .Title }}' class='post'>
+          <header class="post-header">
+            <h2 class="post-title">{{ .Title }}</h2>
+          </header>
+          <div class="post-content">
+            {{ .Content }}
+          </div>
+        </article>
+        <div class='post-after'></div>
+      </div>
+    {{ end }}
+  </main>
 {{ end }}
 

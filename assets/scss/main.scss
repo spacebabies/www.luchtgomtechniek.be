@@ -2,11 +2,17 @@
 
 @import "variables";
 @import "normalize";
+
+/* npm packages */
+@import "flickity-fade";
+@import "fullscreen";
 @import "open-sans/index";
 @import "roboto-slab/index";
 @import "oswald/index";
 
+/* our partials */
 @import "header";
+@import "galleries";
 @import "post";
 @import "instagram";
 @import "microformats";

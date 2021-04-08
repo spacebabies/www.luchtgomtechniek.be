@@ -7,6 +7,18 @@
   text-align: center;
   color: white;
   background-size: cover;
+
+  // semi-transparent overlay to make the text legible.
+  &:before {
+    content: "";
+    display: block;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+  }
 }
 
 .vertical {

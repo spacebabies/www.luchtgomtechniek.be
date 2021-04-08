@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+{{ $.Scratch.Set "heroL" (resources.Get "images/hero/landscape.jpg" | fingerprint) -}}
+{{ $.Scratch.Set "heroP" (resources.Get "images/hero/portrait.jpg" | fingerprint) -}}
 <html lang="{{ .Site.Language.Lang }}" dir="ltr">
 {{- partial "head.html" . -}}
 
@@ -6,11 +8,10 @@
     <div class="skip-link"><a href="#more">{{ i18n "skip_link" }}</a></div>
     {{ partial "header.html" . }}
     {{ block "main" . }}{{ end }}
-    {{ partialCached "footer.html" . }}
-    {{ partial "custom_body.html" . }}
-    {{ partialCached "scripts.html" . }}
-    {{ partialCached "languages.html" . }}
-    {{ partialCached "structured.html" . }}
+    {{ partial "footer.html" . }}
+    {{ partial "scripts.html" . }}
+    {{ partial "languages.html" . }}
+    {{ partial "structured.html" . }}
 
 </body>
 

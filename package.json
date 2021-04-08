@@ -2,7 +2,7 @@
   "name": "www.straalatelier.com",
   "version": "2.0.0",
   "description": "Voor het luchtgommen van houten meubels, reinigen van industriële stukken, gritstralen van (giet-)ijzeren objecten, auto-onderdelen en meer.",
-  "main": "index.js",
+  "main": "index.html",
   "repository": "git@github.com:spacebabies/www.straalatelier.com",
   "author": "Joost Baaij <joost@spacebabies.nl>",
   "license": "None",
@@ -17,8 +17,10 @@
     "feather-icons": "^4.28.0",
     "flickity": "^2.2.2",
     "flickity-fade": "^1.0.0",
+    "flickity-fullscreen": "^1.1.1",
+    "flickity-imagesloaded": "^2.0.0",
     "jquery": "^3.5.1",
-    "vegas": "^2.5.4"
+    "jquery-bridget": "^3.0.0"
   },
   "devDependencies": {
     "netlify-plugin-checklinks": "^4.1.1",
@@ -26,10 +28,9 @@
     "netlify-plugin-submit-sitemap": "^0.2.3",
     "prettier": "^2.2.1"
   },
-  "prestart": "yarn install",
-  "prebuild": "yarn run clean",
   "scripts": {
-    "start": "hugo server --buildDrafts --buildFuture --noHTTPCache",
+    "prestart": "yarn check || yarn install",
+    "start": "yarn run clean && hugo server --buildDrafts --buildFuture --noHTTPCache",
     "build": "hugo --gc --minify",
     "clean": "rm -rf public"
   }

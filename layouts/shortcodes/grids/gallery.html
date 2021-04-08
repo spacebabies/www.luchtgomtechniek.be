@@ -1,12 +1,12 @@
 {{ $layer := resources.Get "images/overlay.png" }}
 
 <div class="carousel">
-    {{ range .Page.Resources.Match (.Get "pattern") }}
+  {{ range .Page.Resources.Match (.Get "pattern") }}
     {{ $img := .Resize "x400" }}
     {{ $x := sub $img.Width 80 }}
     {{ $img := $img | images.Filter ( images.Overlay $layer $x 300 ) }}
     <img
         src="{{ $img.RelPermalink }}"
-        alt="{{ .Title }}">
-    {{ end }}
+        alt="{{ $img.Title }}">
+  {{ end }}
 </div>
