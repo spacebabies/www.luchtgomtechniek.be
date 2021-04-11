@@ -1,6 +1,8 @@
 {{ define "main" }}
   {{ $bg1 := resources.Get "images/hero/landscape.jpg" | fingerprint }}
-  <header id="site-head" style="background-image: url({{ $bg1.RelPermalink }})">
+  <header id="site-head" style="background-image: url({{ ($.Scratch.Get "hero-portrait").RelPermalink }})">
+    <link class="portrait" as="image" rel="enclosure" href="{{ ($.Scratch.Get "hero-portrait").RelPermalink }}">
+    <link class="landscape" as="image" rel="enclosure" href="{{ ($.Scratch.Get "hero-landscape").RelPermalink }}">
 
     <div class="vertical">
       <div id="site-head-content" class="inner">
@@ -11,7 +13,7 @@
         <nav id="main-menu">
           <ul>
             {{ range .Site.Menus.header }}<li>
-              <a title="" class="button" href="#{{ anchorize .Title }}">{{ .Title }}</a>
+              <a class="button" href="#{{ anchorize .Title }}">{{ .Title }}</a>
             </li>{{ end }}
           </ul>
         </nav>

@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 {{ $.Scratch.Set "logo" (resources.Get "images/straal_atelier.jpg" | fingerprint) -}}
+{{ $.Scratch.Set "hero-portrait" (resources.Get "images/hero/portrait.jpg" | fingerprint) -}}
+{{ $.Scratch.Set "hero-landscape" (resources.Get "images/hero/landscape.jpg" | fingerprint) -}}
 <html lang="{{ .Site.Language.Lang }}" dir="ltr">
 {{- partial "head.html" . -}}
 

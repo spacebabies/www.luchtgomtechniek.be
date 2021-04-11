@@ -1,13 +1,13 @@
 <div class="h-card">
 	<img class="invisible u-logo" src="{{ ($.Scratch.Get "logo").RelPermalink }}" alt="{{ .Site.Title }} logo" />
 	<span class="p-name">{{ .Site.Title }}</span>
-  <a title="{{ i18n "button_vcard_title" }}" class="button" href="/straal-atelier-val-meer.vcf">
-    <span data-feather="user-plus"></span>
-    {{ i18n "button_vcard_text" }}</span>
-  </a>
 	<span class="p-street-address">{{ .Site.Params.adrStreet }}</span>
 	<span class="p-postal-code">{{ .Site.Params.adrPostcode }}</span>
 	<span class="p-locality">{{ .Site.Params.adrLocality }}</span>
 	<span class="p-country-name">{{ .Site.Params.adrCountry }}</span>
+  <a title="{{ i18n "button_vcard_title" }}" class="button" href="/straal-atelier-val-meer.vcf">
+    <span data-feather="user-plus"></span>
+    {{ i18n "button_vcard_text" }}</span>
+  </a>
 </div>
 

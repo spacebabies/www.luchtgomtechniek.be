@@ -1,6 +1,12 @@
 .h-card {
   margin: 1em 0 2em 0;
 
+  a {
+    display: block;
+    margin-left: 0;
+    width: auto;
+  }
+
   .invisible {
     display: none;
   }
