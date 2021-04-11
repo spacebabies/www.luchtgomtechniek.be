@@ -5,13 +5,18 @@
 			<a rel="nofollow" href="{{ .Params.permalink }}" target="instagram">
 				<header>
 					<img
+            loading="lazy"
 						alt="Profielfoto van straal_atelier"
 						class="instagram-avatar"
 						src="/straal_atelier.jpg"
 					/>
 					<strong>straal_atelier</strong>
 				</header>
-				<img class="instagram-photo" src="{{ .RelPermalink }}" alt="{{ .Title }}">
+				<img
+          loading="lazy"
+          class="instagram-photo"
+          src="{{ .RelPermalink }}"
+          alt="{{ .Title }}">
 				<p>{{ .Params.description }}</p>
 			</a>
 		</div>
