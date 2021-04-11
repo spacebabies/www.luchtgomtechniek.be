@@ -1,3 +1,6 @@
+address:
+  description:
+    other: Slechts toegankelijk op afspraak
 button_send:
   other: Verzenden
 button_vcard_text:

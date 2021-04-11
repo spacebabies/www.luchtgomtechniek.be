@@ -1,6 +1,6 @@
 <div class="h-card">
-	<img class="invisible u-logo" src="/straal_atelier.jpg" alt="{{ .Site.Title }} logo" />
-	<span class="p-name">Straal Atelier Val-Meer</span>
+	<img class="invisible u-logo" src="{{ ($.Scratch.Get "logo").RelPermalink }}" alt="{{ .Site.Title }} logo" />
+	<span class="p-name">{{ .Site.Title }}</span>
   <a title="{{ i18n "button_vcard_title" }}" class="button" href="/straal-atelier-val-meer.vcf">
     <span data-feather="user-plus"></span>
     {{ i18n "button_vcard_text" }}</span>

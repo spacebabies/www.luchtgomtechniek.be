@@ -1,3 +1,6 @@
+address:
+  description:
+    other: Seulement accessible sur rendez-vous
 button_send:
   other: Expédier
 button_vcard_text:
