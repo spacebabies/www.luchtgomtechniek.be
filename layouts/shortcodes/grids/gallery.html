@@ -1,4 +1,5 @@
-{{ $layer := resources.Get "images/overlay.png" }}
+{{ $layer := resources.Get "images/overlay.png" -}}
+{{ $loading := .Get "loading" -}}
 
 <div class="carousel">
   {{ range .Page.Resources.Match (.Get "pattern") }}
@@ -6,6 +7,7 @@
     {{ $x := sub $img.Width 80 }}
     {{ $img := $img | images.Filter ( images.Overlay $layer $x 300 ) }}
     <img
+        loading="{{ with .Params.loading }}.{{ else }}{{ $loading | default "" }}{{ end }}"
         src="{{ $img.RelPermalink }}"
         alt="{{ $img.Title }}">
   {{ end }}

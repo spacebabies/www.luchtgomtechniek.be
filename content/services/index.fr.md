@@ -20,7 +20,7 @@ L'avantage de ceci est que les buses ne se réunissent jamais, de sorte que les 
 
 De plus, nous pouvons également venir sur place pour les rayons d'essai, escaliers, cuisines ou parquet.
 
-{{< grids/gallery pattern="intro/*.jpg" >}}
+{{< grids/gallery pattern="intro/*.jpg" loading="lazy" >}}
 
 #### Gommes à air
 
@@ -28,7 +28,7 @@ Les gommes d'air du bois sont arrivées à très basse pression et avec des min�
 
 Nous pouvons souvent réparer de petits dommages ou des irrégularités.Nous conseillons toujours aux meubles en bois d'en donner un après traitement (par exemple avec une tache, un vernis, une huile, une cire ou une peinture) pour optimiser la protection du bois.Nous pouvons également prendre cette tâche parfaite pour vous.
 
-{{< grids/gallery pattern="ablage/*.jpg" >}}
+{{< grids/gallery pattern="ablage/*.jpg" loading="lazy" >}}
 
 #### Sablage fin
 
@@ -37,7 +37,7 @@ Ceci avec la technologie Air Gom.
 
 Tôle extrêmement mince, composants fragiles, pièces de voiture / moteur, collecteurs, pierre naturelle, miroirs, verrerie, coulée, aluminium, cuivre, etc ... Est tout à fait aucun problème.
 
-{{< grids/gallery pattern="sand/*.jpg" >}}
+{{< grids/gallery pattern="sand/*.jpg" loading="lazy" >}}
 
 #### Des billes de verre
 
@@ -47,4 +47,4 @@ Têtes de cylindre, pièces carter, remnaves ou soudage en acier inoxydable.
 La surface compense également en dehors du nettoyage (coup de feu)
 Sale a moins de chances d'adhérence.C'est le traitement principal en particulier pour l'acier inoxydable et l'aluminium.
 
-{{< grids/gallery pattern="glass/*.jpg" >}}
+{{< grids/gallery pattern="glass/*.jpg" loading="lazy" >}}

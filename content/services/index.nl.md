@@ -20,7 +20,7 @@ het voordeel daarvan is dat er nooit straalmiddelen door elkaar geraken, zodat s
 
 Daarnaast kunnen wij ook ter plaatse komen voor het stralen van gebintes, trappen, keukens of parket.
 
-{{< grids/gallery pattern="intro/*.jpg" >}}
+{{< grids/gallery pattern="intro/*.jpg" loading="lazy" >}}
 
 ### Luchtgommen
 
@@ -28,7 +28,7 @@ Het Luchtgommen van hout gebeurd op hele lage druk, en met heel fijn mineraal, o
 
 Kleine beschadigingen of onregelmatigheden kunnen wij vaak ook repareren. Wij adviseren de houten meubels altijd een na behandeling te geven (b.v met een beits, vernis, olie, wax of verf), om de bescherming van het hout te optimaliseren. Wij kunnen deze taak ook perfect voor u uit handen nemen.
 
-{{< grids/gallery pattern="ablage/*.jpg" >}}
+{{< grids/gallery pattern="ablage/*.jpg" loading="lazy" >}}
 
 ### Fijn Zandstralen
 
@@ -36,7 +36,7 @@ Wij zijn gespecialiseerd in het fijn Zandstralen van metalen en giet (ijzeren) o
 
 Uiterst dun plaatwerk, fragiele componenten, auto/motor onderdelen, spruitstukken, natuursteen, spiegels, glaswerk, gietwerk, aluminium, koper etc... is allemaal geen enkel probleem.
 
-{{< grids/gallery pattern="sand/*.jpg" >}}
+{{< grids/gallery pattern="sand/*.jpg" loading="lazy" >}}
 
 ### Glasparelstralen
 
@@ -44,4 +44,4 @@ Dit geeft het materiaal een parelmoerachtige glans. Deze methode is bij uitstek 
 
 Buiten de reiniging verdicht het oppervlak ook (Shot Peening) waardoor vuiligheid minder kans van hechting heeft. Met name voor Inox en Aluminium is dit de eindbewerking.
 
-{{< grids/gallery pattern="glass/*.jpg" >}}
+{{< grids/gallery pattern="glass/*.jpg" loading="lazy" >}}
