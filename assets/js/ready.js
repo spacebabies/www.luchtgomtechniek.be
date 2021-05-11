@@ -68,7 +68,7 @@ function getFirstBrowserLanguage() {
   return defaultLanguage;
 }
 
-document.addEventListener("DOMContentLoaded", function (event) {
+function run() {
   feather.replace({ width: "1em", height: "1em" });
 
   persistLanguage(document.cookie);
@@ -84,6 +84,11 @@ document.addEventListener("DOMContentLoaded", function (event) {
     });
   });
 
-  // this one last
   document.body.classList.add("data-js-loaded");
-});
+}
+
+if (document.readyState !== 'loading') {
+  run();
+} else {
+  document.addEventListener('DOMContentLoaded', run);
+}
