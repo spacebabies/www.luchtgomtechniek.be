@@ -72,9 +72,6 @@ command = "yarn run build -b $DEPLOY_PRIME_URL"
     Cache-Control = "public,immutable,max-age=31536000"
 
 [[plugins]]
-package = "netlify-plugin-is-website-vulnerable"
-
-[[plugins]]
 package = "netlify-plugin-checklinks"
 
 [[plugins]]
