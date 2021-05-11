@@ -80,6 +80,7 @@ function run() {
     new Flickity(element, {
       percentPosition: false,
       cellAlign: "left",
+      lazyLoad: 3,
       imagesLoaded: true,
     });
   });

@@ -1,5 +1,4 @@
 {{ define "main" }}
-  {{ $bg1 := resources.Get "images/hero/landscape.jpg" | fingerprint }}
   <header id="site-head" style="background-image: url({{ ($.Scratch.Get "hero-portrait").RelPermalink }})">
     <link class="portrait" as="image" rel="enclosure" href="{{ ($.Scratch.Get "hero-portrait").RelPermalink }}">
     <link class="landscape" as="image" rel="enclosure" href="{{ ($.Scratch.Get "hero-landscape").RelPermalink }}">
