@@ -3,9 +3,9 @@
   display: table;
   min-height: 100vh;
   width: 100%;
-  margin-bottom: 0;
   text-align: center;
   color: white;
+  background-color: $col60;
   background-size: cover;
 
   // semi-transparent overlay to make the text legible.
@@ -21,14 +21,127 @@
     min-height: 100vh;
     width: 100%;
   }
+
+  .inner {
+    position: relative;
+    width: 80%;
+    max-width: 700px;
+    margin: 3em auto;
+  }
 }
 
-.vertical {
-  display: table-cell;
-  vertical-align: middle;
+nav#main-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  padding: 15% 0 15% 0;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    margin: 0;
+  }
+
+  .button {
+    padding: 2rem 3rem 2rem 3rem;
+    text-transform: uppercase;
+    font-size: 1em;
+  }
 }
 
-@keyframes vertical {
+.lds-ellipsis {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+  transition: opacity var(--animation-speed) ease-in;
+
+  .header-loaded & {
+    opacity: 0;
+  }
+}
+.lds-ellipsis div {
+  position: absolute;
+  top: 0;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: $col20;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.lds-ellipsis div:nth-child(1) {
+  left: 8px;
+  animation: lds-ellipsis1 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(2) {
+  left: 8px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(3) {
+  left: 32px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(4) {
+  left: 56px;
+  animation: lds-ellipsis3 0.6s infinite;
+}
+@keyframes lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(24px, 0);
+  }
+}
+
+.scrolly {
+  font-size: 400%;
+  opacity: 0;
+  animation: scrollDown 3s ease infinite;
+  transition: opacity var(--animation-speed) ease-in;
+
+  a {
+    color: $col20;
+    transition: color var(--animation-speed) ease-in;
+
+    &:hover {
+      color: $col10;
+    }
+  }
+
+  .header-loaded & {
+    opacity: 1;
+  }
+}
+
+@keyframes scrollDown {
   0%,
   100%,
   60%,
@@ -43,14 +156,3 @@
   }
 }
 
-.scrolly {
-  font-size: 400%;
-  padding-top: 1em;
-  opacity: 0.6;
-  animation: vertical 3s ease infinite;
-  transition: opacity 1s ease-out;
-
-  &:hover {
-    opacity: 1;
-  }
-}

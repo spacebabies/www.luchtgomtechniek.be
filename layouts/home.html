@@ -1,28 +1,32 @@
 {{ define "main" }}
-  <header id="site-head" style="background-image: url({{ ($.Scratch.Get "hero-portrait").RelPermalink }})">
+  <header id="site-head">
     <link class="portrait" as="image" rel="enclosure" href="{{ ($.Scratch.Get "hero-portrait").RelPermalink }}">
     <link class="landscape" as="image" rel="enclosure" href="{{ ($.Scratch.Get "hero-landscape").RelPermalink }}">
 
-    <div class="vertical">
-      <div id="site-head-content" class="inner">
+    <div class="inner">
+      {{ with .Title }}<h1 class="blog-title">{{ . }}</h1>{{ end }}
+      {{ with .Site.Params.slogan }}<h2 class="blog-description">{{ . }}</h2>{{ end }}
 
-        {{ with .Title }}<h1 class="blog-title">{{ . }}</h1>{{ end }}
-        {{ with .Site.Params.slogan }}<h2 class="blog-description">{{ . }}</h2>{{ end }}
+      <nav id="main-menu">
+        <ul>
+          {{ range .Site.Menus.header }}<li>
+            <a class="button" href="#{{ anchorize .Title }}">{{ .Title }}</a>
+          </li>{{ end }}
+        </ul>
 
-        <nav id="main-menu">
-          <ul>
-            {{ range .Site.Menus.header }}<li>
-              <a class="button" href="#{{ anchorize .Title }}">{{ .Title }}</a>
-            </li>{{ end }}
-          </ul>
-        </nav>
+        <div class="lds-ellipsis">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
 
         <div class="scrolly">
             <a href="#more" title="{{ i18n "skip_link" }}">
                 <span data-feather="chevron-down"></span>
             </a>
         </div>
-      </div>
+      </nav>
     </div>
   </header>
 

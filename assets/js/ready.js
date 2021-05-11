@@ -22,6 +22,7 @@ function setHeader(header) {
 
   if (slide) {
     header.style.backgroundImage = "url(" + slide.href + ")";
+    header.classList.add('header-loaded');
   }
 }
 
