@@ -10,7 +10,7 @@
       <nav id="main-menu">
         <ul>
           {{ range .Site.Menus.header }}<li>
-            <a class="button" href="#{{ anchorize .Title }}">{{ .Title }}</a>
+            <a class="button" href="#{{ anchorize .Page.TranslationKey }}">{{ .Title }}</a>
           </li>{{ end }}
         </ul>
 
@@ -33,7 +33,7 @@
   <main class="content" id="more">
     {{ range .RegularPages }}
       <div class='post-holder'>
-        <article id='{{ anchorize .Title }}' class='post'>
+        <article id='{{ anchorize .TranslationKey }}' class='post'>
           <header class="post-header">
             <h2 class="post-title">{{ .Title }}</h2>
           </header>
