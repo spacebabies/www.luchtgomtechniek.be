@@ -59,6 +59,8 @@ Telefoon België: [+32 478 766843](tel:+32478766843)
 We zijn steeds bereikbaar voor al uw vragen. Op verzoek kunnen wij het
 werk komen ophalen en brengen, in België en Nederland.
 
+btw/tva BE0760813758
+
 ### Adres
 
 {{< microformats/h-card >}}
