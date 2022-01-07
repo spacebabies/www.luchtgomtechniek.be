@@ -1,5 +1,5 @@
-baseURL: "https://www.straalatelier.com/"
-title: Straal Atelier Val-Meer
+baseURL: "https://www.luchtgomtechniek.be/"
+title: Luchtgomtechniek
 relativeURLs: false
 disableKinds:
   - section

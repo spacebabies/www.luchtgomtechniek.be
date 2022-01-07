@@ -1,6 +1,6 @@
 {
-  "name": "Straalatelier",
-  "short_name": "atelier",
+  "name": "Luchtgomtechniek",
+  "short_name": "luchtgomtechniek",
   "icons": [
     {
       "src": "/favicon-32x32.png",
@@ -31,6 +31,6 @@
   "background_color": "#e2cead",
   "display": "standalone",
   "lang": "nl-NL",
-  "start_url": "https://www.straalatelier.com",
+  "start_url": "https://www.luchtgomtechniek.be",
   "description": "Voor het Luchtgommen van alle soorten en types hout, het Fijnstralen van Carrosserie en Glasparelstralen van Inox en Aluminium."
 }

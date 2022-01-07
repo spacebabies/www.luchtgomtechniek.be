@@ -44,7 +44,7 @@ resources:
     title: Foto van wit gelakte openslaande deuren met glas in lood
     params:
       permalink: https://www.instagram.com/p/CIRo5d6BJDO/
-      description: "Prachtige #schuifdeuren met glas in lood gerenoveerd. Gestraald in ons Atelier, slecht hout vervangen, opnieuw geverfd en teruggemonteerd."
+      description: "Prachtige #schuifdeuren met glas in lood gerenoveerd. Gestraald in ons bedrijf, slecht hout vervangen, opnieuw geverfd en teruggemonteerd."
   - src: instagram/122178236_832624580806794_5721849772557086312_n.jpg
     title: Foto van een wit gelakte trap in een woonhuis
     params:
@@ -65,12 +65,12 @@ btw/tva BE0760813758
 
 {{< microformats/h-card >}}
 
-Het atelier is enkel op afspraak te bezoeken.
+Wij zijn enkel op afspraak te bezoeken.
 
 {{< maps/google >}}
 
-### Instagram ![Volg @straal_atelier op Instagram](/IG_Glyph_Fill.png "Volg @straal_atelier op Instagram")
+### Instagram ![Volg @luchtgomtechniek op Instagram](/IG_Glyph_Fill.png "Volg @luchtgomtechniek op Instagram")
 
-Volg [**@straal_atelier**](https://www.instagram.com/straal_atelier/) om foto's te zien van ons werk.
+Volg [**@luchtgomtechniek**](https://www.instagram.com/luchtgomtechniek/) om foto's te zien van ons werk.
 
 {{< grids/instagram >}}

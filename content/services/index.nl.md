@@ -38,6 +38,12 @@ Uiterst dun plaatwerk, fragiele componenten, auto/motor onderdelen, spruitstukke
 
 {{< grids/gallery pattern="sand/*.jpg" loading="lazy" >}}
 
+### Poedercoaten
+
+Na het stralen kunnen wij de objecten vlamverzinken en/of poedercoaten, zo is de bescherming optimaal. Dit kan in elke RAL kleur en tevens in candy kleuren met of zonder vernis, kleine lasreparaties (ijzer of inox) kunnen wij ook voorzien.
+
+{{< grids/gallery pattern="powdercoating/*.jpg" loading="lazy" >}}
+
 ### Glasparelstralen
 
 Dit geeft het materiaal een parelmoerachtige glans. Deze methode is bij uitstek geschikt voor uitwendige delen als carburateurs, cilinderkoppen, carterdelen, remnaven of Inox-lassen.
@@ -45,3 +51,4 @@ Dit geeft het materiaal een parelmoerachtige glans. Deze methode is bij uitstek 
 Buiten de reiniging verdicht het oppervlak ook (Shot Peening) waardoor vuiligheid minder kans van hechting heeft. Met name voor Inox en Aluminium is dit de eindbewerking.
 
 {{< grids/gallery pattern="glass/*.jpg" loading="lazy" >}}
+

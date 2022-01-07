@@ -69,8 +69,8 @@ Le studio ne peut être visité que sur rendez-vous.
 
 {{< maps/google >}}
 
-### Instagram ![Suivez @straal_atelier sur Instagram](/IG_Glyph_Fill.png "Suivez @straal_atelier sur Instagram")
+### Instagram ![Suivez @luchtgomtechniek sur Instagram](/IG_Glyph_Fill.png "Suivez @luchtgomtechniek sur Instagram")
 
-Suivez [**@straal_atelier**](https://www.instagram.com/straal_atelier/) et voir des photos de notre travail.
+Suivez [**@luchtgomtechniek**](https://www.instagram.com/luchtgomtechniek/) et voir des photos de notre travail.
 
 {{< grids/instagram >}}
