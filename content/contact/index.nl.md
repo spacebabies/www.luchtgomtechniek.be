@@ -52,7 +52,7 @@ resources:
       description: "Beukenhouten trap gestraald en opnieuw geverfd met Sigma Nova #traprenovatie"
 ---
 
-E-mail: [info@straalatelier.com](mailto:thomasbaaij@gmail.com)
+E-mail: [info@luchtgomtechniek.be](mailto:thomasbaaij@gmail.com)
 
 Telefoon België: [+32 478 766843](tel:+32478766843)
 

@@ -1,13 +1,14 @@
 ---
 title: Bienvenue
-date: 2020-10-01
-publishdate: 2020-10-01
+date: 2020-10-06
+publishDate: 2020-10-06
 weight: 1
 ---
-En tant que petit atelier gommage, nous accordons la priorité à vos souhaits, car chaque objet est différent et nécessite sa propre approche, nous sommes heureux de discuter du résultat que vous souhaitez.
 
-Que vous souhaitiez un ensemble de charnières ou une ferme de toit entière sablée, nous sommes heureux de le travailler ensemble.
+Nous, en tant que petite compagnie de jet, nous mettons d'abord vos souhaits, car chaque objet est différent et nécessite sa propre approche que nous aimerions discuter de ce que vous souhaitez.
 
-Après le dynamitage, nous pouvons également prendre en charge tout post-traitement, bien sûr toujours en concertation avec vous.
+Que vous souhaitiez avoir un ensemble de charnières ou un total coloré, nous aimerions sortir ensemble.
+
+Après les rayons, nous pouvons également fournir tout post-traitement, bien sûr toujours en consultation avec vous.
 
 {{< share >}}
