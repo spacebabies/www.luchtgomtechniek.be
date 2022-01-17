@@ -25,6 +25,30 @@ command = "yarn run build -b $DEPLOY_PRIME_URL"
   status = 302
   force = true
 
+[[redirects]]
+  from = "http://www.straalatelier.com/*"
+  to = "https://www.luchtgomtechniek.be/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.straalatelier.com/*"
+  to = "https://www.luchtgomtechniek.be/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://straalatelier.eu/*"
+  to = "https://www.luchtgomtechniek.be/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://straalatelier.eu/*"
+  to = "https://www.luchtgomtechniek.be/:splat"
+  status = 301
+  force = true
+
 [[headers]]
   for = "/*/"
   [headers.values]

@@ -6,7 +6,7 @@ function changeLanguage(element) {
   element.addEventListener("change", function (event) {
     var location = window.location.pathname + window.location.hash;
     var userLang = event.target.value;
-    document.cookie = "nf_lang=" + userLang;
+    document.cookie = "nf_lang=" + userLang + "; Max-Age=2600000; Secure";
     window.location.assign(location.replace(/^\/\w{2}/, "/" + userLang));
   });
 }
@@ -33,7 +33,7 @@ function setHeader(header) {
 function persistLanguage(cookies) {
   if (!cookies.includes("nf_lang")) {
     var userLang = getFirstBrowserLanguage();
-    document.cookie = "nf_lang=" + userLang;
+    document.cookie = "nf_lang=" + userLang + "; Max-Age=2600000; Secure";
   }
 }
 
