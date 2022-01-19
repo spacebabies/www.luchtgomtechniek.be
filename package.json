@@ -11,22 +11,22 @@
     "node": ">=12"
   },
   "dependencies": {
-    "@fontsource/open-sans": "^4.2.2",
-    "@fontsource/oswald": "^4.2.2",
-    "@fontsource/roboto-slab": "^4.2.2",
+    "@fontsource/open-sans": "^4.5.2",
+    "@fontsource/oswald": "^4.5.1",
+    "@fontsource/roboto-slab": "^4.5.1",
     "feather-icons": "^4.28.0",
-    "flickity": "^2.2.2",
+    "flickity": "^2.3.0",
     "flickity-bg-lazyload": "^1.0.1",
     "flickity-fade": "^1.0.0",
     "flickity-fullscreen": "^1.1.1",
     "flickity-imagesloaded": "^2.0.0",
     "jquery": "^3.5.1",
-    "jquery-bridget": "^3.0.0"
+    "jquery-bridget": "^3.0.1"
   },
   "devDependencies": {
     "netlify-plugin-checklinks": "^4.1.1",
     "netlify-plugin-submit-sitemap": "^0.2.3",
-    "prettier": "^2.2.1"
+    "prettier": "^2.5.1"
   },
   "scripts": {
     "prestart": "yarn check || yarn install",
