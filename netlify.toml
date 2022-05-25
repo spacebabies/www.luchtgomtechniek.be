@@ -6,12 +6,6 @@ publish = "public"
 HUGO_VERSION = "0.82.0"
 HUGO_ENV = "production"
 
-[context.deploy-preview]
-command = "yarn run build --buildFuture -b $DEPLOY_PRIME_URL"
-
-[context.branch-deploy]
-command = "yarn run build -b $DEPLOY_PRIME_URL"
-
 [[redirects]]
   from = "/"
   to = "/fr/"
@@ -95,8 +89,20 @@ command = "yarn run build -b $DEPLOY_PRIME_URL"
   [headers.values]
     Cache-Control = "public,immutable,max-age=31536000"
 
-[[plugins]]
-package = "netlify-plugin-checklinks"
+# Context switches below
 
-[[plugins]]
-package = "netlify-plugin-submit-sitemap"
+[context.deploy-preview]
+  command = "yarn run build --buildFuture -b $DEPLOY_PRIME_URL"
+
+[context.branch-deploy]
+  command = "yarn run build -b $DEPLOY_PRIME_URL"
+
+[context.production]
+  [[context.production.plugins]]
+    package = "netlify-plugin-submit-sitemap"
+
+  [[context.production.plugins]]
+    package = "netlify-plugin-checklinks"
+
+  [[context.production.plugins]]
+    package = "netlify-plugin-hugo-cache-resources"
