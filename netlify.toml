@@ -5,7 +5,8 @@ publish = "public"
 [build.environment]
 HUGO_VERSION = "0.82.0"
 HUGO_ENV = "production"
-NODE_VERSION = "18.2.0"
+NODE_VERSION = "16.5.0"
+NODE_ENV = "production"
 
 [[redirects]]
   from = "/"
