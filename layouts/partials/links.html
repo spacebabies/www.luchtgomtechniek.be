@@ -10,7 +10,7 @@
 {{ $style := resources.Get "scss/main.scss" | toCSS $options | fingerprint -}}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
 
-{{ $bundle := slice (resources.Get "flickity/css/flickity.css") -}}
+{{ $bundle := slice (resources.Get "flickity/dist/flickity.css") -}}
 {{ $vendor := $bundle | resources.Concat "css/vendor.css" | fingerprint -}}
 <link rel="stylesheet" href="{{ $vendor.RelPermalink }}" integrity="{{ $vendor.Data.Integrity }}">
 
