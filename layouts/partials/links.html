@@ -5,8 +5,7 @@
   "includePaths" (slice
     "node_modules/@fontsource"
     "node_modules/flickity"
-    "node_modules/flickity-fade"
-    "node_modules/flickity-fullscreen" )) -}}
+    "node_modules/flickity-fade" )) -}}
 {{ $style := resources.Get "scss/main.scss" | toCSS $options | fingerprint -}}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
 
