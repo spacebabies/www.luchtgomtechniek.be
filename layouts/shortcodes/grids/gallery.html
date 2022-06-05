@@ -6,8 +6,12 @@
     {{ $img := .Resize "x400" }}
     {{ $x := sub $img.Width 100 }}
     {{ $img := $img | images.Filter ( images.Overlay $layer $x 300 ) }}
-    <img
+    {{ $webp := $img.Resize (printf "%dx%d webp" $img.Width $img.Height) }}
+    <picture>
+      <source srcset="{{ $webp.RelPermalink }}" type="image/webp">
+      <img
       data-flickity-lazyload="{{ $img.RelPermalink }}"
       alt="{{ $img.Title }}">
+    </picture>
   {{ end }}
 </div>
