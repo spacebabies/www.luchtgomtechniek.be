@@ -9,6 +9,12 @@ NODE_VERSION = "16.5.0"
 NODE_ENV = "production"
 
 [[redirects]]
+  from = "straalatelier*/:lang"
+  to = "https://www.luchtgomtechniek.be/:lang"
+  status = 301
+  force = false
+
+[[redirects]]
   from = "/"
   to = "/fr/"
   status = 302
@@ -19,30 +25,6 @@ NODE_ENV = "production"
   from = "/"
   to = "/nl/"
   status = 302
-  force = true
-
-[[redirects]]
-  from = "http://www.straalatelier.com/*"
-  to = "https://www.luchtgomtechniek.be/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "https://www.straalatelier.com/*"
-  to = "https://www.luchtgomtechniek.be/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "http://straalatelier.eu/*"
-  to = "https://www.luchtgomtechniek.be/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "https://straalatelier.eu/*"
-  to = "https://www.luchtgomtechniek.be/:splat"
-  status = 301
   force = true
 
 [[headers]]
