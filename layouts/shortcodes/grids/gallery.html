@@ -4,7 +4,7 @@
 <div class="carousel">
   {{ range .Page.Resources.Match (.Get "pattern") }}
     {{ $img := .Resize "x400" }}
-    {{ $x := sub $img.Width 80 }}
+    {{ $x := sub $img.Width 100 }}
     {{ $img := $img | images.Filter ( images.Overlay $layer $x 300 ) }}
     <img
       data-flickity-lazyload="{{ $img.RelPermalink }}"
