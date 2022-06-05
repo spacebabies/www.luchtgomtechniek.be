@@ -22,7 +22,8 @@
     "flickity-imagesloaded": "^2.0.0",
     "jquery": "^3.5.1",
     "jquery-bridget": "^3.0.1",
-    "netlify-plugin-hugo-cache-resources": "^0.2.1"
+    "netlify-plugin-hugo-cache-resources": "^0.2.1",
+    "netlify-plugin-subfont": "^6.0.0"
   },
   "devDependencies": {
     "netlify-plugin-checklinks": "^4.1.1",
