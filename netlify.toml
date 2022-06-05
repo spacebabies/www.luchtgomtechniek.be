@@ -83,9 +83,6 @@ NODE_ENV = "production"
 
 [context.production]
   [[context.production.plugins]]
-    package = "netlify-plugin-submit-sitemap"
-
-  [[context.production.plugins]]
     package = "netlify-plugin-checklinks"
 
   [[context.production.plugins]]
