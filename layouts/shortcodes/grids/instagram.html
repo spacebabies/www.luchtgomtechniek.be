@@ -4,6 +4,8 @@
 		<div class="instagram-wrapper">
 			<a rel="nofollow" href="{{ .Params.permalink }}" target="instagram">
 				<header>
+          {{ $webp := .Resize (printf "%dx%d webp" .Width .Height) }}
+
 					<img
             loading="lazy"
 						alt="Profielfoto van luchtgomtechniek"
@@ -12,11 +14,14 @@
 					/>
 					<strong>luchtgomtechniek</strong>
 				</header>
-				<img
-          loading="lazy"
+        <picture>
+          <source srcset="{{ $webp.RelPermalink }}" type="image/webp">
+          <img
+          alt="{{ .Title }}"
           class="instagram-photo"
           src="{{ .RelPermalink }}"
-          alt="{{ .Title }}">
+          loading="lazy" alt="{{ .Title }}">
+        </picture>
 				<p>{{ .Params.description }}</p>
 			</a>
 		</div>
