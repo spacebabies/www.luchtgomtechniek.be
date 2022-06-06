@@ -1,0 +1,11 @@
+{
+ "compilerOptions": {
+  "baseUrl": ".",
+  "paths": {
+   "*": [
+    "../node_modules/flickity-imagesloaded/*",
+    "../node_modules/flickity/*"
+   ]
+  }
+ }
+}

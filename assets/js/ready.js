@@ -1,3 +1,12 @@
+import Flickity from 'flickity';
+import 'flickity-imagesloaded';
+import 'flickity-fullscreen';
+import 'flickity-bg-lazyload';
+import 'flickity-fade';
+import 'flickity-fullscreen';
+
+import feather from 'feather-icons';
+
 "use strict";
 
 function changeLanguage(element) {
@@ -79,6 +88,7 @@ function run() {
   let carousels = document.querySelectorAll(".carousel");
   carousels.forEach(function (element) {
     new Flickity(element, {
+      wrapAround: true,
       percentPosition: false,
       cellAlign: "left",
       lazyLoad: 3,
@@ -89,8 +99,4 @@ function run() {
   document.body.classList.add("data-js-loaded");
 }
 
-if (document.readyState !== 'loading') {
-  run();
-} else {
-  document.addEventListener('DOMContentLoaded', run);
-}
+document.addEventListener('DOMContentLoaded', run);

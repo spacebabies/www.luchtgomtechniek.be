@@ -3,8 +3,6 @@ mounts:
     target: assets/jquery
   - source: node_modules/jquery-bridget
     target: assets/jquery-bridget
-  - source: node_modules/feather-icons/dist
-    target: assets/feather-icons
   - source: node_modules/flickity
     target: assets/flickity
   - source: node_modules/flickity-fade
