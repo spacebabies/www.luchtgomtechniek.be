@@ -5,12 +5,6 @@ mounts:
     target: assets/jquery-bridget
   - source: node_modules/flickity
     target: assets/flickity
-  - source: node_modules/flickity-fade
-    target: assets/flickity-fade
-  - source: node_modules/flickity-bg-lazyload
-    target: assets/flickity-bg-lazyload
-  - source: node_modules/flickity-fullscreen
-    target: assets/flickity-fullscreen
   - source: node_modules/flickity-imagesloaded
     target: assets/flickity-imagesloaded
   - source: assets

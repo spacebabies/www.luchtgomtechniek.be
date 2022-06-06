@@ -19,14 +19,14 @@ Nous avons différentes cabines avec lesquelles nous pouvons rayonner toutes sor
 L'avantage de ceci est que les buses ne se réunissent jamais, de sorte que les erreurs de jet sont exclues par la pollution.
 
 De plus, nous pouvons également venir sur place pour les rayons de tests, escaliers, cuisines ou parquet.
-{{< grids/gallery pattern="intro/*.jpg" loading="lazy" >}}
+{{< grids/gallery pattern="intro/*.jpg" >}}
 
 ### Aerogommage
 
 Les gencives de bois de bois sont arrivées à très basse pression, et avec des minéraux très fins, pour obtenir le mobilier en bois aussi lisse que possible sans trop rayonner les veines.Le mobilier en bois est toujours poncé.
 
 Nous pouvons souvent réparer de petits dommages ou des irrégularités.Nous conseillons toujours aux meubles en bois d'en donner un après traitement (par exemple avec une tache, un vernis, une huile, une cire ou une peinture) afin d'optimiser la protection du bois.Nous pouvons également prendre cette tâche de vos mains parfaite.
-{{< grids/gallery pattern="ablage/*.jpg" loading="lazy" >}}
+{{< grids/gallery pattern="ablage/*.jpg" >}}
 
 ### Sablage fin
 
@@ -34,13 +34,13 @@ Nous sommes spécialisés dans le sablage fin des métaux et versez des objets (
 
 Tôle extrêmement mince, composants fragiles, pièces de voiture / moteurs, collecteurs, pierre naturelle, miroirs, verrerie, coulées, aluminium, cuivre, etc. N'a tout pas de problème.
 
-{{< grids/gallery pattern="sand/*.jpg" loading="lazy" >}}
+{{< grids/gallery pattern="sand/*.jpg" >}}
 
 ### revêtement en poudre
 
 Après les rayons, nous pouvons causer des désirs de flamme et / ou des objets de revêtement en poudre, la protection est donc optimale.Ceci est possible dans chaque couleur RAL et dans des couleurs de bonbons avec ou sans vernis, de petites réparations de soudage (fer ou acier inoxydable), nous pouvons également fournir.
 
-{{< grids/gallery pattern="powdercoating/*.jpg" loading="lazy" >}}
+{{< grids/gallery pattern="powdercoating/*.jpg" >}}
 
 ### Verre Rayons de poire
 
@@ -48,5 +48,5 @@ Cela donne au matériel une brillance en forme de perle.Cette méthode convient 
 
 Nettoyage extérieur, la surface indemnise également (coup de feu), de sorte que la saleté a moins de chances d'adhérence.C'est le traitement final en particulier pour l'acier inoxydable et l'aluminium.
 
-{{< grids/gallery pattern="glass/*.jpg" loading="lazy" >}}
+{{< grids/gallery pattern="glass/*.jpg" >}}
 

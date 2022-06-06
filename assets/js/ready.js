@@ -1,9 +1,5 @@
 import Flickity from 'flickity';
 import 'flickity-imagesloaded';
-import 'flickity-fullscreen';
-import 'flickity-bg-lazyload';
-import 'flickity-fade';
-import 'flickity-fullscreen';
 
 import feather from 'feather-icons';
 

@@ -1,5 +1,4 @@
 {{ $layer := resources.Get "images/overlay.png" -}}
-{{ $loading := .Get "loading" -}}
 
 <div class="carousel">
   {{ range .Page.Resources.Match (.Get "pattern") }}
@@ -8,10 +7,10 @@
     {{ $img := $img | images.Filter ( images.Overlay $layer $x 300 ) }}
     {{ $webp := $img.Resize (printf "%dx%d webp" $img.Width $img.Height) }}
     <picture>
-      <source srcset="{{ $webp.RelPermalink }}" type="image/webp">
+      <source data-flickity-lazyload-srcset="{{ $webp.RelPermalink }}" type="image/webp">
       <img
-      src="{{ $img.RelPermalink }}"
-      loading="lazy" alt="{{ $img.Title }}">
+      data-flickity-lazyload="{{ $img.RelPermalink }}"
+      alt="{{ $img.Title }}">
     </picture>
   {{ end }}
 </div>

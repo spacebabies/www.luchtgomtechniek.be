@@ -1027,25 +1027,6 @@ fizzy-ui-utils@^3.0.0:
   resolved "https://registry.yarnpkg.com/fizzy-ui-utils/-/fizzy-ui-utils-3.0.0.tgz#cc5e876eea263d3d92828a3144745dbd7b972fc8"
   integrity sha512-uJj38QFQiJ/KCio5tiZhwAjIbTXSIgzBCKdKVbaYfLS053F6z23Nb0o1ZoO9gnxOQWN7BCc35jsvrCtAq3gY9g==
 
-flickity-bg-lazyload@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/flickity-bg-lazyload/-/flickity-bg-lazyload-2.0.0.tgz#bb10ebd270a4c5d6a51ee961b39dbe6e0d6d1a3b"
-  integrity sha512-il5f8gi0GHNGv0mU+rpEfEAnv1VBpYYRKMVsgmFR5hblBlhT6VaQltKTjc8irTgU8lNOdEuaGavW/AE0QzjSMg==
-  dependencies:
-    fizzy-ui-utils "^3.0.0"
-
-flickity-fade@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/flickity-fade/-/flickity-fade-2.0.0.tgz#541aa871e27848fd834d4a02892298ffcd113528"
-  integrity sha512-Lnf2jnbSEW/DZdHtdnJ1h55yoelDAlXfHGA3Lu3iWNVXchcBpYxv/v2raKCb8Vbc9Adav5fco6ECJ77X46+p0A==
-  dependencies:
-    fizzy-ui-utils "^3.0.0"
-
-flickity-fullscreen@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/flickity-fullscreen/-/flickity-fullscreen-2.0.0.tgz#95fcfd8bf8006cd3e7b6ce0dbc6f648ac2527269"
-  integrity sha512-5u3JhK+XFaTLz1vph+VYnfFpV88ReZa4XMhd9U2SUNtHlgqYmV+hRhUKzhSkVA4+ye7PXkAh3KGigmReCekw3A==
-
 flickity-imagesloaded@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/flickity-imagesloaded/-/flickity-imagesloaded-2.0.0.tgz#a2d1d6aae6c26369ef2fa44f3eb948ea474e976b"

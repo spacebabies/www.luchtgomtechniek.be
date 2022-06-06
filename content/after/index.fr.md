@@ -12,4 +12,4 @@ resources:
   title: "Escalier en bois de hêtre et peint à nouveau avec Sigma Nova #Traprenovation"
 ---
 
-{{< grids/gallery pattern="*.jpg" loading="lazy" >}}
+{{< grids/gallery pattern="*.jpg" >}}

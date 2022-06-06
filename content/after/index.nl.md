@@ -12,4 +12,4 @@ resources:
   title: "Beukenhouten trap gestraald en opnieuw geverfd met Sigma Nova #traprenovatie"
 ---
 
-{{< grids/gallery pattern="*.jpg" loading="lazy" >}}
+{{< grids/gallery pattern="*.jpg" >}}
