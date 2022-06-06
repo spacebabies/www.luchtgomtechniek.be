@@ -30,17 +30,17 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@fontsource/open-sans@^4.5.2":
+"@fontsource/open-sans@^4.5.10":
   version "4.5.10"
   resolved "https://registry.yarnpkg.com/@fontsource/open-sans/-/open-sans-4.5.10.tgz#c4269c54d6f5f8661322facb5946d8188fadc7f2"
   integrity sha512-MrtTDfWb1Tu9YxVh2KaKmsKBn6O3KL/lHZS0KRKK58jgqvdwuiDt4QW4udmW4FQf0XOWgnZ+4vKUF80F3SqBAA==
 
-"@fontsource/oswald@^4.5.1":
+"@fontsource/oswald@^4.5.9":
   version "4.5.9"
   resolved "https://registry.yarnpkg.com/@fontsource/oswald/-/oswald-4.5.9.tgz#204990e6601c7c18ae3defe2c530dd24469d16b2"
   integrity sha512-+VDR5CB8aYbAEltbPzbnQrkLcxDYEyipiVpDnQDYlo8y/Jgvf57LvEP8KezQNnx6M+SucwfqVGsaoig/fCRHzA==
 
-"@fontsource/roboto-slab@^4.5.1":
+"@fontsource/roboto-slab@^4.5.8":
   version "4.5.8"
   resolved "https://registry.yarnpkg.com/@fontsource/roboto-slab/-/roboto-slab-4.5.8.tgz#74e3611002ac58c304125908e9abe8901e49d928"
   integrity sha512-qBlkpJ8NNogj9OnZYWowZ9Sc9gnsAxLAMQNDHzYDPE0rSJsaxx6DUbxN9vIM8cvC4HLxfbut2j6J/Hp3ldIW8Q==

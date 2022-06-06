@@ -11,9 +11,9 @@
     "node": ">=12"
   },
   "dependencies": {
-    "@fontsource/open-sans": "^4.5.2",
-    "@fontsource/oswald": "^4.5.1",
-    "@fontsource/roboto-slab": "^4.5.1",
+    "@fontsource/open-sans": "^4.5.10",
+    "@fontsource/oswald": "^4.5.9",
+    "@fontsource/roboto-slab": "^4.5.8",
     "feather-icons": "^4.28.0",
     "flickity": "https://github.com/metafizzy/flickity",
     "flickity-bg-lazyload": "^2.0.0",

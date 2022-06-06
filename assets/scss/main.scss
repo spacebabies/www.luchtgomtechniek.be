@@ -6,10 +6,10 @@
 /* npm packages */
 @import "flickity-fade";
 @import "fullscreen";
-@import "open-sans/400";
-@import "open-sans/700";
-@import "roboto-slab/index";
-@import "oswald/index";
+@import "roboto-slab";
+@import "oswald";
+@import "open-sans/400.css";
+@import "open-sans/700.css";
 
 /* our partials */
 @import "header";
