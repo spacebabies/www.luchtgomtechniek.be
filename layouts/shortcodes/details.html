@@ -1,4 +1,6 @@
 <details{{ with .Get "open" }} open{{ end }}>
   <summary>{{ .Get "summary" }}</summary>
-  <p>{{ .Inner }}</p>
+  <section>
+    {{ .Inner | markdownify }}
+  </section>
 </details>

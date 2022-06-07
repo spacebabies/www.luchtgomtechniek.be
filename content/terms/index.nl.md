@@ -17,6 +17,7 @@ Elke bestelling/goedkeuring/betaling betekent aanvaarding van onze voorwaarden.
 
 {{< details summary="De termen die wij gebruiken" >}}
 Het verschil tussen luchtgommen en zandstralen, luchtgommen is stralen van hout (en andere) onder lagere druk met een fijne keramische korrel waardoor de inslag minder agressief is en uw meubel een fijner resultaat krijgt dan zandstralen.
+
 {{< /details >}}
 
 {{< details summary="Als er zaken beschadigd raken" >}}

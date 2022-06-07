@@ -18,7 +18,7 @@ details summary::-webkit-details-marker {
 details summary {
   font-size: 90%;
   width: 100%;
-  padding: .5rem 0;
+  padding: .4rem 0;
   border-top: 1px solid black;
   position: relative;
   cursor: pointer;
@@ -26,11 +26,13 @@ details summary {
 }
 
 details summary:after {
+  font-size: 120%;
+  font-weight: 400;
   content: "+";
   color: black;
   position: absolute;
   line-height: 0;
-  margin-top: .75rem;
+  margin-top: 1.5rem;
   right: 0;
   transform-origin: center;
   transition: 200ms linear;
@@ -44,6 +46,7 @@ details summary {
   outline: 0;
 }
 
-details p {
+details section {
   font-size: 70%;
+  margin-bottom: 1.6rem;
 }
