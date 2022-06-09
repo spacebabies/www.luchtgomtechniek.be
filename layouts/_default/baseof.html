@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 {{ $.Scratch.Set "hero-portrait" (resources.Get "images/hero/portrait.jpg" | fingerprint) -}}
 {{ $.Scratch.Set "hero-landscape" (resources.Get "images/hero/landscape.jpg" | fingerprint) -}}
+{{ $.Scratch.Set "key-art" (resources.Get "images/luchtgommen-voorbeeld.jpg" | fingerprint) -}}
 <html lang="{{ .Site.Language.Lang }}" dir="ltr">
 {{- partial "head.html" . -}}
 
 <body>
-  <div class="skip-link"><a href="#more">{{ i18n "skip_link" }}</a></div>
-  {{ partial "header.html" . }}
+  <a class="skip-to-content-link" href="#maincontent">
+    {{ i18n "skip_link" }}
+  </a>
   {{ block "main" . }}{{ end }}
   {{ partial "footer.html" . }}
   {{ partial "scripts.html" . }}

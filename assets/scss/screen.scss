@@ -444,6 +444,28 @@ ul li {
   line-height: 1.5em;
 }
 
+.skip-to-content-link {
+  clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+  box-sizing: border-box;
+  position: absolute;
+  margin: 0;
+  padding: 8px;
+  transform: translateY(-100%);
+  transition: transform .3s;
+
+  &:focus {
+    clip-path: none;
+    z-index: 999;
+    height: 80px;
+    line-height: 80px;
+    background: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #e77e23;
+    text-align: center;
+  }
+}
+
 /* ==========================================================================
       5. Single Post - When you click on an individual post
       ========================================================================== */

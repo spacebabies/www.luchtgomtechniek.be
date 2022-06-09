@@ -22,7 +22,7 @@
         </div>
 
         <div class="scrolly">
-            <a href="#more" title="{{ i18n "skip_link" }}">
+            <a href="#maincontent" title="{{ i18n "skip_link" }}">
                 <span data-feather="chevron-down"></span>
             </a>
         </div>
@@ -30,7 +30,7 @@
     </div>
   </header>
 
-  <main class="content" id="more">
+  <main class="content" id="maincontent">
     {{ range .RegularPages }}
       <div class='post-holder'>
         <article id='{{ anchorize .TranslationKey }}' class='post'>
