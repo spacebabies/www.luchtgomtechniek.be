@@ -30,7 +30,7 @@
     </div>
   </header>
 
-  <main class="content" id="maincontent">
+  <section class="content">
     {{ range .RegularPages }}
       <div class='post-holder'>
         <article id='{{ anchorize .TranslationKey }}' class='post'>
@@ -44,6 +44,6 @@
         <div class='post-after'></div>
       </div>
     {{ end }}
-  </main>
+    </section>
 {{ end }}
 

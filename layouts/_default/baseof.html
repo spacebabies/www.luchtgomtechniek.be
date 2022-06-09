@@ -9,7 +9,9 @@
   <a class="skip-to-content-link" href="#maincontent">
     {{ i18n "skip_link" }}
   </a>
-  {{ block "main" . }}{{ end }}
+  <main id="maincontent">
+    {{ block "main" . }}{{ end }}
+  </main>
   {{ partial "footer.html" . }}
   {{ partial "scripts.html" . }}
   {{ partial "languages.html" . }}
