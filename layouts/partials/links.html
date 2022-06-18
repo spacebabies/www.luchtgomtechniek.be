@@ -18,8 +18,10 @@
 
 {{ if .IsTranslated -}}
   <link rel="alternate" href="{{ .Permalink }}" hreflang="{{ $.Site.Language }}">
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ "/sitemap.xml" }}" hreflang="{{ $.Site.Language }}">
   {{ range .Translations -}}
      <link rel="alternate" href="{{ .Permalink }}" hreflang="{{ .Lang }}">
   {{ end -}}
 {{- end -}}
 <link rel="canonical" href="{{ .Permalink }}">
+
