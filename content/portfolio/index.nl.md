@@ -13,4 +13,16 @@ resources:
   title: "Beukenhouten trap gestraald en opnieuw geverfd met Sigma Nova #traprenovatie"
 ---
 
-{{< grids/gallery pattern="*.jpg" >}}
+Hier ziet u enkele voorbeelden van recent werk.
+
+#### Watermolen Voerstreek
+
+Een watermolen uit 1820 volgens restauratienormen fijngestraald.
+
+{{< grids/gallery pattern="watermolen/*.jpg" >}}
+
+#### Woonhuis te Tongeren
+
+Volledig gestraald, gevel, kozijnen, trap, blauwsteen. Houtwerk naturel nabehandeld. Hang & sluitwerk zwart gepoedercoat.
+
+{{< grids/gallery pattern="tongeren/*.jpg" >}}
