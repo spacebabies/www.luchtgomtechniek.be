@@ -13,4 +13,15 @@ resources:
   title: "Escalier en bois de hêtre et peint à nouveau avec Sigma Nova #Traprenovation"
 ---
 
-{{< grids/gallery pattern="*.jpg" >}}
+Ici, vous pouvez voir quelques exemples de travaux récents.
+
+### Voerstrerek de la flèche
+
+Un moulin à eau de 1820 finement volé selon les normes de restauration.
+
+{{< grids/gallery pattern="watermolen/*.jpg" >}}
+
+### Maison à Tongreren
+
+Entièrement dynamité, façade, cadres, escaliers, Bluestone.Boiseux naturels après-traitement.Suspendre et verrouiller la poudre noire enrobée.
+{{< grids/gallery pattern="tongeren/*.jpg" >}}

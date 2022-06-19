@@ -4,7 +4,7 @@ date: 2021-07-31
 publishDate: 2021-07-31
 weight: 800
 translationKey: terms
-headless: true
+menu: header
 ---
 
 {{< details summary="Inleiding" open=true >}}

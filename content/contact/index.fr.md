@@ -4,7 +4,6 @@ date: 2020-10-01
 publishdate: 2020-10-01
 weight: 90
 menu: header
-headless: true
 resources:
   - src: instagram/151705710_879050402637265_7793190556471754044_n.jpg
     title: Photo de pièces de la machine sablées

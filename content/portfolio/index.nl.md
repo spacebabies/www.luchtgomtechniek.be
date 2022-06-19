@@ -15,13 +15,13 @@ resources:
 
 Hier ziet u enkele voorbeelden van recent werk.
 
-#### Watermolen Voerstreek
+### Watermolen Voerstreek
 
 Een watermolen uit 1820 volgens restauratienormen fijngestraald.
 
 {{< grids/gallery pattern="watermolen/*.jpg" >}}
 
-#### Woonhuis te Tongeren
+### Woonhuis te Tongeren
 
 Volledig gestraald, gevel, kozijnen, trap, blauwsteen. Houtwerk naturel nabehandeld. Hang & sluitwerk zwart gepoedercoat.
 
