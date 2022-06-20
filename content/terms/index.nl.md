@@ -90,7 +90,7 @@ Indien een offerte boven de €10.000 excl. Btw is: wordt een voorschot factuur 
 
 Facturatie van roerende goederen valt onder 21% btw regime.
 
-Facturatie van renovatie werken aan een prive woning kan tegen 6% Btw. Indien de woning ouder is dan 10 jaar. Meer info via: [financien.belgium.be/nl/particulieren/woning/verbouwen](https://financien.belgium.be/nl/particulieren/woning/verbouwen)
+Facturatie van renovatie werken aan een privé woning kan tegen 6% Btw. Indien de woning ouder is dan 10 jaar. Meer info via: [financien.belgium.be/nl/particulieren/woning/verbouwen](https://financien.belgium.be/nl/particulieren/woning/verbouwen)
 
 Roerende goederen dienen contant betaald te worden bij levering of ophaling. Onze betalingsmogelijkheden: cash of bankoverschrijving. Indien de eindfactuur groter is dan €1500 excl. Btw vragen wij een voorschot van 30% bij het ophalen van de roerende goederen.
 

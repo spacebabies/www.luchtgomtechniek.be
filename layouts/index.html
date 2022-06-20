@@ -45,5 +45,22 @@
       </div>
     {{ end }}
     </section>
-{{ end }}
 
+<script type="application/ld+json">
+  {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      {{ with .Title }}"name": "{{ . }}",{{ end }}
+      {{ with .Param "description" }}"description": "{{ . }}",{{ end }}
+      "url": "{{ .Permalink }}",
+      "publisher": {
+          "@type": "LocalBusiness",
+          "name": "{{ .Param "name" }}"
+      },
+      "countryOfOrigin": {
+        "@type": "Country",
+        "name": "Belgium"
+      }
+  }
+  </script>
+  {{ end }}

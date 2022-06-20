@@ -1,6 +1,6 @@
 <div class="h-card">
 	<img class="invisible u-logo" src="{{ (resources.Get "images/luchtgomtechniek.jpg" | fingerprint).RelPermalink }}" alt="{{ .Site.Title }} logo" />
-	<span class="p-name">{{ .Site.Title }}</span>
+	<span class="p-name">{{ $.Site.Params.name }}</span>
 	<span class="p-street-address">{{ .Site.Params.adrStreet }}</span>
 	<span class="p-postal-code">{{ .Site.Params.adrPostcode }}</span>
 	<span class="p-locality">{{ .Site.Params.adrLocality }}</span>
