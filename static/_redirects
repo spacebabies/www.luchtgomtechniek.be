@@ -1,7 +1,9 @@
-http://www.straalatelier.com/*  https://www.luchtgomtechniek.be/:splat 301!
-https://www.straalatelier.com/*  https://www.luchtgomtechniek.be/:splat 301!
-http://www.straalatelier.eu/*  https://www.luchtgomtechniek.be/:splat 301!
-https://www.straalatelier.eu/*  https://www.luchtgomtechniek.be/:splat 301!
+http://www.straalatelier.com/*  https://www.luchtgomtechniek.be/:splat 	301!
+https://www.straalatelier.com/* https://www.luchtgomtechniek.be/:splat 	301!
+http://www.straalatelier.eu/*  	https://www.luchtgomtechniek.be/:splat 	301!
+https://www.straalatelier.eu/*  https://www.luchtgomtechniek.be/:splat 	301!
+www.detrapstraler.be/*		https://www.luchtgomtechniek.be:splat	302!
+detrapstraler.be/*		https://www.luchtgomtechniek.be:splat	302!
 
-/ /fr/  302! Language=fr
-/ /nl/  302!
+/ 				/fr/  					302 Language=fr
+/ 				/nl/  					302

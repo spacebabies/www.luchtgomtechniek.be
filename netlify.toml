@@ -1,5 +1,5 @@
 [build]
-command = "yarn run build"
+command = "hugo --gc --minify"
 publish = "public"
 
 [build.environment]
@@ -57,12 +57,33 @@ NODE_ENV = "production"
 # Context switches below
 
 [context.deploy-preview]
-  command = "yarn run build --buildFuture -b $DEPLOY_PRIME_URL"
+  command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+
+[context.deploy-preview.environment]
+  HUGO_VERSION = "0.101.0"
 
 [context.branch-deploy]
-  command = "yarn run build -b $DEPLOY_PRIME_URL"
+  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+
+[context.branch-deploy.environment]
+  HUGO_VERSION = "0.101.0"
+
+[context.split1]
+  command = "hugo --gc --minify --enableGitInfo"
+
+[context.split1.environment]
+  HUGO_VERSION = "0.92.2"
+  HUGO_ENV = "production"
+
+[context.next.environment]
+  HUGO_ENABLEGITINFO = "true"
 
 [context.production]
+  [[context.production.environment]]
+    HUGO_VERSION = "0.92.2"
+    HUGO_ENV = "production"
+    HUGO_ENABLEGITINFO = "true"
+
   [[context.production.plugins]]
     package = "netlify-plugin-checklinks"
 
