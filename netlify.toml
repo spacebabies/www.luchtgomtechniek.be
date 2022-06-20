@@ -8,43 +8,6 @@ HUGO_ENV = "production"
 NODE_VERSION = "16.5.0"
 NODE_ENV = "production"
 
-[[redirects]]
-  from = "http://straalatelier.com/*"
-  to = "https://www.luchtgomtechniek.be/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "https://straalatelier.com/*"
-  to = "https://www.luchtgomtechniek.be/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "http://www.straalatelier.com/*"
-  to = "https://www.luchtgomtechniek.be/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "https://www.straalatelier.com/*"
-  to = "https://www.luchtgomtechniek.be/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/"
-  to = "/fr/"
-  status = 302
-  force = true
-  conditions = {Language = ["fr"]}
-
-[[redirects]]
-  from = "/"
-  to = "/nl/"
-  status = 302
-  force = true
-
 [[headers]]
   for = "/*/"
   [headers.values]
@@ -107,4 +70,4 @@ NODE_ENV = "production"
     package = "netlify-plugin-hugo-cache-resources"
 
   [[context.production.plugins]]
-    package = "@netlify/plugin-sitemap"
+    package = "netlify-plugin-submit-sitemap"
