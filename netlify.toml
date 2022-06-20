@@ -105,3 +105,6 @@ NODE_ENV = "production"
 
   [[context.production.plugins]]
     package = "netlify-plugin-hugo-cache-resources"
+
+  [[context.production.plugins]]
+    package = "@netlify/plugin-sitemap"
