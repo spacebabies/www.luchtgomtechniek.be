@@ -20,10 +20,11 @@
     "jquery": "^3.5.1",
     "jquery-bridget": "^3.0.1",
     "netlify-plugin-hugo-cache-resources": "^0.2.1"
-  },
-  "devDependencies": {
     "netlify-plugin-checklinks": "^4.1.1",
     "netlify-plugin-submit-sitemap": "^0.4.0",
+  },
+  "devDependencies": {
+    "netlify-cli": "^10.5.1",
     "prettier": "^2.5.1"
   },
   "scripts": {
