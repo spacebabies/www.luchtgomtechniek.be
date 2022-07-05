@@ -26,3 +26,5 @@ Een watermolen uit 1820 volgens restauratienormen fijngestraald.
 Volledig gestraald, gevel, kozijnen, trap, blauwsteen. Houtwerk naturel nabehandeld. Hang & sluitwerk zwart gepoedercoat.
 
 {{< grids/gallery pattern="tongeren/*.jpg" >}}
+
+{{< grids/gallery pattern="los/*.jpg" >}}
