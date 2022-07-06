@@ -7,12 +7,18 @@ import feather from 'feather-icons';
 
 function changeLanguage(element) {
   if (!element) return;
+  var location, userLang;
 
   element.addEventListener("change", function (event) {
-    var location = window.location.pathname + window.location.hash;
-    var userLang = event.target.value;
+    if (event.target.value === 'nl') {
+      userLang = "nl";
+      location = "/nl/";
+    } else if (event.target.value === 'fr') {
+      userLang = "fr";
+      location = "/fr";
+    }
     document.cookie = "nf_lang=" + userLang + "; Max-Age=2600000; Secure";
-    window.location.assign(location.replace(/^\/\w{2}/, "/" + userLang));
+    window.location.assign(location);
   });
 }
 
@@ -33,9 +39,9 @@ function setHeader(header) {
 }
 
 /*
- * Create cookie to get the Browser Language.
- * This should always run for CDN optimisation.
- */
+  * Create cookie to get the Browser Language.
+  * This should always run for CDN optimisation.
+  */
 function persistLanguage(cookies) {
   if (!cookies.includes("nf_lang")) {
     var userLang = getFirstBrowserLanguage();
@@ -96,4 +102,9 @@ function run() {
   document.body.classList.add("data-js-loaded");
 }
 
-document.addEventListener('DOMContentLoaded', run);
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', run);
+} else {
+  run();
+}
