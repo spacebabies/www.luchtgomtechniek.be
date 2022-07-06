@@ -2,11 +2,6 @@
 	display: grid;
 	margin-bottom: 3em;
 
-	&.instagrid {
-		grid-template-columns: 1fr 1fr 1fr;
-		gap: 1em;
-	}
-
 	&.gallerygrid {
 		grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 		grid-gap: 1em;

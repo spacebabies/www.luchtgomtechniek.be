@@ -1,9 +1,5 @@
-{{ $bundle := slice (resources.Get "jquery/jquery.slim.min.js") -}}
-{{ $bundle = $bundle | append (resources.Get "jquery-bridget/jquery-bridget.js" | minify) -}}
-{{ $js := $bundle | resources.Concat "js/app.js" | fingerprint -}}
 {{ $built := resources.Get "js/ready.js" | js.Build (dict "targetPath" "main.js" "minify" true)}}
 <script defer type="text/javascript" src="{{ $built.RelPermalink }}" integrity="{{ $built.Data.Integrity }}"></script>
-<script async type="text/javascript" src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 
 <script type="application/ld+json">
   {{ $address := dict
