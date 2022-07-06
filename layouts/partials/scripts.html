@@ -1,4 +1,4 @@
-{{ $built := resources.Get "js/ready.js" | js.Build (dict "targetPath" "main.js" "minify" true)}}
+{{ $built := resources.Get "js/ready.js" | js.Build (dict "targetPath" "main.js" "minify" true) | fingerprint }}
 <script defer type="text/javascript" src="{{ $built.RelPermalink }}" integrity="{{ $built.Data.Integrity }}"></script>
 
 <script type="application/ld+json">

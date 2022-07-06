@@ -19,10 +19,11 @@ function changeLanguage(element) {
 function setHeader(header) {
   if (!header) return;
 
+  var slide;
   if (screen.orientation.type.startsWith("portrait")) {
-    var slide = header.querySelector("link.portrait");
+    slide = header.querySelector("link.portrait");
   } else {
-    var slide = header.querySelector("link.landscape");
+    slide = header.querySelector("link.landscape");
   }
 
   if (slide) {
