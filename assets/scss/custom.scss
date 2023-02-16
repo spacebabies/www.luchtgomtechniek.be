@@ -278,3 +278,7 @@ nav.change-language li {
     transform: translateY(0%);
   }
 }
+
+.flickity-button:focus {
+  box-shadow: 0 0 0 5px $col30;
+}
