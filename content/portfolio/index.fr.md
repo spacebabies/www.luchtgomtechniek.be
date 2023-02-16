@@ -8,6 +8,12 @@ menu: header
 
 Vous pouvez voir ici quelques exemples de travaux récents.
 
+### Usine de limonade, Eijsden
+
+Transformation d'une ancienne limonaderie voûtée en appartements de luxe.
+
+{{< grids/gallery pattern="limonadefabriek/*.jpeg" >}}
+
 ### École, Spa
 
 Menuiserie extérieure complète en cèdre provenant d'une école de Spa.
@@ -26,4 +32,3 @@ Entièrement sablé, façade, cadres de fenêtres, escalier, pierre bleue. Boise
 
 {{< grids/gallery pattern="tongeren/*.jpg" >}}
 
-{{< grids/gallery pattern="los/*.jpg" >}}
