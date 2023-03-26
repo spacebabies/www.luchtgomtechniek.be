@@ -23,9 +23,12 @@ De plus, nous pouvons également venir sur place pour les rayons de tests, escal
 
 ### Aerogommage
 
-Les gencives de bois de bois sont arrivées à très basse pression, et avec des minéraux très fins, pour obtenir le mobilier en bois aussi lisse que possible sans trop rayonner les veines.Le mobilier en bois est toujours poncé.
+Aerogommage est une technique de nettoyage et de restauration des surfaces en bois, qui consiste à projeter un mélange d'air et de fines particules (généralement du sable) à haute pression sur la surface. Cela permet de retirer les anciennes couches de peinture, la saleté, les taches et autres impuretés, exposant ainsi à nouveau le bois.
 
-Nous pouvons souvent réparer de petits dommages ou des irrégularités.Nous conseillons toujours aux meubles en bois d'en donner un après traitement (par exemple avec une tache, un vernis, une huile, une cire ou une peinture) afin d'optimiser la protection du bois.Nous pouvons également prendre cette tâche de vos mains parfaite.
+Le grand avantage de aerogommage est qu'il s'agit d'une méthode très efficace pour nettoyer et restaurer les surfaces en bois sans endommager le bois lui-même. Il s'agit d'une méthode de ponçage plus douce et plus contrôlée que le ponçage traditionnel avec du papier de verre, car elle ne laisse pas de rayures ou de bosses et ne cause pas de dommages au bois.
+
+Aerogommage est souvent utilisé pour restaurer des meubles, des escaliers, des portes et d'autres surfaces en bois pour les faire briller comme neufs. C'est une alternative populaire au ponçage traditionnel et à l'utilisation de produits chimiques pour enlever la peinture et la saleté.
+
 {{< grids/gallery pattern="ablage/*.jpg" >}}
 
 ### Sablage fin

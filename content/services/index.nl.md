@@ -24,9 +24,11 @@ Daarnaast kunnen wij ook ter plaatse komen voor het stralen van gebintes, trappe
 
 ### Luchtgommen
 
-Het Luchtgommen van hout gebeurd op hele lage druk, en met heel fijn mineraal, om de houten meubels een zo glad mogelijk resultaat te bekomen zonder de nerven teveel uit te stralen. De houten meubels worden altijd licht na geschuurd.
+Luchtgommen is een techniek om houten oppervlakken te reinigen en te herstellen, waarbij een mengsel van lucht en fijne korrels (meestal zand) onder hoge druk op het oppervlak wordt gespoten. Hierdoor worden oude verflagen, vuil, vlekken en andere onzuiverheden verwijderd en wordt het hout opnieuw blootgesteld.
 
-Kleine beschadigingen of onregelmatigheden kunnen wij vaak ook repareren. Wij adviseren de houten meubels altijd een na behandeling te geven (b.v met een beits, vernis, olie, wax of verf), om de bescherming van het hout te optimaliseren. Wij kunnen deze taak ook perfect voor u uit handen nemen.
+Het grote voordeel van luchtgommen is dat het een zeer effectieve manier is om houten oppervlakken schoon te maken en te herstellen zonder schade toe te brengen aan het hout. Het is een zachtere en meer gecontroleerde manier van schuren dan traditioneel schuren met schuurpapier, omdat het geen krassen of oneffenheden achterlaat en het hout niet beschadigt.
+
+Luchtgommen wordt vaak gebruikt om meubels, trappen, deuren en andere houten oppervlakken te herstellen en opnieuw te laten stralen als nieuw. Het is een populair alternatief voor traditioneel schuren en het gebruik van chemicaliën om verf en vuil te verwijderen.
 
 {{< grids/gallery pattern="ablage/*.jpg" >}}
 
