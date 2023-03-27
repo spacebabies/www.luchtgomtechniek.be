@@ -3,10 +3,8 @@ mounts:
     target: assets/jquery
   - source: node_modules/jquery-bridget
     target: assets/jquery-bridget
-  - source: node_modules/flickity
-    target: assets/flickity
-  - source: node_modules/flickity-imagesloaded
-    target: assets/flickity-imagesloaded
+  - source: node_modules/swiper
+    target: assets/swiper
   - source: assets
     target: assets
   - source: node_modules/@fontsource/open-sans

@@ -12,22 +12,22 @@ Hier ziet u enkele voorbeelden van recent werk.
 
 Transformatie van een oude gewelfde limonadefabriek naar luxueuze appartementen.
 
-{{< grids/gallery pattern="limonadefabriek/*.jpeg" >}}
+{{< grids/swiper pattern="limonadefabriek/*.jpeg" >}}
 
 ### School, Spa
 
 Volledig Cederhouten buitenschrijnwerk gestraald van een school in Spa.
 
-{{< grids/gallery pattern="spa/*.jpg" >}}
+{{< grids/swiper pattern="spa/*.jpg" >}}
 
 ### Watermolen, Voerstreek
 
 Een watermolen uit 1820 volgens restauratienormen fijngestraald.
 
-{{< grids/gallery pattern="watermolen/*.jpg" >}}
+{{< grids/swiper pattern="watermolen/*.jpg" >}}
 
 ### Woonhuis, Tongeren
 
 Volledig gestraald, gevel, kozijnen, trap, blauwsteen. Houtwerk naturel nabehandeld. Hang & sluitwerk zwart gepoedercoat.
 
-{{< grids/gallery pattern="tongeren/*.jpg" >}}
+{{< grids/swiper pattern="tongeren/*.jpg" >}}

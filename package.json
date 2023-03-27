@@ -1,7 +1,7 @@
 {
   "name": "Luchtgomtechniek",
   "version": "3.0.0",
-  "description": "Voor het Luchtgommen van alle soorten en types hout, het Fijnstralen van Carrosserie en Glasparelstralen van Inox en Aluminium.",
+  "description": "Voor het Luchtgommen van alle soorten en types hout, het Fijnstralen van Carrosserie en Glasparelstralen van rvs (inox) en aluminium.",
   "main": "index.html",
   "repository": "git@github.com:spacebabies/www.straalatelier.com",
   "author": "Joost Baaij <joost@spacebabies.nl>",
@@ -15,11 +15,10 @@
     "@fontsource/oswald": "^4.5.9",
     "@fontsource/roboto-slab": "^4.5.8",
     "feather-icons": "^4.28.0",
-    "flickity": "https://github.com/metafizzy/flickity",
-    "flickity-imagesloaded": "^2.0.0",
     "jquery": "^3.5.1",
     "jquery-bridget": "^3.0.1",
-    "netlify-plugin-hugo-cache-resources": "^0.2.1"
+    "netlify-plugin-hugo-cache-resources": "^0.2.1",
+    "swiper": "^9.1.1"
   },
   "devDependencies": {
     "eslint": "^8.19.0",

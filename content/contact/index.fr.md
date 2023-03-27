@@ -19,8 +19,9 @@ btw/tva BE0760813758
 {{< microformats/h-card >}}
 
 Nous sommes seulement à visiter sur rendez-vous.
+
 {{< maps/google >}}
 
-### Instagram ![Suivez @ Airgom Technology sur Instagram](/IG_Glyph_Fill.png "Suivez @ Airgom Technique sur Instagram")
+### Instagram ![Suivez @luchtgomtechniek sur Instagram](/IG_Glyph_Fill.png "Suivez @luchtgomtechniek sur Instagram")
 
 suivre [**@luchtgomtechniek**](https://www.instagram.com/luchtgomtechniek/) Voir des photos de notre travail.

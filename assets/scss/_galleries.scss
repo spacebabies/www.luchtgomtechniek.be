@@ -1,5 +1,5 @@
-.carousel {
-  width: 100%;
+.swiper-slide {
+  width: auto;
 
   img {
     display: block;
@@ -9,9 +9,14 @@
 }
 
 @media screen and (min-width: 768px) {
-  .carousel {
+  .swiper-slide {
     img {
       height: 400px;
     }
   }
+}
+
+div.swiper-button-prev,
+div.swiper-button-next {
+color: $col20;
 }

@@ -12,23 +12,23 @@ Vous pouvez voir ici quelques exemples de travaux récents.
 
 Transformation d'une ancienne limonaderie voûtée en appartements de luxe.
 
-{{< grids/gallery pattern="limonadefabriek/*.jpeg" >}}
+{{< grids/swiper pattern="limonadefabriek/*.jpeg" >}}
 
 ### École, Spa
 
 Menuiserie extérieure complète en cèdre provenant d'une école de Spa.
 
-{{< grids/gallery pattern="spa/*.jpg" >}}
+{{< grids/swiper pattern="spa/*.jpg" >}}
 
 ### Moulin à eau dans le Voerstreek
 
 Un moulin à eau de 1820 finement sablé selon les normes de restauration.
 
-{{< grids/gallery pattern="watermolen/*.jpg" >}}
+{{< grids/swiper pattern="watermolen/*.jpg" >}}
 
 ### Maison résidentielle à Tongres
 
 Entièrement sablé, façade, cadres de fenêtres, escalier, pierre bleue. Boiserie finition naturelle. Charnières et serrures revêtues de poudre noire.
 
-{{< grids/gallery pattern="tongeren/*.jpg" >}}
+{{< grids/swiper pattern="tongeren/*.jpg" >}}
 

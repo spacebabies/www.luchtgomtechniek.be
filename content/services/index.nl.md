@@ -20,7 +20,7 @@ het voordeel daarvan is dat er nooit straalmiddelen door elkaar geraken, zodat s
 
 Daarnaast kunnen wij ook ter plaatse komen voor het stralen van gebintes, trappen, keukens of parket.
 
-{{< grids/gallery pattern="intro/*.jpg" >}}
+{{< grids/swiper pattern="intro/*.jpg" >}}
 
 ### Luchtgommen
 
@@ -30,7 +30,7 @@ Het grote voordeel van luchtgommen is dat het een zeer effectieve manier is om h
 
 Luchtgommen wordt vaak gebruikt om meubels, trappen, deuren en andere houten oppervlakken te herstellen en opnieuw te laten stralen als nieuw. Het is een populair alternatief voor traditioneel schuren en het gebruik van chemicaliën om verf en vuil te verwijderen.
 
-{{< grids/gallery pattern="ablage/*.jpg" >}}
+{{< grids/swiper pattern="ablage/*.jpg" >}}
 
 ### Fijn Zandstralen
 
@@ -40,7 +40,7 @@ Wij voeren dit uit met een speciale straalketel en compressor, waarbij het straa
 
 Onze specialisatie is het fijn zandstralen van metalen en (giet)ijzeren objecten, zonder vervorming van de ondergrond. Materialen als uiterst dun plaatwerk, fragiele componenten, auto/motoronderdelen, spruitstukken, natuursteen, spiegels, glaswerk, gietwerk, aluminium en koper zijn allemaal geen probleem.
 
-{{< grids/gallery pattern="sand/*.jpg" >}}
+{{< grids/swiper pattern="sand/*.jpg" >}}
 
 ### Poedercoaten
 
@@ -48,13 +48,15 @@ Na het stralen kunnen wij de objecten verzinken en/of poedercoaten, zo is de bes
 
 Bij poedercoaten is het mogelijk om het metaal in elke gewenste kleur te krijgen. Alle RAL-kleuren zijn beschikbaar en het is zelfs mogelijk om te kiezen voor speciale candy kleuren. Daarnaast voeren wij zelf ook kleine reparaties en laswerk uit voordat het metaal gepoedercoat wordt.
 
-{{< grids/gallery pattern="powdercoating/*.jpg" >}}
+{{< grids/swiper pattern="powdercoating/*.jpg" >}}
 
 ### Glasparelstralen
 
-Dit geeft het materiaal een parelmoerachtige glans. Deze methode is bij uitstek geschikt voor uitwendige delen als carburateurs, cilinderkoppen, carterdelen, remnaven of Inox-lassen.
+Bij glasparelstralen stralen wij kleine glazen kogeltjes op hoge snelheid op een oppervlak. Het proces creëert een gelijkmatige, matte parelmoer-achtige glans en kan worden gebruikt om metalen, kunststoffen en glas te reinigen, glad te maken of te matteren. Deze methode is bij uitstek geschikt om roestvast staal (inox) te behandelen.
 
-Buiten de reiniging verdicht het oppervlak ook (Shot Peening) waardoor vuiligheid minder kans van hechting heeft. Met name voor Inox en Aluminium is dit de eindbewerking.
+Glasparelstralen gebruiken wij vaak in de industriële sector voor het reinigen en polijsten van onderdelen en gereedschappen, en wordt ook gebruikt in de automotive sector voor het reinigen en verfraaien van velgen, carburateurs, remnaven en andere onderdelen van auto's. Het proces is relatief mild en beschadigt het oppervlak van het materiaal niet, waardoor het een populair alternatief is voor agressievere oppervlaktebehandelingstechnieken zoals zandstralen.
 
-{{< grids/gallery pattern="glass/*.jpg" >}}
+Buiten de reiniging wordt het oppervlak ook verdicht middels een proces dat Shot Peening heet. Hierdoor heeft vuiligheid minder kans van hechting. Met name voor roestvast staal en aluminium is dit de eindbewerking.
+
+{{< grids/swiper pattern="glass/*.jpg" >}}
 

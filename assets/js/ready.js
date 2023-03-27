@@ -1,7 +1,5 @@
-import Flickity from 'flickity';
-import 'flickity-imagesloaded';
-
 import feather from 'feather-icons';
+import Swiper, { Navigation } from 'swiper';
 
 "use strict";
 
@@ -88,15 +86,14 @@ function run() {
   changeLanguage(document.querySelector("#changeLanguage"));
   setHeader(document.querySelector("#site-head"));
 
-  let carousels = document.querySelectorAll(".carousel");
-  carousels.forEach(function (element) {
-    new Flickity(element, {
-      wrapAround: true,
-      percentPosition: false,
-      cellAlign: "left",
-      lazyLoad: 3,
-      imagesLoaded: true,
-    });
+  new Swiper('.swiper', {
+    modules: [Navigation],
+    slidesPerView: "auto",
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev'
+    },
+    rewind: true
   });
 
   document.body.classList.add("data-js-loaded");

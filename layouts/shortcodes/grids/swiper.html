@@ -1,0 +1,21 @@
+{{ $layer := resources.Get "images/overlay.png" -}}
+
+<div class="swiper">
+  <div class="swiper-wrapper">
+    {{ range .Page.Resources.Match (.Get "pattern") -}}
+    {{ $img := .Resize "x400" -}}
+    {{ $x := sub $img.Width 100 -}}
+    {{ $img := $img | images.Filter ( images.Overlay $layer $x 300 ) -}}
+    {{ $webp := $img.Resize (printf "%dx%d webp" $img.Width $img.Height) -}}
+    <div class="swiper-slide">
+      <picture>
+        <source srcset="{{ $webp.RelPermalink }}" type="image/webp">
+        <img src="{{ $img.RelPermalink }}"alt="{{ $img.Title }}">
+      </picture>
+    </div>
+  {{ end -}}
+  </div>
+
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>

@@ -3,8 +3,7 @@
   "baseUrl": ".",
   "paths": {
    "*": [
-    "../node_modules/flickity-imagesloaded/*",
-    "../node_modules/flickity/*"
+    "../node_modules/swiper/*"
    ]
   }
  }

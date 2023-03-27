@@ -4,10 +4,12 @@
 @import "normalize";
 
 /* npm packages */
-@import "roboto-slab";
-@import "oswald";
-@import "open-sans/400.css";
-@import "open-sans/700.css";
+@import "@fontsource/roboto-slab";
+@import "@fontsource/oswald";
+@import "@fontsource/open-sans/400.css";
+@import "@fontsource/open-sans/700.css";
+@import "swiper/swiper.scss";
+@import "swiper/modules/navigation/navigation.scss";
 
 /* our partials */
 @import "header";
