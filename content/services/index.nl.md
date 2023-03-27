@@ -34,15 +34,19 @@ Luchtgommen wordt vaak gebruikt om meubels, trappen, deuren en andere houten opp
 
 ### Fijn Zandstralen
 
-Wij zijn gespecialiseerd in het fijn Zandstralen van metalen en giet (ijzeren) objecten, zonder vervorming van de ondergrond, dit met Luchtgomtechniek.
+Fijn zandstralen is een oppervlaktebehandelingstechniek waarbij kleine deeltjes zand of andere schurende materialen onder hoge druk op een oppervlak worden gespoten om deze te reinigen, te ontdoen van roest, verf of andere ongewenste coatings, of om het oppervlak ruwer te maken voor een betere hechting van coatings of verf.
 
-Uiterst dun plaatwerk, fragiele componenten, auto/motor onderdelen, spruitstukken, natuursteen, spiegels, glaswerk, gietwerk, aluminium, koper etc... is allemaal geen enkel probleem.
+Wij voeren dit uit met een speciale straalketel en compressor, waarbij het straalmiddel onder hoge druk door een slang naar de straalmond wordt geleid. Door het straalmiddel met hoge snelheid op het oppervlak te spuiten, worden de ongewenste materialen verwijderd en kan een schoon, ruw oppervlak worden verkregen.
+
+Onze specialisatie is het fijn zandstralen van metalen en (giet)ijzeren objecten, zonder vervorming van de ondergrond. Materialen als uiterst dun plaatwerk, fragiele componenten, auto/motoronderdelen, spruitstukken, natuursteen, spiegels, glaswerk, gietwerk, aluminium en koper zijn allemaal geen probleem.
 
 {{< grids/gallery pattern="sand/*.jpg" >}}
 
 ### Poedercoaten
 
-Na het stralen kunnen wij de objecten vlamverzinken en/of poedercoaten, zo is de bescherming optimaal. Dit kan in elke RAL kleur en tevens in candy kleuren met of zonder vernis, kleine lasreparaties (ijzer of inox) kunnen wij ook voorzien.
+Na het stralen kunnen wij de objecten verzinken en/of poedercoaten, zo is de bescherming optimaal. Verzinken beschermt langdurig tegen roest. Poedercoaten lijkt op lakken en is een manier om een laagje op metaal te leggen om het te beschermen en er mooier uit te laten zien. Een poedercoat is veel harder en duurzamer dan een laklaag.
+
+Bij poedercoaten is het mogelijk om het metaal in elke gewenste kleur te krijgen. Alle RAL-kleuren zijn beschikbaar en het is zelfs mogelijk om te kiezen voor speciale candy kleuren. Daarnaast voeren wij zelf ook kleine reparaties en laswerk uit voordat het metaal gepoedercoat wordt.
 
 {{< grids/gallery pattern="powdercoating/*.jpg" >}}
 

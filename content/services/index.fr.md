@@ -33,15 +33,19 @@ Aerogommage est souvent utilisé pour restaurer des meubles, des escaliers, des 
 
 ### Sablage fin
 
-Nous sommes spécialisés dans le sablage fin des métaux et versez des objets (fer), sans distorsion du substrat, avec la technologie Air GOM.
+Le sablage fin est une technique de traitement de surface dans laquelle de petites particules de sable ou d'autres matériaux abrasifs sont projetées à haute pression sur une surface pour la nettoyer, la débarrasser de la rouille, de la peinture ou d'autres revêtements indésirables, ou pour rendre la surface plus rugueuse afin d'améliorer l'adhérence des revêtements ou de la peinture.
 
-Tôle extrêmement mince, composants fragiles, pièces de voiture / moteurs, collecteurs, pierre naturelle, miroirs, verrerie, coulées, aluminium, cuivre, etc. N'a tout pas de problème.
+Pour ce faire, nous utilisons une cuve de sablage spéciale et un compresseur, où l'abrasif est acheminé par un tuyau à haute pression jusqu'à la buse de sablage. En pulvérisant l'abrasif sur la surface à grande vitesse, les matériaux indésirables sont éliminés et une surface propre et rugueuse peut être obtenue.
+
+Notre spécialité est le sablage fin d'objets en métal et en fonte, sans déformation du substrat. Les matériaux tels que les tôles extrêmement fines, les pièces fragiles, les pièces de voitures/motos, les collecteurs, la pierre naturelle, les miroirs, la verrerie, les pièces moulées, l'aluminium et le cuivre ne posent aucun problème.
 
 {{< grids/gallery pattern="sand/*.jpg" >}}
 
-### revêtement en poudre
+### Revêtement en poudre
 
-Après les rayons, nous pouvons causer des désirs de flamme et / ou des objets de revêtement en poudre, la protection est donc optimale.Ceci est possible dans chaque couleur RAL et dans des couleurs de bonbons avec ou sans vernis, de petites réparations de soudage (fer ou acier inoxydable), nous pouvons également fournir.
+Après le sablage, nous pouvons galvaniser et/ou revêtir les objets d'un revêtement en poudre pour une protection optimale. La galvanisation offre une protection à long terme contre la rouille. Le thermolaquage est similaire au laquage et consiste à appliquer une couche sur le métal pour le protéger et lui donner un aspect plus agréable. Une couche de peinture en poudre est beaucoup plus dure et durable qu'un vernis.
+
+Avec la peinture en poudre, il est possible d'obtenir le métal dans la couleur de son choix. Toutes les couleurs RAL sont disponibles et il est même possible de choisir des couleurs spéciales. Nous effectuons également nous-mêmes les petites réparations et les soudures avant que le métal ne soit recouvert d'une couche de peinture en poudre.
 
 {{< grids/gallery pattern="powdercoating/*.jpg" >}}
 
