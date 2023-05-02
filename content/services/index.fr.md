@@ -6,7 +6,7 @@ publishDate: 2023-05-02
 menu: header
 ---
 
-### Aerogommage
+### L'aerogommage
 
 L'aérogommage est une méthode de sablage spécifique pour sabler les bois, car le bois est beaucoup plus délicat que, par exemple, l'acier. Pour sabler le bois, une vaste expérience de sablage est nécessaire, ainsi qu'un équipement spécialement réglable et l'abrasif le plus fin et précis.
 
