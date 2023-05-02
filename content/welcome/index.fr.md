@@ -5,10 +5,8 @@ publishDate: 2020-10-06
 weight: 1
 ---
 
-Nous, en tant que petite compagnie de jet, nous mettons d'abord vos souhaits, car chaque objet est différent et nécessite sa propre approche que nous aimerions discuter de ce que vous souhaitez.
+Pour le sablage des escaliers et du bois dans toute la maison, dans la phase de rénovation ou de déménagement. Aussi les poutres, les portes, les meubles, le lambris, les plafonds, le parquet, etc.
 
-Que vous souhaitiez avoir un ensemble de charnières ou un total coloré, nous aimerions sortir ensemble.
-
-Après les rayons, nous pouvons également fournir tout post-traitement, bien sûr toujours en consultation avec vous.
+Aussi les bâtiments publics comme les écoles, les aires de jeux, les salles de sport, les complexes industriels et les chantiers (particuliers). On peut venir plusieurs fois selon votre emploi du temps.
 
 {{< share >}}

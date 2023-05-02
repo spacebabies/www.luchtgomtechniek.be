@@ -5,10 +5,8 @@ publishDate: 2020-10-06
 weight: 1
 ---
 
-Wij als klein straalbedrijf zetten uw wensen voorop, omdat elk object anders is en een eigen aanpak vereist overleggen we graag welk resultaat u wenst.
+Voor het stralen van houten trappen tot het houtwerk in volledige huizen in verhuis- of renovatiefase. Tevens gebintes, deuren, keukens, lambrisering, plafonds, parket, enz.
 
-Of u een setje scharnieren of een geheel dakgebinte gestraald wilt hebben, we komen er graag samen uit.
-
-Na het stralen kunnen wij ook de eventuele nabehandeling verzorgen, uiteraard altijd in overleg met u.
+Wij staan ook openbare gebouwen zoals scholen, woningbouwverenigingen, industriële complexen en (particuliere) werven bij met straalwerk. Dit kan een eenmalige interventie zijn of meerdere sessies naar gelang uw verbouwtempo.
 
 {{< share >}}
