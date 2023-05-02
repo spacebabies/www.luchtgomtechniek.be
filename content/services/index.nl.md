@@ -48,6 +48,6 @@ Na het stralen kunnen wij objecten vlamverzinken en/of poedercoaten, zodat de be
 
 Poedercoaten lijkt op lakken, maar is veel harder en duurzamer. Het wordt namelijk elektrostatisch aangebracht en daarna afgebakken in een moffeloven tussen 180°C en 220°C. Bij poedercoaten is het mogelijk om het metaal in elke gewenste RAL-kleur te krijgen.
 
-Voor extreem hittebestendige toepassingen zoals wapens of uitlaten kunnen wij ook CERAKOTE® aanbrengen.
+Voor extreem hittebestendige toepassingen zoals wapens of uitlaten kunnen wij ook CERAKOTE™ aanbrengen.
 
 {{< grids/swiper pattern="powdercoating/*.jpg" >}}

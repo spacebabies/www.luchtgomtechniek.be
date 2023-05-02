@@ -42,6 +42,6 @@ Après le sablage, nous pouvons galvaniser à la flamme et/ou thermolaquer les o
 
 La peinture en poudre ressemble à la peinture, mais elle est beaucoup plus résistante et durable, car elle est appliquée par électrolyse et cuite dans un four à moufle entre 180°C et 220°C. Avec la peinture en poudre, il est possible d'obtenir le métal dans n'importe quelle couleur RAL souhaitée.
 
-Nous pouvons également appliquer CERAKOTE® pour des applications extrêmement résistantes à la chaleur, telles que les armes ou les échappements.
+Nous pouvons également appliquer CERAKOTE™ pour des applications extrêmement résistantes à la chaleur, telles que les armes ou les échappements.
 
 {{< grids/swiper pattern="powdercoating/*.jpg" >}}
