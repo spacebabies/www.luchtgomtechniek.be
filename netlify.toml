@@ -1,9 +1,9 @@
 [build]
-  publish = "public/"
+  publish = "public"
   command = "hugo --gc --minify"
 
   [build.environment]
-    HUGO_VERSION = "0.92.2"
+    HUGO_VERSION = "0.101.0"
     HUGO_ENV = "production"
     NODE_VERSION = "19.6.0"
     NODE_ENV = "production"
@@ -72,7 +72,7 @@
   [context.production.environment]
     HUGO_ENABLEGITINFO = "true"
     HUGO_ENV = "production"
-    HUGO_VERSION = "0.92.2"
+    HUGO_VERSION = "0.101.0"
     NETLIFY_USE_YARN = "true"
 
   [[context.production.plugins]]
