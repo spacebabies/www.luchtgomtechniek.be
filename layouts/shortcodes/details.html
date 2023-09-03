@@ -1,6 +1,8 @@
-<details{{ with .Get "open" }} open{{ end }}>
-  <summary>{{ .Get "summary" }}</summary>
+{{ range .Page.Resources.Match "details/*" }}
+<details{{ with .Params.open }} open{{ end }}>
+  <summary>{{ .Title }}</summary>
   <section>
-    {{ .Inner | markdownify }}
+    {{ .Content }}
   </section>
 </details>
+{{ end }}
