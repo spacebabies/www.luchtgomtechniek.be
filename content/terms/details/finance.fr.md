@@ -5,7 +5,7 @@ weight: 700
 **Taux de TVA**
 
 - La facturation des biens meubles est soumise à un régime de TVA de 21 %.
-- La facturation des travaux de rénovation d'une maison privée peut se faire à 6% de TVA si la maison a plus de 10 ans. Plus d'informations via : <https://financien.belgium.be/nl/particulieren/woning/verbouwen>.
+- La facturation des travaux de rénovation d'une maison privée peut se faire à 6% de TVA si la maison a plus de 10 ans. Plus d'informations via : <https://finances.belgium.be/fr/particuliers/habitation/renovation>.
 
 **Méthodes de paiement**
 
