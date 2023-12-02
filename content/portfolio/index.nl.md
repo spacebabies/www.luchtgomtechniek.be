@@ -8,6 +8,24 @@ menu: header
 
 Hier ziet u enkele voorbeelden van recent werk.
 
+### Overslagterminal, Beringen
+
+Ter plaatse op de werf en bij de constructeur alle inox delen geglasparelstraald.
+
+{{< grids/swiper pattern="overslagterminal/*.jpg" >}}
+
+### Vakwerkhuis, Limburg
+
+Al het houtwerk van een vakwerkhuis in Zuid-Limburg geluchtgomd.
+
+{{< grids/swiper pattern="vakwerkhuis/*.jpg" >}}
+
+### Woonhuis, Voerstreek
+
+Al het houtwerk in een woonhuis in verhuisfase gestraald.
+
+{{< grids/swiper pattern="woonhuis-voerstreek/*.jpg" >}}
+
 ### Limonadefabriek, Eijsden
 
 Transformatie van een oude gewelfde limonadefabriek naar luxueuze appartementen.
@@ -19,6 +37,12 @@ Transformatie van een oude gewelfde limonadefabriek naar luxueuze appartementen.
 Volledig Cederhouten buitenschrijnwerk gestraald van een school in Spa.
 
 {{< grids/swiper pattern="spa/*.jpg" >}}
+
+### Douanekantoor, Klein Ternaaien
+
+Al het houtwerk, blauwstenen vloeren binnen, en blauwstenen details buiten gestraald en naturel nabehandeld.
+
+{{< grids/swiper pattern="douanekantoor-petit-lanaye/*.jpg" >}}
 
 ### Watermolen, Voerstreek
 
