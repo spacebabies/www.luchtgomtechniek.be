@@ -35,6 +35,14 @@ To create a page separate from the homepage, run
 hugo new my-new-page.md
 ```
 
+## Fix image orientation
+
+Easiest with `exiftran`:
+
+```
+exiftran -ai *.jpg
+```
+
 ## CSS breakpoints
 
 1. 450px
