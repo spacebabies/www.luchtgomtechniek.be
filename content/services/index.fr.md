@@ -57,6 +57,16 @@ Nous pouvons également appliquer CERAKOTE™ pour des applications extrêmement
 
 ### Sablage du béton
 
-Sablage de panneaux de façade préfabriqués (béton apparent) ou sablage de revêtements antidérapants sur des escaliers en béton, enlèvement de graffitis et sablage de piscines.
+Le sablage du béton est une technique essentielle pour la rénovation et l'entretien des structures en béton. Que ce soit pour le sablage de panneaux de façade préfabriqués en béton apparent, l'application de revêtements antidérapants sur des escaliers en béton, l'élimination de graffitis ou le sablage de piscines, nos techniques de sablage avancées garantissent une finition de qualité et une durabilité.
+
+Lors du sablage de panneaux de façade préfabriqués, nous éliminons les impuretés et restaurons la texture et la couleur originale du béton apparent. Cela augmente non seulement la valeur esthétique du bâtiment, mais contribue également à la protection et à la longévité du béton.
+
+L'application de revêtements antidérapants sur des escaliers en béton est un autre aspect important de nos services. Nous créons une surface plus rugueuse qui augmente considérablement la sécurité, surtout dans les zones où l'humidité ou le risque de glissement est un problème.
+
+L'élimination de graffitis sur des surfaces en béton nécessite précision et soin. Notre équipe utilise des techniques de sablage spécialisées pour enlever complètement les graffitis sans endommager le béton sous-jacent.
+
+Enfin, le sablage de piscines est une partie importante de notre offre. Nous enlevons les anciennes couches de peinture, traitons les irrégularités de surface et préparons la piscine pour une nouvelle couche. Cela assure non seulement un aspect renouvelé, mais améliore également l'hygiène et la durabilité de la piscine.
+
+Pour tous nos projets de sablage du béton, nous utilisons l'équipement et les techniques les plus modernes pour garantir un résultat optimal, dans le respect de l'environnement et de la sécurité.
 
 {{< grids/swiper pattern="beton/*.jpg" >}}
