@@ -8,56 +8,68 @@ menu: header
 
 ### Luchtgommen
 
-Luchtgommen is een specifieke straalmethode om hout te stralen, aangezien hout veel delicater is dan bijvoorbeeld staal is uitgebreide straalervaring, specifiek instelbare apparatuur en het meest fijne en correcte straalmiddel vereist.
+**De kunst van delicaat hout stralen.** Luchtgommen is een verfijnde straalmethode, speciaal ontwikkeld voor hout, omdat dit materiaal veel delicater is dan bijvoorbeeld staal. Voor deze methode is uitgebreide ervaring, speciaal instelbare apparatuur en het juiste, fijnste straalmiddel essentieel.
 
-Hierdoor kunnen wij oude verflagen, bruine boenwas, vergeelde vernis en overige vuiligheid verwijderderen en wordt het hout opnieuw naturel.
+Met luchtgommen kunnen wij oude verflagen, bruine boenwas, vergeelde vernis, en ander vuil verwijderen, waardoor het hout zijn natuurlijke uitstraling terugkrijgt.
 
-Het grote voordeel van luchtgommen is dat het een zeer effectieve manier is om delicate oppervlakken schoon te krijgen, het is te vergelijken als schuren met korrel 1200 maar dan in een veel hoger tempo waarbij als voordeel alle hoekjes en kieren geraakt worden, bijvoorbeeld houten trapspijlen, houtsnijwerk en scheuren in gebintes die met traditioneel schuren een eeuwigheid zouden duren of zelfs onmogelijk zijn.
+#### Het Voordeel van Luchtgommen
 
-Kleine krassen en oneffenheden zijn er ook vaak uit te stralen, in combinatie met verschillende nabehandelingsfases kunnen wij een trap, deuren of gehele werf zelfs gebruiksklaar opleveren.
+Het grootste voordeel van luchtgommen is de efficiëntie waarmee delicate oppervlakken schoongemaakt kunnen worden. Het is te vergelijken met schuren met een korrel van 1200, maar dan veel sneller en met het bijkomende voordeel dat alle hoekjes, kieren, houtsnijwerk en scheuren in gebintes bereikt worden. Dit zijn plekken die met traditioneel schuren moeilijk, zo niet onmogelijk, te bewerken zijn.
+
+Zelfs kleine krassen en oneffenheden kunnen vaak verwijderd worden door te luchtgommen. Dankzij verschillende nabehandelingen kunnen wij objecten zoals trappen, deuren of zelfs een gehele werf gebruiksklaar opleveren.
 
 {{< grids/swiper pattern="luchtgommen/*.jpg" >}}
 
 ### Fijn Zandstralen
 
-Fijn zandstralen is een geavanceerde oppervlaktebehandelingstechniek. Bij deze methode worden kleine deeltjes zand of andere schurende materialen onder lage druk tegen een oppervlak gespoten. Dit dient om het oppervlak te reinigen, roest te verwijderen, oude verflagen of andere ongewenste coatings te elimineren, of het oppervlak ruwer te maken voor een betere hechting van nieuwe coatings of verf.
+**Precisie in oppervlaktebehandeling.** Fijn zandstralen is een hoogontwikkelde techniek voor oppervlaktebehandeling, waarbij met kleine deeltjes zand of andere schurende materialen onder lage druk tegen het oppervlak wordt geblazen. Deze methode is ideaal voor het reinigen van oppervlakken, verwijderen van roest, elimineren van oude verflagen of andere ongewenste coatings, en het ruwer maken van oppervlakken ter bevordering van de hechting van nieuwe coatings of verf.
 
-Een uniek voordeel van fijn zandstralen is dat er minimale hitte vrijkomt tijdens het proces. Hierdoor is het uitermate geschikt voor het behandelen van zeer dun plaatwerk, fragiele componenten, auto- en motoronderdelen, natuursteen, spiegels, gietwerk, koper en kunststoffen. Dit precisiewerk garandeert dat er geen vervorming van het oppervlak optreedt en dat details behouden blijven. Het is voor ons een 'koud kunstje' om met uiterste zorg en precisie te werken!
+#### Uniek Voordeel van Fijn Zandstralen
+
+Het unieke voordeel van fijn zandstralen is de minimale hitteontwikkeling tijdens het proces. Dit maakt het bijzonder geschikt voor de behandeling van dun plaatwerk, fragiele componenten, auto- en motoronderdelen, natuursteen, spiegels, gietwerk, koper, en kunststoffen. Met onze precisietechnieken garanderen we dat er geen vervorming van het oppervlak plaatsvindt en dat zelfs de fijnste details behouden blijven. Voor ons team is het een 'koud kunstje' om elk project met uiterste zorg en precisie te benaderen!
 
 {{< grids/swiper pattern="sand/*.jpg" >}}
 
 ### Glasparelstralen
 
-Glasparelstralen is een verfijnde oppervlaktebehandelingstechniek waarbij kleine glazen bolletjes met hoge snelheid op een oppervlak worden gespoten. Dit proces resulteert in een gelijkmatige, licht glanzende afwerking die doet denken aan parelmoer.
+**Verfijning tot in de afwerking.** Glasparelstralen is een geavanceerde techniek voor oppervlaktebehandeling, waarbij kleine, glazen bolletjes onder hoge snelheid tegen een oppervlak worden geblazen. Dit proces levert een uniforme, licht glanzende finish op die herinnert aan de schittering van parelmoer.
 
-Deze methode leent zich uitstekend voor het behandelen van materialen zoals inox, koper en aluminium. Het kan ook dienen als een eindbewerking, toevoegend aan de esthetische waarde van het materiaal.
+#### Ideaal voor Diverse Materialen
 
-In de industriële sector passen we glasparelstralen vaak toe voor het verfraaien van objecten zoals tanks, ketels, buizen en appendages. Door de dichtheid van het oppervlak te vergroten, vergemakkelijkt deze behandeling ook het schoonmaken en onderhouden van de behandelde objecten.
+Deze methode is bijzonder geschikt voor materialen zoals inox, koper, en aluminium en kan dienen als een prachtige eindafwerking, die een extra esthetische waarde aan het materiaal toevoegt.
+
+#### Toepassing in de Industriële Sector
+
+In de industriële sector wordt glasparelstralen vaak gebruikt om objecten zoals tanks, ketels, buizen, en appendages te verfraaien. Naast de esthetische meerwaarde, zorgt deze behandeling door het vergroten van de oppervlaktedichtheid ook voor een vereenvoudiging van het reinigings- en onderhoudsproces van de behandelde objecten.
 
 {{< grids/swiper pattern="glass/*.jpg" >}}
 
 ### Poedercoaten
 
-Na het stralen van objecten bieden wij de mogelijkheid tot vlamverzinken en/of poedercoaten. Deze behandelingen zorgen voor optimale bescherming tegen corrosie.
+**Duurzaamheid en Bescherming.** Na de grondige voorbereiding door stralen, bieden wij de mogelijkheid om objecten te behandelen met vlamverzinken en/of poedercoaten, beiden gericht op het bieden van optimale bescherming tegen corrosie.
 
-Poedercoaten is een proces dat lijkt op traditioneel lakken, maar het biedt een veel hardere en duurzamere afwerking. Het poeder wordt elektrostatisch aangebracht en vervolgens in een moffeloven afgebakken bij temperaturen tussen 180°C en 220°C. Deze techniek maakt het mogelijk om metalen objecten in elke gewenste RAL-kleur te coaten, waardoor een breed scala aan kleuropties beschikbaar is.
+#### Wat is Poedercoaten?
 
-Voor toepassingen die extreme hittebestendigheid vereisen, zoals bij wapens of uitlaatsystemen, bieden wij ook de applicatie van CERAKOTE™. Dit is een geavanceerde coating die uitmuntend presteert onder hoge temperatuurcondities.
+Poedercoaten is een geavanceerd proces dat een veel hardere en duurzamere afwerking biedt dan traditioneel lakken. Het poeder wordt elektrostatisch aangebracht op het object en vervolgens uitgehard in een moffeloven bij temperaturen van 180°C tot 220°C. Deze methode stelt ons in staat om metalen objecten te coaten in elke gewenste RAL-kleur, waardoor klanten toegang hebben tot een uitgebreid kleurenpalet voor hun projecten.
+
+#### CERAKOTE™ voor Extreme Hittebestendigheid
+
+Voor toepassingen die een extreme hittebestendigheid vereisen, zoals wapens of uitlaatsystemen, bieden wij tevens de applicatie van CERAKOTE™. Deze geavanceerde coatingtechnologie levert uitzonderlijke prestaties onder hoge temperatuurcondities, waardoor het een ideale keuze is voor de meest veeleisende projecten.
 
 {{< grids/swiper pattern="powdercoating/*.jpg" >}}
 
 ### Betonstralen
 
-Betonstralen is een essentiële techniek voor de renovatie en het onderhoud van betonconstructies. Of het nu gaat om prefab gevelpanelen van zichtbeton, het aanbrengen van antisliplagen op betontrappen, het verwijderen van graffiti, of het stralen van zwembaden – onze geavanceerde straaltechnieken garanderen een kwalitatieve afwerking en duurzaamheid.
+**Uw Partner in Onderhoud en Renovatie.** Betonstralen speelt een cruciale rol in de renovatie en het onderhoud van diverse betonconstructies. Dankzij onze state-of-the-art straaltechnieken leveren we niet alleen een superieure afwerking maar dragen we ook bij aan de verlenging van de levensduur van uw betonconstructies. Ons aanbod omvat een breed scala aan toepassingen: van prefab gevelpanelen en antisliplagen op trappen tot het verwijderen van graffiti en het onderhoud van zwembaden.
 
-Bij het stralen van prefab gevelpanelen verwijderen we onzuiverheden en herstellen we de oorspronkelijke textuur en kleur van het zichtbeton. Dit verhoogt niet alleen de esthetische waarde van het gebouw, maar draagt ook bij aan de bescherming en levensduur van het beton.
+**Prefab Gevelpanelen**: Wij verwijderen onzuiverheden en herstellen de originele textuur en kleur van zichtbeton, wat de esthetische waarde en duurzaamheid van gebouwen verbetert.
 
-Het aanbrengen van antisliplagen op betontrappen is een ander belangrijk aspect van onze diensten. Hierbij creëren we een ruwer oppervlak dat de veiligheid aanzienlijk verhoogt, vooral in gebieden waar vocht of gladheid een risico vormt.
+**Antisliplagen**: Door een ruwer oppervlak te creëren op betontrappen, verbeteren we de veiligheid aanzienlijk, vooral in gebieden waar vocht of gladheid een risico vormen.
 
-Graffiti verwijderen van betonnen oppervlakken vereist precisie en zorgvuldigheid. Ons team gebruikt gespecialiseerde straaltechnieken om de graffiti volledig te verwijderen zonder het onderliggende beton te beschadigen.
+**Graffiti Verwijderen**: Ons team gebruikt specifieke straaltechnieken om graffiti zorgvuldig en zonder schade aan het onderliggende beton te verwijderen.
 
-Tot slot is het stralen van zwembaden een belangrijk onderdeel van ons aanbod. We verwijderen oude verflagen, behandelen oppervlakteonregelmatigheden en bereiden het zwembad voor op een nieuwe coating. Dit zorgt niet alleen voor een vernieuwde uitstraling, maar verbetert ook de hygiëne en duurzaamheid van het zwembad.
+**Zwembaden Stralen**: Het verwijderen van oude verflagen en het behandelen van oppervlakteonregelmatigheden bereidt het zwembad voor op een nieuwe coating, wat leidt tot een verbeterde uitstraling, hygiëne en duurzaamheid.
 
-Bij al onze betonstraalprojecten gebruiken we de modernste apparatuur en technieken om een optimaal resultaat te garanderen, met respect voor milieu en veiligheid.
+Onze toewijding aan kwaliteit en veiligheid staat voorop bij elk project, waarbij we de nieuwste apparatuur en technieken inzetten om optimale resultaten te garanderen. Ons werk weerspiegelt een diep respect voor het milieu en de veiligheidsnormen, waarbij elk project met precisie en zorg wordt uitgevoerd.
 
 {{< grids/swiper pattern="beton/*.jpg" >}}
