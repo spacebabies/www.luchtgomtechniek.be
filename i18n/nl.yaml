@@ -21,3 +21,8 @@ aria-lang-label:
   other: Passer au français
 skip_link:
   other: Skip naar de inhoud
+chat:
+  available:
+    other: "We zijn beschikbaar! Klik om te chatten"
+  button:
+    other: Chat met ons

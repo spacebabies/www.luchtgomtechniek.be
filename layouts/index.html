@@ -44,9 +44,11 @@
         <div class='post-after'></div>
       </div>
     {{ end }}
-    </section>
+  </section>
 
-<script type="application/ld+json">
+  {{ partial "chat.html" . }}
+
+  <script type="application/ld+json">
   {
       "@context": "https://schema.org",
       "@type": "WebPage",
@@ -63,4 +65,5 @@
       }
   }
   </script>
-  {{ end }}
+
+{{ end }}
