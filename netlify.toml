@@ -59,12 +59,12 @@
 [context.deploy-preview]
   command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
   [context.deploy-preview.environment]
-    HUGO_VERSION = "0.101.0"
+    HUGO_VERSION = "0.121.2"
 
 [context.branch-deploy]
   command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
   [context.branch-deploy.environment]
-    HUGO_VERSION = "0.101.0"
+    HUGO_VERSION = "0.121.2"
 
 
 [context.production]
@@ -72,7 +72,7 @@
   [context.production.environment]
     HUGO_ENABLEGITINFO = "true"
     HUGO_ENV = "production"
-    HUGO_VERSION = "0.101.0"
+    HUGO_VERSION = "0.121.2"
     NETLIFY_USE_YARN = "true"
 
   [[context.production.plugins]]
