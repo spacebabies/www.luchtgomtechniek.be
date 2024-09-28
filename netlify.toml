@@ -1,6 +1,6 @@
 [build]
   publish = "public"
-  command = "hugo --gc --minify"
+  command = "yarn build"
 
   [build.environment]
     HUGO_VERSION = "0.121.2"
@@ -66,7 +66,6 @@
   [context.branch-deploy.environment]
     HUGO_VERSION = "0.121.2"
 
-
 [context.production]
   command = "hugo --gc --minify"
   [context.production.environment]
@@ -80,6 +79,3 @@
 
   [[context.production.plugins]]
     package = "netlify-plugin-hugo-cache-resources"
-
-  [[context.production.plugins]]
-    package = "netlify-plugin-submit-sitemap"
