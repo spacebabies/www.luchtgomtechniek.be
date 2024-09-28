@@ -4,7 +4,6 @@ relativeURLs: false
 disableKinds:
   - section
   - taxonomy
-  - taxonomyTerm
   - RSS
 disableHugoGeneratorInject: true
 enableGitInfo: true
