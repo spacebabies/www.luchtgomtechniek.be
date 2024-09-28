@@ -35,12 +35,13 @@ To create a page separate from the homepage, run
 hugo new my-new-page.md
 ```
 
-## Fix image orientation
+## Fix image orientation and optimize for web
 
-Easiest with `exiftran`:
+I like to use these tools, but others are available.
 
 ```
-exiftran -ai *.jpg
+find content -type f -iname "*.jpg" -exec exiftran -ai {} \;
+find content -type f -iname "*.jpg" -exec jpegoptim --strip-all --max=85 {} \;
 ```
 
 ## CSS breakpoints
