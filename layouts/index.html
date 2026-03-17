@@ -9,9 +9,15 @@
 
       <nav id="main-menu">
         <ul>
-          {{ range .Site.Menus.header }}<li>
-            <a class="button" href="#{{ anchorize .Page.TranslationKey }}">{{ .Title }}</a>
-          </li>{{ end }}
+          {{ range slice "welcome" "services" "portfolio" "quotation" "contact" "terms" }}
+            {{ with $.Site.GetPage . }}
+              {{ if .Params.menu }}
+              <li>
+                <a class="button" href="#{{ anchorize .TranslationKey }}">{{ .Title }}</a>
+              </li>
+              {{ end }}
+            {{ end }}
+          {{ end }}
         </ul>
 
         <div class="lds-ellipsis">
