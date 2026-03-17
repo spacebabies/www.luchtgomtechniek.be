@@ -1,7 +1,6 @@
 ---
 headless: true
 title: Nos services
-weight: 2
 date: 2023-05-02
 publishDate: 2023-05-02
 menu: header

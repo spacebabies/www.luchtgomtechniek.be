@@ -31,13 +31,8 @@
   </header>
 
   <section class="content">
-    {{ $sections := slice }}
     {{ range slice "welcome" "services" "portfolio" "quotation" "contact" "terms" }}
       {{ with $.Site.GetPage . }}
-        {{ $sections = $sections | append . }}
-      {{ end }}
-    {{ end }}
-    {{ range sort $sections "Weight" }}
       <div class='post-holder'>
         <article id='{{ anchorize .TranslationKey }}' class='post'>
           <header class="post-header">
@@ -49,6 +44,7 @@
         </article>
         <div class='post-after'></div>
       </div>
+      {{ end }}
     {{ end }}
   </section>
 

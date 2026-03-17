@@ -3,7 +3,6 @@ headless: true
 title: Bienvenue
 date: 2020-10-06
 publishDate: 2023-12-07
-weight: 1
 ---
 
 Pour le sablage des escaliers et le bois dans tout la maison, dans le renovation ou fase demenagement.

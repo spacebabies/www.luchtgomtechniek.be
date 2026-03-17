@@ -3,7 +3,6 @@ headless: true
 title: Welkom
 date: 2020-10-06
 publishDate: 2023-12-07
-weight: 1
 ---
 
 Voor het stralen van houten trappen tot het houtwerk in volledige panden in verhuis of renovatiefase.

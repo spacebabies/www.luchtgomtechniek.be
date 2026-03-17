@@ -3,7 +3,6 @@ headless: true
 title: Contact
 date: 2020-10-01
 publishdate: 2020-10-01
-weight: 90
 menu: header
 ---
 
