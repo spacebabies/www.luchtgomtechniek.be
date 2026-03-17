@@ -3,7 +3,6 @@ headless: true
 title: Devis
 date: 2020-10-06
 publishDate: 2020-10-06
-menu: header
 translationKey: quotation
 ---
 

@@ -3,7 +3,6 @@ headless: true
 title: Réalisations
 date: 2024-09-28
 publishDate: 2024-09-28
-menu: header
 ---
 
 Voici quelques exemples de travaux récents.

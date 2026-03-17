@@ -3,7 +3,6 @@ headless: true
 title: Nos services
 date: 2023-05-02
 publishDate: 2023-05-02
-menu: header
 ---
 
 ### L'aerogommage

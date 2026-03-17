@@ -3,7 +3,6 @@ headless: true
 title: Contact
 date: 2020-10-01
 publishdate: 2020-10-01
-menu: header
 ---
 
 E-mail: [info@luchtgomtechniek.be](mailto:info@luchtgomtechniek.be)
