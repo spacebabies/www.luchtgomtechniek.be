@@ -1,4 +1,5 @@
 ---
+headless: true
 title: Contact
 date: 2020-10-01
 publishdate: 2020-10-01

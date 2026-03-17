@@ -1,4 +1,5 @@
 ---
+headless: true
 title: Welkom
 date: 2020-10-06
 publishDate: 2023-12-07

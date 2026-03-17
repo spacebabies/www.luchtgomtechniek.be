@@ -1,4 +1,5 @@
 ---
+headless: true
 title: Onze diensten
 weight: 2
 date: 2023-05-02

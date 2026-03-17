@@ -1,4 +1,5 @@
 ---
+headless: true
 title: Prijsopgave
 date: 2020-10-06
 publishDate: 2020-10-06
