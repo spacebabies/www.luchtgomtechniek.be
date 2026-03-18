@@ -79,6 +79,35 @@ function getFirstBrowserLanguage() {
   return defaultLanguage;
 }
 
+function mapRealisaties() {
+  // Initialize the map and set view to a central location
+  const map = L.map('pageportfolioindex', {
+    scrollWheelZoom: false
+  }).setView([52.3676, 4.9041], 13);
+
+  // Add a privacy-conscious, clean tile layer (CartoDB Positron - Light)
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+      attribution: '© OpenStreetMap contributors © CARTO',
+      subdomains: 'abcd',
+      maxZoom: 20
+  }).addTo(map);
+
+  var projects = []; // should come from page contents?
+
+  // Loop through projects and add pins
+  projects.forEach(project => {
+      const marker = L.marker(project.coords).addTo(map);
+
+      // Bind a popup with project details
+      marker.bindPopup(`
+          <div class="map-popup">
+              <h3>${project.name}</h3>
+              <p>${project.description}</p>
+          </div>
+      `);
+  });
+}
+
 function run() {
   feather.replace({ width: "1em", height: "1em" });
 
@@ -96,9 +125,9 @@ function run() {
     rewind: true
   });
 
+  // mapRealisaties();
   document.body.classList.add("data-js-loaded");
 }
-
 
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', run);

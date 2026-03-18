@@ -1,13 +1,15 @@
-<picture>
-    {{ range .Params }}
-        {{ with resources.Get . }}
-        <source type="{{ .MediaType }}" srcset="{{ .RelPermalink }}">
-        {{ end }}
-    {{ end }}
+{{ $layer := resources.Get "images/overlay.png" -}}
 
-    {{ range .Params }}
-       {{ with resources.Get . }}
-       <img src="{{ .RelPermalink }}" alt="{{ .Title }}">
-       {{ end }}
+{{ with .Page.Resources.GetMatch (.Get 0) }}
+  {{ with .Process "resize x400" }}
+    {{ $x := sub .Width 100 -}}
+    {{ $filter := images.Overlay $layer $x 300 }}
+    {{ with . | images.Filter $filter }}
+      {{ $webp := .Resize (printf "%dx%d webp" .Width .Height) -}}
+      <picture>
+        <source srcset="{{ $webp.RelPermalink }}" type="image/webp">
+        <img src="{{ .RelPermalink }}" alt="{{ .Title }}">
+      </picture>
     {{ end }}
-</picture>
+  {{ end }}
+{{ end }}

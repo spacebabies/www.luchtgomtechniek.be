@@ -1,0 +1,39 @@
+/* Map container must have a defined height */
+#map {
+    height: 600px;
+    width: 100%;
+    background: $col80;
+}
+
+/* Branding: CSS Filter to make the map slightly more 'muted' or custom-toned */
+.leaflet-tile-container {
+    /* Adjust these to change map colors without custom tiles */
+    filter: sepia(10%) hue-rotate(5deg) brightness(95%);
+}
+
+/* Popup Styling */
+.project-popup {
+    padding: 5px;
+}
+
+.project-popup h3 {
+    margin: 0 0 8px 0;
+    color: var($col20);
+    font-size: 1.1rem;
+}
+
+.project-popup p {
+    margin: 0;
+    line-height: 1.4;
+    color: var($col10);
+}
+
+.project-popup .category {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #888;
+}
