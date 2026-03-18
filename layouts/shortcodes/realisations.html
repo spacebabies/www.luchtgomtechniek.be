@@ -10,8 +10,8 @@
         <h3>{{ $title }}</h3>
         <p>{{ $desc }}</p>
 
-        {{ with .images }}
-          {{ with $.Page.Resources.GetMatch . }}
+        {{ with .image }}
+          {{ with resources.Get . }}
             {{ with .Process "resize x400" }}
               {{ $x := sub .Width 100 }}
               {{ $filter := images.Overlay $layer $x 300 }}
