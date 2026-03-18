@@ -35,21 +35,12 @@
   </header>
 
   <section class="content">
-    {{ range slice "welcome" "services" "portfolio" "quotation" "contact" "terms" }}
-      {{ with $.Site.GetPage . }}
-      <div class='post-holder'>
-        <article id='{{ anchorize .TranslationKey }}' class='post'>
-          <header class="post-header">
-            <h2 class="post-title">{{ .Title }}</h2>
-          </header>
-          <div class="post-content">
-            {{ .Content }}
-          </div>
-        </article>
-        <div class='post-after'></div>
-      </div>
-      {{ end }}
-    {{ end }}
+    {{ partial "block.html" ($.Site.GetPage "welcome")}}
+    {{ partial "block.html" ($.Site.GetPage "services")}}
+    {{ partial "block.html" ($.Site.GetPage "portfolio")}}
+    {{ partial "block.html" ($.Site.GetPage "quotation")}}
+    {{ partial "block.html" ($.Site.GetPage "contact")}}
+    {{ partial "block.html" ($.Site.GetPage "terms")}}
   </section>
 
   {{ partial "chat.html" . }}
