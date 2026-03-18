@@ -37,19 +37,6 @@
     lat: 50.632
     lng: 5.567
 
-- id: plattelandsvilla
-  title:
-    nl: "Landelijke villa verfraaid"
-    fr: "Villa de campagne embellie"
-  description:
-    nl: "Authentieke charme hersteld: balken, meubels en trap vakkundig gestraald en naturel afgewerkt. Terracotta vloer gereinigd en beschermd. Perfect samenspel van rustieke elementen en moderne comfort."
-    fr: "Charme authentique restauré : poutres, meubles et escalier soigneusement décapés et finis au naturel. Sol en terre cuite nettoyé et protégé. Parfaite harmonie entre éléments rustiques et confort moderne."
-  images: "plattelandsvilla/*.jpg"
-  location: ""
-  coordinates:
-    lat: null
-    lng: null
-
 - id: hasselt-gevelpanelen
   title:
     nl: "Gevelbekleding vernieuwd in Hasselt"
@@ -101,19 +88,6 @@
   coordinates:
     lat: 50.871
     lng: 5.516
-
-- id: overslagterminal
-  title:
-    nl: "Overslagterminal, Beringen"
-    fr: "Terminal de transbordement, Beringen"
-  description:
-    nl: "Industriële facelift: inox onderdelen ter plaatse geglasparelstraald. Precisiewerk op werf en bij constructeur zorgt voor uniforme, stralende afwerking. Duurzame oplossing verhoogt efficiëntie en uitstraling van overslagfaciliteit."
-    fr: "Lifting industriel : éléments en inox sablés aux billes de verre sur place. Travail de précision sur chantier et chez le constructeur assure une finition uniforme et éclatante. Solution durable améliore l'efficacité et l'apparence de l'installation de transbordement."
-  images: "overslagterminal/*.jpg"
-  location: "Beringen"
-  coordinates:
-    lat: 51.048
-    lng: 5.226
 
 - id: spa
   title:

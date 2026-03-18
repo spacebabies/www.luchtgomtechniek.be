@@ -1,0 +1,31 @@
+<div class="realisations">
+  {{ $layer := resources.Get "images/overlay.png" }}
+  {{ range $.Site.Data.portfolio }}
+    {{ if not .draft }}
+      {{ $title := index .title $.Page.Lang }}
+      {{ $desc := index .description $.Page.Lang }}
+      <article class="portfolio-item"
+        {{ if .coordinates.lat }}data-lat="{{ .coordinates.lat }}"{{ end }}
+        {{ if .coordinates.lng }}data-lng="{{ .coordinates.lng }}"{{ end }}>
+        <h3>{{ $title }}</h3>
+        <p>{{ $desc }}</p>
+
+        {{ with .images }}
+          {{ with $.Page.Resources.GetMatch . }}
+            {{ with .Process "resize x400" }}
+              {{ $x := sub .Width 100 }}
+              {{ $filter := images.Overlay $layer $x 300 }}
+              {{ with . | images.Filter $filter }}
+                {{ $webp := .Resize (printf "%dx%d webp" .Width .Height) }}
+                <picture>
+                  <source srcset="{{ $webp.RelPermalink }}" type="image/webp">
+                  <img src="{{ .RelPermalink }}" alt="{{ $title }}">
+                </picture>
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      </article>
+    {{ end }}
+  {{ end }}
+</div>

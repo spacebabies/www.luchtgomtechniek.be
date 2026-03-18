@@ -12,23 +12,22 @@
 }
 
 /* Popup Styling */
-.project-popup {
-    padding: 5px;
-}
+.map-popup {
+  padding: 5px;
 
-.project-popup h3 {
+  h3 {
     margin: 0 0 8px 0;
     color: var($col20);
     font-size: 1.1rem;
-}
+  }
 
-.project-popup p {
+  p {
     margin: 0;
     line-height: 1.4;
     color: var($col10);
-}
+  }
 
-.project-popup .category {
+  .category {
     display: inline-block;
     margin-top: 10px;
     font-size: 0.75rem;
@@ -36,4 +35,5 @@
     letter-spacing: 1px;
     font-weight: bold;
     color: #888;
+  }
 }

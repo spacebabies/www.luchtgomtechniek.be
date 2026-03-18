@@ -80,10 +80,27 @@ function getFirstBrowserLanguage() {
 }
 
 function mapRealisaties() {
+  const container = document.getElementById('pageportfolioindex');
+  if (!container) return;
+
+  const portfolioList = container.querySelector('.realisations');
+  if (!portfolioList) return;
+
+  const postArticle = container.querySelector('.post');
+
+  // Create map element
+  const mapElement = document.createElement('div');
+  mapElement.id = 'portfolio-map';
+  mapElement.style.height = '80vh';
+  mapElement.style.width = '100%';
+
+  // Insert directly into the container (escaping .post constraints)
+  container.appendChild(mapElement);
+
   // Initialize the map and set view to a central location
-  const map = L.map('pageportfolioindex', {
+  const map = L.map('portfolio-map', {
     scrollWheelZoom: false
-  }).setView([52.3676, 4.9041], 13);
+  }).setView([50.8, 5.5], 9); // Centered roughly on BE/NL border
 
   // Add a privacy-conscious, clean tile layer (CartoDB Positron - Light)
   L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
@@ -92,20 +109,36 @@ function mapRealisaties() {
       maxZoom: 20
   }).addTo(map);
 
-  var projects = []; // should come from page contents?
+  const items = container.querySelectorAll('.portfolio-item');
+  let hasCoordinates = false;
 
-  // Loop through projects and add pins
-  projects.forEach(project => {
-      const marker = L.marker(project.coords).addTo(map);
+  items.forEach(item => {
+      const lat = item.getAttribute('data-lat');
+      const lng = item.getAttribute('data-lng');
 
-      // Bind a popup with project details
-      marker.bindPopup(`
-          <div class="map-popup">
-              <h3>${project.name}</h3>
-              <p>${project.description}</p>
-          </div>
-      `);
+      if (lat && lng && lat !== "null" && lng !== "null" && lat !== "" && lng !== "") {
+          hasCoordinates = true;
+          const marker = L.marker([parseFloat(lat), parseFloat(lng)]).addTo(map);
+
+          const title = item.querySelector('h3') ? item.querySelector('h3').innerText : '';
+          const description = item.querySelector('p') ? item.querySelector('p').innerText : '';
+
+          // Bind a popup with project details
+          marker.bindPopup(`
+              <div class="map-popup">
+                  <h3>${title}</h3>
+                  <p>${description}</p>
+              </div>
+          `);
+      }
   });
+
+  if (hasCoordinates) {
+      if (postArticle) postArticle.style.display = 'none';
+      container.style.padding = '0';
+  } else {
+      mapElement.remove();
+  }
 }
 
 function run() {
@@ -125,7 +158,7 @@ function run() {
     rewind: true
   });
 
-  // mapRealisaties();
+  mapRealisaties();
   document.body.classList.add("data-js-loaded");
 }
 
