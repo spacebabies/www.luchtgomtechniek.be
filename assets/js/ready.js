@@ -122,14 +122,37 @@ function mapRealisaties() {
 
           const title = item.querySelector('h3') ? item.querySelector('h3').innerText : '';
           const description = item.querySelector('p') ? item.querySelector('p').innerText : '';
+          const picture = item.querySelector('picture') ? item.querySelector('picture').outerHTML : '';
 
           // Bind a popup with project details
           marker.bindPopup(`
               <div class="map-popup">
-                  <h3>${title}</h3>
-                  <p>${description}</p>
+                  ${picture}
+                  <p><strong>${title}</strong><br>${description}</p>
               </div>
-          `);
+          `, {
+              minWidth: 250,
+              maxWidth: 300,
+              keepInView: true // forces auto pan
+          });
+      }
+  });
+
+  // When a popup opens, wait for its image to load and then update the popup.
+  // This prevents the popup from overflowing the map container if the image height changes after auto-pan.
+  map.on('popupopen', function(e) {
+      const popup = e.popup;
+      const img = popup.getElement().querySelector('img');
+      if (img) {
+          // If the image is already complete, update immediately
+          if (img.complete) {
+              popup.update();
+          } else {
+              // Otherwise, wait for it to load
+              img.addEventListener('load', () => {
+                  popup.update();
+              });
+          }
       }
   });
 
