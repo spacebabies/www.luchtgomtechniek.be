@@ -1,4 +1,3 @@
-import feather from 'feather-icons';
 import Swiper, { Navigation } from 'swiper';
 import L from 'leaflet';
 
@@ -90,8 +89,6 @@ function mapRealisaties() {
 }
 
 function run() {
-  feather.replace({ width: "1em", height: "1em" });
-
   new Swiper('.swiper', {
     modules: [Navigation],
     slidesPerView: "auto",
