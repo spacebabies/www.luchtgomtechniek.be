@@ -5,7 +5,7 @@ googleAnalytics:
 instagram:
   disable: false
   simple: true
-twitter:
+x:
   disable: false
   enableDNT: true
   simple: true
