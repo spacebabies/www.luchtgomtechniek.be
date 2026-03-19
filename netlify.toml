@@ -72,9 +72,3 @@
     HUGO_ENABLEGITINFO = "true"
     HUGO_ENV = "production"
     HUGO_VERSION = "0.121.2"
-
-  [[context.production.plugins]]
-    package = "netlify-plugin-checklinks"
-
-  [[context.production.plugins]]
-    package = "netlify-plugin-hugo-cache-resources"
