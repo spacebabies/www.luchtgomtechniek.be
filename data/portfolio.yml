@@ -141,3 +141,16 @@
   coordinates:
     lat: 51.068645
     lng: 5.165718
+
+- id: cafe-sjiek
+  title:
+    nl: "Trappenhuis Café Sjiek, Maastricht"
+    fr: "Cage d'escalier Café Sjiek, Maastricht"
+  description:
+    nl: "Vakkundig luchtgommen en transparant lakken van het houten trappenhuis in deze iconische Bib Gourmand-zaak. De authentieke houtnerf is prachtig in ere hersteld en voorzien van een duurzame laklaag, klaar voor jarenlang intensief gebruik."
+    fr: "Aérogommage expert et vernissage transparent de la cage d'escalier en bois dans cet établissement emblématique Bib Gourmand. Le grain de bois authentique a été magnifiquement restauré et pourvu d'une couche de vernis durable, prêt pour des années d'utilisation intensive."
+  image: "images/portfolio/cafe-sjiek.jpg"
+  coordinates:
+    lat: 50.8454
+    lng: 5.6911
+
