@@ -18,4 +18,6 @@ onReady(() => {
   feather.replace({ width: "1em", height: "1em" });
   initSwiper();
   initLeaflet();
+
+  document.body.classList.add("data-js-loaded");
 });
