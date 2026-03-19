@@ -1,4 +1,5 @@
 import { initLanguage } from "./modules/language.js";
+import { initHeader } from "./modules/header.js";
 
 function onReady(callback) {
   if (document.readyState === 'loading') {
@@ -10,4 +11,5 @@ function onReady(callback) {
 
 onReady(() => {
   initLanguage();
+  initHeader(document.querySelector("#site-head"));
 });

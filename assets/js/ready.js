@@ -4,22 +4,6 @@ import L from 'leaflet';
 
 "use strict";
 
-function setHeader(header) {
-  if (!header) return;
-
-  var slide;
-  if (screen.orientation.type.startsWith("portrait")) {
-    slide = header.querySelector("link.portrait");
-  } else {
-    slide = header.querySelector("link.landscape");
-  }
-
-  if (slide) {
-    header.style.backgroundImage = "url(" + slide.href + ")";
-    header.classList.add('header-loaded');
-  }
-}
-
 function mapRealisaties() {
   const container = document.getElementById('pageportfolioindex');
   if (!container) return;
@@ -107,7 +91,6 @@ function mapRealisaties() {
 
 function run() {
   feather.replace({ width: "1em", height: "1em" });
-  setHeader(document.querySelector("#site-head"));
 
   new Swiper('.swiper', {
     modules: [Navigation],
