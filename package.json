@@ -5,10 +5,10 @@
   "main": "index.html",
   "repository": "git@github.com:spacebabies/www.straalatelier.com",
   "author": "Joost Baaij <joost@spacebabies.nl>",
-  "license": "None",
+  "license": "UNLICENSED",
   "private": true,
   "engines": {
-    "node": ">=12"
+    "node": ">=18"
   },
   "dependencies": {
     "@fontsource/open-sans": "^4.5.10",
@@ -26,11 +26,8 @@
     "prettier": "^2.5.1"
   },
     "scripts": {
-      "prestart": "yarn check || yarn install",
-      "start": "yarn run clean && hugo server --buildDrafts --buildFuture --noHTTPCache",
-      "prebuild": "yarn run clean",
-      "build": "hugo --gc --minify",
+      "start": "npm run clean && hugo server --buildDrafts --buildFuture --noHTTPCache",
+      "build": "npm run clean && hugo --gc --minify",
       "clean": "rm -rf public"
-    },
-  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+  }
 }

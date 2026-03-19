@@ -25,7 +25,7 @@ This project contains a `.tool-versions` file that specifies the exact version o
 
 ### Without `asdf`
 
-If you are not using `asdf`, make sure you install **Hugo Extended version 0.121.2** (or higher). 
+If you are not using `asdf`, make sure you install **Hugo Extended version 0.121.2** (or higher).
 
 - **Fedora/RHEL:** `sudo dnf install hugo` (installs extended by default)
 - **Ubuntu/Debian:** The `apt` version is often standard and outdated. Download the extended `.deb` or `.tar.gz` from the [Hugo GitHub Releases](https://github.com/gohugoio/hugo/releases).
@@ -36,7 +36,7 @@ If you are not using `asdf`, make sure you install **Hugo Extended version 0.121
 First, install the Node dependencies (used for some frontend assets/tooling):
 
 ```bash
-yarn install
+npm install
 ```
 
 Start the development server with drafts enabled:
