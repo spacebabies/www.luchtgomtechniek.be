@@ -1,8 +1,4 @@
 mounts:
-  - source: node_modules/jquery/dist
-    target: assets/jquery
-  - source: node_modules/jquery-bridget
-    target: assets/jquery-bridget
   - source: node_modules/swiper
     target: assets/swiper
   - source: assets
