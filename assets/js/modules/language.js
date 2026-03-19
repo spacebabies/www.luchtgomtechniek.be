@@ -1,0 +1,64 @@
+export function initLanguage() {
+  persistLanguage(document.cookie);
+  changeLanguage(document.querySelector('#changeLanguage'));
+}
+
+function changeLanguage(element) {
+  if (!element) return;
+  var location, userLang;
+
+  element.addEventListener("change", function (event) {
+    if (event.target.value === 'nl') {
+      userLang = "nl";
+      location = "/nl/";
+    } else if (event.target.value === 'fr') {
+      userLang = "fr";
+      location = "/fr";
+    }
+    document.cookie = "nf_lang=" + userLang + "; Max-Age=2600000; Secure";
+    window.location.assign(location);
+  });
+}
+
+/*
+  * Create cookie to get the Browser Language.
+  * This should always run for CDN optimisation.
+  */
+function persistLanguage(cookies) {
+  if (!cookies.includes("nf_lang")) {
+    var userLang = getFirstBrowserLanguage();
+    cookies = "nf_lang=" + userLang + "; Max-Age=2600000; Secure";
+  }
+}
+
+function getFirstBrowserLanguage() {
+  var defaultLanguage = "nl";
+
+  var nav = window.navigator,
+    browserLanguagePropertyKeys = [
+      "language",
+      "browserLanguage",
+      "systemLanguage",
+      "userLanguage",
+    ],
+    i,
+    language;
+
+  if (Array.isArray(nav.languages)) {
+    for (i = 0; i < nav.languages.length; i++) {
+      language = nav.languages[i];
+      if (language && language.length) {
+        return language;
+      }
+    }
+  }
+
+  // support for other well known properties in browsers
+  for (i = 0; i < browserLanguagePropertyKeys.length; i++) {
+    language = nav[browserLanguagePropertyKeys[i]];
+    if (language && language.length) {
+      return language;
+    }
+  }
+  return defaultLanguage;
+}
