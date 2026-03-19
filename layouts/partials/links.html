@@ -1,11 +1,13 @@
-{{ $options := (dict
+{{ $opts := dict
   "outputStyle" "compressed"
-  "enableSourceMap" true
+  "enableSourceMap" (not hugo.IsDevelopment)
   "targetPath" "css/main.css"
-  "includePaths" (slice
-    "node_modules" )) -}}
-{{ $style := resources.Get "scss/main.scss" | toCSS $options | fingerprint -}}
-<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+  "includePaths" (slice "node_modules")
+}}
+
+{{ with resources.Get "scss/main.scss" | toCSS $opts | fingerprint -}}
+<link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}">
+{{ end }}
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=202409">

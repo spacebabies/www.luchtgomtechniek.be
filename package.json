@@ -15,15 +15,16 @@
     "@fontsource/oswald": "^4.5.9",
     "@fontsource/roboto-slab": "^4.5.8",
     "feather-icons": "^4.28.0",
+    "leaflet": "^1.9.4",
     "swiper": "^9.1.1"
   },
   "devDependencies": {
     "eslint": "^8.19.0",
     "prettier": "^2.5.1"
   },
-    "scripts": {
-      "start": "npm run clean && hugo server --buildDrafts --buildFuture --noHTTPCache",
-      "build": "npm run clean && hugo --gc --minify",
-      "clean": "rm -rf public"
+  "scripts": {
+    "start": "npm run clean && hugo server --buildDrafts --buildFuture --noHTTPCache",
+    "build": "npm run clean && hugo --gc --minify",
+    "clean": "rm -rf public"
   }
 }

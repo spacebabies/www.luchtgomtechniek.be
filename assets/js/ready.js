@@ -1,5 +1,6 @@
 import feather from 'feather-icons';
 import Swiper, { Navigation } from 'swiper';
+import L from 'leaflet';
 
 "use strict";
 
