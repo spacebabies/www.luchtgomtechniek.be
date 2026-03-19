@@ -6,7 +6,6 @@
     nl: "Vakkundige restauratie van een monumentaal trappenhuis. Houtwerk geluchtgomd om de authentieke schoonheid te herstellen, met behoud van historische details. Perfecte balans tussen erfgoed en moderne afwerking."
     fr: "Restauration experte d'une cage d'escalier monumentale. Boiseries aérogommées pour retrouver leur beauté authentique, tout en préservant les détails historiques. Équilibre parfait entre patrimoine et finition moderne."
   image: "images/portfolio/sintpieter.jpg"
-  location: "Maastricht, Sint Pieter"
   coordinates:
     lat: 50.835
     lng: 5.690
@@ -19,7 +18,6 @@
     nl: "Stadsvilla Luik: verweerde entree vakkundig gereinigd. Blauwstenen trappen, zuilen en ornamenten herwonnen hun grandeur. Elegante metamorfose met behoud van historische charme."
     fr: "Hôtel particulier liégeois : entrée usée nettoyée avec expertise. Escaliers, colonnes et ornements en pierre bleue ont retrouvé leur grandeur. Métamorphose élégante préservant le charme historique."
   image: "images/portfolio/stadsvilla-luik.jpg"
-  location: "Luik"
   coordinates:
     lat: 50.632
     lng: 5.567
@@ -32,7 +30,6 @@
     nl: "Strakke metamorfose: houten gevelpanelen gestraald en verfrist. Harmonieus samenspel van ceder en baksteen creëert eigentijdse look. Vakmanschap zorgt voor duurzame upgrade van moderne woning."
     fr: "Métamorphose épurée : panneaux de façade en bois décapés et rafraîchis. Jeu harmonieux entre cèdre et brique crée un look contemporain. Savoir-faire assurant une amélioration durable de l'habitation moderne."
   image: "images/portfolio/hasselt-gevelpanelen.jpg"
-  location: "Hasselt"
   coordinates:
     lat: 50.930
     lng: 5.332
@@ -45,7 +42,6 @@
     nl: "Verborgen parel onthuld: eeuwenoud trappenhuis in Huy gestraald en verfijnd. Originele houtnerf en authentieke details komen tot leven. Vakkundige renovatie blaast historie nieuw leven in."
     fr: "Joyau caché dévoilé : cage d'escalier séculaire à Huy décapée et raffinée. Grain de bois original et détails authentiques reprennent vie. Rénovation experte insuffle une nouvelle vie à l'histoire."
   image: "images/portfolio/huy.jpg"
-  location: "Huy"
   coordinates:
     lat: 50.518
     lng: 5.235
@@ -58,7 +54,6 @@
     nl: "Houten trappenhuis zorgvuldig gestraald en naturel afgewerkt. Vloeiende lijnen en lichte tinten creëren ruimtelijk effect. Vakmanschap zorgt voor naadloze integratie van authentieke elementen in modern interieur."
     fr: "Cage d'escalier en bois soigneusement décapée et finie au naturel. Lignes fluides et teintes claires créent un effet spatial. Le savoir-faire assure une intégration parfaite des éléments authentiques dans un intérieur moderne."
   image: "images/portfolio/trappenhuis-bilzen.jpg"
-  location: "Bilzen"
   coordinates:
     lat: 50.871
     lng: 5.516
@@ -71,90 +66,78 @@
     nl: "Cederhouten buitenschrijnwerk vakkundig gestraald. Natuurlijke schoonheid van hout hersteld, bestand tegen weersinvloeden. Zorgvuldige aanpak beschermt erfgoed en verbetert leeromgeving."
     fr: "Menuiseries extérieures en cèdre expertement décapées. Beauté naturelle du bois restaurée, résistante aux intempéries. Approche minutieuse protège le patrimoine et améliore l'environnement d'apprentissage."
   image: "images/portfolio/spa.jpg"
-  location: "Spa"
   coordinates:
     lat: 50.492
     lng: 5.864
 
 - id: douanekantoor-petit-lanaye
   title:
-    nl: "Douanekantoor Petit Lanaye"
-    fr: "Bureau de douane Petit Lanaye"
+    nl: "Douanekantoor Klein-Ternaaien"
+    fr: "Bureau de douane Petit-Lanaye"
   description:
-    nl: ""
-    fr: ""
+    nl: "Interieur en blauwstenen exterieur van het oude douanekantoor van Klein-Ternaaien volledig teruggebracht in de oorspronkelijke staat."
+    fr: "L'intérieur et l'extérieur en pierre bleue de l'ancien bureau de douane de Petit-Lanaye entièrement restaurés dans leur état d'origine."
   image: "images/portfolio/douanekantoor-petit-lanaye.jpg"
-  location: "Petit Lanaye"
   coordinates:
     lat: 50.796
     lng: 5.688
 
 - id: limonadefabriek
   title:
-    nl: "Limonadefabriek"
-    fr: "Usine de limonade"
+    nl: "Limonadefabriek, Eijsden"
+    fr: "Usine de limonade, Eijsden"
   description:
-    nl: ""
-    fr: ""
-  image: "images/portfolio/limonadefabriek.jpeg"
-  location: ""
+    nl: "Transformatie van een oude limonadefabriek tot hoogwaardige, moderne appartementen met behoud van de oorspronkelijke gewelfde plafonds."
+    fr: "Transformation d'une ancienne usine de limonade en appartements modernes de haute qualité tout en préservant les plafonds voûtés d'origine."
+  image: "images/portfolio/limonadefabriek.jpg"
   coordinates:
-    lat: null
-    lng: null
-  draft: true
+    lat: 50.7785
+    lng: 5.7058
 
 - id: tongeren
   title:
-    nl: "Project in Tongeren"
-    fr: "Projet à Tongres"
+    nl: "Woonhuis in Tongeren"
+    fr: "Maison à Tongres"
   description:
-    nl: ""
-    fr: ""
+    nl: "Totale restauratie van een woonhuis, inclusief al het hout van het interieur en de blauwstenen gevel."
+    fr: "Restauration totale d'une maison, y compris tout le bois de l'intérieur et la façade en pierre bleue."
   image: "images/portfolio/tongeren.jpg"
-  location: "Tongeren"
   coordinates:
     lat: 50.780
     lng: 5.464
-  draft: true
-
-- id: vakwerkhuis
-  title:
-    nl: "Vakwerkhuis"
-    fr: "Maison à colombages"
-  description:
-    nl: ""
-    fr: ""
-  image: "images/portfolio/vakwerkhuis.jpg"
-  location: ""
-  coordinates:
-    lat: null
-    lng: null
-  draft: true
 
 - id: watermolen
   title:
-    nl: "Watermolen"
-    fr: "Moulin à eau"
+    nl: "Molen van Lhomme"
+    fr: "Moulin à eau a Lhomme"
   description:
-    nl: ""
-    fr: ""
+    nl: "Behoud van industrieel erfgoed door niet-invasieve verwijdering van vuil en het aanbrengen van hoogwaardige, onzichtbare coatings."
+    fr: "Préservation du patrimoine industriel grâce à l'élimination non invasive de la saleté et à l'application de revêtements invisibles de haute qualité."
   image: "images/portfolio/watermolen.jpeg"
-  location: ""
   coordinates:
-    lat: null
-    lng: null
-  draft: true
+    lat: 50.758749
+    lng: 5.760992
 
 - id: woonhuis-voerstreek
   title:
     nl: "Woonhuis Voerstreek"
     fr: "Maison Voerstreek"
   description:
-    nl: ""
-    fr: ""
+    nl: "Renovatie van alle houten delen, waaronder de eikenhouten balken, de verdiepingsvloeren, de trappen en de schouw."
+    fr: "Rénovation de toutes les parties en bois, y compris les poutres en chêne, les planchers, les escaliers et la cheminée."
   image: "images/portfolio/woonhuis-voerstreek.jpg"
-  location: "Voerstreek"
   coordinates:
     lat: 50.750
     lng: 5.800
-  draft: true
+
+- id: bctn-beringen
+  title:
+    nl: "Overslagterminal, Beringen"
+    fr: "BCTN Beringen"
+  description:
+    nl: "Reinigen van vervuilde industriële site, waaronder opslagtanks en rvs leidingwerk."
+    fr: "Nettoyage de site industriel pollué, y compris les réservoirs de stockage et la tuyauterie en acier inoxydable."
+  image: "images/portfolio/overslagterminal.jpg"
+  coordinates:
+    lat: 51.068645
+    lng: 5.165718
