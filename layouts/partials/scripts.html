@@ -6,6 +6,9 @@
 {{ with resources.Get "js/ready.js" | js.Build $opts | fingerprint }}
   <script defer type="text/javascript" src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}"></script>
 {{ end }}
+{{ with resources.Get "js/main.js" | js.Build $opts | fingerprint }}
+  <script defer type="text/javascript" src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}"></script>
+{{ end }}
 
 <script type="application/ld+json">
   {{ $address := dict
