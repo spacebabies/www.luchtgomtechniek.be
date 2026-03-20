@@ -333,3 +333,182 @@
   coordinates:
     lat: 50.814
     lng: 5.912
+- id: betonnen-plafond-anderlecht
+  title:
+    nl: "Betonnen plafond, Anderlecht"
+    fr: "Plafond en béton, Anderlecht"
+  description:
+    nl: "Grondige reiniging van een industrieel betonnen plafond in Anderlecht. Door het verwijderen van jarenlange vervuiling en oude coatings heeft het beton zijn oorspronkelijke, strakke uitstraling teruggekregen, perfect voor een modern loft-interieur."
+    fr: "Nettoyage en profondeur d'un plafond industriel en béton à Anderlecht. En éliminant des années de saleté et d'anciens revêtements, le béton a retrouvé son aspect originel et épuré, idéal pour un intérieur de loft moderne."
+  image: "images/portfolio/Betonnen-plafond-Anderlecht.jpg"
+  coordinates:
+    lat: 50.839
+    lng: 4.307
+
+- id: beuken-trappenhuis
+  title:
+    nl: "Beuken trappenhuis"
+    fr: "Cage d'escalier en hêtre"
+  description:
+    nl: "Luchtgommen van een klassiek beuken trappenhuis. De fijne structuur van het beukenhout is weer volledig zichtbaar geworden, waardoor de trap een frisse en eigentijdse look heeft gekregen zonder zijn karakter te verliezen."
+    fr: "Aérogommage d'une cage d'escalier classique en hêtre. La structure fine du bois de hêtre est redevenue entièrement visible, donnant à l'escalier un aspect frais et contemporain sans perdre son caractère."
+  image: "images/portfolio/beuken-trappenhuis.jpg"
+  coordinates:
+    lat: 50.850
+    lng: 5.700
+
+- id: bijgebouw-kasteel-plombieres
+  title:
+    nl: "Bijgebouw kasteel, Plombières"
+    fr: "Dépendance du château, Plombières"
+  description:
+    nl: "Restauratie van de gevel van een historisch kasteelbijgebouw in Plombières. De combinatie van natuursteen en houten elementen is met uiterste precisie gereinigd, met respect voor de eeuwenoude bouwmaterialen."
+    fr: "Restauration de la façade d'une dépendance de château historique à Plombières. La combinaison de pierre naturelle et d'éléments en bois a été nettoyée avec une précision extrême, dans le respect des matériaux de construction séculaires."
+  image: "images/portfolio/Bijgebouw-kasteel-Plombieres.jpg"
+  coordinates:
+    lat: 50.737
+    lng: 5.961
+
+- id: cementtegelvloer-rekem
+  title:
+    nl: "Cementtegelvloer, Rekem"
+    fr: "Sol en carreaux de ciment, Rekem"
+  description:
+    nl: "Unieke renovatie van een authentieke cementtegelvloer in Rekem. De vloer is eerst voorzichtig gestraald om diepliggend vuil te verwijderen en vervolgens professioneel gepolijst, waardoor de prachtige patronen en kleuren weer tot leven komen."
+    fr: "Rénovation unique d'un authentique sol en carreaux de ciment à Rekem. Le sol a d'abord été délicatement sablé pour éliminer la saleté incrustée, puis poli professionnellement, redonnant vie aux magnifiques motifs et couleurs."
+  image: "images/portfolio/Cementegelvloer-gestraald-en-daarna-opnieuw-gepolijst-Rekem.jpg"
+  coordinates:
+    lat: 50.923
+    lng: 5.703
+
+- id: dennenhouten-vloer-eben-emael
+  title:
+    nl: "Dennenhouten plankenvloer, Eben-Emael"
+    fr: "Plancher en sapin, Eben-Emael"
+  description:
+    nl: "Schuren en verfijnen van een massieve dennenhouten plankenvloer in Eben-Emael. De warme, natuurlijke uitstraling van het hout is hersteld, waardoor de ruimte een rustieke en gezellige sfeer ademt."
+    fr: "Ponçage et finition d'un plancher massif en sapin à Eben-Emael. L'aspect chaleureux et naturel du bois a été restauré, donnant à la pièce une atmosphère rustique et chaleureuse."
+  image: "images/portfolio/Dennenhouten-plankenvloer-geschuurd-Eben-emael.jpg"
+  coordinates:
+    lat: 50.796
+    lng: 5.673
+
+- id: deuren-kozijn-zavelberg
+  title:
+    nl: "Deuren met kozijn, Zavelberg"
+    fr: "Portes et chambranles, Zavelberg"
+  description:
+    nl: "Luchtgommen van houten binnendeuren en bijbehorende kozijnen in Zavelberg. De donkere laklagen zijn verwijderd om plaats te maken voor de natuurlijke schoonheid van het hout, wat zorgt voor een licht en modern interieur."
+    fr: "Aérogommage de portes intérieures en bois et de leurs chambranles à Zavelberg. Les couches de vernis sombre ont été enlevées pour laisser place à la beauté naturelle du bois."
+  image: "images/portfolio/Deuren-met-kozijn-Zavelberg.jpg"
+  coordinates:
+    lat: 50.880
+    lng: 5.500
+
+- id: eiken-vat-luik
+  title:
+    nl: "Eiken vat, Café Luik"
+    fr: "Tonneau en chêne, Café Liège"
+  description:
+    nl: "Restauratie van een authentiek eikenhouten vat in een café in Luik. Door zorgvuldig te stralen is het hout weer schoon en klaar om als karaktervol interieurelement te dienen."
+    fr: "Restauration d'un authentique tonneau en chêne dans un café à Liège. Grâce à un sablage minutieux, le bois est à nouveau propre et prêt à servir d'élément de décoration plein de caractère."
+  image: "images/portfolio/Eiken-vat-cafe-Luik.jpg"
+  coordinates:
+    lat: 50.632
+    lng: 5.567
+
+- id: interieur-landhuis-riksingen
+  title:
+    nl: "Interieur Landhuis, Riksingen"
+    fr: "Intérieur d'un manoir, Riksingen"
+  description:
+    nl: "Complete interieurbehandeling in een landhuis te Riksingen. Kast, tafel, stoelen en de robuuste plafondbalken zijn allemaal met de hand en luchtgomtechniek onder handen genomen voor een harmonieus en fris eindresultaat."
+    fr: "Traitement complet de l'intérieur d'un manoir à Riksingen. Armoire, table, chaises et les robustes poutres du plafond ont toutes été traitées pour un résultat final harmonieux et frais."
+  image: "images/portfolio/Kast-tafel-stoelen-balken-Landhuis-Riksingen.jpg"
+  coordinates:
+    lat: 50.795
+    lng: 5.488
+
+- id: plattelandsvilla-renovatie
+  title:
+    nl: "Plattelandsvilla renovatie"
+    fr: "Rénovation d'une villa de campagne"
+  description:
+    nl: "Gevelreiniging van een riante plattelandsvilla. De combinatie van baksteen en houtwerk is weer in topconditie gebracht, waardoor de villa zijn statige uitstraling in het groene landschap terugkrijgt."
+    fr: "Nettoyage de la façade d'une vaste villa de campagne. La combinaison de briques et de boiseries a été remise en parfait état, redonnant à la villa son aspect majestueux."
+  image: "images/portfolio/plattelandsvilla.jpg"
+  coordinates:
+    lat: 50.760
+    lng: 5.820
+
+- id: toegang-wijngaard-beusdaal
+  title:
+    nl: "Toegang wijngaard, Beusdaal"
+    fr: "Entrée du vignoble, Beusdaal"
+  description:
+    nl: "Restauratie van de historische toegang tot de wijngaard bij Kasteel Beusdaal. De natuurstenen elementen en het ijzeren hekwerk zijn met zorg gereinigd om hun historische waarde te bewaren."
+    fr: "Restauration de l'accès historique au vignoble du Château de Beusdaal. Les éléments en pierre naturelle et la grille en fer ont été nettoyés avec soin."
+  image: "images/portfolio/Toegang-wijngaard-Beusdaal.jpg"
+  coordinates:
+    lat: 50.748
+    lng: 5.908
+
+- id: trap-cementtegelvloer-aubel
+  title:
+    nl: "Trap en cementtegelvloer, Aubel"
+    fr: "Escalier et sol en carreaux de ciment, Aubel"
+  description:
+    nl: "In Aubel hebben we zowel de houten trap als de bijbehorende cementtegelvloer gerestaureerd. De trap is gestraald en de vloer is vakkundig opgeboend, wat samen zorgt voor een indrukwekkende entree."
+    fr: "À Aubel, nous avons restauré à la fois l'escalier en bois et le sol en carreaux de ciment. L'escalier a été sablé et le sol a été poli avec expertise."
+  image: "images/portfolio/Trap-gestraald-cementtegelvloer-opgeboend-Aubel.jpg"
+  coordinates:
+    lat: 50.704
+    lng: 5.859
+
+- id: trappenhuis-vise
+  title:
+    nl: "Trappenhuis, Visé"
+    fr: "Cage d'escalier, Visé"
+  description:
+    nl: "Zorgvuldige renovatie van een trappenhuis in Visé. Door het luchtgommen van de houten treden en leuningen is de natuurlijke kleur van het hout hersteld, wat perfect past bij de klassieke architectuur van het pand."
+    fr: "Rénovation soignée d'une cage d'escalier à Visé. L'aérogommage des marches et des rampes en bois a permis de restaurer la couleur naturelle du bois."
+  image: "images/portfolio/Trappenhuis-Visé.jpg"
+  coordinates:
+    lat: 50.738
+    lng: 5.694
+
+- id: trappenhuizen-liege-guillemins
+  title:
+    nl: "Twee trappenhuizen, Liège-Guillemins"
+    fr: "Deux cages d'escalier, Liège-Guillemins"
+  description:
+    nl: "Grootschalig project in Luik waarbij twee trappenhuizen op één perceel gelijktijdig zijn gerestaureerd. Een prachtig voorbeeld van hoe luchtgommen een hele woning kan verlichten en moderniseren."
+    fr: "Projet d'envergure à Liège où deux cages d'escalier sur une même parcelle ont été restaurées simultanément. Un bel exemple de la façon dont l'aérogommage peut moderniser une maison."
+  image: "images/portfolio/Twee-trappenhuizen-op-1-perceel-Liege-Guillemins.jpg"
+  coordinates:
+    lat: 50.624
+    lng: 5.567
+
+- id: voordeur-borgloon
+  title:
+    nl: "Authentieke voordeur, Borgloon"
+    fr: "Porte d'entrée authentique, Looz"
+  description:
+    nl: "Zorgvuldige restauratie van een karakteristieke voordeur in Borgloon. Door het behoedzaam verwijderen van oude verflagen is de prachtige eikenhouten structuur weer in ere hersteld, wat de entree van dit pand een warme en uitnodigende uitstraling geeft."
+    fr: "Restauration minutieuse d'une porte d'entrée de caractère à Looz. En enlevant prudemment les anciennes couches de peinture, la magnifique structure en chêne a été restaurée, donnant à l'entrée une allure chaleureuse."
+  image: "images/portfolio/Voordeur-borgloon.jpg"
+  coordinates:
+    lat: 50.803
+    lng: 5.344
+
+- id: watermolen-gulpen
+  title:
+    nl: "Watermolen, Gulpen"
+    fr: "Moulin à eau, Gulpen"
+  description:
+    nl: "Luchtgommen van houten elementen bij een historische watermolen in Gulpen. Het verwijderen van jarenlange aanslag en verwering zorgt ervoor dat het hout weer beschermd kan worden voor de toekomst, met behoud van zijn rustieke charme."
+    fr: "Aérogommage d'elements en bois d'un moulin à eau historique à Gulpen. L'élimination de dépôts séculaires et de l'usure permet de protéger le bois pour l'avenir tout en préservant son charme rustique."
+  image: "images/portfolio/Watermolen-Gulpen.jpg"
+  coordinates:
+    lat: 50.814
+    lng: 5.891
