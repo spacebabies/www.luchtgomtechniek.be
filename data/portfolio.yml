@@ -177,3 +177,159 @@
   coordinates:
     lat: 50.7505
     lng: 5.8122
+
+- id: balken-dakbeschot-stokstraat
+  title:
+    nl: "Balken en dakbeschot, Stokstraat Maastricht"
+    fr: "Poutres et voliges, Stokstraat Maastricht"
+  description:
+    nl: "Vakkundig luchtgommen van balken en dakbeschot in de historische Stokstraat te Maastricht. De originele houtstructuur is weer prachtig zichtbaar en klaar voor een nieuwe afwerking."
+    fr: "Aérogommage professionnel des poutres et voliges dans la rue historique Stokstraat à Maastricht. La structure originale du bois est à nouveau magnifiquement visible."
+  image: "images/portfolio/Balken-en-dakbeschot-Stokstraat-maastricht.jpg"
+  coordinates:
+    lat: 50.848
+    lng: 5.693
+
+- id: blauwsteen-balken-luikjes-zutendaal
+  title:
+    nl: "Blauwsteen, balken en luikjes, Zutendaal"
+    fr: "Pierre bleue, poutres et volets, Zutendaal"
+  description:
+    nl: "Zorgvuldig gereinigde blauwstenen elementen, houten balken en luikjes van deze gevel in Zutendaal. Een perfecte combinatie van materialen die weer hun oorspronkelijke charme uitstralen."
+    fr: "Éléments en pierre bleue, poutres en bois et volets de cette façade à Zutendaal soigneusement nettoyés. Une combinaison parfaite de matériaux."
+  image: "images/portfolio/Blauwsteen-balken-en-luikjes-Zutendaal.jpg"
+  coordinates:
+    lat: 50.931
+    lng: 5.571
+
+- id: blauwsteen-houten-deuren-as
+  title:
+    nl: "Blauwsteen en houten deuren, As"
+    fr: "Pierre bleue et portes en bois, As"
+  description:
+    nl: "Restauratie van een authentieke gevel in As. Zowel de prachtige houten dubbele deur als de omliggende blauwsteen zijn met luchtgomtechniek weer in ere hersteld."
+    fr: "Restauration d'une façade authentique à As. La magnifique double porte en bois et la pierre bleue environnante ont été restaurées grâce à la technique d'aérogommage."
+  image: "images/portfolio/Blauwsteen-en-houten-deuren-As.jpg"
+  coordinates:
+    lat: 51.008
+    lng: 5.586
+
+- id: blauwstenen-fontein-kasteel-beusdaal
+  title:
+    nl: "Blauwstenen fontein, Kasteel Beusdaal"
+    fr: "Fontaine en pierre bleue, Château de Beusdaal"
+  description:
+    nl: "Precisiewerk op de indrukwekkende blauwstenen fontein van Kasteel Beusdaal. Door het verwijderen van kalk en vervuiling komt het vakmanschap van deze historische fontein weer volledig tot zijn recht."
+    fr: "Travail de précision sur l'impressionnante fontaine en pierre bleue du Château de Beusdaal. En éliminant le calcaire et la pollution, le savoir-faire de cette fontaine historique est de nouveau mis en valeur."
+  image: "images/portfolio/Blauwstenen-fontijn-kasteel-Beusdaal.jpg"
+  coordinates:
+    lat: 50.748
+    lng: 5.908
+
+- id: eikenhouten-veranda-zutendaal
+  title:
+    nl: "Eikenhouten veranda, Zutendaal"
+    fr: "Véranda en chêne, Zutendaal"
+  description:
+    nl: "Luchtgommen van de robuuste eikenhouten constructie in een prachtige veranda te Zutendaal. Het hout heeft zijn natuurlijke, lichte uitstraling teruggekregen."
+    fr: "Aérogommage de la structure robuste en chêne dans une belle véranda à Zutendaal. Le bois a retrouvé son aspect naturel et clair."
+  image: "images/portfolio/Eikenhouten-veranda-Zutendaal.jpg"
+  coordinates:
+    lat: 50.931
+    lng: 5.571
+
+- id: garagepoort-vlijtingen
+  title:
+    nl: "Eikenhouten garagepoort, Vlijtingen"
+    fr: "Porte de garage en chêne, Vlijtingen"
+  description:
+    nl: "Grondige reiniging van een massief eikenhouten garagepoort in Vlijtingen. Het resultaat is een prachtige, lichte en egale houtkleur die weer jaren meegaan kan."
+    fr: "Nettoyage en profondeur d'une porte de garage en chêne massif à Vlijtingen. Le résultat est une belle couleur de bois claire et uniforme qui durera des années."
+  image: "images/portfolio/Garagepoort-Vlijtingen.jpg"
+  coordinates:
+    lat: 50.835
+    lng: 5.590
+
+- id: intratuin-maastricht
+  title:
+    nl: "Staalconstructie Intratuin, Maastricht"
+    fr: "Structure métallique Intratuin, Maastricht"
+  description:
+    nl: "Professioneel stralen en reinigen van industriële elementen bij Intratuin Maastricht. Grondig voorbereidend werk voor een langdurig resultaat."
+    fr: "Sablage et nettoyage professionnels d'éléments industriels chez Intratuin Maastricht. Travail préparatoire approfondi pour un résultat durable."
+  image: "images/portfolio/Intratuin-Maastricht-molensingel-87.jpg"
+  coordinates:
+    lat: 50.825
+    lng: 5.717
+
+- id: hekwerk-begraafplaats-ulestraten
+  title:
+    nl: "Hekwerk begraafplaats, Ulestraten"
+    fr: "Clôture de cimetière, Ulestraten"
+  description:
+    nl: "Renovatie van het toegangshek en de pilaren op de begraafplaats in Ulestraten. Het ijzerwerk is gestraald en prachtig wit (RAL 9010) gepoedercoat voor een respectvolle uitstraling."
+    fr: "Rénovation de la porte d'accès et des piliers du cimetière d'Ulestraten. La ferronnerie a été sablée et magnifiquement thermolaquée en blanc (RAL 9010)."
+  image: "images/portfolio/Pilaren-en-hekwerk-9010-gepoedercoat-Begraafplaats-ulestraten.jpg"
+  coordinates:
+    lat: 50.902
+    lng: 5.787
+
+- id: pipowagen-camping-krieckaert
+  title:
+    nl: "Houten pipowagen, Camping Krieckaert"
+    fr: "Roulotte en bois, Camping Krieckaert"
+  description:
+    nl: "Luchtgommen van een sfeervolle houten pipowagen op Camping Krieckaert in Gellik. Het houtwerk is ontdaan van oude verflagen en klaar voor een nieuwe, frisse uitstraling in de natuur."
+    fr: "Aérogommage d'une charmante roulotte en bois au Camping Krieckaert à Gellik. Le bois a été débarrassé de ses anciennes couches de peinture."
+  image: "images/portfolio/Pipowagen-camping-Krieckaert.jpg"
+  coordinates:
+    lat: 50.875
+    lng: 5.626
+
+- id: plafondbalken-bistro-beer
+  title:
+    nl: "Plafondbalken, Bistro Beer"
+    fr: "Poutres de plafond, Bistro Beer"
+  description:
+    nl: "Sfeervolle restauratie van de eikenhouten plafondbalken bij Bistro Beer. Door het verwijderen van de donkere afwerking oogt het interieur weer fris, modern en toch authentiek."
+    fr: "Restauration chaleureuse des poutres de plafond en chêne chez Bistro Beer. En enlevant la finition sombre, l'intérieur paraît à nouveau frais, moderne et pourtant authentique."
+  image: "images/portfolio/Plafondbalken-Bistro Beer.jpg"
+  coordinates:
+    lat: 50.870
+    lng: 5.620
+
+- id: terracotta-plafond-gingelom
+  title:
+    nl: "Gewelfd terracotta plafond, Gingelom"
+    fr: "Plafond voûté en terre cuite, Gingelom"
+  description:
+    nl: "Zorgvuldig stralen van een uniek terracotta gewelf in Gingelom. Alle oude verf- en pleisterresten zijn nauwkeurig verwijderd om de originele rode steen weer in het zicht te brengen."
+    fr: "Sablage minutieux d'une voûte unique en terre cuite à Gingelom. Tous les anciens restes de peinture et de plâtre ont été soigneusement retirés."
+  image: "images/portfolio/Terracotta-plafond-Gingelom.jpg"
+  coordinates:
+    lat: 50.751
+    lng: 5.132
+
+- id: torenspits-gemeentehuis-hemiksem
+  title:
+    nl: "Torenspits Gemeentehuis, Hemiksem"
+    fr: "Flèche de l'Hôtel de Ville, Hemiksem"
+  description:
+    nl: "Secuur restauratiewerk aan de historische torenspits van het gemeentehuis in Hemiksem. Dankzij luchtgomtechniek worden zelfs de kleinste en meest kwetsbare details behouden."
+    fr: "Travail de restauration minutieux sur la flèche historique de l'Hôtel de Ville d'Hemiksem. Grâce à la technique d'aérogommage, même les détails les plus petits sont préservés."
+  image: "images/portfolio/Torenspits-gemeentehuis-Hemiksem.jpg"
+  coordinates:
+    lat: 51.144
+    lng: 4.341
+
+- id: vakwerkhuis-wittem
+  title:
+    nl: "Houten gebinte vakwerkhuis, Wittem"
+    fr: "Charpente en bois de maison à colombages, Wittem"
+  description:
+    nl: "Adembenemende transformatie van de robuuste houten draagstructuur in een authentiek vakwerkhuis te Wittem. Het lichte eikenhout zorgt nu voor een warme, ruimtelijke en natuurlijke sfeer."
+    fr: "Transformation époustouflante de la robuste structure porteuse en bois dans une authentique maison à colombages à Wittem. Le chêne clair crée une atmosphère chaleureuse."
+  image: "images/portfolio/Vakwerkhuis-Wittem.jpg"
+  coordinates:
+    lat: 50.814
+    lng: 5.912
