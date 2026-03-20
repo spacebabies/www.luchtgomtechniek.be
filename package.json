@@ -14,7 +14,6 @@
     "@fontsource/open-sans": "^4.5.10",
     "@fontsource/oswald": "^4.5.9",
     "@fontsource/roboto-slab": "^4.5.8",
-    "feather-icons": "^4.28.0",
     "leaflet": "^1.9.4",
     "swiper": "^9.1.1"
   },
