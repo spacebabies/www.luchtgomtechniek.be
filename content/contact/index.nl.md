@@ -25,3 +25,5 @@ Wij zijn enkel op afspraak te bezoeken.
 ### Instagram ![Volg @luchtgomtechniek op Instagram](/IG_Glyph_Fill.png "Volg @luchtgomtechniek op Instagram")
 
 Volg [**@luchtgomtechniek**](https://www.instagram.com/luchtgomtechniek/) om foto's te zien van ons werk.
+
+{{< insta-grid >}}

@@ -1,0 +1,80 @@
+.insta-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin: 3rem 0;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.insta-card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.2s ease-in-out;
+  overflow: hidden;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+
+  &:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    color: inherit;
+  }
+}
+
+.insta-header {
+  display: flex;
+  align-items: center;
+  padding: 14px;
+  border-bottom: 1px solid #efefef;
+
+  .insta-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 12px;
+    object-fit: cover;
+    border: 1px solid #dbdbdb;
+  }
+
+  .insta-handle {
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #262626;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+}
+
+.insta-image-wrapper {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background-color: #fafafa;
+  overflow: hidden;
+  
+  .insta-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+}
+
+.insta-caption {
+  padding: 14px;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  color: #262626;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+  p {
+    margin: 0 0 1em 0;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

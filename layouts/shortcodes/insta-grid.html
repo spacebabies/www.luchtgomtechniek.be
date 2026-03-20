@@ -1,0 +1,24 @@
+{{ $lang := .Page.Language.Lang }}
+{{ $data := index site.Data "insta-grid" }}
+
+<div class="insta-grid">
+  {{ range $data }}
+  <a href="https://www.instagram.com/p/{{ .id }}/" class="insta-card" target="_blank" rel="noopener noreferrer">
+    <div class="insta-header">
+      <img src="{{ relURL "android-chrome-192x192.png" }}" alt="Luchtgomtechniek Avatar" class="insta-avatar" loading="lazy">
+      <span class="insta-handle">luchtgomtechniek</span>
+    </div>
+    <div class="insta-image-wrapper">
+      {{ $img := resources.Get .image }}
+      {{ if $img }}
+        <img src="{{ $img.RelPermalink }}" alt="Instagram post {{ .id }}" class="insta-image" loading="lazy">
+      {{ else }}
+        <img src="{{ relURL .image }}" alt="Instagram post {{ .id }}" class="insta-image" loading="lazy">
+      {{ end }}
+    </div>
+    <div class="insta-caption">
+      {{ index .description $lang | markdownify }}
+    </div>
+  </a>
+  {{ end }}
+</div>
