@@ -23,6 +23,4 @@ Nous sommes seulement à visiter sur rendez-vous.
 
 ### Instagram ![Suivez @luchtgomtechniek sur Instagram](/IG_Glyph_Fill.png "Suivez @luchtgomtechniek sur Instagram")
 
-suivre [**@luchtgomtechniek**](https://www.instagram.com/luchtgomtechniek/) Voir des photos de notre travail.
-
 {{< insta-grid >}}
