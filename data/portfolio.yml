@@ -154,3 +154,26 @@
     lat: 50.8454
     lng: 5.6911
 
+- id: liege-vieux-mayeur
+  title:
+    nl: "Gevelrenovatie Rue du Vieux Mayeur, Luik"
+    fr: "Rénovation de façade Rue du Vieux Mayeur, Liège"
+  description:
+    nl: "Karakteristieke gevel vakkundig gestraald en voorzien van een hydrofuge behandeling. Het metselwerk is diep gereinigd en optimaal beschermd tegen vocht en weersinvloeden, waardoor de authentieke uitstraling van dit pand in Luik weer volledig tot zijn recht komt."
+    fr: "Façade de caractère expertement sablée et traitée par hydrofuge. La maçonnerie est nettoyée en profondeur et protégée de manière optimale contre l'humidité et les intempéries, redonnant ainsi tout son éclat authentique à ce bâtiment liégeois."
+  image: "images/portfolio/liege-vieux-mayeur.jpg"
+  coordinates:
+    lat: 50.6212
+    lng: 5.5754
+
+- id: trailer-sint-martens-voeren
+  title:
+    nl: "Trailer gestraald en gespoten, Sint-Martens-Voeren"
+    fr: "Remorque sablée et repeinte, Fouron-Saint-Martin"
+  description:
+    nl: "Complete opknapbeurt van een aanhangwagen. De trailer is eerst grondig gestraald om roest en oude verflagen te verwijderen, waarna deze strak in kleur is gespoten. Een duurzaam resultaat dat weer jaren mee kan."
+    fr: "Rénovation complète d'une remorque. La remorque a d'abord été soigneusement sablée pour éliminer la rouille et les anciennes couches de peinture, après quoi elle a été peinte avec précision. Un résultat durable, prêt pour de nombreuses années de service."
+  image: "images/portfolio/trailer-sint-martens-voeren.jpg"
+  coordinates:
+    lat: 50.7505
+    lng: 5.8122
