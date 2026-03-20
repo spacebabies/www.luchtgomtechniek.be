@@ -19,6 +19,18 @@ Zelfs kleine krassen en oneffenheden kunnen vaak verwijderd worden door te lucht
 
 {{< grids/swiper pattern="luchtgommen/*.jpg" >}}
 
+### Nabehandeling van Hout
+
+**De noodzaak van een gedegen beschermlaag.** Met het zorgvuldig luchtgommen van hout bent u ongeveer halverwege het proces. Zonder een doordachte nabehandeling is het schone hout kwetsbaar voor het intrekken van vuil, vocht en een snelle natuurlijke verkleuring. Zeker in intensief gebruikte omgevingen zoals drukbezochte horecazaken, luchthavens of monumentale panden is een robuuste afwerking een absolute vereiste om het hout langdurig te beschermen.
+
+#### Doordacht Maatwerk
+
+Voor elk project bepalen we in nauw overleg de best passende nabehandeling. We maken gebruik van professionele, hoogwaardige coatings, beitsen en oliën die specifiek ontwikkeld zijn voor zware belasting. Het uitgangspunt is doorgaans een slijtvaste, watergedragen transparante coating die onzichtbaar beschermt, waar nodig gecombineerd met een subtiele kleuring of olie. We werken bewust niet met standaard consumentenproducten; elke ruimte vraagt om een gerichte aanpak die aansluit bij de architectuur en de intensiteit van het gebruik.
+
+Het resultaat is een oppervlak dat zijn authentieke, karaktervolle uitstraling behoudt en tegelijk bestand is tegen de harde dagelijkse praktijk. Intensief belopen trappen, historische balkenpartijen en robuuste balies krijgen een duurzame bescherming die het hout laat spreken zonder aan functionaliteit in te boeten. Zo investeert u in een afgewerkt product dat blijvend representatief is, ongeacht hoe zwaar de omgeving op de proef wordt gesteld.
+
+{{< grids/swiper pattern="houtafwerking/*.jpg" >}}
+
 ### Fijn Zandstralen
 
 **Precisie in oppervlaktebehandeling.** Fijn zandstralen is een hoogontwikkelde techniek voor oppervlaktebehandeling, waarbij met kleine deeltjes zand of andere schurende materialen onder lage druk tegen het oppervlak wordt geblazen. Deze methode is ideaal voor het reinigen van oppervlakken, verwijderen van roest, elimineren van oude verflagen of andere ongewenste coatings, en het ruwer maken van oppervlakken ter bevordering van de hechting van nieuwe coatings of verf.

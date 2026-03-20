@@ -19,6 +19,18 @@ De petites rayures et irrégularités peuvent également souvent être rayonnée
 
 {{< grids/swiper pattern="luchtgommen/*.jpg" >}}
 
+### Finition et Protection du Bois
+
+**La nécessité d'une couche protectrice.** Le décapage soigneux du bois ne représente que la moitié du travail. Sans un post-traitement réfléchi, le bois brut est vulnérable à l'incrustation de saleté, à l'humidité et à une décoloration rapide. Particulièrement dans des environnements à usage intensif tels que les établissements horeca, les aéroports ou les bâtiments historiques, une finition robuste est une exigence absolue pour protéger le bois à long terme.
+
+#### Un Travail sur Mesure
+
+Pour chaque projet, nous déterminons la finition la plus adaptée en étroite concertation avec vous. Nous utilisons exclusivement des revêtements, lasures et huiles professionnels de haute qualité, spécialement conçus pour supporter de lourdes charges. La base est généralement un revêtement transparent en phase aqueuse très résistant qui protège de manière invisible, combiné si nécessaire avec une teinte subtile ou une huile. Nous évitons consciemment les produits grand public standards ; chaque espace requiert une approche ciblée qui correspond à l'architecture et à l'intensité de l'utilisation.
+
+Le résultat est une surface qui conserve son aspect authentique et plein de caractère tout en résistant à la rude pratique quotidienne. Les escaliers très fréquentés, les poutres historiques et les comptoirs robustes reçoivent une protection durable qui met le bois en valeur sans compromettre sa fonctionnalité. Vous investissez ainsi dans une finition qui reste représentative au fil des années, quelle que soit la sévérité des conditions ambiantes.
+
+{{< grids/swiper pattern="houtafwerking/*.jpg" >}}
+
 ### Sablage fin
 
 Le sablage fin est une technique de traitement de surface dans laquelle de petites particules de sable ou d'autres matériaux abrasifs sont appliquées sur une surface sous basse pression.
