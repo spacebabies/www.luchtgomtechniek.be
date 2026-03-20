@@ -58,7 +58,7 @@ En particulier pour l'acier inoxydable et l'aluminium, il s'agit du traitement f
 
 ### Peinture à poudre
 
-Après le sablage, nous pouvons galvaniser à la flamme et/ou thermolaquer les objets afin que la protection soit optimale et que la corrosion n'ait aucune chance de se développer.
+Après une préparation minutieuse par sablage, nous proposons le traitement des objets métalliques par galvanisation à chaud et/ou revêtement en poudre, deux procédés visant à assurer une protection optimale contre la corrosion.
 
 La peinture en poudre ressemble à la peinture, mais elle est beaucoup plus résistante et durable, car elle est appliquée par électrolyse et cuite dans un four à moufle entre 180°C et 220°C. Avec la peinture en poudre, il est possible d'obtenir le métal dans n'importe quelle couleur RAL souhaitée.
 

@@ -57,7 +57,7 @@ In de industriële sector wordt glasparelstralen vaak gebruikt om objecten zoals
 
 ### Poedercoaten
 
-**Duurzaamheid en Bescherming.** Na de grondige voorbereiding door stralen, bieden wij de mogelijkheid om objecten te behandelen met vlamverzinken en/of poedercoaten, beiden gericht op het bieden van optimale bescherming tegen corrosie.
+**Duurzaamheid en Bescherming.** Na de grondige voorbereiding door stralen, bieden wij de mogelijkheid om metalen objecten te behandelen met vlamverzinken en/of poedercoaten, beiden gericht op het bieden van optimale bescherming tegen corrosie.
 
 #### Wat is Poedercoaten?
 
