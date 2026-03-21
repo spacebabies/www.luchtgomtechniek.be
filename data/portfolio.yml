@@ -500,3 +500,15 @@
   coordinates:
     lat: 50.814
     lng: 5.891
+
+- id: brandschade-diest
+  title:
+    nl: "Brandschade wegstralen, Diest"
+    fr: "Sablage de dégâts d'incendie, Diest"
+  description:
+    nl: "Vakkundig verwijderen van roet en brandschade in Diest. Door middel van luchtgommen worden de aangetaste oppervlakken veilig en effectief gereinigd, waardoor de oorspronkelijke staat hersteld wordt."
+    fr: "Élimination experte de la suie et des dommages causés par un incendie à Diest. Grâce à l'aérogommage, les surfaces affectées sont nettoyées en toute sécurité et efficacement, restaurant l'état d'origine."
+  image: "images/portfolio/Brandschade-wegstralen-Diest.jpg"
+  coordinates:
+    lat: 50.984
+    lng: 5.053
