@@ -429,18 +429,6 @@
     lat: 50.795
     lng: 5.488
 
-- id: plattelandsvilla-renovatie
-  title:
-    nl: "Plattelandsvilla renovatie"
-    fr: "Rénovation d'une villa de campagne"
-  description:
-    nl: "Gevelreiniging van een riante plattelandsvilla. De combinatie van baksteen en houtwerk is weer in topconditie gebracht, waardoor de villa zijn statige uitstraling in het groene landschap terugkrijgt."
-    fr: "Nettoyage de la façade d'une vaste villa de campagne. La combinaison de briques et de boiseries a été remise en parfait état, redonnant à la villa son aspect majestueux."
-  image: "images/portfolio/plattelandsvilla.jpg"
-  coordinates:
-    lat: 50.760
-    lng: 5.820
-
 - id: toegang-wijngaard-beusdaal
   title:
     nl: "Toegang wijngaard, Beusdaal"
