@@ -1,5 +1,5 @@
 export function initLanguage() {
-  persistLanguage(document.cookie);
+  persistLanguage();
   changeLanguage(document.querySelector('#changeLanguage'));
 }
 
@@ -13,9 +13,9 @@ function changeLanguage(element) {
       location = "/nl/";
     } else if (event.target.value === 'fr') {
       userLang = "fr";
-      location = "/fr";
+      location = "/fr/";
     }
-    document.cookie = "nf_lang=" + userLang + "; Max-Age=2600000; Secure";
+    document.cookie = "nf_lang=" + userLang + "; path=/; Max-Age=31536000; Secure";
     window.location.assign(location);
   });
 }
@@ -24,10 +24,10 @@ function changeLanguage(element) {
   * Create cookie to get the Browser Language.
   * This should always run for CDN optimisation.
   */
-function persistLanguage(cookies) {
-  if (!cookies.includes("nf_lang")) {
-    var userLang = getFirstBrowserLanguage();
-    cookies = "nf_lang=" + userLang + "; Max-Age=2600000; Secure";
+function persistLanguage() {
+  if (!document.cookie.includes("nf_lang")) {
+    var userLang = getFirstBrowserLanguage().substring(0, 2).toLowerCase();
+    document.cookie = "nf_lang=" + userLang + "; path=/; Max-Age=31536000; Secure";
   }
 }
 
