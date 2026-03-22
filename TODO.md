@@ -8,12 +8,6 @@ Als een item uit deze lijst is geïmplementeerd of definitief niet zal worden ge
 
 ## Must Haves (Direct Implementeren)
 
-### 1. Afbeeldingen: Bestandsnamen, Alt-teksten en Titels (SEO)
-- **Doel**: Zorg dat zoekmachines en schermlezers de context van alle afbeeldingen begrijpen.
-- **Actie**:
-  - Hernoem onduidelijke bestandsnamen (zoals `luchtgommen/20221002_131529.jpg` of `sand/grit4.jpg`) naar beschrijvende namen (bijv. `luchtgommen-houten-trap-voor-na.jpg`). Let op dat je ook de referenties in de code update!
-  - Voeg betekenisvolle `alt` attributen en eventueel `title` attributen toe aan alle afbeeldingsverwijzingen in markdown bestanden (in `content/`) en templates (in `layouts/`).
-
 ### 2. Copywriting: Authenticiteit en Vakjargon ('Stieltaal')
 - **Doel**: De teksten moeten klinken als een vakman, niet als een gladde marketeer.
 - **Actie**:
@@ -96,3 +90,9 @@ Als een item uit deze lijst is geïmplementeerd of definitief niet zal worden ge
 ## Completed
 
 Uitgevoerd of wontfix:
+
+### 1. Afbeeldingen: Bestandsnamen, Alt-teksten en Titels (SEO)
+- **Doel**: Zorg dat zoekmachines en schermlezers de context van alle afbeeldingen begrijpen.
+- **Actie**:
+  - Hernoem onduidelijke bestandsnamen (zoals `luchtgommen/20221002_131529.jpg` of `sand/grit4.jpg`) naar beschrijvende namen (bijv. `luchtgommen-houten-trap-voor-na.jpg`). Let op dat je ook de referenties in de code update!
+  - Voeg betekenisvolle `alt` attributen en eventueel `title` attributen toe aan alle afbeeldingsverwijzingen in markdown bestanden (in `content/`) en templates (in `layouts/`).

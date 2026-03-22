@@ -5,7 +5,7 @@
   description:
     nl: "Vakkundige restauratie van een monumentaal trappenhuis. Houtwerk geluchtgomd om de authentieke schoonheid te herstellen, met behoud van historische details. Perfecte balans tussen erfgoed en moderne afwerking."
     fr: "Restauration experte d'une cage d'escalier monumentale. Boiseries aérogommées pour retrouver leur beauté authentique, tout en préservant les détails historiques. Équilibre parfait entre patrimoine et finition moderne."
-  image: "images/portfolio/sintpieter.jpg"
+  image: "images/portfolio/monumentaal-trappenhuis-sintpieter.jpg"
   coordinates:
     lat: 50.835
     lng: 5.690
@@ -17,7 +17,7 @@
   description:
     nl: "Stadsvilla Luik: verweerde entree vakkundig gereinigd. Blauwstenen trappen, zuilen en ornamenten herwonnen hun grandeur. Elegante metamorfose met behoud van historische charme."
     fr: "Hôtel particulier liégeois : entrée usée nettoyée avec expertise. Escaliers, colonnes et ornements en pierre bleue ont retrouvé leur grandeur. Métamorphose élégante préservant le charme historique."
-  image: "images/portfolio/stadsvilla-luik.jpg"
+  image: "images/portfolio/blauwsteen-stadsvilla-luik.jpg"
   coordinates:
     lat: 50.632
     lng: 5.567
@@ -41,7 +41,7 @@
   description:
     nl: "Verborgen parel onthuld: eeuwenoud trappenhuis in Huy gestraald en verfijnd. Originele houtnerf en authentieke details komen tot leven. Vakkundige renovatie blaast historie nieuw leven in."
     fr: "Joyau caché dévoilé : cage d'escalier séculaire à Huy décapée et raffinée. Grain de bois original et détails authentiques reprennent vie. Rénovation experte insuffle une nouvelle vie à l'histoire."
-  image: "images/portfolio/huy.jpg"
+  image: "images/portfolio/trappenhuis-luchtgommen-huy.jpg"
   coordinates:
     lat: 50.518
     lng: 5.235
@@ -65,7 +65,7 @@
   description:
     nl: "Cederhouten buitenschrijnwerk vakkundig gestraald. Natuurlijke schoonheid van hout hersteld, bestand tegen weersinvloeden. Zorgvuldige aanpak beschermt erfgoed en verbetert leeromgeving."
     fr: "Menuiseries extérieures en cèdre expertement décapées. Beauté naturelle du bois restaurée, résistante aux intempéries. Approche minutieuse protège le patrimoine et améliore l'environnement d'apprentissage."
-  image: "images/portfolio/spa.jpg"
+  image: "images/portfolio/cederhout-luchtgommen-spa.jpg"
   coordinates:
     lat: 50.492
     lng: 5.864
@@ -101,7 +101,7 @@
   description:
     nl: "Totale restauratie van een woonhuis, inclusief al het hout van het interieur en de blauwstenen gevel."
     fr: "Restauration totale d'une maison, y compris tout le bois de l'intérieur et la façade en pierre bleue."
-  image: "images/portfolio/tongeren.jpg"
+  image: "images/portfolio/restauratie-hout-blauwsteen-tongeren.jpg"
   coordinates:
     lat: 50.780
     lng: 5.464
@@ -113,7 +113,7 @@
   description:
     nl: "Behoud van industrieel erfgoed door niet-invasieve verwijdering van vuil en het aanbrengen van hoogwaardige, onzichtbare coatings."
     fr: "Préservation du patrimoine industriel grâce à l'élimination non invasive de la saleté et à l'application de revêtements invisibles de haute qualité."
-  image: "images/portfolio/watermolen.jpeg"
+  image: "images/portfolio/industrieel-erfgoed-watermolen.jpeg"
   coordinates:
     lat: 50.758749
     lng: 5.760992
@@ -125,7 +125,7 @@
   description:
     nl: "Renovatie van alle houten delen, waaronder de eikenhouten balken, de verdiepingsvloeren, de trappen en de schouw."
     fr: "Rénovation de toutes les parties en bois, y compris les poutres en chêne, les planchers, les escaliers et la cheminée."
-  image: "images/portfolio/woonhuis-voerstreek.jpg"
+  image: "images/portfolio/renovatie-hout-voerstreek.jpg"
   coordinates:
     lat: 50.750
     lng: 5.800
@@ -137,7 +137,7 @@
   description:
     nl: "Reinigen van vervuilde industriële site, waaronder opslagtanks en rvs leidingwerk."
     fr: "Nettoyage de site industriel pollué, y compris les réservoirs de stockage et la tuyauterie en acier inoxydable."
-  image: "images/portfolio/overslagterminal.jpg"
+  image: "images/portfolio/reinigen-overslagterminal.jpg"
   coordinates:
     lat: 51.068645
     lng: 5.165718
@@ -149,7 +149,7 @@
   description:
     nl: "Vakkundig luchtgommen en transparant lakken van het houten trappenhuis in deze iconische Bib Gourmand-zaak. De authentieke houtnerf is prachtig in ere hersteld en voorzien van een duurzame laklaag, klaar voor jarenlang intensief gebruik."
     fr: "Aérogommage expert et vernissage transparent de la cage d'escalier en bois dans cet établissement emblématique Bib Gourmand. Le grain de bois authentique a été magnifiquement restauré et pourvu d'une couche de vernis durable, prêt pour des années d'utilisation intensive."
-  image: "images/portfolio/cafe-sjiek.jpg"
+  image: "images/portfolio/trappenhuis-cafe-sjiek.jpg"
   coordinates:
     lat: 50.8454
     lng: 5.6911
@@ -161,7 +161,7 @@
   description:
     nl: "Karakteristieke gevel vakkundig gestraald en voorzien van een hydrofuge behandeling. Het metselwerk is diep gereinigd en optimaal beschermd tegen vocht en weersinvloeden, waardoor de authentieke uitstraling van dit pand in Luik weer volledig tot zijn recht komt."
     fr: "Façade de caractère expertement sablée et traitée par hydrofuge. La maçonnerie est nettoyée en profondeur et protégée de manière optimale contre l'humidité et les intempéries, redonnant ainsi tout son éclat authentique à ce bâtiment liégeois."
-  image: "images/portfolio/liege-vieux-mayeur.jpg"
+  image: "images/portfolio/gevel-reinigen-liege-vieux-mayeur.jpg"
   coordinates:
     lat: 50.6212
     lng: 5.5754
