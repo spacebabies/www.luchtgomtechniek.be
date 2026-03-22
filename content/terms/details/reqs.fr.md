@@ -4,26 +4,26 @@ weight: 600
 ---
 **Équipements de base**
 
-L'eau et l'électricité doivent toujours être disponibles, ainsi que des installations sanitaires pour nos employés.
+Sur chantier, il nous faut un accès à l'eau et à l'électricité, ainsi qu'à des sanitaires pour nos gars.
 
 **Préparations et autorisations**
 
-Le client s'assure de l'obtention des permis d'urbanisme ou autres nécessaires ainsi que du respect de la réglementation en matière de sécurité sur le chantier. La direction et la surveillance des travaux sont assurées par un architecte désigné par le client. Les dispositions administratives du cahier des charges ne s'appliquent au contrat que si elles ont été signées par Luchtgomtechniek.
+C'est à vous de régler tout ce qui est paperasse (permis d'urbanisme, etc.) et de vous assurer que le chantier est en ordre niveau sécurité. S'il y a un architecte pour diriger les travaux, c'est lui qui chapote. S'il y a un cahier des charges avec des règles administratives spéciales, ça ne nous engage que si on l'a signé.
 
-Les résidus de tapis, de patins, de colle, de mastic ou de peinture sur un escalier doivent toujours être enlevés avant que nous puissions effectuer les travaux. Si cela est à notre charge, nous le ferons toujours en tant qu'entrepreneur au prix de 90 € HTVA par heure.
+Sur un escalier, il faut que tous les restes de tapis, de colle, de clous, de mastic ou de vieilles peintures épaisses soient enlevés avant qu'on arrive. Si c'est nous qui devons gratter tout ça, on le compte en régie à 90 € HTVA de l'heure.
 
 **Communication et voisinage**
 
-Le client a la responsabilité d'informer ses voisins adjacents à son domicile que des travaux de dynamitage sont en cours et doit garder les fenêtres et les portes fermées à ce moment-là pour éviter que la poussière ne pénètre à l'intérieur.
+Prévenez toujours vos voisins qu'on va venir sabler. Demandez-leur de bien fermer leurs fenêtres et leurs portes pendant les travaux, pour éviter qu'un coup de vent n'amène de la poussière chez eux.
 
 **Conditions de travail et risques**
 
-Sous les objets à dynamiter, il doit y avoir une surface aussi plane, dense et solide que possible afin que nous puissions balayer le matériel de dynamitage par la suite, pour les chantiers, il y a une bande de 2m50 pour installer un échafaudage, ce sol doit également être suffisamment solide si nous utilisons une nacelle élévatrice à ciseaux ou similaire.
+En dessous de ce qu'on doit sabler, le sol doit être le plus plat, dur et étanche possible pour qu'on puisse bien ramasser notre sable après. Si on doit monter un échafaudage ou venir avec une nacelle, il nous faut une bande de roulement ou d'appui de 2m50 de large, bien stable.
 
-Le post-traitement de nos travaux de sablage ne peut être effectué qu'à une température supérieure à 10°C dans une maison à l'abri du vent, mais la ventilation et la lumière du jour doivent être assurées. Le client met à disposition des panneaux d'interdiction de stationnement (si nécessaire) devant la maison sur une bande de 20 mètres pendant les travaux.
+Pour tout ce qui est traitement de finition (huilage, vernis), il faut qu'il fasse au moins 10°C, sans courant d'air, mais avec assez de ventilation et de lumière du jour. Si besoin, prévoyez aussi de faire mettre des panneaux d'interdiction de stationnement sur 20 mètres devant chez vous pendant la durée des travaux.
 
-Une fois les travaux de sablage terminés, le support peut être endommagé lors de l'enlèvement du plastique, du ruban adhésif ou d'autres agents de masquage, par exemple les peintures existantes, le papier peint, le stuc, les joints, les fenêtres ou les miroirs, en raison du ruban adhésif utilisé ou du sablage proprement dit. Luchtgomtechniek ne peut en aucun cas être tenu responsable de ces dommages, qui font partie des risques liés au sablage.
+Après le sablage, quand on enlève les protections (plastiques, tapes), il arrive que ça arrache un peu de peinture, de papier peint ou d'enduit, ou que le tape laisse des traces sur les châssis ou les vitres. C'est le risque du métier avec le sablage, on ne peut pas être tenus pour responsables de ces petits dégâts collatéraux.
 
 **Soins des biens**
 
-Le client déclare évacuer les locaux dans lesquels les travaux seront exécutés, à ses frais et risques, au moins pour couvrir et ranger soigneusement les marchandises, meubles et objets ménagers présents. Les dommages résultant de la mauvaise exécution de ces travaux préparatoires seront donc à la charge exclusive du client, de sorte que celui-ci indemnisera le vendeur à ce titre.
+C'est à vous de vider la pièce où on va travailler. Tout doit être évacué ou au moins bâché et mis à l'abri avec soin, à vos frais et à vos risques. S'il y a des dégâts parce que la pièce n'a pas été bien préparée, c'est pour votre pomme, on ne pourra pas intervenir.

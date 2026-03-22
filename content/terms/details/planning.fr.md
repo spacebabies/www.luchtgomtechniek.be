@@ -4,20 +4,20 @@ weight: 500
 ---
 **Planification générale et exécution**
 
-Le début ou la reprise des travaux sera toujours déterminé de commun accord. Le délai d'exécution est exprimé en jours ouvrables et ne sont pas considérés comme tels : les samedis, les dimanches, les jours fériés, les jours où, en raison du mauvais temps ou de ses conséquences, le travail a été impossible pendant au moins quatre heures. Les retards dans l'exécution des travaux, des livraisons ou des conteneurs ne donnent pas lieu à une indemnisation en faveur du client. Notre durée des travaux est toujours une estimation. Si le délai est plus long ou plus court, nous ne pouvons être tenus responsables des conséquences. Ceci n'affectera pas non plus le devis, sauf accord contraire.
+On fixe toujours la date de début ou de reprise du chantier ensemble. Quand on parle de délai, c'est toujours en jours ouvrables. Ça veut dire qu'on ne compte pas les week-ends, les jours fériés, ni les jours où la météo nous empêche de bosser pendant au moins quatre heures. Si on prend du retard sur le chantier, sur une livraison ou sur l'arrivée d'un container, ça ne donne pas droit à des indemnités de retard. L'estimation de la durée des travaux qu'on vous donne, ça reste une estimation. Si on met un peu plus de temps ou si on finit plus vite, on n'est pas responsables des désagréments. Et ça ne change rien au prix du devis, sauf si on a convenu autre chose.
 
-Luchtgomtechniek n'est en aucun cas responsable des changements d'horaires. Les conditions météorologiques peuvent affecter et affecteront nos travaux extérieurs. Aucune responsabilité ne peut être imputée à Luchtgomtechniek à cet égard.
+Luchtgomtechniek n'est pas responsable si le planning doit bouger. La météo dicte sa loi sur nos chantiers extérieurs, on n'y peut rien et on ne prendra aucune responsabilité là-dessus.
 
-Luchtgomtechniek a le droit de résilier et/ou de retarder et même d'arrêter les travaux si elle le décide pour des raisons de toutes sortes et peut même réclamer des dommages-intérêts en raison de travaux supplémentaires, par exemple la fourniture et l'enlèvement de machines, etc.
+On se réserve le droit d'interrompre, de postposer ou même d'arrêter un chantier si on a de bonnes raisons (par exemple des conditions de travail dangereuses). S'il y a des frais en plus à cause de ça, comme le transport supplémentaire des machines, on pourrait vous les facturer.
 
 **Cas particuliers**
 
-Dans le cas de meubles ou d'escaliers laqués, il est toujours possible qu'il reste de la laque colorée dans les joints et les crevasses. Si ceux-ci doivent également être enlevés (ce qui n'est pas toujours possible à 100 % si le produit existant est trop profond dans les crevasses ou les rainures), cela sera fait en tant qu'ingénieur au prix de 90 € HTVA de l'heure. Le même tarif s'applique également si la surface à décaper doit être dégraissée ou toute autre préparation supplémentaire imprévue.
+Quand on décape des meubles ou des escaliers peints ou laqués, il arrive souvent que de la couleur reste coincée dans les fines crevasses ou les joints. Si vous voulez qu'on essaie de tout enlever au maximum (sans garantie d'arriver à 100 % si ça a pénétré trop profond), ce travail de finition à la main sera facturé en régie, à 90 € HTVA de l'heure. On applique ce même tarif si on se rend compte sur place qu'il faut dégraisser le bois ou faire une autre préparation qu'on n'avait pas pu prévoir.
 
 **Production de poussière et entretien**
 
-Le sablage génère beaucoup de poussière. Après le sablage, les sols sont balayés ou aspirés, mais nous ne pouvons être tenus responsables des résidus de poussière ou du matériel de sablage qui restent sur le plafond, les murs, le sol ou tout autre endroit sur ou autour du site. En raison de la poussière générée lors de l'exécution de nos travaux de sablage, il sera probablement nécessaire d'effectuer des travaux de peinture par la suite.
+Le sablage, ça fait de la poussière, c'est inévitable. En fin de chantier, on donne un coup de balai ou d'aspirateur, mais on ne peut pas garantir qu'il ne restera pas de fins résidus de poussière ou de sable sur les murs, les plafonds ou dans les coins. Attendez-vous à devoir donner un coup de peinture ou faire un bon nettoyage vous-même une fois qu'on sera partis.
 
 **Communication pendant les travaux**
 
-Si des questions, des remarques ou des dispositions adaptées doivent être prises pendant les travaux. Veuillez toujours nous en informer.
+S'il y a la moindre question, une remarque ou un changement de plan pendant qu'on est sur le chantier, n'hésitez pas à venir nous trouver pour en discuter directement.

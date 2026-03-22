@@ -7,77 +7,75 @@ publishDate: 2023-05-02
 
 ### L'aerogommage
 
-L'Aérogommage est une méthode de sablage spécifique pour sabler les bois, car le bois est beaucoup plus délicats que, par exemple, l'acier. Pour sabler le bois est une vaste expérience de sablage nécessaire, aussi un équipement spécifiquement réglable et l'abrasif le plus fin et plus precis.
+L'aérogommage, c'est notre technique de sablage à basse pression spécialement adaptée pour les boiseries. Le bois, c'est un matériau vivant, bien plus délicat que la ferraille. Pour le décaper proprement sans abîmer les fibres, il faut du métier, un compresseur réglable au poil près et un abrasif ultra-fin.
 
-Cela nous permet d'éliminer les anciennes couches de peinture, la cire brune, le vernis jauni et autres salissures et le bois redevient a l'état naturel.
+Cette méthode nous permet de virer les vieilles couches de peinture, les cires foncées, les vernis jaunis et toute la crasse incrustée. Le bois retrouve son aspect brut, prêt à être retravaillé.
 
-Le gros avantage des gommes à air est qu'il s'agit d'un moyen très efficace pour nettoyer les surfaces délicates
-ponçage au grain 1200 mais à un vitesse beaucoup plus élevé, avec l'avantage que tous les coins et recoins sont sablés,
-par exemple, des poteaux d'escalier en bois, des sculptures et des fissures dans les boiseries qui prendraient une éternité avec le ponçage manuel.
+L'avantage de l'aérogommage, c'est son efficacité sur les surfaces fragiles. C'est comme si on ponçait avec un grain 1200, mais en beaucoup plus rapide. Et surtout, on passe partout : dans les moindres recoins, les moulures d'escalier, les sculptures et les rainures où un ponçage à la main prendrait des plombes.
 
-De petites rayures et irrégularités peuvent également souvent être rayonnées, en combinaison avec diverses phases de post-traitement, nous pouvons entièrement finir un escalier et sol ou cuisine prêt à l'emploi.
+Les petites griffes et les défauts de surface s'effacent souvent au passage. Combiné à nos finitions, on vous rend un escalier, un plancher ou une cuisine mis à blanc et prêts à l'emploi.
 
 {{< grids/swiper pattern="luchtgommen/*.jpg" >}}
 
 ### Finition et Protection du Bois
 
-**La nécessité d'une couche protectrice.** Le décapage soigneux du bois ne représente que la moitié du travail. Sans un post-traitement réfléchi, le bois brut est vulnérable à l'incrustation de saleté, à l'humidité et à une décoloration rapide. Particulièrement dans des environnements à usage intensif tels que les établissements horeca, les aéroports ou les bâtiments historiques, une finition robuste est fortement recommandée pour protéger le bois à long terme.
+**La nécessité d'une couche protectrice.** Avoir bien décapé le bois, ce n'est que la moitié du boulot. Si on le laisse brut sans traitement, il va très vite pomper la saleté, l'humidité et changer de couleur. Surtout dans les endroits où il y a du passage, comme l'Horeca, les lieux publics ou les vieilles bâtisses, il faut appliquer une protection costaude pour que ça tienne dans le temps.
 
 #### Un Travail sur Mesure
 
-Pour chaque projet, nous déterminons la finition la plus adaptée en étroite concertation avec vous. Nous utilisons exclusivement des revêtements, lasures et huiles professionnels de haute qualité, spécialement conçus pour supporter de lourdes charges. La base est généralement un revêtement transparent en phase aqueuse très résistant qui protège de manière invisible, combiné si nécessaire avec une teinte subtile ou une huile. Nous évitons consciemment les produits grand public standards ; chaque espace requiert une approche ciblée qui correspond à l'architecture et à l'intensité de l'utilisation.
+Sur chaque chantier, on regarde ensemble ce qu'il faut comme finition. On ne travaille qu'avec des produits pros – vernis, lasures, huiles – faits pour encaisser les coups. En général, on part sur une couche de fond à l'eau, transparente et super résistante, qui protège sans se voir. Si besoin, on ajoute une légère teinte ou une huile. On laisse tomber les produits de grande surface ; chaque pièce a ses contraintes et demande un traitement adapté à son usage et à son cachet.
 
-Le résultat est une surface qui conserve son aspect authentique et plein de caractère tout en résistant à la rude pratique quotidienne. Les escaliers très fréquentés, les poutres historiques et les comptoirs robustes reçoivent une protection durable qui met le bois en valeur sans compromettre sa fonctionnalité. Vous investissez ainsi dans une finition qui reste représentative au fil des années, quelle que soit la sévérité des conditions ambiantes.
+Au final, vous avez un bois qui garde toute son authenticité et son caractère, tout en étant paré pour l'usure de tous les jours. Que ce soit un escalier où ça défile, de vieilles poutres ou un comptoir de bar massif, on met le bois en valeur avec une protection qui tient la route. C'est un travail qui reste propre et beau avec les années, peu importe ce qu'on lui fait subir.
 
 {{< grids/swiper pattern="houtafwerking/*.jpg" >}}
 
 ### Sablage fin
 
-Le sablage fin est une technique de traitement de surface dans laquelle de petites particules de sable ou d'autres matériaux abrasifs sont appliquées sur une surface sous basse pression.
+Le sablage fin, c'est une technique où l'on projette un abrasif très fin à basse pression.
 
-La surface peut être pulvérisée pour la nettoyer, pour enlever la rouille, la peinture ou d'autres revêtements indésirables, ou pour rendre la surface rugueuse pour une meilleure adhérence des enduits ou de la peinture.
+On s'en sert pour décaper, faire sauter la rouille, l'ancienne peinture ou toute autre couche qu'on veut voir disparaître. Ça permet aussi de créer une belle accroche pour les enduits ou la nouvelle mise en peinture.
 
-le dégagement de chaleur minime lors du sablage fin nous donne l'avantage de pouvoir sabler des tôles (acier, cuivre, inox, aluminium, zinc), des materiaux fragiles, les pièces de voiture/moto, la pierre naturelle, les miroirs, les moulages. Notre processus est conçu pour minimiser la distorsion de la surface tout en préservant les détails les plus fins. Notre équipe aborde chaque projet avec le plus grand soin.
+Comme ça ne chauffe presque pas, on sait traiter des tôles fines (acier, cuivre, inox, alu, zinc) et des pièces fragiles sans les déformer. Que ce soit des pièces de carrosserie ou de moto, de la pierre bleue, du verre ou des moulures, on garde tous les détails intacts. C'est du travail de précision qu'on fait dans les règles de l'art.
 
 {{< grids/swiper pattern="sand/*.jpg" >}}
 
 ### Microbillage aux perles de verre
 
-Avec le sablage aux perles de verre, nous projetons de petites perles de verre sur une surface à grande vitesse.
-Le processus crée une brillance nacrée uniforme et peut être utilisé pour nettoyer, lisser ou matifier les métaux, les plastiques et le verre.
+Le microbillage, c'est projeter des petites billes de verre à haute vitesse sur la pièce.
+Ça donne un bel aspect satiné, mat et uniforme. On l'utilise pour nettoyer, lisser ou matifier le métal, le plastique ou même le verre.
 
-Cette méthode est parfaitement adaptée au traitement de l'acier inoxydable (inox).
+C'est le traitement idéal pour l'inox.
 
-Nous utilisons souvent le sablage aux perles de verre dans le secteur industriel pour nettoyer et polir les pièces et les outils, et il est également utilisé dans le secteur automobile pour nettoyer et embellir les jantes, les carburateurs, le moyeu de freins et d'autres pièces automobiles. Le processus est relativement doux et n'endommage pas la surface du matériel, ce qui en fait une alternative populaire aux techniques de traitement de surface plus agressives telles que le sablage.
+On fait beaucoup de microbillage pour l'industrie, pour rafraîchir les pièces et l'outillage. C'est aussi très demandé pour les motos et ancêtres : jantes, carters, carburateurs, tambours de frein, ça revient à neuf. C'est une méthode douce qui ne creuse pas la matière, bien moins agressive qu'un sablage classique.
 
-En plus du nettoyage, la surface est également compactée par un processus appelé Shot Peening. En conséquence, la saleté a moins de chances d'adhérer.
+En plus de nettoyer, les billes viennent marteler la surface (c'est ce qu'on appelle le "Shot Peening"). Ça referme les pores du métal, donc la crasse accroche beaucoup moins par la suite.
 
-En particulier pour l'acier inoxydable et l'aluminium, il s'agit du traitement final.
+Sur l'inox et l'aluminium, c'est souvent la finition définitive.
 
 {{< grids/swiper pattern="glass/*.jpg" >}}
 
 ### Peinture à poudre
 
-Après une préparation minutieuse par sablage, nous proposons le traitement des objets métalliques par galvanisation à chaud et/ou revêtement en poudre, deux procédés visant à assurer une protection optimale contre la corrosion.
+Une fois la pièce bien mise à blanc par le sablage, on peut la faire métalliser et/ou thermolaquer (peinture à la poudre). C'est ce qu'il y a de mieux pour la protéger de la rouille.
 
-La peinture en poudre ressemble à la peinture, mais elle est beaucoup plus résistante et durable, car elle est appliquée par électrolyse et cuite dans un four à moufle entre 180°C et 220°C. Avec la peinture en poudre, il est possible d'obtenir le métal dans n'importe quelle couleur RAL souhaitée.
+Le thermolaquage, ça donne le même rendu qu'une peinture liquide, mais c'est vachement plus costaud. La poudre est appliquée par électrostatique puis cuite au four entre 180°C et 220°C. On peut avoir la teinte RAL que vous voulez.
 
-Nous pouvons également appliquer CERAKOTE™ pour des applications nécessitant une haute résistance à la chaleur, telles que les échappements ou les composants de défense. Ce revêtement robuste conserve ses propriétés à haute température et convient donc parfaitement aux projets techniques exigeants.
+Pour les pièces qui chauffent fort, comme les échappements de moto ou l'armement, on applique du CERAKOTE™. C'est un revêtement céramique technique ultra résistant qui encaisse les hautes températures sans broncher.
 
 {{< grids/swiper pattern="powdercoating/*.jpg" >}}
 
 ### Sablage du béton
 
-Le sablage du béton est une technique essentielle pour la rénovation et l'entretien des structures en béton. Que ce soit pour le sablage de panneaux de façade préfabriqués en béton apparent, l'application de revêtements antidérapants sur des escaliers en béton, l'élimination de graffitis ou le sablage de piscines, nos techniques de sablage adaptées assurent une surface propre et prolongent la durée de vie du béton.
+Sabler du béton, c'est l'étape obligée pour rénover ou entretenir les bétons architectoniques ou lissés. Que ce soit pour rafraîchir des panneaux de façade préfabriqués, rendre un escalier extérieur antidérapant, effacer des tags ou préparer le cuvelage d'une piscine, on a les machines qu'il faut pour remettre la surface à neuf et prolonger sa durée de vie.
 
-Lors du sablage de panneaux de façade préfabriqués, nous éliminons les impuretés et restaurons la texture et la couleur originale du béton apparent. Cela augmente non seulement la valeur esthétique du bâtiment, mais contribue également à la protection et à la longévité du béton.
+Sur les façades en béton apparent, on fait sauter toute la pollution pour retrouver le grain et la teinte d'origine. Le bâtiment retrouve de son cachet, et le béton respire mieux.
 
-L'application de revêtements antidérapants sur des escaliers en béton est un autre aspect important de nos services. Nous créons une surface plus rugueuse qui augmente considérablement la sécurité, surtout dans les zones où l'humidité ou le risque de glissement est un problème.
+Pour les escaliers ou les accès glissants, on vient rugosifier la surface par sablage. Ça fait un antidérapant naturel, nickel pour sécuriser les zones humides ou exposées aux intempéries.
 
-L'élimination de graffitis sur des surfaces en béton nécessite précision et soin. Notre équipe utilise des techniques de sablage spécialisées pour enlever complètement les graffitis sans endommager le béton sous-jacent.
+Enlever des graffitis sur du béton, ça demande du doigté. On adapte notre pression et notre sable pour gommer les tags sans creuser la matrice du béton.
 
-Enfin, le sablage de piscines est une partie importante de notre offre. Nous enlevons les anciennes couches de peinture, traitons les irrégularités de surface et préparons la piscine pour une nouvelle couche. Cela assure non seulement un aspect renouvelé, mais améliore également l'hygiène et la durabilité de la piscine.
+On tourne aussi pas mal sur la rénovation de piscines. On décape les vieilles peintures cloquées, on ouvre les pores du béton et on vous laisse un support prêt à être repeint ou enduit. C'est la garantie d'une bonne accroche pour la nouvelle étanchéité.
 
-Pour tous nos projets de sablage du béton, nous utilisons un équipement adapté et des techniques ciblées pour assurer un bon résultat, dans le respect de l'environnement et de la sécurité.
+Sur tous nos chantiers béton, on débarque avec l'équipement adéquat pour faire du beau boulot, proprement et en sécurité.
 
 {{< grids/swiper pattern="beton/*.jpg" >}}

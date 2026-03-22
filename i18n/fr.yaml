@@ -1,28 +1,28 @@
 address:
   description:
-    other: Seulement accessible sur rendez-vous
+    other: Uniquement sur rendez-vous
 button_send:
-  other: Expédier
+  other: Envoyer
 button_vcard_text:
   other: Ajouter aux contacts
 button_vcard_title:
   other: Téléchargez notre vCard
 label_email:
-  other: Adresse électronique
+  other: E-mail
 label_gallerygrid:
-  other: Nos postes récents sur Instagram
+  other: Nos publications récentes sur Instagram
 label_name:
   other: Votre nom
 label_telephone:
   other: Numéro de téléphone
 label_werk:
-  other: Photo de l'oeuvre (facultative).
+  other: Photo du projet (facultatif)
 aria-lang-label:
-  other: Schakel naar Nederlands
+  other: Passer au néerlandais
 skip_link:
-  other: Passez directement au contenu
+  other: Aller directement au contenu
 chat:
   available:
-    other: "Nous sommes disponibles ! Cliquez pour chatter"
+    other: "Nous sommes en ligne ! Cliquez pour discuter"
   button:
-    other: Chatter avec nous
+    other: Discuter avec nous

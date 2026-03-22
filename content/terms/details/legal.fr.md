@@ -4,19 +4,19 @@ weight: 800
 ---
 **Responsabilité et risques**
 
-- Pendant ou après le sablage, de l'abrasif peut pénétrer dans les espaces sous-jacents ou adjacents par des fissures et des crevasses ; Luchtgomtechniek ne peut en être tenu responsable.
-- Un certificat d'amiante doit être remis avant le début des travaux. Si de l'amiante est découvert lors du dynamitage, nous avons le droit d'arrêter immédiatement les travaux et de discuter de la suite des opérations en concertation avec le client.
+- Quand on sable, de la poussière fine et de l'abrasif peuvent s'infiltrer partout, même par les plus petites fissures, dans les pièces d'à côté ou en dessous. On fait de notre mieux pour calfeutrer, mais Luchtgomtechniek ne peut pas être tenu responsable si de la poussière passe quand même.
+- Si le bâtiment est concerné, il faut nous fournir un certificat d'amiante avant qu'on attaque. Si on tombe sur de l'amiante pendant qu'on décape, on arrête tout de suite le chantier. On regarde alors ensemble comment on s'organise pour la suite.
 
 **Ajustements financiers et achèvement des travaux**
 
-- Nos prix pour la préparation et le masquage sont indicatifs et peuvent être ajustés en fonction de la situation.
-- L'achèvement a lieu immédiatement après la fin des travaux. Tout défaut visible doit être signalé par écrit avec des photos dans les huit jours. Toute réclamation ultérieure est irrecevable.
+- Les prix qu'on donne pour la protection et le masquage sont donnés à titre indicatif. Si la configuration sur place demande beaucoup plus de boulot que prévu, on adaptera le prix.
+- La réception des travaux se fait dès qu'on a terminé. S'il y a un défaut visible, il faut nous le signaler par écrit, avec des photos, dans les huit jours. Passé ce délai, on ne prend plus les réclamations.
 
 **Dispositions judiciaires**
 
-- En cas de litige, seuls le juge de paix et/ou les tribunaux du lieu où se trouve le siège social de Luchtgomtechniek sont compétents. Le droit belge est toujours d'application.
-- En ce qui concerne les réglementations locales, la loi du lieu où se trouve le chantier naval est d'application.
+- S'il y a un litige qu'on n'arrive pas à régler à l'amiable, ce sont les tribunaux ou la justice de paix du siège social de Luchtgomtechniek qui sont compétents. C'est toujours le droit belge qui s'applique.
+- Pour tout ce qui touche aux règles d'urbanisme ou de voirie, c'est la réglementation de la commune où se trouve le chantier qui compte.
 
 **Droit de révocation**
 
-Le client a le droit de révoquer le contrat dans un délai de 14 jours sans donner de raisons. Le délai de rétractation expire 14 jours après la date de conclusion du contrat. Pour exercer le droit de rétractation, le client doit nous informer de sa décision de résilier le contrat par une déclaration sans équivoque (par exemple, par écrit, par courrier postal ou électronique).
+Vous avez le droit d'annuler le contrat dans les 14 jours, sans devoir vous justifier. Ce délai de rétractation prend fin 14 jours après qu'on a conclu l'accord. Pour annuler, il suffit de nous prévenir clairement, par exemple par un petit mail ou un courrier.

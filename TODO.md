@@ -8,12 +8,6 @@ Als een item uit deze lijst is geïmplementeerd of definitief niet zal worden ge
 
 ## Must Haves (Direct Implementeren)
 
-### 5. Vertaling: Kwaliteit van de Franstalige Versie Verbeteren
-- **Doel**: Een professionele en foutloze ervaring voor Franstalige leads.
-- **Actie**:
-  - Review alle bestanden eindigend op `.fr.md` (in `content/`) en de vertaalsleutels in `i18n/fr.yaml`.
-  - Herschrijf stroeve, letterlijke vertalingen en grammaticale fouten naar natuurlijk en professioneel Waals vakjargon.
-
 ### 6. SEO: Structured Data (Schema.org) Toevoegen
 - **Doel**: Beter lokaal en diensten-gerelateerd zoekresultaat in Google (Rich Snippets).
 - **Actie**:
@@ -78,6 +72,12 @@ Als een item uit deze lijst is geïmplementeerd of definitief niet zal worden ge
 ## Completed
 
 Uitgevoerd of wontfix:
+
+### 5. Vertaling: Kwaliteit van de Franstalige Versie Verbeteren
+- **Doel**: Een professionele en foutloze ervaring voor Franstalige leads.
+- **Actie**:
+  - Review alle bestanden eindigend op `.fr.md` (in `content/`) en de vertaalsleutels in `i18n/fr.yaml`.
+  - Herschrijf stroeve, letterlijke vertalingen en grammaticale fouten naar natuurlijk en professioneel Waals vakjargon.
 
 ### 3. Copywriting: Absolute Claims Temperen (Juridisch/Retorisch)
 - **Doel**: Voorkom onrealistische of juridisch kwetsbare beloftes.

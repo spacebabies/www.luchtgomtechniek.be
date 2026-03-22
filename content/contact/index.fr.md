@@ -7,9 +7,9 @@ publishdate: 2020-10-01
 
 E-mail: [info@luchtgomtechniek.be](mailto:info@luchtgomtechniek.be)
 
-Telefoon België: [+32 478 766843](tel:+32478766843)
+Téléphone: [+32 478 766843](tel:+32478766843)
 
-Nous sommes toujours disponibles pour toutes vos questions. Nous pouvons le faire sur demande Travail complet et apporter, en Belgique et aux Pays-Bas.
+On est à votre disposition pour toute question. Sur demande, on peut se charger de venir enlever vos pièces et de vous les ramener, que ce soit en Belgique ou aux Pays-Bas.
 
 TVA BE0760813758
 
@@ -17,7 +17,7 @@ TVA BE0760813758
 
 {{< microformats/h-card >}}
 
-Nous sommes seulement à visiter sur rendez-vous.
+Nous recevons uniquement sur rendez-vous à l'atelier.
 
 {{< maps/google >}}
 

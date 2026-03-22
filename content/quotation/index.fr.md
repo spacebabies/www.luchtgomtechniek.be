@@ -6,9 +6,7 @@ publishDate: 2020-10-06
 translationKey: quotation
 ---
 
-Remplissez le formulaire ci-dessous et vous en recevrez un dans les cinq jours ouvrables
-Devis gratuit.Toujours envoyer une photo si possible
-du travail à nettoyer.
+Remplissez le formulaire ci-dessous et on vous envoie un devis gratuit dans les cinq jours ouvrables. Joignez toujours des photos des pièces ou du chantier, ça nous donne une bonne idée du boulot.
 
-Il est toujours possible de faire briller une pièce d'essai comme le dos d'un plateau.
+Si vous avez un doute sur le résultat, on peut toujours faire un petit test sur une face cachée, comme le dos d'un plateau ou d'une porte.
 {{< forms/quote >}}

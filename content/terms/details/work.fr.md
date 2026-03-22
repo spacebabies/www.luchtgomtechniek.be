@@ -4,22 +4,22 @@ weight: 300
 ---
 **Risques généraux et responsabilité**
 
-Malgré une préparation et/ou un masquage minutieux, des dommages peuvent toujours survenir autour de l'objet dynamité. Cela fait partie des risques liés aux activités de sablage. Nous ne pouvons être tenus responsables des résidus de ruban (adhésif) laissés sur le substrat à la suite du retrait du ruban, du plastique ou de tout autre agent de masquage, ni de tout autre type de dommage causé par le sablage.
+Même en protégeant et en tapant tout comme il faut, il y a toujours un risque de faire un petit coup autour de la pièce qu'on sable. C'est inhérent au métier. On décline toute responsabilité s'il reste des traces de colle de tape quand on enlève les protections, ou pour les petits dégâts que le sable ou l'air sous pression peuvent causer à proximité.
 
 **Risques par type de matériau**
 
-En fonction du nombre de couches, du type de peinture et de sa dureté, il est possible que votre surface devienne plus rugueuse après l'utilisation d'un pistolet à air comprimé sur des surfaces peintes. Il en va de même pour les couches de vernis épaisses. Si la couche de peinture ou de vernis est d'abord décapée manuellement ou chimiquement, il est possible d'obtenir une surface moins rugueuse.
+Si on doit attaquer des grosses couches de peinture bien dures ou des gros vernis au pistolet à air, le bois en dessous risque de ressortir un peu plus rugueux. Pour avoir un fini plus lisse, l'idéal c'est parfois de décaper le gros de la couche chimiquement ou à la main avant qu'on ne passe sabler.
 
-Le résultat du sablage peut être décevant, en particulier pour les escaliers en hêtre, les grandes surfaces en acier inoxydable, le verre ou le béton. Le béton est un produit naturel spécial dont le sablage dépend entièrement de la manière dont il est coulé.
+Le rendu du sablage n'est pas toujours celui qu'on espère, surtout sur le hêtre, les grandes tôles d'inox, le verre ou le béton. Pour le béton, c'est un matériau brut : le résultat du sablage dépend complètement de comment ça a été coulé à l'époque.
 
 **Risques et responsabilités spécifiques**
 
-Le sablage endommage le cuir ou d'autres tissus d'ameublement, ainsi que le verre, les fenêtres ou les miroirs, les cadres (décoratifs), le papier peint, le stuc, les joints, les appuis de fenêtre, les cadres et/ou la quincaillerie. Ces éléments doivent être enlevés par le client ou par nous-mêmes au nom du client. Si les éléments susmentionnés sont laissés en place, tout dommage, causé ou non par le sablage, est toujours aux risques et périls du client, y compris pendant le transport des meubles.
+Le sable, ça ne pardonne pas sur le cuir, les tissus, le verre, les châssis, les moulures, le papier peint, le plafonnage, les joints ou les quincailleries. Il faut impérativement démonter tout ça avant, soit par vos soins, soit par nous (mais c'est en supplément). Si vous laissez ces éléments en place, tout dégât, qu'il vienne du sablage en direct ou des manutentions, est entièrement à vos risques.
 
-La colle des marches d'escalier ou des tapis d'autrefois contient des substances qui peuvent agir sur les escaliers en bois. Après le sablage et le vernissage, dans certains cas, une marque peut être visible de manière permanente sur les limons, les barres, les marches et l'action de l'escalier. Cela fait toutefois partie du caractère de l'escalier et de la maison.
+Les vieilles colles à tapis sur les escaliers, ça rentre dans les fibres du bois. Même après sablage et vernissage, il arrive qu'on voie encore des fantômes de colle sur les limons ou les marches. Ça fait partie du vécu et du cachet de la maison, on n'y peut rien.
 
-Les couleurs (code) déterminées par les consultants en couleurs, les architectes ou les clients peuvent présenter un léger écart par rapport à la couleur choisie sur l'échantillon lors de la détermination du niveau de brillance. Les échantillons de couleurs réalisés par Luchtgomtechniek peuvent s'écarter de la couleur du bois naturel et de l'essence à traiter. Le sablage et tout traitement ultérieur des placages sont explicitement aux risques du client. Luchtgomtechniek n'est pas responsable des écarts de résultat.
+Si vous avez choisi une couleur sur nuancier avec un architecte, ça peut toujours donner un peu différemment sur le bois en fonction du vernis ou de la brillance. Même nos propres échantillons peuvent varier un peu une fois appliqués sur la masse de votre bois, selon l'essence. Sabler et traiter un placage, c'est toujours à vos risques et périls : s'il cloque ou si le rendu n'est pas bon, on n'est pas responsables.
 
 **Aucune garantie**
 
-Nous ne pouvons garantir l'élimination par sablage du jaunissement/de la coloration profonde, de la saccharification du bois, des huiles, du goudron, des taches ou d'autres contaminations du bois.
+On ne peut jamais garantir à 100 % qu'on va réussir à faire partir en sablant les vieilles taches de goudron, d'huile, les décolorations très profondes, ou le bleuissement/jaunissement du bois.
