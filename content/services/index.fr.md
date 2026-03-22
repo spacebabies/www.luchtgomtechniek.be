@@ -21,7 +21,7 @@ De petites rayures et irrégularités peuvent également souvent être rayonnée
 
 ### Finition et Protection du Bois
 
-**La nécessité d'une couche protectrice.** Le décapage soigneux du bois ne représente que la moitié du travail. Sans un post-traitement réfléchi, le bois brut est vulnérable à l'incrustation de saleté, à l'humidité et à une décoloration rapide. Particulièrement dans des environnements à usage intensif tels que les établissements horeca, les aéroports ou les bâtiments historiques, une finition robuste est une exigence absolue pour protéger le bois à long terme.
+**La nécessité d'une couche protectrice.** Le décapage soigneux du bois ne représente que la moitié du travail. Sans un post-traitement réfléchi, le bois brut est vulnérable à l'incrustation de saleté, à l'humidité et à une décoloration rapide. Particulièrement dans des environnements à usage intensif tels que les établissements horeca, les aéroports ou les bâtiments historiques, une finition robuste est fortement recommandée pour protéger le bois à long terme.
 
 #### Un Travail sur Mesure
 
@@ -37,7 +37,7 @@ Le sablage fin est une technique de traitement de surface dans laquelle de petit
 
 La surface peut être pulvérisée pour la nettoyer, pour enlever la rouille, la peinture ou d'autres revêtements indésirables, ou pour rendre la surface rugueuse pour une meilleure adhérence des enduits ou de la peinture.
 
-le dégagement de chaleur minime lors du sablage fin nous donne l'avantage de pouvoir sabler des tôles (acier, cuivre, inox, aluminium, zinc), des materiaux fragiles, les pièces de voiture/moto, la pierre naturelle, les miroirs, les moulages. Tout peut briller sans distorsion de la surface ET de la rétention des détails, c'est littéralement un jeu d'enfant pour nous !
+le dégagement de chaleur minime lors du sablage fin nous donne l'avantage de pouvoir sabler des tôles (acier, cuivre, inox, aluminium, zinc), des materiaux fragiles, les pièces de voiture/moto, la pierre naturelle, les miroirs, les moulages. Notre processus est conçu pour minimiser la distorsion de la surface tout en préservant les détails les plus fins. Notre équipe aborde chaque projet avec le plus grand soin.
 
 {{< grids/swiper pattern="sand/*.jpg" >}}
 

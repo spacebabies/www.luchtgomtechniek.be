@@ -21,7 +21,7 @@ Zelfs kleine krassen en oneffenheden kunnen vaak verwijderd worden door te lucht
 
 ### Nabehandeling van Hout
 
-**De noodzaak van een gedegen beschermlaag.** Met het zorgvuldig luchtgommen van hout bent u ongeveer halverwege het proces. Zonder een doordachte nabehandeling is het schone hout kwetsbaar voor het intrekken van vuil, vocht en een snelle natuurlijke verkleuring. Zeker in intensief gebruikte omgevingen zoals drukbezochte horecazaken, luchthavens of monumentale panden is een robuuste afwerking een absolute vereiste om het hout langdurig te beschermen.
+**De noodzaak van een gedegen beschermlaag.** Met het zorgvuldig luchtgommen van hout bent u ongeveer halverwege het proces. Zonder een doordachte nabehandeling is het schone hout kwetsbaar voor het intrekken van vuil, vocht en een snelle natuurlijke verkleuring. Zeker in intensief gebruikte omgevingen zoals drukbezochte horecazaken, luchthavens of monumentale panden is een robuuste afwerking sterk aan te raden om het hout langdurig te beschermen.
 
 #### Doordacht Maatwerk
 
@@ -37,7 +37,7 @@ Het resultaat is een oppervlak dat zijn authentieke, karaktervolle uitstraling b
 
 #### Uniek Voordeel van Fijn Zandstralen
 
-Het unieke voordeel van fijn zandstralen is de minimale hitteontwikkeling tijdens het proces. Dit maakt het bijzonder geschikt voor de behandeling van dun plaatwerk, fragiele componenten, auto- en motoronderdelen, natuursteen, spiegels, gietwerk, koper, en kunststoffen. Met onze precisietechnieken garanderen we dat er geen vervorming van het oppervlak plaatsvindt en dat zelfs de fijnste details behouden blijven. Voor ons team is het een 'koud kunstje' om elk project met uiterste zorg en precisie te benaderen!
+Het unieke voordeel van fijn zandstralen is de minimale hitteontwikkeling tijdens het proces. Dit maakt het bijzonder geschikt voor de behandeling van dun plaatwerk, fragiele componenten, auto- en motoronderdelen, natuursteen, spiegels, gietwerk, koper, en kunststoffen. Onze precisietechnieken zijn ontworpen om vervorming van het oppervlak te minimaliseren, zodat zelfs de fijnste details behouden blijven. Ons team benadert elk project met uiterste zorg en precisie.
 
 {{< grids/swiper pattern="sand/*.jpg" >}}
 
@@ -81,6 +81,6 @@ Voor toepassingen die een hoge hittebestendigheid vereisen, zoals uitlaatsysteme
 
 **Zwembaden Stralen**: Het verwijderen van oude verflagen en het behandelen van oppervlakteonregelmatigheden bereidt het zwembad voor op een nieuwe coating, wat leidt tot een verbeterde uitstraling, hygiëne en duurzaamheid.
 
-Onze toewijding aan kwaliteit en veiligheid staat voorop bij elk project, waarbij we de nieuwste apparatuur en technieken inzetten om optimale resultaten te garanderen. Ons werk weerspiegelt een diep respect voor het milieu en de veiligheidsnormen, waarbij elk project met precisie en zorg wordt uitgevoerd.
+Onze toewijding aan kwaliteit en veiligheid staat voorop bij elk project, waarbij we de nieuwste apparatuur en technieken inzetten om naar optimale resultaten te streven. Ons werk weerspiegelt een diep respect voor het milieu en de veiligheidsnormen, waarbij elk project met precisie en zorg wordt uitgevoerd.
 
 {{< grids/swiper pattern="beton/*.jpg" >}}

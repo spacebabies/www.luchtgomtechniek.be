@@ -8,12 +8,6 @@ Als een item uit deze lijst is geïmplementeerd of definitief niet zal worden ge
 
 ## Must Haves (Direct Implementeren)
 
-### 3. Copywriting: Absolute Claims Temperen (Juridisch/Retorisch)
-- **Doel**: Voorkom onrealistische of juridisch kwetsbare beloftes.
-- **Actie**:
-  - Pas absolute claims aan. Verander bijvoorbeeld "we garanderen dat er geen vervorming plaatsvindt" naar "het proces is ontworpen om vervorming te minimaliseren" of "uitermate veilig voor kwetsbare ondergronden".
-  - Pas dit aan in de betreffende `content/` bestanden.
-
 ### 5. Vertaling: Kwaliteit van de Franstalige Versie Verbeteren
 - **Doel**: Een professionele en foutloze ervaring voor Franstalige leads.
 - **Actie**:
@@ -84,6 +78,12 @@ Als een item uit deze lijst is geïmplementeerd of definitief niet zal worden ge
 ## Completed
 
 Uitgevoerd of wontfix:
+
+### 3. Copywriting: Absolute Claims Temperen (Juridisch/Retorisch)
+- **Doel**: Voorkom onrealistische of juridisch kwetsbare beloftes.
+- **Actie**:
+  - Pas absolute claims aan. Verander bijvoorbeeld "we garanderen dat er geen vervorming plaatsvindt" naar "het proces is ontworpen om vervorming te minimaliseren" of "uitermate veilig voor kwetsbare ondergronden".
+  - Pas dit aan in de betreffende `content/` bestanden.
 
 ### 2. Copywriting: Authenticiteit en Vakjargon ('Stieltaal')
 - **Doel**: De teksten moeten klinken als een vakman, niet als een gladde marketeer.
