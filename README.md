@@ -57,6 +57,14 @@ hugo server -D
 
 You can now view the site at `http://localhost:1313`.
 
+## Content Strategie
+
+Tekst moet klinken als iemand die het werk echt doet. Zinnen over korrel 1200, stofontwikkeling, asbestattest, risico op ruwere oppervlakken, beperkingen bij beuken trappen of beton, temperatuur boven 10°C en parkeerverbodsborden, dat is geen bureaubladproza maar werfrealiteit. Dat maakt de site geloofwaardig. Vergeleken met een aantal Belgische sectorgenoten is deze site ook veel rijker aan bewijs en veel concreter in zijn voorbeelden.
+
+De tekst bevat bewust soms Kapitalen op plekken die Misschien Niet Logisch overkomen. Hou ze. Deze teksten komen direct van de eigenaar en geven de site juist een realistisch karakter.
+
+De content wordt altijd eerst in het Nederlands (Vlaams!) opgezet, en heeft daarna een vertaalslag naar het Frans (Waals!!) nodig. Hou dezelfde toon aan in de vertalingen. Onthoud dat de primaire doelgroep Belgisch en Nederlands Limburgers en Walen is (provincie Liège).
+
 ## Building for Production
 
 To build the static HTML into the `public` directory:
