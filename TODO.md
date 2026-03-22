@@ -4,6 +4,8 @@ Van boven naar beneden implementeren.
 
 **Belangrijk**: hou de Content Strategie uit `readme.md` altijd in gedachten. Tevens is deze website een **Single Page Application (SPA)**, gegenereerd met Hugo. De content staat op één pagina; alle wijzigingen moeten dus passen binnen het single-page format (uitgezonderd `single.html` die dient om Hugo warnings te onderdrukken).
 
+Als een item uit deze lijst is geïmplementeerd of definitief niet zal worden gedaan, verplaats het dan naar de sectie 'Completed' onderaan dit bestand.
+
 ## Must Haves (Direct Implementeren)
 
 ### 1. Afbeeldingen: Bestandsnamen, Alt-teksten en Titels (SEO)
@@ -23,12 +25,6 @@ Van boven naar beneden implementeren.
 - **Actie**:
   - Pas absolute claims aan. Verander bijvoorbeeld "we garanderen dat er geen vervorming plaatsvindt" naar "het proces is ontworpen om vervorming te minimaliseren" of "uitermate veilig voor kwetsbare ondergronden".
   - Pas dit aan in de betreffende `content/` bestanden.
-
-### 4. UX: Verwachtingsmanagement & Kwalificatie vóór de Offerte
-- **Doel**: Bezoekers informeren over technieken, risico's en voorwaarden voordat ze het offerteformulier bereiken op de single page.
-- **Actie**:
-  - Analyseer cruciale informatie uit de Algemene Voorwaarden en voeg ze als lopende en begrijpelijke tekst toe aan de juiste diensten-secties op de hoofdpagina.
-  - Verduidelijk vóór het contactmoment (bijv. in een infoblok boven het formulier of als aparte sectie): het verschil tussen luchtgommen en fijnstralen, ongeschikte materialen, materiaalspecifieke risico's, benodigde voorbereiding door de klant, en het verschil tussen werk op locatie vs. in het atelier.
 
 ### 5. Vertaling: Kwaliteit van de Franstalige Versie Verbeteren
 - **Doel**: Een professionele en foutloze ervaring voor Franstalige leads.
@@ -90,3 +86,13 @@ Van boven naar beneden implementeren.
 - **Actie**:
   - Bouw een gerichte sectie, tab, of verborgen overlay op de single page, specifiek voor architecten, aannemers, interieurbouwers, horeca-uitbaters en erfgoedbeheerders.
   - Documenteer specifieke B2B informatie: werk-toleranties, procesvoorbereiding, projectplanning, logistiek en transport, mogelijkheden voor nabehandeling, BTW-constructies/kaders, en proefstukken.
+
+### 4. UX: Verwachtingsmanagement & Kwalificatie vóór de Offerte
+- **Doel**: Bezoekers informeren over technieken, risico's en voorwaarden voordat ze het offerteformulier bereiken op de single page.
+- **Actie**:
+  - Analyseer cruciale informatie uit de Algemene Voorwaarden en voeg ze als lopende en begrijpelijke tekst toe aan de juiste diensten-secties op de hoofdpagina.
+  - Verduidelijk vóór het contactmoment (bijv. in een infoblok boven het formulier of als aparte sectie): het verschil tussen luchtgommen en fijnstralen, ongeschikte materialen, materiaalspecifieke risico's, benodigde voorbereiding door de klant, en het verschil tussen werk op locatie vs. in het atelier.
+
+## Completed
+
+Uitgevoerd of wontfix:
