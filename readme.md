@@ -4,6 +4,16 @@
 
 This is the source code for the static website of Luchtgomtechniek, built with [Hugo](https://gohugo.io/).
 
+## Architecture & Recent Modernizations (Q1 2026)
+
+In early 2026, the website underwent a major modernization based on the following principles:
+
+- **Content Structure:** Uses *headless bundles*. The section order is explicitly defined in `layouts/index.html`.
+- **JavaScript Modernization:** The entire JS stack is **ES2020 modules**. Scripts are modularly loaded via Hugo's internal pipes (`assets/js/`).
+- **Maps & Portfolio:** The portfolio aka Realisaties is progressively enhanced, starting from a simple list without JS and a Leaflet map with JS.
+- **Privacy & Socials:** Only GDPR-friendly socials are allowed, fetching data from `data/insta-grid.yml` instead of using external scripts.
+- **Tooling:** Hugo Extended is strictly required for SCSS compilation.
+
 ## Prerequisites
 
 This project uses SCSS which is compiled by Hugo's internal pipes. Because of this, you **must** use the **Hugo Extended** version. Standard Hugo will fail to compile the stylesheets.
@@ -53,18 +63,6 @@ To build the static HTML into the `public` directory:
 
 ```bash
 hugo --gc --minify
-```
-
-## Content Management
-
-To add a new section to the homepage:
-```bash
-hugo new homepage/my-new-content.md
-```
-
-To create a standard page:
-```bash
-hugo new my-new-page.md
 ```
 
 ### Media Optimization
