@@ -2,7 +2,7 @@
 
 Van boven naar beneden implementeren.
 
-**Belangrijk**: hou de Content Strategie uit `readme.md` altijd in gedachten. Tevens is deze website een **Single Page Application (SPA)**, gegenereerd met Hugo. De content staat op één pagina; alle wijzigingen moeten dus passen binnen het single-page format (uitgezonderd `single.html` die dient om Hugo warnings te onderdrukken).
+**Belangrijk**: hou de Content Strategie uit `readme.md` altijd in gedachten.
 
 Als een item uit deze lijst is geïmplementeerd of definitief niet zal worden gedaan, verplaats het dan naar de sectie 'Completed' onderaan dit bestand.
 

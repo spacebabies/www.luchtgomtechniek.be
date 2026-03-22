@@ -2,15 +2,13 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e1d5e1a9-e4c5-415f-8c53-7beaa6b60cf9/deploy-status)](https://app.netlify.com/sites/luchtgomtechniek/deploys)
 
-This is the source code for the static website of Luchtgomtechniek, built with [Hugo](https://gohugo.io/).
+This is the source code for the static website of Luchtgomtechniek, built with [Hugo](https://gohugo.io/). It is a single pager: content is pulled from various places, but ultimately everything ends up on the homepage. (We do have a `single.html`, but it's there to suppress Hugo warnings.)
 
-## Architecture & Recent Modernizations (Q1 2026)
-
-In early 2026, the website underwent a major modernization based on the following principles:
+## Architecture
 
 - **Content Structure:** Uses *headless bundles*. The section order is explicitly defined in `layouts/index.html`.
 - **JavaScript Modernization:** The entire JS stack is **ES2020 modules**. Scripts are modularly loaded via Hugo's internal pipes (`assets/js/`).
-- **Maps & Portfolio:** The portfolio aka Realisaties is progressively enhanced, starting from a simple list without JS and a Leaflet map with JS.
+- **Maps & Portfolio:** The portfolio aka Realisaties is progressively enhanced, starting from a simple list without JS and a Leaflet map with pins when JS is available.
 - **Privacy & Socials:** Only GDPR-friendly socials are allowed, fetching data from `data/insta-grid.yml` instead of using external scripts.
 - **Tooling:** Hugo Extended is strictly required for SCSS compilation.
 
@@ -31,6 +29,7 @@ This project contains a `.tool-versions` file that specifies the exact version o
    ```bash
    asdf install
    ```
+
 *(Note: The `.tool-versions` file explicitly targets the `extended` version)*
 
 ### Without `asdf`
@@ -57,9 +56,11 @@ hugo server -D
 
 You can now view the site at `http://localhost:1313`.
 
-## Content Strategie
+## Content Strategy
 
-Tekst moet klinken als iemand die het werk echt doet. Zinnen over korrel 1200, stofontwikkeling, asbestattest, risico op ruwere oppervlakken, beperkingen bij beuken trappen of beton, temperatuur boven 10°C en parkeerverbodsborden, dat is geen bureaubladproza maar werfrealiteit. Dat maakt de site geloofwaardig. Vergeleken met een aantal Belgische sectorgenoten is deze site ook veel rijker aan bewijs en veel concreter in zijn voorbeelden.
+*This section is in Dutch to reflect the content language.*
+
+De tekst moet klinken als iemand die het werk echt doet. Zinnen over korrel 1200, stofontwikkeling, asbestattest, risico op ruwere oppervlakken, beperkingen bij beuken trappen of beton, temperatuur boven 10°C en parkeerverbodsborden, dat is geen bureaubladproza maar werfrealiteit. Dat maakt de site geloofwaardig. Vergeleken met een aantal Belgische sectorgenoten is deze site ook veel rijker aan bewijs en veel concreter in zijn voorbeelden.
 
 De tekst bevat bewust soms Kapitalen op plekken die Misschien Niet Logisch overkomen. Hou ze. Deze teksten komen direct van de eigenaar en geven de site juist een realistisch karakter.
 
