@@ -62,13 +62,13 @@ Après une préparation minutieuse par sablage, nous proposons le traitement des
 
 La peinture en poudre ressemble à la peinture, mais elle est beaucoup plus résistante et durable, car elle est appliquée par électrolyse et cuite dans un four à moufle entre 180°C et 220°C. Avec la peinture en poudre, il est possible d'obtenir le métal dans n'importe quelle couleur RAL souhaitée.
 
-Nous pouvons également appliquer CERAKOTE™ pour des applications extrêmement résistantes à la chaleur, telles que les armes ou les échappements.
+Nous pouvons également appliquer CERAKOTE™ pour des applications nécessitant une haute résistance à la chaleur, telles que les échappements ou les composants de défense. Ce revêtement robuste conserve ses propriétés à haute température et convient donc parfaitement aux projets techniques exigeants.
 
 {{< grids/swiper pattern="powdercoating/*.jpg" >}}
 
 ### Sablage du béton
 
-Le sablage du béton est une technique essentielle pour la rénovation et l'entretien des structures en béton. Que ce soit pour le sablage de panneaux de façade préfabriqués en béton apparent, l'application de revêtements antidérapants sur des escaliers en béton, l'élimination de graffitis ou le sablage de piscines, nos techniques de sablage avancées garantissent une finition de qualité et une durabilité.
+Le sablage du béton est une technique essentielle pour la rénovation et l'entretien des structures en béton. Que ce soit pour le sablage de panneaux de façade préfabriqués en béton apparent, l'application de revêtements antidérapants sur des escaliers en béton, l'élimination de graffitis ou le sablage de piscines, nos techniques de sablage adaptées assurent une surface propre et prolongent la durée de vie du béton.
 
 Lors du sablage de panneaux de façade préfabriqués, nous éliminons les impuretés et restaurons la texture et la couleur originale du béton apparent. Cela augmente non seulement la valeur esthétique du bâtiment, mais contribue également à la protection et à la longévité du béton.
 
@@ -78,6 +78,6 @@ L'élimination de graffitis sur des surfaces en béton nécessite précision et 
 
 Enfin, le sablage de piscines est une partie importante de notre offre. Nous enlevons les anciennes couches de peinture, traitons les irrégularités de surface et préparons la piscine pour une nouvelle couche. Cela assure non seulement un aspect renouvelé, mais améliore également l'hygiène et la durabilité de la piscine.
 
-Pour tous nos projets de sablage du béton, nous utilisons l'équipement et les techniques les plus modernes pour garantir un résultat optimal, dans le respect de l'environnement et de la sécurité.
+Pour tous nos projets de sablage du béton, nous utilisons un équipement adapté et des techniques ciblées pour assurer un bon résultat, dans le respect de l'environnement et de la sécurité.
 
 {{< grids/swiper pattern="beton/*.jpg" >}}

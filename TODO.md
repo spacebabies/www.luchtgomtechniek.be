@@ -8,12 +8,6 @@ Als een item uit deze lijst is geïmplementeerd of definitief niet zal worden ge
 
 ## Must Haves (Direct Implementeren)
 
-### 2. Copywriting: Authenticiteit en Vakjargon ('Stieltaal')
-- **Doel**: De teksten moeten klinken als een vakman, niet als een gladde marketeer.
-- **Actie**:
-  - Zoek naar en vervang overdreven commerciële termen zoals "state-of-the-art", "hoogontwikkeld", en "prachtige eindafwerking" door nuchtere, technische beschrijvingen van het proces en resultaat.
-  - Controleer de markdown bestanden in `content/`.
-
 ### 3. Copywriting: Absolute Claims Temperen (Juridisch/Retorisch)
 - **Doel**: Voorkom onrealistische of juridisch kwetsbare beloftes.
 - **Actie**:
@@ -90,6 +84,12 @@ Als een item uit deze lijst is geïmplementeerd of definitief niet zal worden ge
 ## Completed
 
 Uitgevoerd of wontfix:
+
+### 2. Copywriting: Authenticiteit en Vakjargon ('Stieltaal')
+- **Doel**: De teksten moeten klinken als een vakman, niet als een gladde marketeer.
+- **Actie**:
+  - Zoek naar en vervang overdreven commerciële termen zoals "state-of-the-art", "hoogontwikkeld", en "prachtige eindafwerking" door nuchtere, technische beschrijvingen van het proces en resultaat.
+  - Controleer de markdown bestanden in `content/`.
 
 ### 1. Afbeeldingen: Bestandsnamen, Alt-teksten en Titels (SEO)
 - **Doel**: Zorg dat zoekmachines en schermlezers de context van alle afbeeldingen begrijpen.

@@ -33,7 +33,7 @@ Het resultaat is een oppervlak dat zijn authentieke, karaktervolle uitstraling b
 
 ### Fijn Zandstralen
 
-**Precisie in oppervlaktebehandeling.** Fijn zandstralen is een hoogontwikkelde techniek voor oppervlaktebehandeling, waarbij met kleine deeltjes zand of andere schurende materialen onder lage druk tegen het oppervlak wordt geblazen. Deze methode is ideaal voor het reinigen van oppervlakken, verwijderen van roest, elimineren van oude verflagen of andere ongewenste coatings, en het ruwer maken van oppervlakken ter bevordering van de hechting van nieuwe coatings of verf.
+**Precisie in oppervlaktebehandeling.** Fijn zandstralen is een beproefde techniek voor oppervlaktebehandeling, waarbij met kleine deeltjes zand of andere schurende materialen onder lage druk tegen het oppervlak wordt geblazen. Deze methode is ideaal voor het reinigen van oppervlakken, verwijderen van roest, elimineren van oude verflagen of andere ongewenste coatings, en het ruwer maken van oppervlakken ter bevordering van de hechting van nieuwe coatings of verf.
 
 #### Uniek Voordeel van Fijn Zandstralen
 
@@ -43,11 +43,11 @@ Het unieke voordeel van fijn zandstralen is de minimale hitteontwikkeling tijden
 
 ### Glasparelstralen
 
-**Verfijning tot in de afwerking.** Glasparelstralen is een geavanceerde techniek voor oppervlaktebehandeling, waarbij kleine, glazen bolletjes onder hoge snelheid tegen een oppervlak worden geblazen. Dit proces levert een uniforme, licht glanzende finish op die herinnert aan de schittering van parelmoer.
+**Verfijning tot in de afwerking.** Glasparelstralen is een gerichte techniek voor oppervlaktebehandeling, waarbij kleine, glazen bolletjes onder hoge snelheid tegen een oppervlak worden geblazen. Dit proces levert een uniforme, licht glanzende finish op die herinnert aan de schittering van parelmoer.
 
 #### Ideaal voor Diverse Materialen
 
-Deze methode is bijzonder geschikt voor materialen zoals inox, koper, en aluminium en kan dienen als een prachtige eindafwerking, die een extra esthetische waarde aan het materiaal toevoegt.
+Deze methode is bijzonder geschikt voor materialen zoals inox, koper, en aluminium en kan dienen als een strakke, egale eindafwerking die het basismateriaal goed tot zijn recht laat komen.
 
 #### Toepassing in de Industriële Sector
 
@@ -61,17 +61,17 @@ In de industriële sector wordt glasparelstralen vaak gebruikt om objecten zoals
 
 #### Wat is Poedercoaten?
 
-Poedercoaten is een geavanceerd proces dat een veel hardere en duurzamere afwerking biedt dan traditioneel lakken. Het poeder wordt elektrostatisch aangebracht op het object en vervolgens uitgehard in een moffeloven bij temperaturen van 180°C tot 220°C. Deze methode stelt ons in staat om metalen objecten te coaten in elke gewenste RAL-kleur, waardoor klanten toegang hebben tot een uitgebreid kleurenpalet voor hun projecten.
+Poedercoaten is een industrieel proces dat een veel hardere en duurzamere afwerking biedt dan traditioneel lakken. Het poeder wordt elektrostatisch aangebracht op het object en vervolgens uitgehard in een moffeloven bij temperaturen van 180°C tot 220°C. Deze methode stelt ons in staat om metalen objecten te coaten in elke gewenste RAL-kleur, waardoor klanten toegang hebben tot een uitgebreid kleurenpalet voor hun projecten.
 
-#### CERAKOTE™ voor Extreme Hittebestendigheid
+#### CERAKOTE™ voor Hoge Hittebestendigheid
 
-Voor toepassingen die een extreme hittebestendigheid vereisen, zoals wapens of uitlaatsystemen, bieden wij tevens de applicatie van CERAKOTE™. Deze geavanceerde coatingtechnologie levert uitzonderlijke prestaties onder hoge temperatuurcondities, waardoor het een ideale keuze is voor de meest veeleisende projecten.
+Voor toepassingen die een hoge hittebestendigheid vereisen, zoals uitlaatsystemen of specifieke defensiecomponenten, bieden wij tevens de applicatie van CERAKOTE™. Deze robuuste coating behoudt zijn eigenschappen onder hoge temperatuurcondities en is daardoor zeer geschikt voor zware technische projecten.
 
 {{< grids/swiper pattern="powdercoating/*.jpg" >}}
 
 ### Betonstralen
 
-**Uw Partner in Onderhoud en Renovatie.** Betonstralen speelt een cruciale rol in de renovatie en het onderhoud van diverse betonconstructies. Dankzij onze state-of-the-art straaltechnieken leveren we niet alleen een superieure afwerking maar dragen we ook bij aan de verlenging van de levensduur van uw betonconstructies. Ons aanbod omvat een breed scala aan toepassingen: van prefab gevelpanelen en antisliplagen op trappen tot het verwijderen van graffiti en het onderhoud van zwembaden.
+**Degelijk Onderhoud en Renovatie.** Betonstralen speelt een belangrijke rol in de renovatie en het onderhoud van diverse betonconstructies. Door de inzet van de juiste straaltechnieken realiseren we een schoon en opgeruwd oppervlak dat bijdraagt aan de levensduur van uw betonconstructies. Ons aanbod omvat een breed scala aan toepassingen: van prefab gevelpanelen en antisliplagen op trappen tot het verwijderen van graffiti en het onderhoud van zwembaden.
 
 **Prefab Gevelpanelen**: Wij verwijderen onzuiverheden en herstellen de originele textuur en kleur van zichtbeton, wat de esthetische waarde en duurzaamheid van gebouwen verbetert.
 
