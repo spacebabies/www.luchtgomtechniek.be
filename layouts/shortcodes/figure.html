@@ -4,8 +4,8 @@
         {{ with .Get "jpg" }}<source type="image/jpg" srcset="{{ . }}">{{ end }}
         {{ with .Get "png" }}<source type="image/png" srcset="{{ . }}">{{ end }}
 
-        {{ if .Get "jpg" }}<img src="{{ .Get "jpg" }}" alt='{{ .Get "caption" }}'>{{ end }}
-        {{ if .Get "png" }}<img src="{{ .Get "png" }}" alt='{{ .Get "caption" }}'>{{ end }}
+        {{ if .Get "jpg" }}<img src="{{ .Get "jpg" }}" alt='{{ .Get "caption" }}' loading="lazy"{{ with .Get "width" }} width="{{ . }}"{{ end }}{{ with .Get "height" }} height="{{ . }}"{{ end }}>{{ end }}
+        {{ if .Get "png" }}<img src="{{ .Get "png" }}" alt='{{ .Get "caption" }}' loading="lazy"{{ with .Get "width" }} width="{{ . }}"{{ end }}{{ with .Get "height" }} height="{{ . }}"{{ end }}>{{ end }}
     </picture>
     
     {{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}

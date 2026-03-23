@@ -8,7 +8,7 @@
       {{ $webp := .Resize (printf "%dx%d webp" .Width .Height) -}}
       <picture>
         <source srcset="{{ $webp.RelPermalink }}" type="image/webp">
-        <img src="{{ .RelPermalink }}" alt="{{ .Title }}">
+        <img src="{{ .RelPermalink }}" alt="{{ .Title }}" width="{{ .Width }}" height="{{ .Height }}" loading="lazy">
       </picture>
     {{ end }}
   {{ end }}

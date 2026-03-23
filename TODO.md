@@ -8,30 +8,7 @@ Als een item uit deze lijst is geïmplementeerd of definitief niet zal worden ge
 
 ## Must Haves (Direct Implementeren)
 
-### 7. SEO: Sitemap Configuratie Controleren & Optimaliseren
-- **Doel**: Efficiënte crawling door zoekmachines garanderen voor de taalkanalen.
-- **Actie**:
-  - Controleer of `sitemap.xml` correct wordt gegenereerd voor de hoofd-URL en taalswitches, en niet onnodig lege subpagina's bevat die door Hugo gegenereerd worden.
-  - Zorg dat de locatie van de sitemap expliciet wordt vermeld in `static/robots.txt` (voeg toe: `Sitemap: https://www.luchtgomtechniek.be/sitemap.xml`).
-
-### 8. SEO & UX: Correcte `<title>` tags en Meta structuren
-- **Doel**: Zorgen dat de SPA per taal de meest optimale, pakkende paginatitel heeft, aangezien dit dé index-titel is voor de hele site in die taal.
-- **Actie**:
-  - Optimaliseer `layouts/partials/head.html` en `config`-bestanden om zeker te zijn dat de indexpagina's per taal een sterke, beschrijvende titel bevatten in plaats van enkel de merknaam.
-
-### 9. Performance & A11Y: Image lazy loading en dimensies
-- **Doel**: Voorkomen van Cumulative Layout Shift (CLS) en verbeteren van de laadsnelheid.
-- **Actie**:
-  - Controleer de image templates (zoals `layouts/shortcodes/picture.html` en `layouts/shortcodes/figure.html`).
-  - Voeg het attribuut `loading="lazy"` toe aan `<img>` tags onder de vouw.
-  - Zorg ervoor dat `width` en `height` attributen (indien de aspect ratio bekend is) worden meegegeven om ruimte te reserveren tijdens het laden.
-
-### 10. SEO: Meta Descriptions
-- **Doel**: De indexpagina van de SPA moet een converterende, wervende meta description hebben.
-- **Actie**:
-  - Controleer `layouts/partials/meta.html` en de `config`- of `_index.md`-bestanden.
-  - Zorg ervoor dat er een sterke description per taal is geconfigureerd en geïmplementeerd in de HTML output.
-
+*(Geen openstaande taken)*
 
 ## To Be Determined (Architectuur & Strategie - Nog niet direct uitvoeren)
 
@@ -96,3 +73,27 @@ Uitgevoerd of wontfix:
 - **Actie**:
   - Hernoem onduidelijke bestandsnamen (zoals `luchtgommen/20221002_131529.jpg` of `sand/grit4.jpg`) naar beschrijvende namen (bijv. `luchtgommen-houten-trap-voor-na.jpg`). Let op dat je ook de referenties in de code update!
   - Voeg betekenisvolle `alt` attributen en eventueel `title` attributen toe aan alle afbeeldingsverwijzingen in markdown bestanden (in `content/`) en templates (in `layouts/`).
+
+### 7. SEO: Sitemap Configuratie Controleren & Optimaliseren
+- **Doel**: Efficiënte crawling door zoekmachines garanderen voor de taalkanalen.
+- **Actie**:
+  - Controleer of `sitemap.xml` correct wordt gegenereerd voor de hoofd-URL en taalswitches, en niet onnodig lege subpagina's bevat die door Hugo gegenereerd worden.
+  - Zorg dat de locatie van de sitemap expliciet wordt vermeld in `static/robots.txt` (voeg toe: `Sitemap: https://www.luchtgomtechniek.be/sitemap.xml`).
+
+### 8. SEO & UX: Correcte `<title>` tags en Meta structuren
+- **Doel**: Zorgen dat de SPA per taal de meest optimale, pakkende paginatitel heeft, aangezien dit dé index-titel is voor de hele site in die taal.
+- **Actie**:
+  - Optimaliseer `layouts/partials/head.html` en `config`-bestanden om zeker te zijn dat de indexpagina's per taal een sterke, beschrijvende titel bevatten in plaats van enkel de merknaam.
+
+### 9. Performance & A11Y: Image lazy loading en dimensies
+- **Doel**: Voorkomen van Cumulative Layout Shift (CLS) en verbeteren van de laadsnelheid.
+- **Actie**:
+  - Controleer de image templates (zoals `layouts/shortcodes/picture.html` en `layouts/shortcodes/figure.html`).
+  - Voeg het attribuut `loading="lazy"` toe aan `<img>` tags onder de vouw.
+  - Zorg ervoor dat `width` en `height` attributen (indien de aspect ratio bekend is) worden meegegeven om ruimte te reserveren tijdens het laden.
+
+### 10. SEO: Meta Descriptions
+- **Doel**: De indexpagina van de SPA moet een converterende, wervende meta description hebben.
+- **Actie**:
+  - Controleer `layouts/partials/meta.html` en de `config`- of `_index.md`-bestanden.
+  - Zorg ervoor dat er een sterke description per taal is geconfigureerd en geïmplementeerd in de HTML output.

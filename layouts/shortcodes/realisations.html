@@ -19,7 +19,7 @@
                 {{ $webp := .Resize (printf "%dx%d webp" .Width .Height) }}
                 <picture>
                   <source srcset="{{ $webp.RelPermalink }}" type="image/webp">
-                  <img src="{{ .RelPermalink }}" alt="{{ $title }}">
+                  <img src="{{ .RelPermalink }}" alt="{{ $title }}" width="{{ .Width }}" height="{{ .Height }}" loading="lazy">
                 </picture>
               {{ end }}
             {{ end }}
