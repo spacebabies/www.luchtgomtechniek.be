@@ -8,14 +8,6 @@ Als een item uit deze lijst is geïmplementeerd of definitief niet zal worden ge
 
 ## Must Haves (Direct Implementeren)
 
-### 6. SEO: Structured Data (Schema.org) Toevoegen
-- **Doel**: Beter lokaal en diensten-gerelateerd zoekresultaat in Google (Rich Snippets).
-- **Actie**:
-  - Analyseer en verbeter JSON-LD structured data.
-  - Gebruik het type `Organization` of `LocalBusiness`.
-  - Definieer minimaal: Adres, telefoonnummer, BTW-nummer, servicegebied (België/Nederland), en een `sameAs` link naar Instagram.
-  - Definieer een `OfferCatalog` of soortgelijke structuur in de hoofd-JSON-LD, in plaats van aparte Service-pagina's, passend bij een SPA.
-
 ### 7. SEO: Sitemap Configuratie Controleren & Optimaliseren
 - **Doel**: Efficiënte crawling door zoekmachines garanderen voor de taalkanalen.
 - **Actie**:
@@ -72,6 +64,14 @@ Als een item uit deze lijst is geïmplementeerd of definitief niet zal worden ge
 ## Completed
 
 Uitgevoerd of wontfix:
+
+### 6. SEO: Structured Data (Schema.org) Toevoegen
+- **Doel**: Beter lokaal en diensten-gerelateerd zoekresultaat in Google (Rich Snippets).
+- **Actie**:
+  - Analyseer en verbeter JSON-LD structured data.
+  - Gebruik het type `Organization` of `LocalBusiness`.
+  - Definieer minimaal: Adres, telefoonnummer, BTW-nummer, servicegebied (België/Nederland), en een `sameAs` link naar Instagram.
+  - Definieer een `OfferCatalog` of soortgelijke structuur in de hoofd-JSON-LD, in plaats van aparte Service-pagina's, passend bij een SPA.
 
 ### 5. Vertaling: Kwaliteit van de Franstalige Versie Verbeteren
 - **Doel**: Een professionele en foutloze ervaring voor Franstalige leads.

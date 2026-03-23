@@ -53,8 +53,7 @@
       {{ with .Param "description" }}"description": "{{ . }}",{{ end }}
       "url": "{{ .Permalink }}",
       "publisher": {
-          "@type": "LocalBusiness",
-          "name": "{{ .Param "name" }}"
+          "@id": "{{ ref . "/" }}"
       },
       "countryOfOrigin": {
         "@type": "Country",

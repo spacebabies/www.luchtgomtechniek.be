@@ -17,6 +17,19 @@
     "addressCountry" .Site.Params.adrCountry
     "description" (i18n "address.description")
   -}}
+  {{ $areaServed := slice
+    (dict "@type" "Country" "name" "Belgium")
+    (dict "@type" "Country" "name" "Netherlands")
+  -}}
+  {{ $serviceOffers := slice }}
+  {{ range .Site.Params.services }}
+    {{ $serviceOffers = $serviceOffers | append (dict "@type" "Offer" "itemOffered" (dict "@type" "Service" "name" .)) }}
+  {{ end }}
+  {{ $offers := dict
+    "@type" "OfferCatalog"
+    "name" "Services"
+    "itemListElement" $serviceOffers
+  -}}
   {{ dict
     "@context" "https://schema.org"
     "@type" "LocalBusiness"
@@ -27,5 +40,9 @@
     "url" (ref . "/")
     "telephone" .Site.Params.phone
     "priceRange" "$$$"
+    "vatID" "BE0760813758"
+    "areaServed" $areaServed
+    "sameAs" (slice "https://www.instagram.com/luchtgomtechniek/")
+    "hasOfferCatalog" $offers
     "email" .Site.Params.email | jsonify (dict "indent" "\t") | safeJS }}
 </script>
