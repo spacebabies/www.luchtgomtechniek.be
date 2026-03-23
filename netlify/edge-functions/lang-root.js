@@ -55,7 +55,9 @@ export default async function handler(request, context) {
       status: 302,
       headers: {
         Location: `/${cookieLang}/`,
-        "Cache-Control": "no-store"
+        "Cache-Control": "public, max-age=0, must-revalidate",
+        "Netlify-CDN-Cache-Control": "public, s-maxage=31536000, must-revalidate",
+        "Netlify-Vary": "language, cookie=nf_lang"
       }
     });
   }
@@ -69,7 +71,13 @@ export default async function handler(request, context) {
     status: 302,
     headers: {
       Location: `/${detectedLang}/`,
-      "Cache-Control": "no-store"
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "Netlify-CDN-Cache-Control": "public, s-maxage=31536000, must-revalidate",
+      "Netlify-Vary": "language, cookie=nf_lang"
     }
   });
 }
+
+export const config = {
+  cache: "manual"
+};
