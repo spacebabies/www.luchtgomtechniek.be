@@ -9,7 +9,7 @@
 
       <nav id="main-menu">
         <ul>
-          {{ range slice "services" "portfolio" "quotation" "contact" "terms" }}
+          {{ range slice "services" "portfolio" "quotation" "contact" }}
             {{ with $.Site.GetPage . }}
               <li>
                 <a class="button" href="#{{ anchorize .TranslationKey }}">{{ .Title }}</a>
