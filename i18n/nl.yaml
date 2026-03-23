@@ -9,16 +9,14 @@ button_vcard_title:
   other: Onze vCard downloaden
 label_email:
   other: E-mailadres
-label_gallerygrid:
-  other: Onze recente posts op Instagram
 label_name:
   other: Uw naam
 label_telephone:
   other: Telefoonnummer
+label_short_desc:
+  other: Korte omschrijving (optioneel)
 label_werk:
-  other: Foto van het werk (optioneel).
-aria-lang-label:
-  other: Passer au français
+  other: Foto van het werk (optioneel)
 skip_link:
   other: Skip naar de inhoud
 chat:

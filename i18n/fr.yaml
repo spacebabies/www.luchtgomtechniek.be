@@ -9,20 +9,18 @@ button_vcard_title:
   other: Téléchargez notre vCard
 label_email:
   other: E-mail
-label_gallerygrid:
-  other: Nos publications récentes sur Instagram
 label_name:
   other: Votre nom
 label_telephone:
   other: Numéro de téléphone
+label_short_desc:
+  other: Brève description (facultatif)
 label_werk:
   other: Photo du projet (facultatif)
-aria-lang-label:
-  other: Passer au néerlandais
 skip_link:
   other: Aller directement au contenu
 chat:
   available:
-    other: "Nous sommes en ligne ! Cliquez pour discuter"
+    other: "Nous sommes en ligne ! Cliquez pour chatter"
   button:
-    other: Discuter avec nous
+    other: Chatter avec nous

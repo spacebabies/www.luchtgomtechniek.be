@@ -1,20 +1,25 @@
 <form netlify name="prijsopgave">
     <p><label>
         {{ i18n "label_name" }}
-        <input class="fw" type="text" name="naam" required maxlength="200">
+        <input type="text" name="naam" required maxlength="200">
     </label></p>
 
     <p><label>
         {{ i18n "label_email" }}
-        <input class="fw" type="email" name="email" required maxlength="200">
+        <input type="email" name="email" required maxlength="200">
     </label></p>
 
     <p><label>
         {{ i18n "label_telephone" }}
-        <input class="fw" type="tel" name="telephone" required maxlength="20">
+        <input type="tel" name="telephone" required maxlength="20">
     </label></p>
 
-    <p>       
+    <p><label>
+      {{ i18n "label_short_desc" }}
+      <textarea name="short_desc" maxlength="2000"></textarea>
+    </label></p>
+
+    <p>
         <label>
             {{ i18n "label_werk" }}
             <input type="file" name="werk">
