@@ -1,4 +1,4 @@
-import { initLanguage } from "./modules/language.js";
+import { changeLanguage } from "./modules/language.js";
 import { initHeader } from "./modules/header.js";
 import { initSwiper } from "./modules/swiper.js";
 import { initLeaflet } from "./modules/leaflet.js";
@@ -12,7 +12,7 @@ function onReady(callback) {
 }
 
 onReady(() => {
-  initLanguage();
+  changeLanguage(document.querySelector('#changeLanguage'));
   initHeader(document.querySelector("#site-head"));
   initSwiper();
   initLeaflet();
