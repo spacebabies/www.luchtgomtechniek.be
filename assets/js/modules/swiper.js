@@ -1,7 +1,7 @@
 import Swiper, { Navigation } from 'swiper';
 
-export function initSwiper() {
-    new Swiper('.swiper', {
+export function initSwiper(classname) {
+    new Swiper(classname, {
     modules: [Navigation],
     slidesPerView: "auto",
     navigation: {

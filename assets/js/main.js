@@ -14,8 +14,8 @@ function onReady(callback) {
 onReady(() => {
   changeLanguage(document.querySelector('#changeLanguage'));
   initHeader(document.querySelector("#site-head"));
-  initSwiper();
-  initLeaflet();
+  initSwiper('.swiper');
+  initLeaflet(document.getElementById('portfolio'));
 
   document.body.classList.add("data-js-loaded");
 });

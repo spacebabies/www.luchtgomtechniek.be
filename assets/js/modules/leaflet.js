@@ -1,7 +1,6 @@
 import L from 'leaflet';
 
-export function initLeaflet() {
-  const container = document.getElementById('portfolio');
+export function initLeaflet(container) {
   if (!container) return;
 
   const portfolioList = container.querySelector('.realisations');
