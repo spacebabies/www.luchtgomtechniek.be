@@ -10,12 +10,7 @@
     </div>
     <div class="insta-image-wrapper">
       {{ $img := resources.Get .image }}
-      {{ $altText := index .description $.Site.Language.Lang | default (printf "Instagram post %s" .id) }}
-      {{ if $img }}
-        <img src="{{ $img.RelPermalink }}" alt="{{ $altText }}" class="insta-image" loading="lazy">
-      {{ else }}
-        <img src="{{ relURL .image }}" alt="{{ $altText }}" class="insta-image" loading="lazy">
-      {{ end }}
+      <img src="{{ $img.RelPermalink }}" alt="{{ index .alt $.Site.Language.Lang }}" class="insta-image" loading="lazy">
     </div>
     <div class="insta-caption">
       {{ index .description $lang | markdownify }}
