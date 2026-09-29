@@ -9,6 +9,11 @@ label textarea {
   width: 95%;
 }
 
+// Keep map and slider layers below the language switcher outside main.
+#maincontent {
+  isolation: isolate;
+}
+
 nav.change-language {
   position: fixed;
   top: 2em;
