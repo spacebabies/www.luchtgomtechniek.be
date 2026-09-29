@@ -12,6 +12,21 @@ This is the source code for the static website of Luchtgomtechniek, built with [
 - **Privacy & Socials:** Only GDPR-friendly socials are allowed, fetching data from `data/insta-grid.yml` instead of using external scripts.
 - **Tooling:** Hugo Extended is strictly required for SCSS compilation.
 
+## CARTO basemap configuration
+
+The public CARTO browser API key is stored in `assets/js/config/carto.js` and
+bundled into the site's JavaScript. Update it there when rotating the key.
+If website restrictions are enabled in the CARTO dashboard, allow both
+`luchtgomtechniek.be` and `www.luchtgomtechniek.be`. Local development needs a
+separate localhost key when the production key is restricted.
+
+The map uses Leaflet with Positron raster tiles. CARTO recommends vector
+basemaps, but continues to support and update raster tiles. We retain raster
+to preserve the existing rendering, CSS color filter, and Leaflet behavior
+without adding a WebGL renderer. The vector equivalent is `positron-gl-style`;
+a future migration should verify browser support, styling, and interactions.
+See the [CARTO basemap FAQ](https://docs.carto.com/faqs/carto-basemaps).
+
 ## Prerequisites
 
 This project uses SCSS which is compiled by Hugo's internal pipes. Because of this, you **must** use the **Hugo Extended** version. Standard Hugo will fail to compile the stylesheets.

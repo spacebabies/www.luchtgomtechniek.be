@@ -1,4 +1,5 @@
 import L from 'leaflet';
+import { cartoApiKey } from '../config/carto.js';
 
 export function initLeaflet(container) {
   if (!container) return;
@@ -23,8 +24,8 @@ export function initLeaflet(container) {
   }).setView([50.8, 5.5], 9); // Centered roughly on BE/NL border
 
   // Add a privacy-conscious, clean tile layer (CartoDB Positron - Light)
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-      attribution: '© OpenStreetMap contributors © CARTO',
+  L.tileLayer(`https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png?key=${encodeURIComponent(cartoApiKey)}`, {
+      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors © <a href="https://carto.com/attribution/">CARTO</a>',
       subdomains: 'abcd',
       maxZoom: 20
   }).addTo(map);
