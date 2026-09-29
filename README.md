@@ -31,29 +31,14 @@ See the [CARTO basemap FAQ](https://docs.carto.com/faqs/carto-basemaps).
 
 This project uses SCSS which is compiled by Hugo's internal pipes. Because of this, you **must** use the **Hugo Extended** version. Standard Hugo will fail to compile the stylesheets.
 
-### Using `asdf` (Recommended)
+Install [mise](https://mise.jdx.dev/getting-started.html), then run:
 
-This project contains a `.tool-versions` file that specifies the exact version of Hugo required. Using a version manager like `asdf` is highly recommended to ensure everyone uses the same environment.
+```bash
+mise install
+```
 
-1. Install [asdf](https://asdf-vm.com/).
-2. Add the Hugo plugin:
-   ```bash
-   asdf plugin-add hugo
-   ```
-3. Install the required version defined in the `.tool-versions` file:
-   ```bash
-   asdf install
-   ```
-
-*(Note: The `.tool-versions` file explicitly targets the `extended` version)*
-
-### Without `asdf`
-
-If you are not using `asdf`, make sure you install **Hugo Extended** and use the exact version in `.tool-versions`.
-
-- **Fedora/RHEL:** `sudo dnf install hugo` (installs extended by default)
-- **Ubuntu/Debian:** The `apt` version is often standard and outdated. Download the extended `.deb` or `.tar.gz` from the [Hugo GitHub Releases](https://github.com/gohugoio/hugo/releases).
-- **macOS (Homebrew):** `brew install hugo` (installs extended by default)
+We use mise locally and on Netlify because Netlify's Aqua backend does not
+understand asdf's `extended_` prefix. `mise.toml` is the single Hugo version source.
 
 ## Setup & Development
 
@@ -66,7 +51,7 @@ npm install
 Start the development server with drafts enabled:
 
 ```bash
-hugo server -D
+mise exec -- hugo server -D
 ```
 
 You can now view the site at `http://localhost:1313`.
@@ -86,7 +71,7 @@ De content wordt altijd eerst in het Nederlands (Vlaams!) opgezet, en heeft daar
 To build the static HTML into the `public` directory:
 
 ```bash
-hugo --gc --minify
+mise exec -- npm run build
 ```
 
 ### Media Optimization
@@ -109,11 +94,6 @@ For styling reference, these are the primary breakpoints used:
 3. `1200px`
 
 ## Deployment
-
-Netlify uses mise to install Hugo. `mise.toml` explicitly selects the Aqua Hugo
-Extended backend because Aqua does not understand asdf's `extended_` version
-prefix in `.tool-versions`. When upgrading Hugo, keep `.tool-versions`,
-`mise.toml`, and `HUGO_VERSION` in `netlify.toml` on the same version.
 
 The site is automatically deployed via Netlify. Simply push your changes to the default branch to trigger a new build.
 
