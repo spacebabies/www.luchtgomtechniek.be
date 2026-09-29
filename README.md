@@ -110,6 +110,11 @@ For styling reference, these are the primary breakpoints used:
 
 ## Deployment
 
+Netlify uses mise to install Hugo. `mise.toml` explicitly selects the Aqua Hugo
+Extended backend because Aqua does not understand asdf's `extended_` version
+prefix in `.tool-versions`. When upgrading Hugo, keep `.tool-versions`,
+`mise.toml`, and `HUGO_VERSION` in `netlify.toml` on the same version.
+
 The site is automatically deployed via Netlify. Simply push your changes to the default branch to trigger a new build.
 
 ```bash
