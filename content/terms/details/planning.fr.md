@@ -4,19 +4,21 @@ weight: 500
 ---
 **Planification générale et exécution**
 
-On fixe toujours la date de début ou de reprise du chantier ensemble. Quand on parle de délai, c'est toujours en jours ouvrables. Ça veut dire qu'on ne compte pas les week-ends, les jours fériés, ni les jours où la météo nous empêche de bosser pendant au moins quatre heures. Si on prend du retard sur le chantier, sur une livraison ou sur l'arrivée d'un container, ça ne donne pas droit à des indemnités de retard. L'estimation de la durée des travaux qu'on vous donne, ça reste une estimation. Si on met un peu plus de temps ou si on finit plus vite, on n'est pas responsables des désagréments. Et ça ne change rien au prix du devis, sauf si on a convenu autre chose.
+Nous convenons ensemble du début ou de la reprise et d'un délai d'exécution raisonnable, que nous confirmons par écrit. Les jours ouvrables excluent les samedis, dimanches, jours fériés et congés annoncés à l'avance. Pour les travaux extérieurs, les jours où la météo ou ses conséquences empêchent de travailler pendant au moins quatre heures ne comptent pas comme jours ouvrables. Une estimation facilite la planification sans remettre en cause un délai expressément convenu ni vos droits légaux en cas de retard. Une durée plus longue ou plus courte ne modifie pas le prix convenu sans accord préalable.
 
-Luchtgomtechniek n'est pas responsable si le planning doit bouger. La météo dicte sa loi sur nos chantiers extérieurs, on n'y peut rien et on ne prendra aucune responsabilité là-dessus.
+En cas de retard, nous vous informons dès que possible de sa cause et de ses conséquences prévisibles et convenons d'un planning adapté. Seules des circonstances constituant juridiquement un cas de force majeure peuvent nous exonérer de responsabilité conformément à la loi. En cas d'impossibilité définitive, le contrat et les éventuels paiements anticipés sont réglés selon les règles légales.
 
-On se réserve le droit d'interrompre, de postposer ou même d'arrêter un chantier si on a de bonnes raisons (par exemple des conditions de travail dangereuses). S'il y a des frais en plus à cause de ça, comme le transport supplémentaire des machines, on pourrait vous les facturer.
+Nous pouvons suspendre les travaux en cas de risque concret pour la sécurité, de présence d'amiante ou de manquement du client empêchant l'exécution, notamment un paiement ou des préparatifs nécessaires manquants. Sauf si la sécurité exige une intervention immédiate, nous vous adressons d'abord une mise en demeure écrite et accordons un délai raisonnable pour remédier au manquement. Nous ne pouvons pas retarder ou arrêter les travaux arbitrairement. Toute résolution respecte les conditions légales ; les paiements anticipés sont décomptés et les sommes auxquelles nous n'avons pas droit sont remboursées. Les éventuels frais supplémentaires de transport des machines sont discutés au préalable et doivent être justifiés ; ils ne constituent pas des frais supplémentaires de recouvrement. Pour les travaux supplémentaires, le régime de « Les centimes et la facture » s'applique.
 
 **Cas particuliers**
 
 Quand on décape des meubles ou des escaliers peints ou laqués, il arrive souvent que de la couleur reste coincée dans les fines crevasses ou les joints. Si vous voulez qu'on essaie de tout enlever au maximum (sans garantie d'arriver à 100 % si ça a pénétré trop profond), ce travail de finition à la main sera facturé en régie, à 90 € HTVA de l'heure. On applique ce même tarif si on se rend compte sur place qu'il faut dégraisser le bois ou faire une autre préparation qu'on n'avait pas pu prévoir.
 
+Ces prestations supplémentaires nécessitent un accord écrit préalable sur les travaux et le prix. Pour les particuliers, le paiement intégral anticipé de « Les centimes et la facture » s'applique. Le tarif horaire TVA comprise est de 95,40 € si le taux légal applicable est de 6 %, ou de 108,90 € à 21 %.
+
 **Production de poussière et entretien**
 
-Le sablage, ça fait de la poussière, c'est inévitable. En fin de chantier, on donne un coup de balai ou d'aspirateur, mais on ne peut pas garantir qu'il ne restera pas de fins résidus de poussière ou de sable sur les murs, les plafonds ou dans les coins. Attendez-vous à devoir donner un coup de peinture ou faire un bon nettoyage vous-même une fois qu'on sera partis.
+Le sablage, ça fait de la poussière, c'est inévitable. En fin de chantier, on donne un coup de balai ou d'aspirateur, mais on ne peut pas garantir qu'il ne restera pas de fins résidus de poussière ou de sable sur les murs, les plafonds ou dans les coins. Cela ne limite pas notre responsabilité légale pour une exécution défectueuse. Attendez-vous à devoir donner un coup de peinture ou faire un bon nettoyage vous-même une fois qu'on sera partis.
 
 **Communication pendant les travaux**
 
