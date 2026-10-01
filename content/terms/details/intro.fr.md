@@ -8,5 +8,3 @@ Ces conditions s'appliquent à toutes les prestations et tous les travaux de Luc
 Un **client particulier (consommateur)** est une personne physique qui confie la commande en dehors de son activité professionnelle. Un **client professionnel** la confie à des fins professionnelles.
 
 Les accords expressément convenus, notamment dans le devis accepté, priment sur ces conditions. Pour les professionnels, nos conditions priment sur leurs conditions d'achat, sauf accord contraire. Pour les particuliers, les dispositions spécifiques aux consommateurs priment.
-
-Les dispositions impératives de la législation belge restent applicables.
