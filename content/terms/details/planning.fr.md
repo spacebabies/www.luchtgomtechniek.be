@@ -4,11 +4,11 @@ weight: 500
 ---
 **Planification générale et exécution**
 
-Nous convenons ensemble du début ou de la reprise et d'un délai d'exécution raisonnable, que nous confirmons par écrit. Les jours ouvrables excluent les samedis, dimanches, jours fériés et congés annoncés à l'avance. Pour les travaux extérieurs, les jours où la météo ou ses conséquences empêchent de travailler pendant au moins quatre heures ne comptent pas comme jours ouvrables. Une estimation facilite la planification sans remettre en cause un délai expressément convenu ni vos droits légaux en cas de retard. Une durée plus longue ou plus courte ne modifie pas le prix convenu sans accord préalable.
+Nous convenons ensemble du début ou de la reprise et d'un délai d'exécution raisonnable, que nous confirmons par écrit. Les jours ouvrables excluent les samedis, dimanches, jours fériés et congés annoncés à l'avance. Pour les travaux extérieurs, les jours où la météo ou ses conséquences empêchent de travailler pendant au moins quatre heures ne comptent pas comme jours ouvrables. Une estimation facilite la planification ; un délai expressément convenu reste déterminant. Une durée plus longue ou plus courte ne modifie pas le prix convenu sans accord préalable.
 
-En cas de retard, nous vous informons dès que possible de sa cause et de ses conséquences prévisibles et convenons d'un planning adapté. Seules des circonstances constituant juridiquement un cas de force majeure peuvent nous exonérer de responsabilité conformément à la loi. En cas d'impossibilité définitive, le contrat et les éventuels paiements anticipés sont réglés selon les règles légales.
+En cas de retard, nous vous informons dès que possible de sa cause et de ses conséquences prévisibles et convenons d'un planning adapté.
 
-Nous pouvons suspendre les travaux en cas de risque concret pour la sécurité, de présence d'amiante ou de manquement du client empêchant l'exécution, notamment un paiement ou des préparatifs nécessaires manquants. Sauf si la sécurité exige une intervention immédiate, nous vous adressons d'abord une mise en demeure écrite et accordons un délai raisonnable pour remédier au manquement. Nous ne pouvons pas retarder ou arrêter les travaux arbitrairement. Toute résolution respecte les conditions légales ; les paiements anticipés sont décomptés et les sommes auxquelles nous n'avons pas droit sont remboursées. Les éventuels frais supplémentaires de transport des machines sont discutés au préalable et doivent être justifiés ; ils ne constituent pas des frais supplémentaires de recouvrement. Pour les travaux supplémentaires, le régime de « Les centimes et la facture » s'applique.
+Nous pouvons suspendre les travaux en cas de risque concret pour la sécurité, de présence d'amiante ou de manquement du client empêchant l'exécution, notamment un paiement ou des préparatifs nécessaires manquants. Sauf si la sécurité exige une intervention immédiate, nous vous adressons d'abord une mise en demeure écrite et accordons un délai raisonnable pour remédier au manquement. Les éventuels frais supplémentaires de transport des machines sont discutés au préalable et doivent être justifiés. Pour les travaux supplémentaires, le régime de « Les centimes et la facture » s'applique.
 
 **Cas particuliers**
 
@@ -18,7 +18,7 @@ Ces prestations supplémentaires nécessitent un accord écrit préalable sur le
 
 **Production de poussière et entretien**
 
-Le sablage, ça fait de la poussière, c'est inévitable. En fin de chantier, on donne un coup de balai ou d'aspirateur, mais on ne peut pas garantir qu'il ne restera pas de fins résidus de poussière ou de sable sur les murs, les plafonds ou dans les coins. Cela ne limite pas notre responsabilité légale pour une exécution défectueuse. Attendez-vous à devoir donner un coup de peinture ou faire un bon nettoyage vous-même une fois qu'on sera partis.
+Le sablage, ça fait de la poussière, c'est inévitable. En fin de chantier, on donne un coup de balai ou d'aspirateur, mais on ne peut pas garantir qu'il ne restera pas de fins résidus de poussière ou de sable sur les murs, les plafonds ou dans les coins. Attendez-vous à devoir donner un coup de peinture ou faire un bon nettoyage vous-même une fois qu'on sera partis.
 
 **Communication pendant les travaux**
 

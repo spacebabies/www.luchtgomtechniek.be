@@ -24,8 +24,8 @@ En dessous de ce qu'on doit sabler, le sol doit être le plus plat, dur et étan
 
 Pour tout ce qui est traitement de finition (huilage, vernis), il faut qu'il fasse plus de 10°C, sans courant d'air, mais avec assez de ventilation et de lumière du jour. Si besoin, prévoyez aussi de faire mettre des panneaux d'interdiction de stationnement sur 20 mètres devant chez vous pendant la durée des travaux.
 
-Après le sablage, quand on enlève les protections (plastiques, tapes), il arrive que ça arrache un peu de peinture, de papier peint ou d'enduit, ou que le tape laisse des traces sur les châssis ou les vitres. Il s'agit de risques prévisibles que nous discutons au préalable. Les règles de responsabilité de « Bienvenue à bord » restent applicables.
+Après le sablage, quand on enlève les protections (plastiques, tapes), il arrive que ça arrache un peu de peinture, de papier peint ou d'enduit, ou que le tape laisse des traces sur les châssis ou les vitres. Il s'agit de risques prévisibles que nous discutons au préalable.
 
 **Soins des biens**
 
-C'est à vous de vider la pièce où on va travailler. Tout doit être évacué ou au moins bâché et mis à l'abri avec soin, à vos frais et à vos risques. Les dommages dont il est établi qu'ils résultent de l'absence des préparatifs convenus peuvent être à votre charge. Notre propre devoir de prudence et notre responsabilité légale restent applicables.
+C'est à vous de vider la pièce où on va travailler. Tout doit être évacué ou au moins bâché et mis à l'abri avec soin, à vos frais et à vos risques. Les dommages dont il est établi qu'ils résultent de l'absence des préparatifs convenus peuvent être à votre charge.

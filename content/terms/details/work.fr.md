@@ -4,7 +4,7 @@ weight: 300
 ---
 **Risques généraux et responsabilité**
 
-Même en protégeant et en tapant tout comme il faut, il y a toujours un risque de faire un petit coup autour de la pièce qu'on sable. C'est inhérent au métier. Le retrait des protections peut laisser des traces de colle ou occasionner des dommages. Nous discutons à l'avance des risques prévisibles et prenons des mesures de protection raisonnables. Notre responsabilité est appréciée selon les règles de « Bienvenue à bord » et la législation applicable.
+Même en protégeant et en tapant tout comme il faut, il y a toujours un risque de faire un petit coup autour de la pièce qu'on sable. C'est inhérent au métier. Le retrait des protections peut laisser des traces de colle ou occasionner des dommages. Nous discutons à l'avance des risques prévisibles et prenons des mesures de protection raisonnables.
 
 **Risques par type de matériau**
 
@@ -14,11 +14,11 @@ Le rendu du sablage n'est pas toujours celui qu'on espère, surtout sur le hêtr
 
 **Risques et responsabilités spécifiques**
 
-Le sable, ça ne pardonne pas sur le cuir, les tissus, le verre, les châssis, les moulures, le papier peint, le plafonnage, les joints ou les quincailleries. Il faut impérativement démonter tout ça avant, soit par vos soins, soit par nous (mais c'est en supplément). Si ces éléments restent en place malgré notre avertissement, cela peut influer sur la répartition de responsabilité pour les dommages qui en résultent. Cela ne nous dispense pas de notre propre devoir de prudence, y compris lors du transport des meubles.
+Le sable, ça ne pardonne pas sur le cuir, les tissus, le verre, les châssis, les moulures, le papier peint, le plafonnage, les joints ou les quincailleries. Il faut impérativement démonter tout ça avant, soit par vos soins, soit par nous (mais c'est en supplément). Si ces éléments restent en place malgré notre avertissement, cela peut influer sur la répartition de responsabilité pour les dommages qui en résultent.
 
 Les vieilles colles à tapis sur les escaliers, ça rentre dans les fibres du bois. Même après sablage et vernissage, il arrive qu'on voie encore des fantômes de colle sur les limons ou les marches. Ça fait partie du vécu et du cachet de la maison, on n'y peut rien.
 
-Si vous avez choisi une couleur sur nuancier avec un architecte, ça peut toujours donner un peu différemment sur le bois en fonction du vernis ou de la brillance. Même nos propres échantillons peuvent varier un peu une fois appliqués sur la masse de votre bois, selon l'essence. Le sablage et le traitement du placage comportent des risques supplémentaires que nous discutons au préalable. Nous ne pouvons garantir un résultat identique à un échantillon ni un placage intact, mais restons responsables d'une exécution soigneuse et des prestations expressément convenues.
+Si vous avez choisi une couleur sur nuancier avec un architecte, ça peut toujours donner un peu différemment sur le bois en fonction du vernis ou de la brillance. Même nos propres échantillons peuvent varier un peu une fois appliqués sur la masse de votre bois, selon l'essence. Le sablage et le traitement du placage comportent des risques supplémentaires que nous discutons au préalable. Nous ne pouvons garantir un résultat identique à un échantillon ni un placage intact.
 
 **Ce que nous ne pouvons pas garantir**
 
