@@ -14,7 +14,10 @@ weight: 800
 
 **Juridische Bepalingen**
 
-- In geval van betwisting zijn uitsluitend de vredegerechten en/of rechtbanken van de plaats waar de maatschappelijke zetel van Luchtgomtechniek zich bevindt bevoegd. Belgisch recht is steeds van toepassing.
+We lossen een meningsverschil het liefst samen op. Lukt dat niet, dan spreken we het volgende af:
+
+- Voor alle geschillen zijn enkel de rechtbanken van het arrondissement van de verkoper/dienstverlener bevoegd.
+- Met de verkoper/dienstverlener bedoelen we Luchtgomtechniek; het gaat dus om het arrondissement waar onze maatschappelijke zetel zich bevindt. Belgisch recht is steeds van toepassing.
 - Voor lokale reglementering geldt het recht van de plaats waar de werf is gelegen.
 
 **Herroepingsrecht**
